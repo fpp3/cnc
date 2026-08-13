@@ -1,0 +1,88 @@
+\chapter{Electrónica Aplicada II: Sensado de Corriente y Finales de Carrera Electrónicos}
+\label{sec:electronica_aplicada_2}
+
+En el marco de la asignatura Electrónica Aplicada II, el proyecto aborda el diseño de una etapa analógica de alta
+precisión para la medición continua de corriente en los motores de accionamiento y la detección electrónica de topes
+mecánicos (\textit{stall detection}).
+
+\section{Justificación Técnica y Objetivos del Módulo Analógico}
+\label{sec:ea2_objetivos}
+
+Los sistemas CNC convencionales emplean interruptores electromecánicos o sensores ópticos como finales de carrera en
+los extremos de cada eje. En el presente proyecto, con el propósito de maximizar el aprovechamiento de los conceptos
+de amplificadores operacionales y procesamiento analógico de señales, se implementa un sistema de final de carrera
+electrónico basado en la detección del incremento severo de corriente cuando un eje alcanza su límite físico o sufre
+un atascamiento mecánico.
+
+El módulo analógico debe cumplir con las siguientes funciones primarias:
+\begin{itemize}
+  \item Muestreo de la caída de tensión en una resistencia de valor muy bajo ($R_{shunt}$) ubicada en la rama de retorno
+    de cada canal del controlador de potencia.
+  \item Amplificación diferencial con rechazo en modo común para eliminar el ruido provocado por las conmutaciones de
+    potencia.
+  \item Filtrado pasa-bajos para atenuar componentes armónicas de alta frecuencia generadas por la modulación por ancho
+    de pulso (PWM).
+  \item Acondicionamiento de señal con doble salida: una señal analógica continua proporcional a la corriente del
+    motor dirigida al conversor analógico-digital (ADC) y una salida digital producida por un comparador con
+    histéresis para disparo inmediato de interrupción.
+\end{itemize}
+
+\section{Diseño del Circuito de Sensado con Amplificadores Operacionales}
+\label{sec:ea2_circuito}
+
+En la figura~\ref{crkt.ej2:sensado_opamp} se ilustra el esquema eléctrico propuesto para la etapa de acondicionamiento.
+La tensión en extremos de la resistencia derivadora $R_{shunt}$ es tomada por un amplificador operacional en
+configuración diferencial.
+
+\begin{figure}[!ht]
+  \centering
+  \input{figures/crkt_ej2_sensado_opamp.tex}
+  \caption{Esquema circuital de sensado de corriente con amplificador diferencial, filtro RC y comparador Schmitt.}
+  \label{crkt.ej2:sensado_opamp}
+\end{figure}
+
+La relación de transferencia teórica para la etapa amplificadora diferencial está dada por la ecuación~\ref{eq.ej2:vo_diff}:
+
+\begin{equation}
+  V_{diff} = \left( \frac{R_f}{R_1} \right) \cdot I_{motor} \cdot R_{shunt}
+  \label{eq.ej2:vo_diff}
+\end{equation}
+
+Donde $R_f / R_1$ establece la ganancia de tensión ($A_v$) requerida para escalar la militensión en el shunt hacia el
+rango dinámico del ADC del microcontrolador ($0\V$ a $3.3\V$).
+
+\section{Filtrado y Detector de Umbral con Histéresis (Schmitt Trigger)}
+\label{sec:ea2_schmitt}
+
+La corriente en los devanados del motor presenta rizo debido a la conmutación de los transistores del driver. Para
+evitar falsos disparos en el detector de límite, la señal amplificada atraviesa un filtro pasa-bajos pasivo de primer
+orden ($R_{flt}, C_{flt}$) cuya frecuencia de corte se define en la ecuación~\ref{eq.ej2:fc_filter}:
+
+\begin{equation}
+  f_c = \frac{1}{2 \pi \cdot R_{flt} \cdot C_{flt}}
+  \label{eq.ej2:fc_filter}
+\end{equation}
+
+La señal filtrada $V_{ana}$ se aplica a la entrada inversora de un comparador configurado con histéresis no inversora o
+inversora (disparador Schmitt). El umbral de referencia $V_{ref}$ se ajusta mediante un divisor resistivo con
+potenciómetro, fijando el nivel de corriente equivalente al atascamiento físico del cabezal.
+
+Cuando $V_{ana}$ supera a $V_{ref}$, la salida del comparador conmuta de estado lógico alto a bajo, generando una
+transición limpia requerida por los pines de interrupción del controlador. La histéresis añadida mediante $R_{h1}$ y
+$R_{h2}$ previene la oscilación indeseada en la zona de transición.
+
+\section{Flujo de Operación del Sensado}
+\label{sec:ea2_flujo}
+
+La figura~\ref{fig.ej2:flujo_sensado} representa el algoritmo analógico-digital de supervisión de la corriente de los
+motores.
+
+\begin{figure}[!ht]
+  \centering
+  \input{figures/fig_ej2_flujo_sensado.tex}
+  \caption{Diagrama de flujo de procesamiento de la señal de corriente y disparo de final de carrera.}
+  \label{fig.ej2:flujo_sensado}
+\end{figure}
+
+Este esquema permite reemplazar la necesidad de finales de carrera mecánicos tradicionales por una solución
+electrónica integrada en las placas de control.

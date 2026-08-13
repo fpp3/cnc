@@ -1,0 +1,33 @@
+\begin{tikzpicture}[scale=0.75, transform shape]
+  % Bloque modular por canal
+  \draw[thick, dashed, fill=gray!5] (-1,-1.2) rectangle (10,6.5);
+  \node at (4.5,6.1) {\textbf{Canal Modular de Potencia (Eje X / Y / Z)}};
+
+  % Entradas de control desde MCU
+  \draw (-2,4.5) node[left] {STEP} to[short, o-*] (0,4.5);
+  \draw (-2,3.5) node[left] {DIR} to[short, o-*] (0,3.5);
+  \draw (-2,2.5) node[left] {ENABLE} to[short, o-*] (0,2.5);
+
+  % Controlador Lógico / L297 o Chopper
+  \draw (0,1.5) rectangle (3,5) node[pos=.5, align=center] {Lógica de Control\\ y Secuenciador\\ (Chopper PWM)};
+
+  % Salidas a Puentes H
+  \draw (3,4.2) -- (4.5,4.2) node[midway, above, font=\small] {Fase A};
+  \draw (3,2.2) -- (4.5,2.2) node[midway, above, font=\small] {Fase B};
+
+  % Bloques de Puentes H de potencia
+  \draw (4.5,3.5) rectangle (7.5,4.9) node[pos=.5, align=center] {Puente H (Fase A)};
+  \draw (4.5,1.5) rectangle (7.5,2.9) node[pos=.5, align=center] {Puente H (Fase B)};
+
+  % Salidas a los devanados del Motor PaP
+  \draw (7.5,4.2) to[short, *-o] (11,4.2) node[right] {Motor PaP (A+/A-)};
+  \draw (7.5,2.2) to[short, *-o] (11,2.2) node[right] {Motor PaP (B+/B-)};
+
+  % Retorno de masa común de los Puentes H y Resistencia Shunt del Canal
+  \draw (6,1.5) -- (6,0.8);
+  \draw (6,3.5) -- (6,2.9);
+  \draw (6,0.8) to[R, l=$R_{shunt\_canal}$, *-*] (6,-0.6) node[ground] {};
+
+  % Toma de señal de sensado de corriente para EA2
+  \draw (6,0.8) to[short, *-o] (11,0.8) node[right] {Sensado Corriente (al OpAmp EA2)};
+\end{tikzpicture}

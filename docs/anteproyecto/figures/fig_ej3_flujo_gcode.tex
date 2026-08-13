@@ -1,0 +1,23 @@
+\begin{tikzpicture}[node distance=1.5cm, auto, >=stealth, thick,
+  startstop/.style={draw, fill=green!15, rectangle, rounded corners, minimum height=0.8cm, text centered, align=center},
+  process/.style={draw, fill=blue!10, rectangle, minimum height=1.0cm, text centered, align=center},
+  decision/.style={draw, fill=yellow!15, diamond, aspect=2, inner sep=2pt, text centered, align=center}]
+
+  \node [startstop] (start) {Recepción Cadena G-Code};
+  \node [process, below=of start] (parse) {Extracción de Comando y Parámetros (X, Y, Z, F, S)};
+  \node [decision, below=1.2cm of parse] (valid) {¿Sintaxis Válida?};
+  \node [process, right=2.0cm of valid] (error) {Enviar Error por HMI / UART};
+  \node [process, below=1.4cm of valid] (calc) {Transformación a Pasos ($N_x, N_y, N_z$)};
+  \node [process, below=of calc] (plan) {Perfilado de Velocidad (Rampa Trapezoidal)};
+  \node [process, below=of plan] (enqueue) {Insertar en Cola de Movimiento (\texttt{qMotion})};
+  \node [startstop, below=of enqueue] (exec) {Timer genera pulsos STEP/DIR};
+
+  \draw [->] (start) -- (parse);
+  \draw [->] (parse) -- (valid);
+  \draw [->] (valid) -- node[above, font=\small] {No} (error);
+  \draw [->] (valid) -- node[right, font=\small] {Sí} (calc);
+  \draw [->] (calc) -- (plan);
+  \draw [->] (plan) -- (enqueue);
+  \draw [->] (enqueue) -- (exec);
+  \draw [->] (error.north) |- (start.east);
+\end{tikzpicture}

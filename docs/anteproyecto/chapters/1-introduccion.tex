@@ -1,0 +1,63 @@
+\chapter{Introducción y Objetivos del Anteproyecto}
+\label{sec:introduccion}
+
+El presente anteproyecto documenta la propuesta para el Trabajo Integrador correspondiente al cuarto año de la
+carrera de Ingeniería Electrónica en la Universidad Tecnológica Nacional, Facultad Regional Córdoba (UTN-FRC).
+El objetivo central consiste en el diseño, desarrollo y validación experimental de una máquina de control numérico
+computarizado (CNC) de tres ejes (X, Y, Z), orientada a aplicaciones de fresado ligero y prototipado rápido de
+circuitos impresos (PCB).
+
+Una particularidad tecnológica del proyecto reside en la reutilización sustentable de la estructura mecánica y
+elementos de transmisión (guías lineales, husillos y chasis de soporte) provenientes de impresoras fuera de uso.
+Esta aproximación fomenta la economía circular y plantea un desafío de ingeniería electromecánica: adaptar sistemas
+de potencia y control a mecánicas heterogéneas no estandarizadas.
+
+\section{Integración Académica Interdisciplinaria}
+\label{sec:integracion}
+
+El trabajo integrador articula los conocimientos teóricos y prácticos adquiridos en tres asignaturas clave del
+nivel:
+
+\begin{itemize}
+  \item \textbf{Electrónica Aplicada II:} Implementación de etapas analógicas de acondicionamiento de señal, sensado
+    de corriente en derivadores (\textit{shunts}) mediante amplificadores operacionales y detección comparada de
+    sobrecorriente para actuar como final de carrera electrónico inteligente (detección de atascamiento o
+    \textit{stall detection}).
+  \item \textbf{Técnicas Digitales II:} Diseño e implementación de la arquitectura del sistema embebido bajo el
+    sistema operativo en tiempo real FreeRTOS, desarrollo del módulo interpretador de comandos de código G (G-code),
+    gestión de periféricos de comunicación (SPI, I2C, UART), temporizadores por hardware para generación de impulsos y
+    diseño de la interfaz hombre-máquina (HMI) local.
+  \item \textbf{Máquinas e Instalaciones Eléctricas:} Diseño y dimensionamiento de los controladores de potencia
+    modulares (un canal independiente por eje) para motores paso a paso bipolares/unipolares (control de velocidad,
+    dirección y evaluación de micropasos por troceado) y del controlador de potencia PWM para el motor DC de la fresa
+    (\textit{spindle}).
+\end{itemize}
+
+\section{Campos de Aplicación}
+\label{sec:aplicacion}
+
+La plataforma desarrollada posee aplicaciones concretas en diversos ámbitos:
+\begin{enumerate}
+  \item Prototipado rápido de placas de circuito impreso mediante ruteado directo por aislamiento (PCB milling).
+  \item Grabado y mecanizado liviano de materiales no ferrosos (madera, acrílico, MDF, placas FR4).
+  \item Plataforma didáctica modular para la experimentación en control de movimiento, robótica y sistemas en tiempo
+    real.
+\end{enumerate}
+
+\section{Arquitectura General del Sistema}
+\label{sec:bloques_general}
+
+El sistema global se estructura mediante una arquitectura modular distribuida en bloques funcionales, tal como se
+esquematiza en la figura~\ref{fig.ej1:bloques_general}.
+
+\begin{figure}[!ht]
+  \centering
+  \input{figures/fig_ej1_bloques_general.tex}
+  \caption{Diagrama en bloques general del sistema CNC modular y su articulación por asignatura.}
+  \label{fig.ej1:bloques_general}
+\end{figure}
+
+El controlador central ejecuta FreeRTOS y se encarga de recibir las instrucciones, calcular trayectorias y emitir las
+señales de control hacia los módulos de potencia. Cada canal de potencia acciona la máquina eléctrica correspondiente y
+ofrece un punto de muestreo para que la etapa de acondicionamiento analógico supervise el consumo de corriente en todo
+momento.

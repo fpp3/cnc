@@ -1,0 +1,21 @@
+\begin{tikzpicture}[node distance=1.6cm, auto, >=stealth, thick,
+  startstop/.style={draw, fill=red!15, rectangle, rounded corners, minimum height=0.8cm, text centered, align=center},
+  process/.style={draw, fill=blue!10, rectangle, minimum height=1.0cm, text centered, align=center},
+  decision/.style={draw, fill=yellow!15, diamond, aspect=2, inner sep=2pt, text centered, align=center}]
+
+  \node [startstop] (start) {Inicio Muestreo de Corriente};
+  \node [process, below=of start] (read) {Lectura de Caída en Shunt ($V_{shunt}$)};
+  \node [process, below=of read] (amp) {Amplificación Diferencial y Filtrado RC};
+  \node [decision, below=1.2cm of amp] (check) {$V_{ana} > V_{ref}$? \\ (¿Tope de Eje?)};
+  \node [process, right=2.0cm of check] (adc) {Enviar $V_{ana}$ a ADC \\ (Monitoreo Carga)};
+  \node [process, below=1.4cm of check] (interrupt) {Disparo Comparador Schmitt \\ Interrupción EXTI};
+  \node [startstop, below=of interrupt] (stop) {Detener Motores PaP \\ (Parada Emergencia)};
+
+  \draw [->] (start) -- (read);
+  \draw [->] (read) -- (amp);
+  \draw [->] (amp) -- (check);
+  \draw [->] (check) -- node[above, font=\small] {No} (adc);
+  \draw [->] (check) -- node[right, font=\small] {Sí} (interrupt);
+  \draw [->] (interrupt) -- (stop);
+  \draw [->] (adc.north) |- (read.east);
+\end{tikzpicture}

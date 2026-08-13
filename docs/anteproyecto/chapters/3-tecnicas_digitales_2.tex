@@ -1,0 +1,82 @@
+\chapter{Técnicas Digitales II: Control Numérico Embebido, FreeRTOS y HMI}
+\label{sec:tecnicas_digitales_2}
+
+En el área de Técnicas Digitales II, el anteproyecto abarca la arquitectura completa del sistema embebido de control
+numérico computarizado, la implementación de un kernel en tiempo real (FreeRTOS), la interpretación del lenguaje de
+mecanizado estándar (código G) y la gestión de periferia para la interfaz hombre-máquina (HMI).
+
+\section{Arquitectura del Sistema Embebido y Ejecución Multitarea}
+\label{sec:td2_freertos}
+
+Para responder con latencia predecible ante eventos críticos (como el disparo de final de carrera) y mantener una
+generación continua de pulsos de movimiento sin pausar la comunicación con el usuario, la aplicación se estructura
+sobre el sistema operativo en tiempo real FreeRTOS.
+
+La arquitectura de software se divide en tareas desacopladas con prioridades asignadas de forma determinística:
+
+\begin{itemize}
+  \item \textbf{vTaskSafetyMonitor (Prioridad Máxima):} Permanece bloqueada en un semáforo binario a la espera de la
+    interrupción por sobrecorriente enviada por la etapa analógica. Al ser liberada, detiene de inmediato la
+    generación de pulsos de paso y notifica la alarma.
+  \item \textbf{vTaskMotionPlanner (Prioridad Alta):} Consume bloques de movimiento precortados desde una cola de
+    mensajes, calcula la aceleración y configura los temporizadores por hardware (Timers) para la emisión de impulsos
+    STEP/DIR hacia los drivers.
+  \item \textbf{vTaskGCodeParser (Prioridad Media):} Lee la cadena de caracteres proveniente del almacenamiento o puerto
+    de comunicaciones, interpreta las instrucciones normalizadas (ISO 6983 / RS-274D) y convierte las coordenadas en
+    distancias relativas expresadas en pasos.
+  \item \textbf{vTaskStorage (Prioridad Media-Baja):} Gestiona el acceso al almacenamiento masivo (tarjeta SD mediante
+    bus SPI) o la recepción serie desde un ordenador superior.
+  \item \textbf{vTaskHMI\_Display (Prioridad Baja):} Actualiza la información en la pantalla LCD/OLED mediante el bus
+    I2C y procesa los eventos de entrada de la botonera o encoder rotativo para control manual del origen del trabajo.
+\end{itemize}
+
+En la figura~\ref{fig.ej3:arquitectura_freertos} se detalla la interacción entre las tareas descritas y los mecanismos
+de comunicación entre procesos (IPC) como colas y semáforos.
+
+\begin{figure}[!ht]
+  \centering
+  \input{figures/fig_ej3_arquitectura_freertos.tex}
+  \caption{Esquema de arquitectura multitarea en FreeRTOS e interconexión mediante colas y semáforos.}
+  \label{fig.ej3:arquitectura_freertos}
+\end{figure}
+
+\section{Interpretador de Código G y Perfilado de Trayectoria}
+\label{sec:td2_gcode}
+
+El módulo interpretador procesa líneas de texto formateadas en código G. Los comandos contemplados inicialmente en el
+anteproyecto incluyen:
+
+\begin{itemize}
+  \item Comandos de posicionamiento rápido: \texttt{G00 X.. Y.. Z..}
+  \item Comandos de interpolación lineal a velocidad controlada: \texttt{G01 X.. Y.. Z.. F..}
+  \item Comandos de temporización y pausa: \texttt{G04 P..}
+  \item Comandos de control de herramienta: \texttt{M03} (Encendido Spindle), \texttt{M05} (Apagado Spindle).
+\end{itemize}
+
+El proceso de conversión de una instrucción recibida hacia trenes de pulso en los motores se esquematiza en la
+figura~\ref{fig.ej3:flujo_gcode}.
+
+\begin{figure}[!ht]
+  \centering
+  \input{figures/fig_ej3_flujo_gcode.tex}
+  \caption{Diagrama de flujo de lectura, interpretación y ejecución de instrucciones de código G.}
+  \label{fig.ej3:flujo_gcode}
+\end{figure}
+
+\section{Uso de Periféricos del Microcontrolador}
+\label{sec:td2_perifericos}
+
+La asignación de recursos del microcontrolador se distribuye de acuerdo al siguiente esquema de periféricos:
+
+\begin{itemize}
+  \item \textbf{SPI (Serial Peripheral Interface):} Comunicación a alta velocidad con el módulo de tarjeta SD para la
+    lectura autónoma de archivos de mecanizado.
+  \item \textbf{I2C (Inter-Integrated Circuit):} Conexión de bajo número de hilos para el controlador de pantalla HMI
+    y periféricos de usuario.
+  \item \textbf{ADC (Analog to Digital Converter):} Lectura continua del valor de tensión de la etapa analógica para
+    monitorear la corriente instantánea consumida por el sistema.
+  \item \textbf{GPIO e Interrupciones Externas (EXTI):} Generación de salidas digitales para las líneas STEP y DIR, y
+    recepción de entradas de alta prioridad para la detección de parada de emergencia.
+  \item \textbf{TIMERS:} Generación de bases de tiempo de hardware de resolución sub-milisegundo para el control de
+    frecuencia de impulsos y modulación PWM para la fresa.
+\end{itemize}

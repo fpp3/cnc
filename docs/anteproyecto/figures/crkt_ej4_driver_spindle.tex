@@ -1,0 +1,23 @@
+\begin{tikzpicture}[scale=0.85, transform shape]
+  % Entrada PWM desde MCU
+  \draw (0,1.5) node[left] {PWM (MCU)} to[short, o-*] (1,1.5)
+        to[R, l=$R_g$, *-*] (3.5,1.5);
+
+  % Resistencia de Pull-down en Gate
+  \draw (1,1.5) to[R, l=$R_{pull\_down}$] (1,-0.5) node[ground] {};
+
+  % Transistor MOSFET N-Channel
+  \draw (4.5,1.5) node[nmos] (mosfet) {};
+  \draw (3.5,1.5) -- (mosfet.gate);
+
+  % Conexión de Source a GND
+  \draw (mosfet.source) -- (4.5,-0.5) node[ground] {};
+
+  % Motor DC y Diodo Flyback en la rama de Drain
+  \draw (mosfet.drain) -- (4.5,3.0) to[short, *-*] (4.5,3.0)
+        to[generic, l=Motor DC (Spindle)] (4.5,5.5)
+        to[short, *-o] (4.5,6.2) node[above] {$+V_{DC}$ (Potencia)};
+
+  % Diodo de rueda libre (Flyback) en paralelo inverso
+  \draw (4.5,3.0) -- (6.5,3.0) to[D, l=Diodo Flyback] (6.5,5.5) -- (4.5,5.5);
+\end{tikzpicture}

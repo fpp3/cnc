@@ -1,0 +1,55 @@
+\documentclass[chaptersright]{informeutn}
+
+% Paquetes adicionales requeridos que no están en la clase base
+\usepackage{csquotes}
+\usepackage[backend=bibtex, style=alphabetic, sorting=ynt]{biblatex}
+\addbibresource{fuentes.bib}
+\usepackage{siunitx}
+\usepackage{circuitikz}
+\usetikzlibrary{arrows, arrows.meta, positioning, shapes.geometric}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{hyperref}
+
+% Definición de estilo para código
+\lstdefinestyle{customcode}{
+  backgroundcolor=\color{gray!10},
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  frame=single,
+  breaklines=true,
+  captionpos=b
+}
+\lstset{style=customcode}
+
+% Metadatos del Documento
+\materia{EA2, TD2, MEIE}
+\titulo{Control Numerico Computalizado}
+\subtitulo{Anteproyecto}
+\comision{4R2}
+\autores{
+%    Gil, Ignacio - 401891\\
+    Grasso, Gaston - 401892\\
+    Palombo, Franco - 401910\\
+    Prieto, Angelo - 401012
+}
+\fecha{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\setcounter{page}{1}
+\thispagestyle{plain}
+
+\input{chapters/1-introduccion.tex}
+\input{chapters/2-electronica_aplicada_2.tex}
+\input{chapters/3-tecnicas_digitales_2.tex}
+\input{chapters/4-maquinas_e_instalaciones_electricas.tex}
+\input{chapters/5-conclusiones.tex}
+
+\nocite{*}
+\printbibliography[heading=bibnumbered, title={Fuentes}]
+
+\end{document}

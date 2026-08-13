@@ -1,0 +1,29 @@
+\begin{tikzpicture}[node distance=1.8cm and 1.8cm, >=stealth, thick,
+  block/.style={draw, fill=blue!10, rectangle, minimum height=1.2cm, minimum width=2.8cm, text centered, rounded corners, align=center},
+  powerblock/.style={draw, fill=orange!15, rectangle, minimum height=1.2cm, minimum width=2.8cm, text centered, rounded corners, align=center},
+  sensorblock/.style={draw, fill=purple!15, rectangle, minimum height=1.2cm, minimum width=2.8cm, text centered, rounded corners, align=center},
+  mechblock/.style={draw, fill=yellow!20, rectangle, minimum height=1.2cm, minimum width=2.8cm, text centered, rounded corners, align=center}]
+
+  % Nodos de la fila superior (Control y HMI)
+  \node [block] (mcu) {Controlador Central \\ (FreeRTOS / TD2)};
+  \node [block, left=of mcu] (hmi) {Interfaz HMI \\ (Pantalla + Encoder)};
+  \node [block, right=of mcu] (storage) {Almacenamiento \\ SD (SPI/SDIO)};
+
+  % Nodos de la fila intermedia y inferior
+  \node [powerblock, below=of mcu] (driver) {Controlador Modular \\ Potencia (MyIE)};
+  \node [sensorblock, left=of driver] (opamp) {Sensado Corriente \\ OpAmps (EA2)};
+  \node [mechblock, below=of driver] (cnc) {Chasis Impresora \\ (Motores PaP + Spindle)};
+
+  % Conexiones superiores
+  \draw [<->] (hmi) -- node[above, font=\small] {I2C / GPIO} (mcu);
+  \draw [<->] (storage) -- node[above, font=\small] {SPI} (mcu);
+
+  % Conexiones de potencia y sensado
+  \draw [->] (mcu) -- node[right, font=\small] {STEP/DIR/PWM} (driver);
+  \draw [->] (driver) -- node[above, font=\small] {Tensión Shunt} (opamp);
+  \draw [->] (driver) -- node[right, font=\small] {Potencia} (cnc);
+
+  % Retornos y realimentación (Líneas ortogonales)
+  \draw [->] (opamp) |- node[near end, left, font=\small] {EXTI / ADC} (mcu);
+  \draw [->, dashed] (cnc) -| node[near start, below, font=\small] {Carga Mecánica} (opamp);
+\end{tikzpicture}

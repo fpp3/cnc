@@ -1,0 +1,80 @@
+\chapter{Máquinas e Instalaciones Eléctricas: Controladores de Potencia y Accionamientos}
+\label{sec:maquinas_e_instalaciones_electricas}
+
+En la asignatura Máquinas e Instalaciones Eléctricas, el anteproyecto desarrolla el diseño electromecánico y de
+potencia para los accionamientos de la CNC. Esto abarca los controladores modulares de velocidad y sentido de giro para
+los motores paso a paso de los tres ejes y el regulador de potencia para la herramienta de corte (motor DC).
+
+\section{Requerimiento de Diseño Modular por Canal}
+\label{sec:myie_modularidad}
+
+Para garantizar un mantenimiento sencillo, una escalabilidad flexible y cumplir con la consigna académica, el sistema
+de potencia adopta una topología estrictamente modular.
+
+Cada eje mecánico (X, Y, Z) cuenta con su propio módulo electrónico independiente montado en una tarjeta PCB canalizada.
+Cada canal de potencia integra:
+\begin{itemize}
+  \item La etapa lógica de decodificación de las señales digitales STEP y DIR.
+  \item Las etapas de potencia compuestas por puentes H para la conmutación de las fases del motor paso a paso.
+  \item La resistencia de derivación ($R_{shunt\_canal}$) colocada en el retorno de masa común del canal, a fin de permitir
+    que la etapa analógica de Electrónica Aplicada II tome la medición de corriente total consumida por dicho canal.
+\end{itemize}
+
+En la figura~\ref{crkt.ej4:driver_paso_a_paso} se presenta la estructura de bloques de un canal modular de potencia.
+
+\begin{figure}[!ht]
+  \centering
+  \input{figures/crkt_ej4_driver_paso_a_paso.tex}
+  \caption{Diagrama de bloques funcional de un canal modular de potencia para motor paso a paso.}
+  \label{crkt.ej4:driver_paso_a_paso}
+\end{figure}
+
+\section{Controlador de Motores Paso a Paso y Pasos Fraccionados (Micropasos)}
+\label{sec:myie_paso_a_paso}
+
+Los motores paso a paso recuperados de las impresoras suelen ser del tipo bipolar de dos fases. El controlador del
+canal genera las secuencias de activación necesarias mediante las señales de entrada:
+\begin{itemize}
+  \item \textbf{Señal STEP:} Cada flanco de subida de esta señal determina el avance de un paso (o subpaso) angular del
+    motor. La frecuencia de la señal impone directamente la velocidad de rotación ($n$ en $\mathrm{rpm}$).
+  \item \textbf{Señal DIR:} Define la secuencia de fase aplicada al motor, determinando si el giro se realiza en sentido
+    horario o antihorario.
+\end{itemize}
+
+\subsection{Evaluación de Complejidad para Pasos Fraccionados}
+Un aspecto central de estudio en la materia es el análisis de implementar modulación por troceado de corriente
+(\textit{chopping PWM}) para lograr pasos fraccionados (micropasos de 1/2, 1/4 o 1/8). 
+
+En un accionamiento por pasos completos, la conmutación abrupta de tensión genera vibraciones y resonancia en la
+estructura liviana de la impresora. La implementación de micropasos aproxima la corriente en las fases a ondas senoidales
+desfasadas $90^\circ$, tal como se expresa en la ecuación~\ref{eq.ej4:fases_micro}:
+
+\begin{equation}
+  I_A(\theta) = I_{max} \cdot \sin(\theta), \quad I_B(\theta) = I_{max} \cdot \cos(\theta)
+  \label{eq.ej4:fases_micro}
+\end{equation}
+
+El anteproyecto plantea la evaluación de complejidad para determinar si se utilizará control analógico por chopper
+dedicado o generación de consigna sinusoidal desde el microcontrolador, ponderando el compromiso entre suavidad de
+movimiento, torque disponible y tiempo de desarrollo.
+
+\section{Controlador del Motor DC para el Spindle (Fresa)}
+\label{sec:myie_spindle}
+
+El cabezal de mecanizado utiliza un motor de corriente continua de alta velocidad para impulsar la fresa o mecha. La
+regulación de su velocidad resulta indispensable para adaptar las condiciones de corte al material trabajado.
+
+El circuito de potencia utiliza un MOSFET de potencia actuando como conmutador de estado sólido en serie con la carga,
+controlado por una señal PWM generada desde la placa digital. La figura~\ref{crkt.ej4:driver_spindle} muestra el
+esquema circuital de la etapa de potencia del motor DC.
+
+\begin{figure}[!ht]
+  \centering
+  \input{figures/crkt_ej4_driver_spindle.tex}
+  \caption{Esquema circuital de accionamiento de potencia PWM para el motor DC de la herramienta de corte.}
+  \label{crkt.ej4:driver_spindle}
+\end{figure}
+
+El diodo en paralelo inverso con la inductancia del motor (\textit{flyback diode}) protege al transistor de sobretensiones
+inductivas provocadas por el apagado rápido del MOSFET durante la conmutación PWM. La velocidad del motor responde de forma
+directamente proporcional al ciclo de trabajo ($\delta$) de la señal de control.

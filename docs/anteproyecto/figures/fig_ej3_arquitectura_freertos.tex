@@ -1,0 +1,31 @@
+\begin{tikzpicture}[scale=0.9, transform shape, node distance=1.5cm and 1.5cm, >=stealth, thick,
+  task/.style={draw, fill=cyan!15, rectangle, rounded corners, minimum height=1.0cm, minimum width=2.8cm, align=center},
+  queue/.style={draw, fill=yellow!20, ellipse, minimum height=0.9cm, minimum width=2.2cm, align=center},
+  isr/.style={draw, fill=red!20, rectangle, minimum height=1.0cm, minimum width=2.6cm, align=center},
+  safetytask/.style={draw, fill=red!30, rectangle, rounded corners, minimum height=1.0cm, minimum width=2.8cm, align=center}]
+
+  % Fila 1: Procesamiento de G-Code
+  \node [task] (storage) {vTaskStorage \\ (Lectura SD/UART)};
+  \node [queue, right=of storage] (qcode) {Queue G-Code \\ (\texttt{QueueHandle\_t})};
+  \node [task, right=of qcode] (parser) {vTaskGCodeParser \\ (Interpretación)};
+
+  % Fila 2: Planificación de Movimiento
+  \node [queue, below=of parser] (qmotion) {Queue Movimiento \\ (Pasos / Bloques)};
+  \node [task, below=of qmotion] (planner) {vTaskMotionPlanner \\ (Generador STEP/DIR)};
+
+  % Fila 3: HMI y Seguridad
+  \node [task, left=1.8cm of planner] (hmi) {vTaskHMI\_Display \\ (Display I2C / Encoder)};
+  \node [isr, below=1.2cm of storage] (exti) {ISR EXTI \\ Final Carrera};
+  \node [safetytask, right=of exti] (safety) {vTaskSafetyMonitor \\ (Parada Emergencia)};
+
+  % Conexiones de flujo principal
+  \draw [->] (storage) -- (qcode);
+  \draw [->] (qcode) -- (parser);
+  \draw [->] (parser) -- (qmotion);
+  \draw [->] (qmotion) -- (planner);
+  \draw [<->] (hmi) -- (planner);
+
+  % Conexiones de seguridad (Líneas ortogonales)
+  \draw [->] (exti) -- node[above, font=\small] {Semáforo} (safety);
+  \draw [->, dashed] (safety) |- node[near end, above, font=\small] {Abortar} (planner);
+\end{tikzpicture}

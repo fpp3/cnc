@@ -1,31 +1,39 @@
-\begin{tikzpicture}[scale=0.9, transform shape, node distance=1.5cm and 1.5cm, >=stealth, thick,
-  task/.style={draw, fill=cyan!15, rectangle, rounded corners, minimum height=1.0cm, minimum width=2.8cm, align=center},
-  queue/.style={draw, fill=yellow!20, ellipse, minimum height=0.9cm, minimum width=2.2cm, align=center},
-  isr/.style={draw, fill=red!20, rectangle, minimum height=1.0cm, minimum width=2.6cm, align=center},
-  safetytask/.style={draw, fill=red!30, rectangle, rounded corners, minimum height=1.0cm, minimum width=2.8cm, align=center}]
+\begin{tikzpicture}[
+  >=stealth, thick,
+  font=\small,
+  node distance=1.1cm and 1.6cm,
+  task/.style={draw=blue!70!black, fill=blue!10, rectangle, rounded corners=4pt, minimum height=1.0cm, minimum width=2.8cm, align=center},
+  queue/.style={draw=yellow!60!black, fill=yellow!20, ellipse, minimum height=0.8cm, minimum width=2.4cm, align=center, font=\footnotesize},
+  safety/.style={draw=red!70!black, fill=red!12, rectangle, rounded corners=4pt, minimum height=1.0cm, minimum width=2.8cm, align=center, font=\small\bfseries},
+  isr/.style={draw=red!80!black, fill=red!20, rectangle, minimum height=0.8cm, minimum width=2.4cm, align=center, font=\footnotesize\bfseries}
+]
 
-  % Fila 1: Procesamiento de G-Code
-  \node [task] (storage) {vTaskStorage \\ (Lectura SD/UART)};
-  \node [queue, right=of storage] (qcode) {Queue G-Code \\ (\texttt{QueueHandle\_t})};
-  \node [task, right=of qcode] (parser) {vTaskGCodeParser \\ (Interpretación)};
+  % Columna Central: Pipeline de Ejecución de Mecanizado
+  \node[task] (storage) {Entrada de Datos\\{\footnotesize (Lectura SD / UART)}};
+  \node[queue, below=0.9cm of storage] (qcode) {Cola de Comandos\\{\footnotesize (\texttt{Queue G-Code})}};
+  \node[task, below=0.9cm of qcode] (parser) {Intérprete G-Code\\{\footnotesize (Validación y Conversión)}};
+  \node[queue, below=0.9cm of parser] (qmotion) {Cola de Trayectoria\\{\footnotesize (\texttt{Queue Motion})}};
+  \node[task, below=0.9cm of qmotion] (planner) {Planificador de Movimiento\\{\footnotesize (Generación STEP/DIR)}};
 
-  % Fila 2: Planificación de Movimiento
-  \node [queue, below=of parser] (qmotion) {Queue Movimiento \\ (Pasos / Bloques)};
-  \node [task, below=of qmotion] (planner) {vTaskMotionPlanner \\ (Generador STEP/DIR)};
+  % Columna Izquierda: Interfaz de Usuario
+  \node[task, left=of parser] (hmi) {Gestión HMI\\{\footnotesize (Pantalla / Encoder)}};
 
-  % Fila 3: HMI y Seguridad
-  \node [task, left=1.8cm of planner] (hmi) {vTaskHMI\_Display \\ (Display I2C / Encoder)};
-  \node [isr, below=1.2cm of storage] (exti) {ISR EXTI \\ Final Carrera};
-  \node [safetytask, right=of exti] (safety) {vTaskSafetyMonitor \\ (Parada Emergencia)};
+  % Columna Derecha: Sistema de Seguridad
+  \node[isr, right=of storage] (exti) {Evento EXTI\\{\footnotesize (Tope Analógico)}};
+  \node[safety, right=of qcode] (safetytask) {Supervisión\\y Seguridad};
 
-  % Conexiones de flujo principal
-  \draw [->] (storage) -- (qcode);
-  \draw [->] (qcode) -- (parser);
-  \draw [->] (parser) -- (qmotion);
-  \draw [->] (qmotion) -- (planner);
-  \draw [<->] (hmi) -- (planner);
+  % Conexiones del Pipeline Central
+  \draw[->, draw=blue!80!black] (storage) -- (qcode);
+  \draw[->, draw=blue!80!black] (qcode) -- (parser);
+  \draw[->, draw=blue!80!black] (parser) -- (qmotion);
+  \draw[->, draw=blue!80!black] (qmotion) -- (planner);
 
-  % Conexiones de seguridad (Líneas ortogonales)
-  \draw [->] (exti) -- node[above, font=\small] {Semáforo} (safety);
-  \draw [->, dashed] (safety) |- node[near end, above, font=\small] {Abortar} (planner);
+  % Conexión HMI con Planificador y Parser
+  \draw[<->, draw=cyan!80!black] (hmi) |- (planner);
+  \draw[->, draw=cyan!80!black] (hmi) -- (parser);
+
+  % Conexiones de Seguridad
+  \draw[->, draw=red!80!black] (exti) -- node[midway, fill=white, inner sep=2pt, font=\footnotesize] {Semáforo} (safetytask);
+  \draw[->, dashed, draw=red!80!black] (safetytask) |- node[pos=0.7, fill=white, inner sep=2pt, font=\footnotesize] {Inhibición Inmediata} (planner);
+
 \end{tikzpicture}

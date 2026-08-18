@@ -1,33 +1,35 @@
-\begin{tikzpicture}[scale=0.75, transform shape]
-  % Bloque modular por canal
-  \draw[thick, dashed, fill=gray!5] (-1,-1.2) rectangle (10,6.5);
-  \node at (4.5,6.1) {\textbf{Canal Modular de Potencia (Eje X / Y / Z)}};
+\begin{tikzpicture}[
+  >=stealth, thick,
+  font=\small,
+  node distance=1.2cm and 2.0cm,
+  block/.style={draw=orange!80!black, fill=orange!12, rectangle, rounded corners=4pt, minimum height=1.2cm, minimum width=2.9cm, align=center},
+  ctrl/.style={draw=blue!70!black, fill=blue!10, rectangle, rounded corners=4pt, minimum height=1.0cm, minimum width=2.5cm, align=center},
+  sens/.style={draw=purple!70!black, fill=purple!10, rectangle, rounded corners=4pt, minimum height=0.9cm, minimum width=2.9cm, align=center},
+  motor/.style={draw=green!60!black, fill=green!10, rectangle, rounded corners=4pt, minimum height=1.2cm, minimum width=2.6cm, align=center, font=\small\bfseries}
+]
 
-  % Entradas de control desde MCU
-  \draw (-2,4.5) node[left] {STEP} to[short, o-*] (0,4.5);
-  \draw (-2,3.5) node[left] {DIR} to[short, o-*] (0,3.5);
-  \draw (-2,2.5) node[left] {ENABLE} to[short, o-*] (0,2.5);
+  % Bloques principales
+  \node[ctrl] (ctrl) {Señales de Control\\{\footnotesize (STEP / DIR / EN)}};
+  \node[block, right=1.6cm of ctrl] (logic) {Lógica de Control\\y Modulación\\{\footnotesize (Secuenciador / Chopper)}};
+  \node[block, right=2.0cm of logic] (power) {Etapa de Potencia\\{\footnotesize (Puentes H / Fases A y B)}};
+  \node[sens, below=1.2cm of power] (sens) {Retorno de Masa y\\Punto de Sensado};
+  \node[motor, right=2.0cm of power] (motor) {Motor PaP\\{\footnotesize (Eje X / Y / Z)}};
 
-  % Controlador Lógico / L297 o Chopper
-  \draw (0,1.5) rectangle (3,5) node[pos=.5, align=center] {Lógica de Control\\ y Secuenciador\\ (Chopper PWM)};
+  % Contenedor Modular (Caja con margen superior amplio de 1.8cm para no colisionar con la alimentación)
+  \draw[dashed, draw=gray!60, rounded corners=6pt] 
+    ([xshift=-0.5cm, yshift=2.0cm]logic.north west) rectangle 
+    ([xshift=0.5cm, yshift=-0.4cm]sens.south east);
+  \node[anchor=north west, font=\footnotesize\bfseries\color{black!75}] 
+    at ([xshift=-0.35cm, yshift=1.85cm]logic.north west) {Módulo de Potencia por Canal (PCB Independiente)};
 
-  % Salidas a Puentes H
-  \draw (3,4.2) -- (4.5,4.2) node[midway, above, font=\small] {Fase A};
-  \draw (3,2.2) -- (4.5,2.2) node[midway, above, font=\small] {Fase B};
+  % Conexiones con etiquetas centradas
+  \draw[->] (ctrl) -- (logic);
+  \draw[->] (logic) -- node[above, font=\footnotesize] {Comando} (power);
+  \draw[->] (power) -- node[above, font=\footnotesize] {Fases} (motor);
+  \draw[->] (power) -- (sens);
+  \draw[->, draw=purple!80!black] (sens.east) -| node[pos=0.25, below, font=\footnotesize] {Hacia Etapa EA2} ([xshift=-0.3cm]motor.south);
 
-  % Bloques de Puentes H de potencia
-  \draw (4.5,3.5) rectangle (7.5,4.9) node[pos=.5, align=center] {Puente H (Fase A)};
-  \draw (4.5,1.5) rectangle (7.5,2.9) node[pos=.5, align=center] {Puente H (Fase B)};
+  % Alimentación con espacio holgado
+  \draw[<-] (power.north) -- ++(0,0.8) node[above, font=\footnotesize] {Alimentación $V_{mot}$};
 
-  % Salidas a los devanados del Motor PaP
-  \draw (7.5,4.2) to[short, *-o] (11,4.2) node[right] {Motor PaP (A+/A-)};
-  \draw (7.5,2.2) to[short, *-o] (11,2.2) node[right] {Motor PaP (B+/B-)};
-
-  % Retorno de masa común de los Puentes H y Resistencia Shunt del Canal
-  \draw (6,1.5) -- (6,0.8);
-  \draw (6,3.5) -- (6,2.9);
-  \draw (6,0.8) to[R, l=$R_{shunt\_canal}$, *-*] (6,-0.6) node[ground] {};
-
-  % Toma de señal de sensado de corriente para EA2
-  \draw (6,0.8) to[short, *-o] (11,0.8) node[right] {Sensado Corriente (al OpAmp EA2)};
 \end{tikzpicture}

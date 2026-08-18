@@ -2,15 +2,15 @@
 \label{sec:conclusiones}
 
 El anteproyecto presentado demuestra la viabilidad técnica y metodológica de construir una máquina de control numérico
-computarizado de bajo costo reutilizando componentes electromecánicos de impresoras fuera de uso, al tiempo que integra
-de manera armónica los contenidos teóricos y prácticos de tres asignaturas troncales del cuarto año de Ingeniería
-Electrónica.
+computarizado orientada al prototipado de circuitos impresos, reutilizando elementos electromecánicos de impresoras en
+desuso y articulando armónicamente los contenidos teóricos y prácticos de tres asignaturas troncales del cuarto año de
+Ingeniería Electrónica.
 
 \section{Resumen de Integración Técnica}
 \label{sec:resumen_integracion}
 
-La tabla~\ref{tab.ej5:resumen_materias} sintetiza la distribución de responsabilidades técnicas e hitos de diseño por
-asignatura.
+La tabla~\ref{tab.ej5:resumen_materias} sintetiza la distribución de responsabilidades técnicas y los ejes de estudio
+por asignatura.
 
 \begin{table}[!ht]
   \centering
@@ -18,24 +18,29 @@ asignatura.
     \begin{tabular}{|l|p{6cm}|p{6cm}|}
       \hline
       \textbf{Asignatura} & \textbf{Módulo del Proyecto} & \textbf{Conceptos Clave Aplicados} \\ \hline
-      Electrónica Aplicada II & Sensado de corriente y final de carrera electrónico & Amplificador diferencial, amplificador operacional, filtro RC, comparador con histéresis (Schmitt trigger), acondicionamiento analógico. \\ \hline
-      Técnicas Digitales II & Controlador central embebido e interfaz HMI & RTOS (FreeRTOS), interpretador de código G, buses SPI e I2C, conversor ADC, interrupciones externas EXTI, timers por hardware. \\ \hline
-      Máquinas e Inst. Eléctricas & Controladores modulares de motores PaP y Spindle & Motores paso a paso bipolares, control modular por canal, modulación PWM, puentes H, diodo flyback, evaluación de micropasos. \\ \hline
+      Electrónica Aplicada II & Sensado de corriente y final de carrera electrónico & Procesamiento analógico de señales, acondicionamiento diferencial/instrumentación, filtrado de ruido de conmutación, comparadores con histéresis analógica, monitoreo vía ADC. \\ \hline
+      Técnicas Digitales II & Controlador embebido en tiempo real e interfaz HMI & Sistemas operativos en tiempo real (RTOS), planificación concurrente, comunicación interproceso (IPC), interpretación de código G, gestión de periféricos serie, temporizadores por hardware y manejo de interrupciones. \\ \hline
+      Máquinas e Inst. Eléctricas & Controladores modulares de motores PaP y Spindle & Máquinas eléctricas especiales, accionamiento de motores paso a paso, análisis de estrategias de conmutación (paso completo / micropasos), modulación PWM, puentes H y protección de conmutación inductiva. \\ \hline
     \end{tabular}
   }
   \caption{Matriz de integración conceptual por asignatura académica.}
   \label{tab.ej5:resumen_materias}
 \end{table}
 
-\section{Pasos Futuros para la Etapa de Desarrollo Final}
+\section{Plan de Trabajo y Etapas de Desarrollo}
 \label{sec:pasos_futuros}
 
-Con la aprobación del presente anteproyecto, el equipo de trabajo avanzará en las siguientes etapas del proyecto final:
+A partir de los lineamientos fijados en este anteproyecto, el desarrollo del proyecto se estructurará en las siguientes
+etapas:
 \begin{enumerate}
-  \item Caracterización mecánica del chasis de impresora recuperado y selección final de motores.
-  \item Simulación analógica en LTSpice de la etapa de sensado con OpAmps y comparador de Electrónica Aplicada II.
-  \item Diseño de los esquemáticos y trazado de placas de circuito impreso (PCB) en KiCad para los controladores modulares
-    de potencia.
-  \item Desarrollo del firmware embebido sobre FreeRTOS en lenguaje C/C++ verificando tiempos de ejecución y latencias.
-  \item Ensamble, calibración y pruebas de mecanizado real sobre placas de circuito impreso y materiales de prueba.
+  \item \textbf{Caracterización Mecánica y de Actuadores:} Relevamiento y evaluación de los chasis de impresora disponibles,
+    determinando rangos de desplazamiento, relaciones de transmisión y parámetros eléctricos de los motores recuperados.
+  \item \textbf{Modelado y Simulación Analógica:} Simulación computacional de las distintas alternativas de acondicionamiento
+    de señal, filtrado y detección de umbral para optimizar la inmunidad al ruido y tiempos de respuesta.
+  \item \textbf{Diseño y Fabricación Electrónica:} Diseño esquemático y ruteado de los circuitos impresos (PCB) para los
+    módulos de potencia y etapas de acondicionamiento analógico.
+  \item \textbf{Desarrollo del Firmware Embebido:} Implementación modular del software sobre el kernel RTOS seleccionado,
+    validando tiempos de respuesta, latencias de interrupción y correcta interpretación de trayectorias.
+  \item \textbf{Integración, Calibración y Ensayos:} Ensamble global del sistema, calibración de pasos por milímetro,
+    ajuste de los umbrales de detección electrónica de fin de carrera y pruebas de fresado sobre placas de circuito impreso.
 \end{enumerate}

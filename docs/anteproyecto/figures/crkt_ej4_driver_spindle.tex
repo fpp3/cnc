@@ -1,23 +1,23 @@
-\begin{tikzpicture}[scale=0.85, transform shape]
-  % Entrada PWM desde MCU
-  \draw (0,1.5) node[left] {PWM (MCU)} to[short, o-*] (1,1.5)
-        to[R, l=$R_g$, *-*] (3.5,1.5);
+\begin{tikzpicture}[
+  >=stealth, thick,
+  font=\small,
+  node distance=1.0cm and 2.2cm,
+  ctrl/.style={draw=blue!70!black, fill=blue!10, rectangle, rounded corners=4pt, minimum height=1.1cm, minimum width=2.6cm, align=center},
+  block/.style={draw=orange!80!black, fill=orange!12, rectangle, rounded corners=4pt, minimum height=1.1cm, minimum width=2.8cm, align=center},
+  motor/.style={draw=green!60!black, fill=green!10, rectangle, rounded corners=4pt, minimum height=1.1cm, minimum width=2.6cm, align=center, font=\small\bfseries}
+]
 
-  % Resistencia de Pull-down en Gate
-  \draw (1,1.5) to[R, l=$R_{pull\_down}$] (1,-0.5) node[ground] {};
+  \node[ctrl] (ctrl) {Consigna PWM\\{\footnotesize (Temporizador MCU)}};
+  \node[block, right=2.2cm of ctrl] (driver) {Acondicionamiento /\\Driver de Compuerta};
+  \node[block, right=2.2cm of driver] (switch) {Conmutación y\\Supresión Inductiva};
+  \node[motor, right=2.8cm of switch] (motor) {Motor DC\\{\footnotesize (Spindle / Fresa)}};
 
-  % Transistor MOSFET N-Channel
-  \draw (4.5,1.5) node[nmos] (mosfet) {};
-  \draw (3.5,1.5) -- (mosfet.gate);
+  % Conexiones lineales con espacio amplio para las etiquetas
+  \draw[->] (ctrl) -- node[above, font=\footnotesize] {PWM} (driver);
+  \draw[->] (driver) -- node[above, font=\footnotesize] {Disparo} (switch);
+  \draw[->] (switch) -- node[above, font=\footnotesize] {Tensión Media} (motor);
 
-  % Conexión de Source a GND
-  \draw (mosfet.source) -- (4.5,-0.5) node[ground] {};
+  % Alimentación de potencia
+  \draw[<-] (switch.north) -- ++(0,0.8) node[above, font=\footnotesize] {Alimentación $V_{DC}$};
 
-  % Motor DC y Diodo Flyback en la rama de Drain
-  \draw (mosfet.drain) -- (4.5,3.0) to[short, *-*] (4.5,3.0)
-        to[generic, l=Motor DC (Spindle)] (4.5,5.5)
-        to[short, *-o] (4.5,6.2) node[above] {$+V_{DC}$ (Potencia)};
-
-  % Diodo de rueda libre (Flyback) en paralelo inverso
-  \draw (4.5,3.0) -- (6.5,3.0) to[D, l=Diodo Flyback] (6.5,5.5) -- (4.5,5.5);
 \end{tikzpicture}

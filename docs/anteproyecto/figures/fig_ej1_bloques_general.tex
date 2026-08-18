@@ -1,29 +1,40 @@
-\begin{tikzpicture}[node distance=1.8cm and 1.8cm, >=stealth, thick,
-  block/.style={draw, fill=blue!10, rectangle, minimum height=1.2cm, minimum width=2.8cm, text centered, rounded corners, align=center},
-  powerblock/.style={draw, fill=orange!15, rectangle, minimum height=1.2cm, minimum width=2.8cm, text centered, rounded corners, align=center},
-  sensorblock/.style={draw, fill=purple!15, rectangle, minimum height=1.2cm, minimum width=2.8cm, text centered, rounded corners, align=center},
-  mechblock/.style={draw, fill=yellow!20, rectangle, minimum height=1.2cm, minimum width=2.8cm, text centered, rounded corners, align=center}]
+\begin{tikzpicture}[
+  >=stealth, thick,
+  font=\small,
+  node distance=1.6cm and 2.4cm,
+  mcu/.style={draw=blue!70!black, fill=blue!10, rectangle, rounded corners=4pt, minimum height=1.3cm, minimum width=3.6cm, align=center, font=\small\bfseries},
+  peri/.style={draw=cyan!70!black, fill=cyan!10, rectangle, rounded corners=4pt, minimum height=1.1cm, minimum width=2.6cm, align=center},
+  power/.style={draw=orange!80!black, fill=orange!12, rectangle, rounded corners=4pt, minimum height=1.2cm, minimum width=3.6cm, align=center, font=\small\bfseries},
+  analog/.style={draw=purple!70!black, fill=purple!10, rectangle, rounded corners=4pt, minimum height=1.2cm, minimum width=2.8cm, align=center, font=\small\bfseries},
+  mech/.style={draw=green!60!black, fill=green!10, rectangle, rounded corners=4pt, minimum height=1.1cm, minimum width=3.6cm, align=center, font=\small\bfseries}
+]
 
-  % Nodos de la fila superior (Control y HMI)
-  \node [block] (mcu) {Controlador Central \\ (FreeRTOS / TD2)};
-  \node [block, left=of mcu] (hmi) {Interfaz HMI \\ (Pantalla + Encoder)};
-  \node [block, right=of mcu] (storage) {Almacenamiento \\ SD (SPI/SDIO)};
+  % Fila 1: Controlador Central y Periféricos
+  \node[mcu] (mcu) {Controlador Central\\{\footnotesize (Sistema Embebido / TD2)}};
+  \node[peri, left=of mcu] (hmi) {Interfaz HMI\\{\footnotesize (Pantalla / Encoder)}};
+  \node[peri, right=of mcu] (storage) {Almacenamiento\\{\footnotesize (Tarjeta SD / SPI)}};
 
-  % Nodos de la fila intermedia y inferior
-  \node [powerblock, below=of mcu] (driver) {Controlador Modular \\ Potencia (MyIE)};
-  \node [sensorblock, left=of driver] (opamp) {Sensado Corriente \\ OpAmps (EA2)};
-  \node [mechblock, below=of driver] (cnc) {Chasis Impresora \\ (Motores PaP + Spindle)};
+  % Fila 2: Potencia y Sensado
+  \node[power, below=2.0cm of mcu] (power) {Controladores de Potencia\\{\footnotesize (Ejes X, Y, Z y Spindle / MEIE)}};
+  \node[analog, left=of power] (analog) {Sensado Analógico\\y Protección\\{\footnotesize (Acond. / EA2)}};
+
+  % Fila 3: Mecánica y Actuadores
+  \node[mech, below=1.5cm of power] (mech) {Plataforma Mecánica\\{\footnotesize (Chasis, Motores PaP y Fresa)}};
 
   % Conexiones superiores
-  \draw [<->] (hmi) -- node[above, font=\small] {I2C / GPIO} (mcu);
-  \draw [<->] (storage) -- node[above, font=\small] {SPI} (mcu);
+  \draw[<->, draw=cyan!80!black] (hmi) -- node[above, font=\footnotesize] {I2C / GPIO} (mcu);
+  \draw[<->, draw=cyan!80!black] (storage) -- node[above, font=\footnotesize] {SPI} (mcu);
 
-  % Conexiones de potencia y sensado
-  \draw [->] (mcu) -- node[right, font=\small] {STEP/DIR/PWM} (driver);
-  \draw [->] (driver) -- node[above, font=\small] {Tensión Shunt} (opamp);
-  \draw [->] (driver) -- node[right, font=\small] {Potencia} (cnc);
+  % Conexión MCU -> Potencia (Línea recta vertical)
+  \draw[->, draw=orange!80!black] (mcu) -- node[right, font=\footnotesize] {STEP / DIR / PWM} (power);
 
-  % Retornos y realimentación (Líneas ortogonales)
-  \draw [->] (opamp) |- node[near end, left, font=\small] {EXTI / ADC} (mcu);
-  \draw [->, dashed] (cnc) -| node[near start, below, font=\small] {Carga Mecánica} (opamp);
+  % Conexión Potencia -> Mecánica
+  \draw[->, draw=green!60!black] (power) -- node[right, font=\footnotesize] {Alimentación Fases} (mech);
+
+  % Conexión Potencia -> Sensado Analógico
+  \draw[->, draw=purple!80!black] (power) -- node[above, font=\footnotesize] {Señal Shunt} (analog);
+
+  % Conexión Sensado -> MCU (Sube por la izquierda y entra en el lateral izquierdo del MCU, SIN CRUZAR la línea central)
+  \draw[->, draw=purple!80!black] (analog.north) -- ++(0, 0.9) -| node[pos=0.25, above, font=\footnotesize] {EXTI / ADC} ([yshift=-2mm]mcu.west);
+
 \end{tikzpicture}

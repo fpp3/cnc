@@ -2,79 +2,73 @@
 \label{sec:maquinas_e_instalaciones_electricas}
 
 En la asignatura Máquinas e Instalaciones Eléctricas, el anteproyecto desarrolla el diseño electromecánico y de
-potencia para los accionamientos de la CNC. Esto abarca los controladores modulares de velocidad y sentido de giro para
-los motores paso a paso de los tres ejes y el regulador de potencia para la herramienta de corte (motor DC).
+potencia para los actuadores de la CNC. Esto abarca los controladores modulares de velocidad y sentido de giro para
+los motores paso a paso de los tres ejes cartesianos y el regulador de potencia para la herramienta de corte (\textit{spindle}).
 
-\section{Requerimiento de Diseño Modular por Canal}
+\section{Topología Modular por Canal de Accionamiento}
 \label{sec:myie_modularidad}
 
-Para garantizar un mantenimiento sencillo, una escalabilidad flexible y cumplir con la consigna académica, el sistema
-de potencia adopta una topología estrictamente modular.
+Para garantizar un mantenimiento sencillo, aislar fallas entre ejes y facilitar la escalabilidad del sistema, se adopta
+una arquitectura de potencia modular e independiente por cada eje mecánico (X, Y, Z).
 
-Cada eje mecánico (X, Y, Z) cuenta con su propio módulo electrónico independiente montado en una tarjeta PCB canalizada.
-Cada canal de potencia integra:
+Cada módulo de canal integra funcionalmente:
 \begin{itemize}
-  \item La etapa lógica de decodificación de las señales digitales STEP y DIR.
-  \item Las etapas de potencia compuestas por puentes H para la conmutación de las fases del motor paso a paso.
-  \item La resistencia de derivación ($R_{shunt\_canal}$) colocada en el retorno de masa común del canal, a fin de permitir
-    que la etapa analógica de Electrónica Aplicada II tome la medición de corriente total consumida por dicho canal.
+  \item La interfaz lógica de recepción y decodificación de las señales de control de movimiento (paso, dirección y
+    habilitación).
+  \item Las etapas de conmutación de potencia (puentes H) encargadas de energizar las fases de los motores con la
+    secuencia y magnitud adecuadas.
+  \item Un punto de derivación de retorno para la toma de señal de corriente, permitiendo la interacción con la etapa
+    de acondicionamiento analógico de Electrónica Aplicada II.
 \end{itemize}
 
-En la figura~\ref{crkt.ej4:driver_paso_a_paso} se presenta la estructura de bloques de un canal modular de potencia.
+En la figura~\ref{crkt.ej4:driver_paso_a_paso} se presenta la estructura de bloques de un canal modular de accionamiento.
 
 \begin{figure}[!ht]
   \centering
-  \input{figures/crkt_ej4_driver_paso_a_paso.tex}
-  \caption{Diagrama de bloques funcional de un canal modular de potencia para motor paso a paso.}
+  \resizebox{0.95\linewidth}{!}{\input{figures/crkt_ej4_driver_paso_a_paso.tex}}
+  \caption{Diagrama de bloques funcional de un módulo de potencia por canal para motores paso a paso.}
   \label{crkt.ej4:driver_paso_a_paso}
 \end{figure}
 
-\section{Controlador de Motores Paso a Paso y Pasos Fraccionados (Micropasos)}
+\section{Control de Motores Paso a Paso y Estrategias de Excitación}
 \label{sec:myie_paso_a_paso}
 
-Los motores paso a paso recuperados de las impresoras suelen ser del tipo bipolar de dos fases. El controlador del
-canal genera las secuencias de activación necesarias mediante las señales de entrada:
+Los motores recuperados de los mecanismos de impresión corresponden habitualmente a tipos paso a paso de imán
+permanente o híbridos de dos fases (bipolares/unipolares). El módulo de potencia debe asegurar la conmutación
+controlada de corriente en los bobinados.
+
+Durante la fase de diseño se evaluarán diferentes esquemas de excitación de fases:
 \begin{itemize}
-  \item \textbf{Señal STEP:} Cada flanco de subida de esta señal determina el avance de un paso (o subpaso) angular del
-    motor. La frecuencia de la señal impone directamente la velocidad de rotación ($n$ en $\mathrm{rpm}$).
-  \item \textbf{Señal DIR:} Define la secuencia de fase aplicada al motor, determinando si el giro se realiza en sentido
-    horario o antihorario.
+  \item \textbf{Paso Completo y Medio Paso (\textit{Full/Half Step}):} Secuencias discretas de conmutación directa, de
+    implementación robusta y alto torque estático, analizando su impacto sobre las vibraciones mecánicas del chasis.
+  \item \textbf{Pasos Fraccionados (\textit{Microstepping}):} Modulación de la corriente promedio en cada devanado para
+    subdividir el ángulo de paso nativo del motor, reduciendo resonancias electromecánicas y logrando un desplazamiento
+    más suave y silencioso.
 \end{itemize}
 
-\subsection{Evaluación de Complejidad para Pasos Fraccionados}
-Un aspecto central de estudio en la materia es el análisis de implementar modulación por troceado de corriente
-(\textit{chopping PWM}) para lograr pasos fraccionados (micropasos de 1/2, 1/4 o 1/8). 
+Se ponderará la conveniencia técnica de implementar el control de corriente mediante circuitos dedicados de troceado
+(\textit{chopper}), etapas integradas específicas o modulación programada desde la unidad central, balanceando
+complejidad circuital, rendimiento térmico y torque dinámico disponible.
 
-En un accionamiento por pasos completos, la conmutación abrupta de tensión genera vibraciones y resonancia en la
-estructura liviana de la impresora. La implementación de micropasos aproxima la corriente en las fases a ondas senoidales
-desfasadas $90^\circ$, tal como se expresa en la ecuación~\ref{eq.ej4:fases_micro}:
-
-\begin{equation}
-  I_A(\theta) = I_{max} \cdot \sin(\theta), \quad I_B(\theta) = I_{max} \cdot \cos(\theta)
-  \label{eq.ej4:fases_micro}
-\end{equation}
-
-El anteproyecto plantea la evaluación de complejidad para determinar si se utilizará control analógico por chopper
-dedicado o generación de consigna sinusoidal desde el microcontrolador, ponderando el compromiso entre suavidad de
-movimiento, torque disponible y tiempo de desarrollo.
-
-\section{Controlador del Motor DC para el Spindle (Fresa)}
+\section{Controlador de Potencia para el Motor de la Herramienta (Spindle)}
 \label{sec:myie_spindle}
 
-El cabezal de mecanizado utiliza un motor de corriente continua de alta velocidad para impulsar la fresa o mecha. La
-regulación de su velocidad resulta indispensable para adaptar las condiciones de corte al material trabajado.
+El cabezal de mecanizado requiere un motor de corriente continua capaz de girar a altas revoluciones para garantizar un
+correcto corte del cobre y materiales no ferrosos. La velocidad angular debe ser regulable para adaptarse a los
+diámetros de fresa y velocidades de avance requeridas.
 
-El circuito de potencia utiliza un MOSFET de potencia actuando como conmutador de estado sólido en serie con la carga,
-controlado por una señal PWM generada desde la placa digital. La figura~\ref{crkt.ej4:driver_spindle} muestra el
-esquema circuital de la etapa de potencia del motor DC.
+La etapa de potencia implementará conmutación de estado sólido controlada por modulación por ancho de pulso (PWM),
+permitiendo variar la tensión media aplicada al motor de manera eficiente. En la figura~\ref{crkt.ej4:driver_spindle} se
+ilustra el esquema funcional de esta etapa.
 
 \begin{figure}[!ht]
   \centering
-  \input{figures/crkt_ej4_driver_spindle.tex}
-  \caption{Esquema circuital de accionamiento de potencia PWM para el motor DC de la herramienta de corte.}
+  \resizebox{0.85\linewidth}{!}{\input{figures/crkt_ej4_driver_spindle.tex}}
+  \caption{Diagrama funcional del controlador de potencia para el motor de corte (\textit{spindle}).}
   \label{crkt.ej4:driver_spindle}
 \end{figure}
 
-El diodo en paralelo inverso con la inductancia del motor (\textit{flyback diode}) protege al transistor de sobretensiones
-inductivas provocadas por el apagado rápido del MOSFET durante la conmutación PWM. La velocidad del motor responde de forma
-directamente proporcional al ciclo de trabajo ($\delta$) de la señal de control.
+Dado el carácter fuertemente inductivo del motor DC, el diseño incorpora redes de protección contra sobretensiones y
+transitorios provocados durante los bloqueos de conmutación (diodos de recirculación rápida y redes de absorción de
+picos), preservando los dispositivos de conmutación y reduciendo las interferencias electromagnéticas (EMI) sobre el
+resto del sistema.

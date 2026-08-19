@@ -13,7 +13,7 @@
   \node[decision, below=1.3cm of amp] (check) {¿$V_{ana} > V_{ref}$?\\{\footnotesize (¿Sobrecorriente / Tope?)}};
   
   \node[process, right=1.6cm of check] (adc) {Conversión ADC\\y Monitoreo Continuo};
-  \node[process, below=1.3cm of check] (interrupt) {Disparo de Comparador e\\Interrupción Prioritaria};
+  \node[process, below=1.3cm of check] (interrupt) {Disparo de Comparador};
   \node[startstop, below=of interrupt] (stop) {Inhibición de Movimiento\\(Parada de Seguridad)};
 
   % Conexiones de flujo

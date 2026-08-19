@@ -1,4 +1,4 @@
-\chapter{Electrónica Aplicada II: Sensado de Corriente y Finales de Carrera Electrónicos}
+\chapter{Electrónica Aplicada II: Sensado de Corriente y Sensorless Endstops}
 \label{sec:electronica_aplicada_2}
 
 En el marco de la asignatura Electrónica Aplicada II, el proyecto aborda el diseño y análisis de una etapa analógica
@@ -46,7 +46,8 @@ El diseño contempla una doble vía de aprovechamiento de la señal acondicionad
     lo que permite supervisar en tiempo real el esfuerzo mecánico y evaluar el estado de carga durante el mecanizado.
   \item \textbf{Vía de Disparo Rápido (Seguridad):} Derivación hacia una etapa comparadora con histéresis analógica,
     cuya salida digital conmuta de forma determinística al sobrepasar el umbral de sobrecorriente previamente
-    calibrado, activando una línea de interrupción prioritaria en el procesador.
+    calibrado, activando una línea de proteccion analogica ante atascamientos severos producidos por la electronica de
+    control.
 \end{enumerate}
 
 \section{Criterios de Diseño y Alternativas Tecnológicas}

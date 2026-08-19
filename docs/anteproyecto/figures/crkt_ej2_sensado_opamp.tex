@@ -15,7 +15,7 @@
 
   % Fila 2: Etapa de Comparación y Disparo
   \node[block, below=1.3cm of filtro] (comp) {Comparador con\\Histéresis\\{\footnotesize (Schmitt Trigger)}};
-  \node[outnode, right=of comp] (exti) {Disparo Digital\\{\footnotesize (EXTI / Tope)}};
+  \node[outnode, right=of comp] (exti) {Disparo Emergencia\\{\footnotesize (Tope)}};
 
   % Conexiones Horizontales con etiquetas arriba
   \draw[->] (trans) -- node[above, font=\footnotesize] {$V_{sens}$} (amp);

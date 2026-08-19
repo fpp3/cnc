@@ -1,9 +1,9 @@
-\chapter{Técnicas Digitales II: Control Embebido, Arquitectura en Tiempo Real y HMI}
+\chapter{Técnicas Digitales II: Control Embebido, Arquitectura RT y HMI}
 \label{sec:tecnicas_digitales_2}
 
 En el área de Técnicas Digitales II, el anteproyecto abarca la concepción de la arquitectura del sistema embebido de
 control, la adopción de un esquema de ejecución multitarea en tiempo real (RTOS), la interpretación de comandos de
-mecanizado estándar y la gestión integral de periféricos e interfaz de usuario.
+mecanizado estándar y la gestión integral de periféricos e interfaz de usuario por medio de la biblioteca CMSIS.
 
 \section{Arquitectura del Sistema Embebido y Ejecución Multitarea}
 \label{sec:td2_freertos}
@@ -33,7 +33,7 @@ criticidad temporal de cada función:
 \end{itemize}
 
 En la figura~\ref{fig.ej3:arquitectura_freertos} se ilustra la organización conceptual de las tareas concurrentes y los
-mecanismos de comunicación interproceso (IPC) tales como colas, semáforos y grupos de eventos.
+mecanismos de comunicación interproceso tales como colas, semáforos y grupos de eventos.
 
 \begin{figure}[!ht]
   \centering
@@ -59,24 +59,25 @@ su ejecución en los actuadores.
 
 \begin{figure}[!ht]
   \centering
-  \resizebox{0.68\linewidth}{!}{\input{figures/fig_ej3_flujo_gcode.tex}}
+  \input{figures/fig_ej3_flujo_gcode.tex}
   \caption{Diagrama de flujo para el procesamiento, validación y ejecución de comandos de mecanizado.}
   \label{fig.ej3:flujo_gcode}
 \end{figure}
 
-\section{Asignación de Recursos y Periféricos del Microcontrolador}
+\section{Selección del Microcontrolador y Asignación de Periféricos}
 \label{sec:td2_perifericos}
 
-Para satisfacer las demandas del sistema, se requiere un microcontrolador que disponga del siguiente conjunto de
-capacidades periféricas:
+Como unidad central de procesamiento se utilizará un microcontrolador reciclado \textbf{GD32F103RCT6} (arquitectura ARM Cortex-M3), un reemplazo directo compatible con el STM32F103RCT6 capaz de operar a una frecuencia máxima de reloj de \SI{108}{\mega\hertz}. Al pertenecer a la misma familia de microcontroladores que la plataforma base recomendada por la cátedra (Blue Pill / STM32F103C8T6), se garantiza plena compatibilidad a nivel de arquitectura, periféricos, bibliotecas CMSIS y soporte del kernel FreeRTOS. Adicionalmente, la adopción de este componente reutilizado en encapsulado LQFP64 responde a la necesidad de contar con un adecuado margen de reserva (\textit{headroom}) de líneas de entrada/salida y temporizadores por hardware, previniendo restricciones de conectividad al definir la cantidad final de pines requeridos para los controladores de movimiento (motores paso a paso), el accionamiento del \textit{spindle}, los canales de sensado analógico y la interfaz HMI.
+
+Para satisfacer las demandas del sistema, el dispositivo asignará el siguiente conjunto de capacidades periféricas:
 
 \begin{itemize}
   \item \textbf{Temporizadores por Hardware (Timers):} Módulos de temporización con capacidad de interrupción periódica
-    y modulación PWM para generación de frecuencias de paso sin sobrecargar la CPU.
-  \item \textbf{Buses de Comunicación Serie:} Interfaces sincrónicas de alta velocidad (como SPI/SDIO) para el acceso a
-    almacenamiento masivo, e interfaces multipunto de bajo conteo de pines (como I2C o UART) para periféricos de HMI.
-  \item \textbf{Canales de Conversión A/D (ADC):} Lectura periódica de las tensiones del acondicionamiento analógico
-    para el seguimiento del consumo energético y estado de carga.
+    y modulación PWM para la generación determinística de frecuencias de paso y control del \textit{spindle} sin sobrecargar la CPU.
+  \item \textbf{Buses de Comunicación Serie:} Interfaces sincrónicas de alta velocidad (como SPI/SDIO) para el acceso al
+    almacenamiento masivo (tarjeta SD) e interfaces serie (como UART o I2C) para comunicación y periféricos de HMI.
+  \item \textbf{Canales de Conversión A/D (ADC):} Lectura periódica de las tensiones provenientes del acondicionamiento analógico
+    para el seguimiento del consumo energético, estado de carga y sensado de corriente.
   \item \textbf{Líneas GPIO e Interrupciones Externas (EXTI):} Control de señales de habilitación de drivers y captura
     inmediata de eventos asíncronos de seguridad.
 \end{itemize}

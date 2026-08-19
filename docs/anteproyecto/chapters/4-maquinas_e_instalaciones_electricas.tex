@@ -33,9 +33,8 @@ En la figura~\ref{crkt.ej4:driver_paso_a_paso} se presenta la estructura de bloq
 \section{Control de Motores Paso a Paso y Estrategias de Excitación}
 \label{sec:myie_paso_a_paso}
 
-Los motores recuperados de los mecanismos de impresión corresponden habitualmente a tipos paso a paso de imán
-permanente o híbridos de dos fases (bipolares/unipolares). El módulo de potencia debe asegurar la conmutación
-controlada de corriente en los bobinados.
+Los motores recuperados de los mecanismos de impresión son del tipo NEMA bipolar. El módulo de potencia debe asegurar 
+la conmutación controlada de corriente en los bobinados.
 
 Durante la fase de diseño se evaluarán diferentes esquemas de excitación de fases:
 \begin{itemize}
@@ -43,12 +42,9 @@ Durante la fase de diseño se evaluarán diferentes esquemas de excitación de f
     implementación robusta y alto torque estático, analizando su impacto sobre las vibraciones mecánicas del chasis.
   \item \textbf{Pasos Fraccionados (\textit{Microstepping}):} Modulación de la corriente promedio en cada devanado para
     subdividir el ángulo de paso nativo del motor, reduciendo resonancias electromecánicas y logrando un desplazamiento
-    más suave y silencioso.
+    más suave y silencioso.\footnote{La posibilidad de implementar microstepping se evaluará al momento de comenzar el
+    trabajo integrador.}
 \end{itemize}
-
-Se ponderará la conveniencia técnica de implementar el control de corriente mediante circuitos dedicados de troceado
-(\textit{chopper}), etapas integradas específicas o modulación programada desde la unidad central, balanceando
-complejidad circuital, rendimiento térmico y torque dinámico disponible.
 
 \section{Controlador de Potencia para el Motor de la Herramienta (Spindle)}
 \label{sec:myie_spindle}

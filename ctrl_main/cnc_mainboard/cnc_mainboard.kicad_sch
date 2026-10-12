@@ -1,0 +1,337 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "babe01e8-b5e3-4e64-9941-eb5b274d4891")
+	(paper "A4")
+	(title_block
+		(rev "1.0.0")
+		(company "UTN FRC")
+		(comment 1 "Gaston Grasso")
+		(comment 2 "Franco Palombo")
+		(comment 3 "Angelo Prieto")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 172.72 81.28)
+		(uuid "196c3e90-a695-4995-95c3-4e458cca584c")
+	)
+	(no_connect
+		(at 172.72 88.9)
+		(uuid "1d5b4b8c-b27a-42a9-8844-baa3306360b2")
+	)
+	(no_connect
+		(at 172.72 101.6)
+		(uuid "2c06abe8-f2d4-4e5e-88fd-9dde99617fdd")
+	)
+	(no_connect
+		(at 172.72 76.2)
+		(uuid "32383f7d-e12a-4c53-8a7a-879ac122d7d2")
+	)
+	(no_connect
+		(at 172.72 78.74)
+		(uuid "48610db2-d3b5-4f4c-9b72-f4235a3bf159")
+	)
+	(no_connect
+		(at 172.72 83.82)
+		(uuid "5e2cfa21-d1d1-4848-a569-4ab5d468113e")
+	)
+	(no_connect
+		(at 172.72 109.22)
+		(uuid "6909a323-66a1-4b8e-b925-6fded30c9cf4")
+	)
+	(no_connect
+		(at 172.72 86.36)
+		(uuid "6ba75d52-c6ad-4404-a810-30726110b684")
+	)
+	(no_connect
+		(at 172.72 104.14)
+		(uuid "90de4837-202a-4319-864b-40f879264a10")
+	)
+	(no_connect
+		(at 172.72 99.06)
+		(uuid "9e515445-8313-4648-baaf-2a15e6a18432")
+	)
+	(no_connect
+		(at 172.72 111.76)
+		(uuid "a36476c5-73f4-4c9d-9a65-dec6c214876e")
+	)
+	(no_connect
+		(at 172.72 93.98)
+		(uuid "d158a548-fda7-48a2-ae63-a400e4a8019f")
+	)
+	(no_connect
+		(at 172.72 96.52)
+		(uuid "d5c7abde-197e-445e-ba56-2e27c9260a06")
+	)
+	(no_connect
+		(at 172.72 106.68)
+		(uuid "de3ad081-14c7-473b-8e14-0df570cc863b")
+	)
+	(no_connect
+		(at 172.72 114.3)
+		(uuid "dfa19835-8904-441d-8c45-d070e0aa4760")
+	)
+	(no_connect
+		(at 172.72 91.44)
+		(uuid "fb9cc8c1-b838-4d89-ba15-9247cdb961af")
+	)
+	(sheet
+		(at 172.72 67.31)
+		(size 26.67 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5559119d-2f78-4b6a-ba5e-cf82dc0f96d5")
+		(property "Sheetname" "Core Board GD32F103RCT6"
+			(at 172.72 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "som_gd32f103rct6.kicad_sch"
+			(at 172.72 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 172.72 76.2 180)
+			(uuid "5b1a8db0-bbaf-4a4a-a80c-abc094116e2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" input
+			(at 172.72 78.74 180)
+			(uuid "3c8a9078-230e-437b-afdb-0f3b29e57d6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_X_END" input
+			(at 172.72 81.28 180)
+			(uuid "0aae5253-bb35-4edd-ab1d-87addb23c290")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_Y_END" input
+			(at 172.72 83.82 180)
+			(uuid "b59c991e-7024-4404-9359-ad4daa142130")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_Z_END" input
+			(at 172.72 86.36 180)
+			(uuid "5403436b-c1a6-4aad-b8af-17099415b540")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 172.72 88.9 180)
+			(uuid "4f066d04-c6f9-45e5-a5e2-e1e073b89a0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPINDLE_PWM" output
+			(at 172.72 91.44 180)
+			(uuid "f6b2b549-a5c1-4ef8-9d56-4000b35a0dbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_DIR" output
+			(at 172.72 93.98 180)
+			(uuid "a4bdedde-6a2f-4876-a732-42cb78b45362")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_EN" output
+			(at 172.72 96.52 180)
+			(uuid "128bb4fe-18f2-4d7d-bd6d-8135af65778f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_STEP" output
+			(at 172.72 99.06 180)
+			(uuid "04a90f02-d728-4538-8424-422e873a284b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y_DIR" output
+			(at 172.72 101.6 180)
+			(uuid "8a4f5ba1-6b45-4b4d-8f15-7849cda72e43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y_EN" output
+			(at 172.72 104.14 180)
+			(uuid "12ee3679-1af2-41db-8fe3-a20ca5e72745")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y_STEP" output
+			(at 172.72 106.68 180)
+			(uuid "12fe4d8f-a7ac-4e7b-a988-c63e00515fb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Z_DIR" output
+			(at 172.72 109.22 180)
+			(uuid "100f85b0-9d3c-40f2-93a9-22648ec4ed8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Z_EN" output
+			(at 172.72 111.76 180)
+			(uuid "5df1983c-f734-4856-b462-f062d77a2819")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Z_STEP" output
+			(at 172.72 114.3 180)
+			(uuid "aced1c80-7d76-46f3-82b7-9660999318e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 67.31)
+		(size 29.21 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ffe06a47-8b7a-4950-b259-527e9c8b21c3")
+		(property "Sheetname" "Carrier Board"
+			(at 106.68 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cb.kicad_sch"
+			(at 106.68 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

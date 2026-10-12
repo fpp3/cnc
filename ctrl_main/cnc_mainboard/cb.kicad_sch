@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e510d786-cb88-4657-ab7a-bdfc83843009")
+	(paper "A4")
+	(title_block
+		(rev "1.0.0")
+		(company "UTN FRC")
+		(comment 1 "Gaston Grasso")
+		(comment 2 "Franco Palombo")
+		(comment 3 "Angelo Prieto")
+	)
+	(lib_symbols)
+)

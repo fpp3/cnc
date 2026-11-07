@@ -1,0 +1,439 @@
+** Drc report for ctrl_pap.kicad_pcb **
+** Created on 2026-10-14T20:06:57 **
+** Report includes: Errors, Warnings **
+
+** Found 107 DRC violations **
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.0000 mm, 98.2500 mm): Track [/VSS] on B.Cu, length 0.3536 mm
+    @(147.0000 mm, 97.7900 mm): PTH pad 2 [Net-(LED1-A)] of R6
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(148.0000 mm, 100.7500 mm): Track [/VSS] on B.Cu, length 2.5000 mm
+    @(147.0000 mm, 97.7900 mm): PTH pad 2 [Net-(LED1-A)] of R6
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(121.9000 mm, 44.9600 mm): Footprint R1
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(121.9000 mm, 44.9600 mm): Footprint R1
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(199.3700 mm, 46.2300 mm): Footprint R2
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(199.3700 mm, 46.2300 mm): Footprint R2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1452 mm)
+    Local override; error
+    @(123.2500 mm, 113.7500 mm): Track [/GND] on B.Cu, length 1.0607 mm
+    @(124.4600 mm, 111.8725 mm): PTH pad 1 [/VS] of D1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1910 mm)
+    Local override; error
+    @(168.2500 mm, 102.5000 mm): Via [/DIR] on F.Cu - B.Cu
+    @(170.0000 mm, 103.0000 mm): Track [/GND] on B.Cu, length 3.8891 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0463 mm)
+    Local override; error
+    @(175.2500 mm, 100.0000 mm): Track [/VSS] on F.Cu, length 0.3536 mm
+    @(174.7500 mm, 101.2500 mm): Via [/STEP] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1910 mm)
+    Local override; error
+    @(167.7500 mm, 104.2500 mm): Track [/GND] on F.Cu, length 4.9497 mm
+    @(168.2500 mm, 102.5000 mm): Via [/DIR] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1007 mm)
+    Local override; error
+    @(148.0000 mm, 100.7500 mm): Track [/VSS] on B.Cu, length 2.5000 mm
+    @(147.0000 mm, 97.7900 mm): PTH pad 2 [Net-(LED1-A)] of R6
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0071 mm)
+    Local override; error
+    @(150.5000 mm, 109.2500 mm): Track [/IN4] on B.Cu, length 4.5000 mm
+    @(150.5000 mm, 110.2500 mm): Track [/VSS] on B.Cu, length 2.4749 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0463 mm)
+    Local override; error
+    @(176.7500 mm, 100.0000 mm): Track [/VSS] on F.Cu, length 1.5000 mm
+    @(174.7500 mm, 101.2500 mm): Via [/STEP] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1130 mm)
+    Local override; error
+    @(145.7500 mm, 70.7500 mm): Track [/OUT2] on B.Cu, length 5.5000 mm
+    @(147.2075 mm, 72.3900 mm): PTH pad 1 [/OUT1] of D3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0839 mm)
+    Local override; error
+    @(170.5000 mm, 95.0000 mm): Track [/SENSE_A] on B.Cu, length 2.1213 mm
+    @(172.5000 mm, 95.7500 mm): Track [/STEP] on B.Cu, length 0.2500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1249 mm)
+    Local override; error
+    @(160.0200 mm, 88.5800 mm): PTH pad 13 [/GND] of IC2
+    @(160.5000 mm, 89.5000 mm): Track [/ENABLE] on B.Cu, length 1.0607 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1239 mm)
+    Local override; error
+    @(167.5000 mm, 100.0000 mm): Track [/IN4] on B.Cu, length 0.3536 mm
+    @(166.3700 mm, 100.3300 mm): PTH pad 10 [/DIR] of IC3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1906 mm)
+    Local override; error
+    @(159.7500 mm, 110.7500 mm): Track [/STEP] on B.Cu, length 0.3536 mm
+    @(159.5000 mm, 109.7500 mm): Track [/IN4] on B.Cu, length 0.2500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0839 mm)
+    Local override; error
+    @(161.7500 mm, 55.0000 mm): Track [/IN4] on B.Cu, length 1.4142 mm
+    @(162.0000 mm, 54.0000 mm): Track [/OUT4] on B.Cu, length 1.2500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1910 mm)
+    Local override; error
+    @(160.7500 mm, 102.2500 mm): Via [/IN3] on F.Cu - B.Cu
+    @(162.5000 mm, 102.7500 mm): Track [/GND] on B.Cu, length 3.5355 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1377 mm)
+    Local override; error
+    @(161.2900 mm, 107.9500 mm): PTH pad 5 [/IN2] of IC3
+    @(161.5000 mm, 109.2500 mm): Track [/IN4] on B.Cu, length 1.4142 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1239 mm)
+    Local override; error
+    @(166.3700 mm, 100.3300 mm): PTH pad 10 [/DIR] of IC3
+    @(167.2500 mm, 99.7500 mm): Track [/IN4] on B.Cu, length 1.2500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1071 mm)
+    Local override; error
+    @(159.5000 mm, 110.7500 mm): Track [/STEP] on B.Cu, length 0.2500 mm
+    @(159.0000 mm, 110.2500 mm): Track [/IN4] on B.Cu, length 0.7071 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1094 mm)
+    Local override; error
+    @(164.5000 mm, 108.7500 mm): Track [/DIR] on B.Cu, length 0.7071 mm
+    @(163.8300 mm, 107.9500 mm): PTH pad 6 [/GND] of IC3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0839 mm)
+    Local override; error
+    @(136.5000 mm, 78.0000 mm): Track [/IN4] on B.Cu, length 18.7383 mm
+    @(137.7500 mm, 78.0000 mm): Track [/SENSE_A] on B.Cu, length 12.7279 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1988 mm)
+    Local override; error
+    @(172.5000 mm, 95.5000 mm): Track [/STEP] on B.Cu, length 0.3536 mm
+    @(173.5700 mm, 95.2500 mm): PTH pad 1 [/GND] of R4
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1988 mm)
+    Local override; error
+    @(172.5000 mm, 95.7500 mm): Track [/STEP] on B.Cu, length 0.2500 mm
+    @(173.5700 mm, 95.2500 mm): PTH pad 1 [/GND] of R4
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1691 mm)
+    Local override; error
+    @(156.5000 mm, 85.2500 mm): Track [/IN1] on B.Cu, length 3.0000 mm
+    @(157.4800 mm, 88.5800 mm): PTH pad 14 [unconnected-(IC2-4~{Q}-Pad14)] of IC2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0812 mm)
+    Local override; error
+    @(166.3700 mm, 107.9500 mm): PTH pad 7 [/GND] of IC3
+    @(166.2500 mm, 109.5000 mm): Track [/STEP] on B.Cu, length 1.7678 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1112 mm)
+    Local override; error
+    @(184.5700 mm, 95.2500 mm): PTH pad 2 [/DIR] of R4
+    @(184.7500 mm, 94.0000 mm): Track [/STEP] on B.Cu, length 1.4142 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1135 mm)
+    Local override; error
+    @(164.5000 mm, 116.5000 mm): Track [/DIR] on B.Cu, length 7.7500 mm
+    @(163.8300 mm, 107.9500 mm): PTH pad 6 [/GND] of IC3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0741 mm)
+    Local override; error
+    @(158.7500 mm, 100.3300 mm): PTH pad 13 [/D0] of IC3
+    @(160.0000 mm, 100.5000 mm): Track [/D1] on B.Cu, length 1.0607 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1171 mm)
+    Local override; error
+    @(158.7500 mm, 100.3300 mm): PTH pad 13 [/D0] of IC3
+    @(159.2500 mm, 101.2500 mm): Track [/D1] on B.Cu, length 0.2500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1906 mm)
+    Local override; error
+    @(159.7500 mm, 110.7500 mm): Track [/STEP] on B.Cu, length 0.3536 mm
+    @(159.7500 mm, 109.7500 mm): Track [/IN4] on B.Cu, length 0.3536 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1660 mm)
+    Local override; error
+    @(166.3700 mm, 100.3300 mm): PTH pad 10 [/DIR] of IC3
+    @(162.5000 mm, 105.7500 mm): Track [/IN4] on B.Cu, length 7.0711 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1463 mm)
+    Local override; error
+    @(158.8300 mm, 53.3400 mm): PTH pad 2 [/OUT2] of J4
+    @(160.7500 mm, 53.2500 mm): Track [/IN4] on B.Cu, length 2.1213 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1738 mm)
+    Local override; error
+    @(151.1300 mm, 107.9500 mm): PTH pad 1 [/IN1] of IC3
+    @(149.7500 mm, 108.5000 mm): Track [/IN4] on B.Cu, length 1.0607 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1071 mm)
+    Local override; error
+    @(156.0000 mm, 110.2500 mm): Track [/IN4] on B.Cu, length 3.0000 mm
+    @(159.5000 mm, 110.7500 mm): Track [/STEP] on B.Cu, length 0.2500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0670 mm)
+    Local override; error
+    @(165.0000 mm, 97.7500 mm): Track [/IN3] on B.Cu, length 3.5355 mm
+    @(163.8300 mm, 100.3300 mm): PTH pad 11 [/GND] of IC3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1556 mm)
+    Local override; error
+    @(166.3700 mm, 70.6700 mm): PTH pad 12 [/IN4] of IC1
+    @(164.7500 mm, 71.2500 mm): Track [/IN3] on B.Cu, length 2.4749 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1108 mm)
+    Local override; error
+    @(165.1000 mm, 96.5200 mm): PTH pad 6 [/IN4] of IC2
+    @(166.2500 mm, 96.7500 mm): Track [/IN3] on B.Cu, length 1.4142 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1906 mm)
+    Local override; error
+    @(160.2500 mm, 109.5000 mm): Track [/IN4] on B.Cu, length 0.3536 mm
+    @(160.2500 mm, 108.5000 mm): Track [/IN2] on B.Cu, length 0.3536 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1071 mm)
+    Local override; error
+    @(159.5000 mm, 109.7500 mm): Track [/IN4] on B.Cu, length 0.2500 mm
+    @(156.0000 mm, 109.2500 mm): Track [/IN2] on B.Cu, length 3.0000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1906 mm)
+    Local override; error
+    @(160.0000 mm, 108.5000 mm): Track [/IN2] on B.Cu, length 0.2500 mm
+    @(160.2500 mm, 109.5000 mm): Track [/IN4] on B.Cu, length 0.3536 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1906 mm)
+    Local override; error
+    @(159.5000 mm, 108.7500 mm): Track [/IN2] on B.Cu, length 0.2500 mm
+    @(160.0000 mm, 109.5000 mm): Track [/IN4] on B.Cu, length 0.2500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1071 mm)
+    Local override; error
+    @(159.0000 mm, 109.2500 mm): Track [/IN2] on B.Cu, length 0.7071 mm
+    @(159.5000 mm, 109.7500 mm): Track [/IN4] on B.Cu, length 0.2500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1906 mm)
+    Local override; error
+    @(159.7500 mm, 108.7500 mm): Track [/IN2] on B.Cu, length 0.3536 mm
+    @(160.0000 mm, 109.5000 mm): Track [/IN4] on B.Cu, length 0.2500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1071 mm)
+    Local override; error
+    @(155.0000 mm, 108.2500 mm): Track [/IN2] on B.Cu, length 1.4142 mm
+    @(150.5000 mm, 109.2500 mm): Track [/IN4] on B.Cu, length 4.5000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1691 mm)
+    Local override; error
+    @(157.4800 mm, 88.5800 mm): PTH pad 14 [unconnected-(IC2-4~{Q}-Pad14)] of IC2
+    @(156.5000 mm, 88.2500 mm): Track [/IN1] on B.Cu, length 0.3536 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1307 mm)
+    Local override; error
+    @(154.7500 mm, 97.7500 mm): Track [/IN1] on B.Cu, length 3.1820 mm
+    @(153.6700 mm, 100.3300 mm): PTH pad 15 [/GND] of IC3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1958 mm)
+    Local override; error
+    @(151.2900 mm, 124.4600 mm): PTH pad 4 [/STEP] of J3
+    @(149.7500 mm, 125.0000 mm): Track [/ENABLE] on B.Cu, length 1.4142 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1839 mm)
+    Local override; error
+    @(162.5600 mm, 76.2000 mm): PTH pad 9 [/VSS] of IC1
+    @(161.2500 mm, 79.7500 mm): Track [/ENABLE] on B.Cu, length 4.2426 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1727 mm)
+    Local override; error
+    @(160.5000 mm, 90.5000 mm): Track [/ENABLE] on B.Cu, length 1.0000 mm
+    @(160.0200 mm, 88.5800 mm): PTH pad 13 [/GND] of IC2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0991 mm)
+    Local override; error
+    @(164.2500 mm, 75.7500 mm): Track [/ENABLE] on B.Cu, length 6.7175 mm
+    @(161.2900 mm, 70.6700 mm): PTH pad 8 [/GND] of IC1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0839 mm)
+    Local override; error
+    @(136.5000 mm, 78.0000 mm): Track [/IN4] on B.Cu, length 18.7383 mm
+    @(146.7500 mm, 87.0000 mm): Track [/SENSE_A] on B.Cu, length 1.7500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0839 mm)
+    Local override; error
+    @(136.5000 mm, 78.0000 mm): Track [/IN4] on B.Cu, length 18.7383 mm
+    @(137.7500 mm, 68.2500 mm): Track [/SENSE_A] on B.Cu, length 9.7500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1014 mm)
+    Local override; error
+    @(172.5000 mm, 95.7500 mm): Track [/STEP] on B.Cu, length 0.2500 mm
+    @(172.0000 mm, 96.5000 mm): Track [/SENSE_A] on B.Cu, length 4.7500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0839 mm)
+    Local override; error
+    @(152.7500 mm, 50.2500 mm): Track [/IN4] on B.Cu, length 2.8284 mm
+    @(152.7500 mm, 51.5000 mm): Track [/OUT2] on B.Cu, length 2.2500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0839 mm)
+    Local override; error
+    @(161.7500 mm, 55.2500 mm): Track [/IN4] on B.Cu, length 0.2500 mm
+    @(163.0000 mm, 55.0000 mm): Track [/OUT4] on B.Cu, length 1.4142 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0839 mm)
+    Local override; error
+    @(152.0000 mm, 52.2500 mm): Track [/OUT2] on B.Cu, length 1.0607 mm
+    @(152.7500 mm, 50.2500 mm): Track [/IN4] on B.Cu, length 2.8284 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0993 mm)
+    Local override; error
+    @(145.2500 mm, 71.2500 mm): Track [/OUT2] on B.Cu, length 0.7071 mm
+    @(147.2075 mm, 72.3900 mm): PTH pad 1 [/OUT1] of D3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0839 mm)
+    Local override; error
+    @(152.0000 mm, 54.0000 mm): Track [/OUT2] on B.Cu, length 1.7500 mm
+    @(152.7500 mm, 50.2500 mm): Track [/IN4] on B.Cu, length 2.8284 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1589 mm)
+    Local override; error
+    @(157.2500 mm, 97.7500 mm): Track [/IN2] on B.Cu, length 3.1820 mm
+    @(156.2100 mm, 100.3300 mm): PTH pad 14 [/IN3] of IC3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1910 mm)
+    Local override; error
+    @(168.2500 mm, 102.5000 mm): Via [/DIR] on F.Cu - B.Cu
+    @(169.2500 mm, 101.2500 mm): Track [/GND] on B.Cu, length 1.0607 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1910 mm)
+    Local override; error
+    @(168.2500 mm, 102.5000 mm): Via [/DIR] on F.Cu - B.Cu
+    @(169.2500 mm, 101.2500 mm): Track [/GND] on F.Cu, length 1.0607 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1910 mm)
+    Local override; error
+    @(171.5000 mm, 94.5000 mm): Track [/GND] on F.Cu, length 4.5962 mm
+    @(167.7500 mm, 93.0000 mm): Via [/IN3] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1910 mm)
+    Local override; error
+    @(168.2500 mm, 102.5000 mm): Via [/DIR] on F.Cu - B.Cu
+    @(170.0000 mm, 103.0000 mm): Track [/GND] on F.Cu, length 1.7678 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1386 mm)
+    Local override; error
+    @(161.7500 mm, 114.7500 mm): Track [/VSS] on B.Cu, length 2.8284 mm
+    @(160.0200 mm, 115.1500 mm): PTH pad 2 [/GND] of IC4
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1007 mm)
+    Local override; error
+    @(148.0000 mm, 98.2500 mm): Track [/VSS] on B.Cu, length 0.3536 mm
+    @(147.0000 mm, 97.7900 mm): PTH pad 2 [Net-(LED1-A)] of R6
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1910 mm)
+    Local override; error
+    @(159.7500 mm, 112.7500 mm): Via [/VSS] on F.Cu - B.Cu
+    @(159.0000 mm, 109.7500 mm): Track [/GND] on F.Cu, length 3.5355 mm
+[shorting_items]: Items shorting two nets (nets /STEP and /VSS)
+    Local override; error
+    @(157.0000 mm, 112.7500 mm): Via [/STEP] on F.Cu - B.Cu
+    @(158.7500 mm, 112.7500 mm): Track [/VSS] on F.Cu, length 2.1213 mm
+[shorting_items]: Items shorting two nets (nets /VSS and /ENABLE)
+    Local override; error
+    @(145.2500 mm, 90.5000 mm): Track [/VSS] on F.Cu, length 1.7678 mm
+    @(146.7500 mm, 90.7500 mm): Via [/ENABLE] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets /ENABLE and /VSS)
+    Local override; error
+    @(143.2500 mm, 110.5000 mm): Via [/ENABLE] on F.Cu - B.Cu
+    @(143.0000 mm, 109.0000 mm): Track [/VSS] on F.Cu, length 1.7678 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1122 mm)
+    Local override; error
+    @(159.2500 mm, 79.2500 mm): Track [/VSS] on F.Cu, length 3.5355 mm
+    @(160.0200 mm, 76.2000 mm): PTH pad 7 [/IN2] of IC1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.5650 mm, 95.3450 mm): Reference field of R3
+    @(141.1750 mm, 95.1550 mm): Reference field of R6
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(178.7450 mm, 96.7650 mm): Reference field of R5
+    @(175.6700 mm, 96.5500 mm): Segment of R4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(129.5400 mm, 113.1425 mm): Reference field of D1
+    @(133.3500 mm, 109.2200 mm): Circle of C1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(152.4000 mm, 76.2000 mm): Reference field of IC1
+    @(151.1900 mm, 65.8200 mm): Segment of IC1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(147.2075 mm, 72.3900 mm): Segment of D3 on F.Silkscreen
+    @(147.2075 mm, 72.3900 mm): PTH pad 1 [/OUT1] of D3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(147.2075 mm, 78.7400 mm): Segment of D5 on F.Silkscreen
+    @(147.2075 mm, 78.7400 mm): PTH pad 1 [/OUT2] of D5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.7275 mm, 72.3900 mm): Segment of D3 on F.Silkscreen
+    @(131.7475 mm, 72.3900 mm): PTH pad 2 [/GND] of D3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(132.1925 mm, 66.0400 mm): Segment of D2 on F.Silkscreen
+    @(132.1925 mm, 66.0400 mm): PTH pad 1 [/VS] of D2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.6725 mm, 66.0400 mm): Segment of D2 on F.Silkscreen
+    @(147.6525 mm, 66.0400 mm): PTH pad 2 [/OUT1] of D2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.7275 mm, 78.7400 mm): Segment of D5 on F.Silkscreen
+    @(131.7475 mm, 78.7400 mm): PTH pad 2 [/GND] of D5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(132.1925 mm, 85.0900 mm): Segment of D4 on F.Silkscreen
+    @(132.1925 mm, 85.0900 mm): PTH pad 1 [/VS] of D4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.6725 mm, 85.0900 mm): Segment of D4 on F.Silkscreen
+    @(147.6525 mm, 85.0900 mm): PTH pad 2 [/OUT2] of D4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(190.5000 mm, 75.5000 mm): Segment of D6 on F.Silkscreen
+    @(190.5000 mm, 75.5000 mm): PTH pad 1 [/VS] of D6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.8525 mm, 68.6250 mm): Segment of D7 on F.Silkscreen
+    @(190.8325 mm, 68.6250 mm): PTH pad 2 [/GND] of D7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(178.0200 mm, 75.5000 mm): Segment of D6 on F.Silkscreen
+    @(175.0400 mm, 75.5000 mm): PTH pad 2 [/OUT3] of D6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(177.9075 mm, 82.2900 mm): Segment of D8 on F.Silkscreen
+    @(174.9275 mm, 82.2900 mm): PTH pad 2 [/OUT4] of D8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(175.3725 mm, 68.6250 mm): Segment of D7 on F.Silkscreen
+    @(175.3725 mm, 68.6250 mm): PTH pad 1 [/OUT3] of D7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(175.2066 mm, 88.9450 mm): Segment of D9 on F.Silkscreen
+    @(175.2066 mm, 88.9450 mm): PTH pad 1 [/OUT4] of D9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.6866 mm, 88.9450 mm): Segment of D9 on F.Silkscreen
+    @(190.6666 mm, 88.9450 mm): PTH pad 2 [/GND] of D9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(190.3875 mm, 82.2900 mm): Segment of D8 on F.Silkscreen
+    @(190.3875 mm, 82.2900 mm): PTH pad 1 [/VS] of D8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(168.9100 mm, 115.1500 mm): Reference field of C6
+    @(168.9100 mm, 115.1500 mm): PTH pad 1 [/VSS] of C6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.3700 mm, 124.7100 mm): Reference field of J2
+    @(186.7700 mm, 124.4600 mm): PTH pad 2 [/GND] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.7000 mm, 124.4600 mm): Reference field of J1
+    @(139.7000 mm, 124.4600 mm): PTH pad 1 [/V+] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.7800 mm, 104.1200 mm): Reference field of LED1
+    @(144.7800 mm, 105.3700 mm): PTH pad 1 [/GND] of LED1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.7800 mm, 104.1200 mm): Reference field of LED1
+    @(144.7800 mm, 102.8700 mm): PTH pad 2 [Net-(LED1-A)] of LED1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.8500 mm, 109.2200 mm): Reference field of C1
+    @(130.8500 mm, 109.2200 mm): PTH pad 1 [/VS] of C1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(131.1200 mm, 99.0600 mm): Reference field of C5
+    @(131.1200 mm, 99.0600 mm): PTH pad 1 [/VS] of C5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(132.8700 mm, 99.0600 mm): Circle of C5 on F.Silkscreen
+    @(136.0000 mm, 97.7900 mm): PTH pad 1 [/ENABLE] of R6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(152.4000 mm, 76.2000 mm): Reference field of IC1
+    @(152.4000 mm, 76.2000 mm): PTH pad 1 [/SENSE_A] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.4800 mm, 115.1500 mm): Reference field of IC4
+    @(157.4800 mm, 115.1500 mm): PTH pad 1 [/VS] of IC4
+[lib_footprint_mismatch]: Footprint 'TO127P500X2020X2210-15P' does not match copy in library 'Samacsys'
+    Local override; warning
+    @(152.4000 mm, 76.2000 mm): Footprint IC1
+[lib_footprint_mismatch]: Footprint '691137710003' does not match copy in library 'Samacsys'
+    Local override; warning
+    @(191.7700 mm, 124.4600 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'DIOAD2510W125L750D440' does not match copy in library 'Samacsys'
+    Local override; warning
+    @(124.4600 mm, 105.5225 mm): Footprint D1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

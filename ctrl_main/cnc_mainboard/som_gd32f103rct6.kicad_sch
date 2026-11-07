@@ -1366,9 +1366,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAT54S"
+		(symbol "Diode:BAT54W"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1376,41 +1377,27 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 2.54 -5.08 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "BAT54S"
-				(at -6.35 3.175 0)
+			(property "Value" "BAT54W"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 1.905 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-				(at -3.048 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1420,7 +1407,18 @@
 					)
 				)
 			)
-			(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky barrier diode, SOT-323"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1442,7 +1440,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?323*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1453,13 +1451,13 @@
 					)
 				)
 			)
-			(symbol "BAT54S_0_1"
+			(symbol "BAT54W_0_1"
 				(polyline
 					(pts
-						(xy -4.445 1.27) (xy -4.445 -1.27) (xy -2.54 0) (xy -4.445 1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1468,10 +1466,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1480,162 +1478,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 -1.27) (xy -3.175 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -3.175 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy -1.905 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 -1.27) (xy 3.81 0) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -1.27) (xy 3.175 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 4.445 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 3.175 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 1.27) (xy 4.445 1.016)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1646,10 +1489,10 @@
 					)
 				)
 			)
-			(symbol "BAT54S_1_1"
+			(symbol "BAT54W_1_1"
 				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
+					(at 3.81 0 180)
+					(length 2.54)
 					(name "A"
 						(effects
 							(font
@@ -1665,10 +1508,11 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "K"
+				(pin no_connect line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1684,9 +1528,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 5.08)
-					(name "COM"
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3915,18 +3759,6 @@
 		(uuid "1b3c0793-427f-47c5-af66-3cf64bb6ab42")
 	)
 	(junction
-		(at 27.94 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1da74b40-c989-4bc9-95db-6e64bc2dd1e6")
-	)
-	(junction
-		(at 96.52 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21f0bb5a-2f85-4be6-b0d7-f96724771d6a")
-	)
-	(junction
 		(at 261.62 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3993,10 +3825,22 @@
 		(uuid "6bfcb115-dbd5-4553-9b46-5b8ef0ae6fe9")
 	)
 	(junction
+		(at 107.95 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ca028ee-6aa6-4a9f-ac0d-731be29ba986")
+	)
+	(junction
 		(at 17.78 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77fc2cf8-899b-488b-b76f-db0b660111f8")
+	)
+	(junction
+		(at 73.66 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88bd2624-b1ce-4595-ae9e-b1c539ac9d3a")
 	)
 	(junction
 		(at 193.04 146.05)
@@ -4038,7 +3882,7 @@
 		(at 62.23 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c9a1274a-2b50-4fdc-b6e7-ce82f4c9858d")
+		(uuid "d1cfa2b2-2f63-4974-b38f-7ddd43496e90")
 	)
 	(junction
 		(at 58.42 29.21)
@@ -4053,10 +3897,28 @@
 		(uuid "d85e041d-5c7a-48b0-922d-eb47aa80d57f")
 	)
 	(junction
+		(at 96.52 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d95bf9d0-7ded-438e-b840-7c7f3680ce87")
+	)
+	(junction
+		(at 39.37 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df595d3b-2121-4669-80c7-4ded43910c84")
+	)
+	(junction
 		(at 236.22 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e54c624b-7c48-455a-b099-e6fadb0eae4c")
+	)
+	(junction
+		(at 27.94 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5c645c5-71c2-43d7-8355-c4ec939e1828")
 	)
 	(junction
 		(at 238.76 158.75)
@@ -4276,13 +4138,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 171.45) (xy 62.23 173.99)
+			(xy 107.95 184.15) (xy 107.95 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1019f87a-e041-4deb-a000-696f2f4306fe")
+		(uuid "105934c8-1b1f-425f-a67a-de1d258182ec")
 	)
 	(wire
 		(pts
@@ -4293,6 +4155,16 @@
 			(type default)
 		)
 		(uuid "1173bc1f-a340-4d3d-b9bf-35556c6b1943")
+	)
+	(wire
+		(pts
+			(xy 27.94 171.45) (xy 27.94 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11aed38a-8c96-4ee3-9721-fe4a5fe71f38")
 	)
 	(wire
 		(pts
@@ -4466,6 +4338,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 171.45) (xy 96.52 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dcfc7c8-7b30-4c49-82f0-e7e70694524d")
+	)
+	(wire
+		(pts
 			(xy 236.22 26.67) (xy 238.76 26.67)
 		)
 		(stroke
@@ -4486,6 +4368,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 171.45) (xy 39.37 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f74ddf5-2d99-4e57-8e0a-e1c7c23a56a3")
+	)
+	(wire
+		(pts
 			(xy 227.33 156.21) (xy 227.33 158.75)
 		)
 		(stroke
@@ -4493,16 +4385,6 @@
 			(type default)
 		)
 		(uuid "213a4de7-b5b5-4fe1-8aa8-b6fee1d81888")
-	)
-	(wire
-		(pts
-			(xy 109.22 184.15) (xy 109.22 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24b4149f-c3d7-46d1-8860-43c00734b7c6")
 	)
 	(wire
 		(pts
@@ -4556,16 +4438,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 171.45) (xy 17.78 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "267ff665-7499-472b-bad0-720ee3c23285")
-	)
-	(wire
-		(pts
 			(xy 53.34 85.09) (xy 66.04 85.09)
 		)
 		(stroke
@@ -4573,16 +4445,6 @@
 			(type default)
 		)
 		(uuid "2693c4b2-2ef5-4585-bda5-820e33568913")
-	)
-	(wire
-		(pts
-			(xy 62.23 171.45) (xy 69.85 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2712a368-c5f3-497f-a877-1d659f0e2ffb")
 	)
 	(wire
 		(pts
@@ -4603,16 +4465,6 @@
 			(type default)
 		)
 		(uuid "28397d9b-e689-4def-9f69-957561b13447")
-	)
-	(wire
-		(pts
-			(xy 59.69 171.45) (xy 62.23 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2943c725-513a-48cb-b478-d808cce4e1ed")
 	)
 	(polyline
 		(pts
@@ -4746,6 +4598,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 171.45) (xy 73.66 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b27849-6a82-4a40-a6fd-51d59bbb8890")
+	)
+	(wire
+		(pts
 			(xy 96.52 67.31) (xy 96.52 72.39)
 		)
 		(stroke
@@ -4753,16 +4615,6 @@
 			(type default)
 		)
 		(uuid "30dcf9ce-d437-403c-99b2-49a0c8a14799")
-	)
-	(wire
-		(pts
-			(xy 74.93 184.15) (xy 74.93 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30eb76d6-5c8e-4793-b31c-082632f49b5a")
 	)
 	(wire
 		(pts
@@ -4876,6 +4728,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 171.45) (xy 52.07 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4228bead-c503-4cb9-89db-1b6ed1235961")
+	)
+	(wire
+		(pts
 			(xy 27.94 127) (xy 27.94 133.35)
 		)
 		(stroke
@@ -4966,16 +4828,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 171.45) (xy 27.94 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c8bd27f-2d69-447d-b9d5-5f4e003670a5")
-	)
-	(wire
-		(pts
 			(xy 254 107.95) (xy 270.51 107.95)
 		)
 		(stroke
@@ -5003,16 +4855,6 @@
 			(type default)
 		)
 		(uuid "4ee7c7db-f6e7-4afd-b2c6-f058b9f9804a")
-	)
-	(wire
-		(pts
-			(xy 40.64 184.15) (xy 40.64 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff5a2eb-0c78-4b9d-a241-efddc837136a")
 	)
 	(wire
 		(pts
@@ -5246,6 +5088,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 181.61) (xy 62.23 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66341073-7154-4834-9041-68f0f036ec1a")
+	)
+	(wire
+		(pts
 			(xy 40.64 121.92) (xy 40.64 133.35)
 		)
 		(stroke
@@ -5296,6 +5148,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 171.45) (xy 62.23 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68cd9d4f-d8c7-4f8a-93c4-a7a3654665da")
+	)
+	(wire
+		(pts
 			(xy 257.81 85.09) (xy 254 85.09)
 		)
 		(stroke
@@ -5343,6 +5205,16 @@
 			(type default)
 		)
 		(uuid "6dccccfa-1452-4fb2-80a9-804a4eaaad3e")
+	)
+	(wire
+		(pts
+			(xy 73.66 160.02) (xy 73.66 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ddcbdfa-77ef-42ec-9364-b3ae3f76920d")
 	)
 	(wire
 		(pts
@@ -5446,16 +5318,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 171.45) (xy 52.07 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d5159c3-8bb4-4997-bd21-79cc2cbf0173")
-	)
-	(wire
-		(pts
 			(xy 36.83 71.12) (xy 36.83 73.66)
 		)
 		(stroke
@@ -5473,6 +5335,16 @@
 			(type default)
 		)
 		(uuid "7f5ba83c-19e5-43da-a774-cd2a201feedc")
+	)
+	(wire
+		(pts
+			(xy 96.52 181.61) (xy 96.52 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdd41c3-bf01-46cf-b399-8c31a1ee3b39")
 	)
 	(wire
 		(pts
@@ -5586,6 +5458,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 171.45) (xy 86.36 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889b6e26-c72a-405c-80d3-ef4ddd070fc8")
+	)
+	(wire
+		(pts
 			(xy 238.76 156.21) (xy 238.76 158.75)
 		)
 		(stroke
@@ -5646,13 +5528,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 171.45) (xy 27.94 173.99)
+			(xy 62.23 171.45) (xy 62.23 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dfdc923-8388-4d2d-9959-44031f3815ea")
+		(uuid "8de637fd-0f5e-476d-b482-14283eb2aa0f")
 	)
 	(polyline
 		(pts
@@ -5696,26 +5578,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 171.45) (xy 35.56 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91595f27-ce3e-4b7a-91dd-0150b3332516")
-	)
-	(wire
-		(pts
-			(xy 96.52 171.45) (xy 96.52 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93ad4f76-0f3a-40ab-8c62-97e7bfbc6d56")
-	)
-	(wire
-		(pts
 			(xy 166.37 26.67) (xy 162.56 26.67)
 		)
 		(stroke
@@ -5723,6 +5585,16 @@
 			(type default)
 		)
 		(uuid "93e620f1-1560-4730-b8de-1ac54f642f8c")
+	)
+	(wire
+		(pts
+			(xy 107.95 160.02) (xy 107.95 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9463671d-667f-4395-b64c-b395f8ab2450")
 	)
 	(polyline
 		(pts
@@ -5773,16 +5645,6 @@
 			(type default)
 		)
 		(uuid "984e8d47-5afd-43a9-a647-432aeca125d5")
-	)
-	(wire
-		(pts
-			(xy 96.52 171.45) (xy 104.14 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "986f22e8-ab7e-4948-b555-850cc45f2f81")
 	)
 	(wire
 		(pts
@@ -5866,6 +5728,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 160.02) (xy 39.37 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d6889e-f930-4089-b4bb-6f6ae45430d7")
+	)
+	(wire
+		(pts
 			(xy 105.41 29.21) (xy 106.68 29.21)
 		)
 		(stroke
@@ -5896,16 +5768,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 171.45) (xy 96.52 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6988367-b39e-45e8-9f38-f183213c2e5c")
-	)
-	(wire
-		(pts
 			(xy 58.42 29.21) (xy 58.42 34.29)
 		)
 		(stroke
@@ -5913,16 +5775,6 @@
 			(type default)
 		)
 		(uuid "a698ab49-2801-49bc-b2d5-82b611addc1a")
-	)
-	(wire
-		(pts
-			(xy 109.22 160.02) (xy 109.22 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6b36c5e-f5a4-4161-8d01-7c83be681c81")
 	)
 	(polyline
 		(pts
@@ -6036,6 +5888,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 171.45) (xy 17.78 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb58460-d575-4b67-9526-eb7763cc9fb1")
+	)
+	(wire
+		(pts
 			(xy 193.04 146.05) (xy 193.04 148.59)
 		)
 		(stroke
@@ -6053,6 +5915,16 @@
 			(type default)
 		)
 		(uuid "b04f2c5a-6755-468d-b309-771f581b22c0")
+	)
+	(wire
+		(pts
+			(xy 96.52 171.45) (xy 96.52 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12ab05c-3bc1-4088-85f0-b85c313eb60c")
 	)
 	(wire
 		(pts
@@ -6166,13 +6038,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 181.61) (xy 62.23 184.15)
+			(xy 39.37 184.15) (xy 39.37 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdb26bb1-9203-4e43-9702-d10c57e8e120")
+		(uuid "bad47ae6-8288-4266-a0af-b3e1672c90bf")
 	)
 	(wire
 		(pts
@@ -6183,16 +6055,6 @@
 			(type default)
 		)
 		(uuid "bdfe9f8e-9fe4-4a44-981f-42830e9a5718")
-	)
-	(wire
-		(pts
-			(xy 74.93 160.02) (xy 74.93 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf46385e-80b0-4f52-9acc-8503a742d5ea")
 	)
 	(polyline
 		(pts
@@ -6206,6 +6068,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 181.61) (xy 27.94 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c219618c-999c-4899-b7d5-d2800c3e1a7a")
+	)
+	(wire
+		(pts
 			(xy 71.12 116.84) (xy 71.12 120.65)
 		)
 		(stroke
@@ -6216,6 +6088,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 171.45) (xy 107.95 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e85bb6-66a9-44db-a2ce-208dcc1e8eb8")
+	)
+	(wire
+		(pts
 			(xy 58.42 22.86) (xy 58.42 29.21)
 		)
 		(stroke
@@ -6223,16 +6105,6 @@
 			(type default)
 		)
 		(uuid "c3359b95-e0ba-490b-8991-b9620f670d58")
-	)
-	(wire
-		(pts
-			(xy 27.94 181.61) (xy 27.94 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c35ff12d-69e4-40e0-bd1e-833e1a6e31b5")
 	)
 	(wire
 		(pts
@@ -6276,6 +6148,26 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 171.45) (xy 27.94 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca513061-6b86-4bef-ac09-268f483563bf")
+	)
+	(wire
+		(pts
+			(xy 73.66 184.15) (xy 73.66 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8c4280-3539-451e-9834-d01b1ea6554a")
+	)
+	(wire
+		(pts
 			(xy 257.81 41.91) (xy 254 41.91)
 		)
 		(stroke
@@ -6283,16 +6175,6 @@
 			(type default)
 		)
 		(uuid "cb5a9a54-c4b6-4c35-a363-d5cf66bb917e")
-	)
-	(wire
-		(pts
-			(xy 96.52 181.61) (xy 96.52 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc20cace-8746-4f22-9233-9bace8ae4eab")
 	)
 	(wire
 		(pts
@@ -6606,16 +6488,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 160.02) (xy 40.64 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb0adced-6f29-4ccd-bab7-69d1262fdfdb")
-	)
-	(wire
-		(pts
 			(xy 241.3 26.67) (xy 243.84 26.67)
 		)
 		(stroke
@@ -6723,16 +6595,6 @@
 			(type default)
 		)
 		(uuid "f5a4dd6b-ef4e-4980-b62d-d77d8c5f6689")
-	)
-	(wire
-		(pts
-			(xy 83.82 171.45) (xy 86.36 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb0214df-0c35-4d43-8cb8-b10bfafb50b3")
 	)
 	(wire
 		(pts
@@ -6893,16 +6755,6 @@
 			(justify left bottom)
 		)
 		(uuid "13eab423-45e2-4299-80a4-6aa39a93c531")
-	)
-	(label "X_END"
-		(at 34.29 171.45 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14ddfd0e-ee75-436a-939f-8cf97a77c75e")
 	)
 	(label "RESET"
 		(at 214.63 36.83 180)
@@ -7104,6 +6956,16 @@
 		)
 		(uuid "3960f5df-75e7-4251-bcf2-ccc8894afb3a")
 	)
+	(label "Y_END"
+		(at 68.58 171.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c20fdc3-0473-40bf-9875-abaca160bef0")
+	)
 	(label "SWDIO"
 		(at 93.98 74.93 180)
 		(effects
@@ -7163,16 +7025,6 @@
 			(justify right bottom)
 		)
 		(uuid "4231ed52-a425-44a0-b8a9-0a57939c5f3c")
-	)
-	(label "Y_END"
-		(at 68.58 171.45 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45edbc0b-7772-48df-8188-3b20b03d5be8")
 	)
 	(label "OSCLF2"
 		(at 214.63 95.25 180)
@@ -7524,15 +7376,15 @@
 		)
 		(uuid "91b5a71d-80cd-48b0-87a1-1607827e0e41")
 	)
-	(label "Z_END"
-		(at 102.87 171.45 90)
+	(label "X_END"
+		(at 34.29 171.45 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "93c930da-7cc0-43b4-aed5-da09a3fe2ab3")
+		(uuid "93751c92-42ee-46a0-af1d-e191ebbcdf94")
 	)
 	(label "USART1_TX"
 		(at 257.81 59.69 0)
@@ -7964,6 +7816,16 @@
 		)
 		(uuid "fa2c594e-f732-48d9-a8e4-44aebbae7a43")
 	)
+	(label "Z_END"
+		(at 102.87 171.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb3c8600-9088-4af5-987f-c5bf1bbd0705")
+	)
 	(label "X_EN"
 		(at 146.05 107.95 180)
 		(effects
@@ -8006,6 +7868,17 @@
 		)
 		(uuid "0ba4bd2c-7365-498f-a6c9-866582494978")
 	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 39.37 160.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d27f0e1-4636-4382-88aa-4c6c6c4002b9")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 149.86 85.09 270)
@@ -8017,16 +7890,16 @@
 		)
 		(uuid "11d39e37-9bfa-401e-a172-b075f31f4d6a")
 	)
-	(hierarchical_label "EXT_Z_END"
+	(hierarchical_label "EXT_Y_END"
 		(shape input)
-		(at 83.82 171.45 90)
+		(at 49.53 171.45 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "158d862e-22db-4e5c-bd22-39992c5ae566")
+		(uuid "2ef020a8-180c-4081-9dbe-a9c7eef758fd")
 	)
 	(hierarchical_label "EXT_Y_END"
 		(shape input)
@@ -8050,17 +7923,6 @@
 		)
 		(uuid "31121650-83b6-481f-a00a-3d36e611d529")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 27.94 184.15 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "33e6b747-01e4-437f-8109-2eeec85d120f")
-	)
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 106.68 22.86 90)
@@ -8071,6 +7933,17 @@
 			(justify left)
 		)
 		(uuid "3521e9f2-4284-4173-af4c-ff6f8d8f34c4")
+	)
+	(hierarchical_label "EXT_X_END"
+		(shape input)
+		(at 15.24 171.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36bb4a0e-15a9-48a1-9c5e-c0f55c02c2f8")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -8094,6 +7967,17 @@
 		)
 		(uuid "3c45d019-0b4e-4750-83c0-9dbea1cc54d9")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 39.37 184.15 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d05d8cd-c635-41b0-8b6a-3f8cd3440ce3")
+	)
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 48.26 107.95 90)
@@ -8115,6 +7999,17 @@
 			(justify left)
 		)
 		(uuid "3e3476b5-e9af-4946-87e3-1d18c0673e60")
+	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 107.95 160.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "426b0b5b-04c1-4703-b56e-3eb8a97a5fc0")
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
@@ -8173,6 +8068,28 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
+		(at 62.23 184.15 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51028c18-0a29-4ead-8b4b-dbdb949704fa")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 96.52 184.15 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57f9dc82-c0f2-4a5e-965c-7a7050ec13da")
+	)
+	(hierarchical_label "GND"
+		(shape input)
 		(at 45.72 46.99 270)
 		(effects
 			(font
@@ -8182,16 +8099,16 @@
 		)
 		(uuid "5879de53-5a09-43f6-a4db-b134bc274fb1")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "GND"
 		(shape input)
-		(at 40.64 160.02 90)
+		(at 27.94 184.15 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "64930ca7-ba7b-4e7e-a117-7de884e0244e")
+		(uuid "593a1fb3-cf45-43a0-a7aa-736611752e10")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -8206,14 +8123,14 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 62.23 184.15 270)
+		(at 73.66 184.15 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6a6dc5a6-cc77-4989-b722-2f8f4aed5325")
+		(uuid "69500409-62ea-4b3d-9e35-47f9d175debd")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -8225,28 +8142,6 @@
 			(justify right)
 		)
 		(uuid "6bfa9eb3-6432-4f53-8922-d0d56bc2aa57")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 109.22 184.15 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6e1176d3-6219-4b61-afb1-725359159adb")
-	)
-	(hierarchical_label "EXT_Y_END"
-		(shape input)
-		(at 49.53 171.45 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7586c72a-304e-421d-a137-39bf4532557f")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -8283,17 +8178,6 @@
 	)
 	(hierarchical_label "EXT_X_END"
 		(shape input)
-		(at 15.24 171.45 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89ace17c-e5fe-4136-9d77-c4455f64e5ff")
-	)
-	(hierarchical_label "EXT_X_END"
-		(shape input)
 		(at 133.35 49.53 180)
 		(effects
 			(font
@@ -8313,17 +8197,6 @@
 			(justify left)
 		)
 		(uuid "8ccc03a6-df98-4a3f-92b5-3317ad99bedd")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 40.64 184.15 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8fa4c63e-7a84-4978-9494-b80f0c4053ce")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -8401,17 +8274,6 @@
 			(justify left)
 		)
 		(uuid "a7cc47c9-b103-4b66-8c25-af89d10d6f66")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 74.93 184.15 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af2f5110-3a60-41e4-b707-d4f636c7cb16")
 	)
 	(hierarchical_label "Y_STEP"
 		(shape output)
@@ -8512,17 +8374,6 @@
 		)
 		(uuid "ce37e019-c4f6-424b-b529-13089834bde6")
 	)
-	(hierarchical_label "+3V3"
-		(shape input)
-		(at 74.93 160.02 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d07eccb8-f717-492e-b1f0-d5ad25eb7c43")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 96.52 85.09 270)
@@ -8534,6 +8385,17 @@
 		)
 		(uuid "d6055a36-9ec7-4231-b91e-139eeec1f432")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 107.95 184.15 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d79cdc50-275f-495a-9cc4-6428578a43f5")
+	)
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 191.77 116.84 180)
@@ -8544,6 +8406,17 @@
 			(justify right)
 		)
 		(uuid "e0d17a3d-97e6-4539-913e-ad4b3060835e")
+	)
+	(hierarchical_label "EXT_Z_END"
+		(shape input)
+		(at 83.82 171.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e448cb93-b746-4331-9ae7-c8f7b1a04b6e")
 	)
 	(hierarchical_label "Y_DIR"
 		(shape output)
@@ -8591,14 +8464,14 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 109.22 160.02 90)
+		(at 73.66 160.02 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f838d10e-5529-469c-89fb-d4d664f8dae6")
+		(uuid "f89bcd86-18ab-4474-b440-e74ffed68d9d")
 	)
 	(hierarchical_label "Y_EN"
 		(shape output)
@@ -8610,17 +8483,6 @@
 			(justify left)
 		)
 		(uuid "fae1ca15-9f65-4dfa-b289-3233d2997b09")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 96.52 184.15 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fc2bd998-bb37-4fda-a920-80761005bcbb")
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
@@ -8643,6 +8505,193 @@
 			(justify left)
 		)
 		(uuid "fe07456b-e15c-4c56-a1e3-df18427257c6")
+	)
+	(symbol
+		(lib_id "Diode:BAT54W")
+		(at 107.95 175.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "081dcdde-43d1-4e07-9b67-edcf4613df96")
+		(property "Reference" "D208"
+			(at 110.49 174.3074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT54W"
+			(at 110.49 176.8474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 112.395 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 107.95 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky barrier diode, SOT-323"
+			(at 107.95 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e043bbee-79b6-4af7-99ef-91ab8680f2be")
+		)
+		(pin "3"
+			(uuid "afa4a2b8-261d-4186-8bb5-7249125d4ca4")
+		)
+		(pin "1"
+			(uuid "447aa72c-3455-430b-9f4b-cce5bc582c97")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
+					(reference "D208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 171.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d20c769-9abe-476d-9a6e-e1002c343a6b")
+		(property "Reference" "R202"
+			(at 55.88 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 55.88 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 55.88 173.228 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 55.88 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 55.88 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4ff4d38f-13f9-4786-b773-8eeafaf4f17c")
+		)
+		(pin "1"
+			(uuid "5d4dd368-dd1b-4369-89a0-1a5e3e3f58dc")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
+					(reference "R202")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
@@ -9381,110 +9430,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 27.94 177.8 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d333500-5318-4363-bcc0-faa80bd6dc76")
-		(property "Reference" "C203"
-			(at 31.75 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 31.75 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 26.9748 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 27.94 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 27.94 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 27.94 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "282a9575-0eaa-4111-98ba-60406854846b")
-		)
-		(pin "2"
-			(uuid "30974491-7f67-4396-a5ca-add0482e5406")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
-					(reference "C203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
 		(at 45.72 29.21 0)
 		(unit 1)
@@ -9694,116 +9639,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54S")
-		(at 74.93 171.45 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d49076f-a703-4155-9ae1-2c7e086930ff")
-		(property "Reference" "D204"
-			(at 77.47 170.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54S"
-			(at 77.47 172.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 78.105 173.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-			(at 74.93 168.402 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-			(at 74.93 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 74.93 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 74.93 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6a94ac80-f9a2-45cf-abd2-84a9bb3208f2")
-		)
-		(pin "1"
-			(uuid "6234c4c7-bdd7-4c2a-aec8-be02052f718b")
-		)
-		(pin "3"
-			(uuid "c09b9287-c8c3-4704-9dae-a270514c2fd3")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
-					(reference "D204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 96.52 177.8 180)
+		(at 62.23 177.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9812,9 +9649,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "39d1e6a2-920e-470c-97f2-f9c810070b1e")
-		(property "Reference" "C212"
-			(at 100.33 176.5299 0)
+		(uuid "377b86f7-5d54-4eab-bdeb-7d6c3e2b8917")
+		(property "Reference" "C209"
+			(at 66.04 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9825,7 +9662,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 100.33 179.0699 0)
+			(at 66.04 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9836,7 +9673,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 95.5548 173.99 0)
+			(at 61.2648 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9847,7 +9684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 177.8 0)
+			(at 62.23 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9858,7 +9695,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 96.52 177.8 0)
+			(at 62.23 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9869,7 +9706,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 96.52 177.8 0)
+			(at 62.23 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9880,7 +9717,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 96.52 177.8 0)
+			(at 62.23 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9891,15 +9728,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7331f4dd-45f8-4dac-8121-a4306a814480")
+			(uuid "4b17a000-3bce-47fe-a26a-569f724405f5")
 		)
 		(pin "2"
-			(uuid "2cfefffb-b7cf-49f1-a949-2a1a73cf3308")
+			(uuid "81f24248-0797-49d0-9654-cd6409c446d7")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
-					(reference "C212")
+					(reference "C209")
 					(unit 1)
 				)
 			)
@@ -10010,108 +9847,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 90.17 171.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44d7bdc4-ad71-4f58-a7b7-79b4e5f4ebe6")
-		(property "Reference" "R206"
-			(at 90.17 165.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 90.17 167.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 90.17 173.228 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 90.17 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 90.17 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 90.17 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "68cf82ea-8f0a-4199-a6fd-4c5ba3dc2b3a")
-		)
-		(pin "1"
-			(uuid "a498b372-983e-4961-b46d-366628e2db13")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
-					(reference "R206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 71.12 38.1 90)
 		(unit 1)
@@ -10123,7 +9858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45630263-88fa-4a9c-85a0-5c03094385d1")
-		(property "Reference" "D202"
+		(property "Reference" "D203"
 			(at 74.93 38.4174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10220,7 +9955,7 @@
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
-					(reference "D202")
+					(reference "D203")
 					(unit 1)
 				)
 			)
@@ -10325,6 +10060,91 @@
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
 					(reference "C210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54W")
+		(at 39.37 175.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50c9e421-efb1-4bae-9dbb-21f3040084cf")
+		(property "Reference" "D202"
+			(at 41.91 174.3074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT54W"
+			(at 41.91 176.8474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 43.815 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 39.37 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky barrier diode, SOT-323"
+			(at 39.37 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2bf5fcd2-bbd3-4197-8e6a-f8d90822cfe4")
+		)
+		(pin "3"
+			(uuid "ad9e41b5-7349-45b0-bd2e-11dc1a895814")
+		)
+		(pin "1"
+			(uuid "b614fd83-e085-47cb-88a4-e52aa279a0f3")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
+					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -10867,108 +10687,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 55.88 171.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6650b599-87d1-4c0d-9de1-e627dcd1dcc3")
-		(property "Reference" "R202"
-			(at 55.88 165.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 55.88 167.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 55.88 173.228 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 55.88 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 55.88 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f938b44a-b778-4c10-8400-8e0417fc64bf")
-		)
-		(pin "1"
-			(uuid "2d7fa633-f510-438f-b923-65cc1a47eb7d")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
-					(reference "R202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_ST_STM32F1:STM32F103RCTx")
 		(at 236.22 77.47 0)
 		(unit 1)
@@ -11281,6 +10999,195 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 27.94 177.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fe396e2-27dd-4706-9ff2-abd18f4549d5")
+		(property "Reference" "C203"
+			(at 31.75 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 31.75 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 26.9748 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 27.94 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 27.94 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 27.94 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6619d122-28e6-44b8-9cbb-e06a54c1fd0b")
+		)
+		(pin "2"
+			(uuid "b9dd1e5f-23c3-490a-942e-490c570bd13b")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
+					(reference "C203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54W")
+		(at 39.37 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7afa9132-6702-4e82-9547-51a8f085dd43")
+		(property "Reference" "D201"
+			(at 41.91 166.6874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT54W"
+			(at 41.91 169.2274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 43.815 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 39.37 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky barrier diode, SOT-323"
+			(at 39.37 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2c58ff97-6609-4b8f-a89b-a0b0679860a6")
+		)
+		(pin "3"
+			(uuid "f4f06447-f4af-4ec5-ae79-40a142764058")
+		)
+		(pin "1"
+			(uuid "6d649bb5-a9c7-424d-9113-f1430ba22f08")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
+					(reference "D201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 39.37 0)
 		(unit 1)
@@ -11379,6 +11286,176 @@
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
 					(reference "R205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54W")
+		(at 107.95 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ee2cd9e-20bc-4565-a03c-cec3a4d79c77")
+		(property "Reference" "D207"
+			(at 110.49 166.6874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT54W"
+			(at 110.49 169.2274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 112.395 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 107.95 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky barrier diode, SOT-323"
+			(at 107.95 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4ddabc81-b688-402f-861d-196e36e7056c")
+		)
+		(pin "3"
+			(uuid "f013d0d0-6227-47ae-bec1-b38efec5eed6")
+		)
+		(pin "1"
+			(uuid "022256f4-941d-43a8-9099-c00394a6eeb5")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
+					(reference "D207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54W")
+		(at 73.66 175.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88c6e68f-1cf4-40cb-a951-f9aa100ff5d3")
+		(property "Reference" "D206"
+			(at 76.2 174.3074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT54W"
+			(at 76.2 176.8474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 78.105 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 73.66 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky barrier diode, SOT-323"
+			(at 73.66 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d544084a-36c6-4457-8456-03cfb41e6fbf")
+		)
+		(pin "3"
+			(uuid "10a8083c-0b20-4e92-9fd5-29e3d727afec")
+		)
+		(pin "1"
+			(uuid "37f25193-d207-4ed2-bc20-c2ed1805932e")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
+					(reference "D206")
 					(unit 1)
 				)
 			)
@@ -11593,6 +11670,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 21.59 171.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ddbc9b4-0d1a-4c25-8d53-023fc735ae27")
+		(property "Reference" "R201"
+			(at 21.59 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 21.59 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 21.59 173.228 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 21.59 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 21.59 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "23513ef1-18b3-4084-b902-2a826b14183f")
+		)
+		(pin "1"
+			(uuid "1a03b1e5-bdb0-4d60-ba27-f3d95941f348")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
+					(reference "R201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 227.33 152.4 180)
 		(unit 1)
@@ -11799,110 +11978,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 62.23 177.8 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e357310-63e0-4091-8817-d96147847ea8")
-		(property "Reference" "C209"
-			(at 66.04 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 66.04 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 61.2648 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 62.23 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 62.23 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 62.23 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f04eb2ef-9f45-4127-96c2-95d05042a39d")
-		)
-		(pin "2"
-			(uuid "0d34fd4e-b1b8-4a53-9e85-1ff51506fd36")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
-					(reference "C209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 109.22 39.37 0)
 		(unit 1)
@@ -12001,6 +12076,110 @@
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
 					(reference "R208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 177.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2c0d6aa-bfa1-45b2-9c77-b84132d7bf1e")
+		(property "Reference" "C212"
+			(at 100.33 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 100.33 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 95.5548 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 96.52 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 96.52 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ce9de04-562b-4b4d-a1d2-0575415427f5")
+		)
+		(pin "2"
+			(uuid "16e23061-4ef1-4099-916a-0beae55f9439")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
+					(reference "C212")
 					(unit 1)
 				)
 			)
@@ -12207,114 +12386,6 @@
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
 					(reference "R207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT54S")
-		(at 40.64 171.45 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0ebe1be-28e6-48c6-8cf6-0a673f8e0d3a")
-		(property "Reference" "D201"
-			(at 43.18 170.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54S"
-			(at 43.18 172.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 43.815 173.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-			(at 40.64 168.402 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-			(at 40.64 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 40.64 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 40.64 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6583c5b2-a76d-4f50-9c65-a7481af0131f")
-		)
-		(pin "1"
-			(uuid "eaefcc14-786e-46d4-9692-3d628af9f366")
-		)
-		(pin "3"
-			(uuid "dd4d78cc-9215-4acc-996c-defbd8d2a6d6")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
-					(reference "D201")
 					(unit 1)
 				)
 			)
@@ -12533,114 +12604,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54S")
-		(at 109.22 171.45 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccd00b43-dd21-4d36-bce7-38c1f8255ddf")
-		(property "Reference" "D205"
-			(at 111.76 170.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54S"
-			(at 111.76 172.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 112.395 173.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-			(at 109.22 168.402 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-			(at 109.22 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 109.22 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 109.22 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6bedad4c-7539-44c9-ac2b-f9c7a784f927")
-		)
-		(pin "1"
-			(uuid "42de16bc-82bb-4c61-ad1e-f2e864846cba")
-		)
-		(pin "3"
-			(uuid "a4abfb29-f472-4834-a70d-a9e64699bd0f")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
-					(reference "D205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 198.12 116.84 90)
 		(unit 1)
@@ -12737,6 +12700,91 @@
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
 					(reference "R210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54W")
+		(at 73.66 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d48dbbd4-acbf-408f-ae45-f352cd37226d")
+		(property "Reference" "D205"
+			(at 76.2 166.6874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT54W"
+			(at 76.2 169.2274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 78.105 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 73.66 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky barrier diode, SOT-323"
+			(at 73.66 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4cd9249f-1ed8-4b5c-a45c-c7cf48c47a22")
+		)
+		(pin "3"
+			(uuid "db9d37c4-ce60-41cf-bc3c-88a5f4f63439")
+		)
+		(pin "1"
+			(uuid "2f029427-32ae-4acb-971b-1a80ab1b2406")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
+					(reference "D205")
 					(unit 1)
 				)
 			)
@@ -12952,7 +13000,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 21.59 171.45 90)
+		(at 90.17 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12961,9 +13009,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f848f05a-4a9b-48cb-aa76-8e74b665e3da")
-		(property "Reference" "R201"
-			(at 21.59 165.1 90)
+		(uuid "f29fe7ce-6af8-4fdd-8bdd-6c6cfc7b12b6")
+		(property "Reference" "R206"
+			(at 90.17 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12973,7 +13021,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 21.59 167.64 90)
+			(at 90.17 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12983,7 +13031,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 21.59 173.228 90)
+			(at 90.17 173.228 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12994,7 +13042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 171.45 0)
+			(at 90.17 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13005,7 +13053,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 21.59 171.45 0)
+			(at 90.17 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13016,7 +13064,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 21.59 171.45 90)
+			(at 90.17 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13027,7 +13075,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 21.59 171.45 90)
+			(at 90.17 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13038,15 +13086,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6d19fe2f-2798-4a8d-95db-05456cee8ec6")
+			(uuid "902615dd-5dcd-4754-825b-d5d0b7348377")
 		)
 		(pin "1"
-			(uuid "b7c37109-7d41-4aec-909b-65383da48c81")
+			(uuid "c890c36e-4c29-47be-b753-2af98487f22b")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
-					(reference "R201")
+					(reference "R206")
 					(unit 1)
 				)
 			)
@@ -13168,7 +13216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faa5e3d4-7124-4d69-ba14-32353710d033")
-		(property "Reference" "D203"
+		(property "Reference" "D204"
 			(at 74.93 124.7774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13265,7 +13313,7 @@
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
-					(reference "D203")
+					(reference "D204")
 					(unit 1)
 				)
 			)

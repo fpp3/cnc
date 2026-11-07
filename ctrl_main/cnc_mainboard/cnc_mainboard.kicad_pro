@@ -611,14 +611,44 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Descripción",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S5.1",
+          "name": "KLC_S5.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referencia"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -661,7 +691,7 @@
         "uuid": "babe01e8-b5e3-4e64-9941-eb5b274d4891"
       }
     ],
-    "used_designators": "SW1,SW201,J1-3,J201-207,J301-314,#PWR1-16,#PWR201-239,#PWR301-315,Y1-2,Y201-202,JP301,R1-3,R201-210,R301-305,D1-2,D201-205,C1-8,C201-220,C301-303,U1-5,U201-203,U301",
+    "used_designators": "SW1,SW201,SW501,J1-3,J201-207,J301-314,J501-502,J601-614,#PWR1-16,#PWR201-239,#PWR301-315,Y1-2,Y201-202,Y501-502,JP301,JP601,R1-3,R201-210,R301-305,R501-510,R601-604,D1-2,D201-205,D501-505,C1-8,C201-220,C301-303,C501-520,C601-603,U1-5,U201-203,U301,U501-503,U601",
     "variants": [
       {
         "name": "GD32F103RCT6"
@@ -684,6 +714,14 @@
     [
       "ffe06a47-8b7a-4950-b259-527e9c8b21c3",
       "Carrier Board"
+    ],
+    [
+      "f2001c80-46dc-4a07-aa46-bcfa566b6261",
+      "Core Board Bluepill"
+    ],
+    [
+      "cf0143d0-3794-48a6-b686-53ce9a31721c",
+      "Connectors"
     ]
   ],
   "text_variables": {},

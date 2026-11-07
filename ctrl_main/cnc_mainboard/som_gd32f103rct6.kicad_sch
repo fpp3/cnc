@@ -8711,6 +8711,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 58.42 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 58.42 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09e17f88-e8d7-4436-82f3-73ceb77e304b")
 		)
@@ -8791,6 +8813,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 64.77 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 64.77 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2cc14339-3c67-42cf-9b94-0440348147b9")
 		)
@@ -8861,6 +8905,28 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 97.79 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 97.79 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -8965,6 +9031,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 273.05 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 273.05 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "30e29a38-132e-43f4-9217-97fa37c914b0")
 		)
@@ -9037,6 +9125,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 261.62 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 261.62 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 261.62 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9129,6 +9239,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 238.76 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 238.76 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c928b6e5-f8fc-4a9d-87f0-9ca43c103fa9")
 		)
@@ -9201,6 +9333,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 71.12 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 71.12 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9293,6 +9447,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 27.94 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 27.94 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "282a9575-0eaa-4111-98ba-60406854846b")
 		)
@@ -9363,6 +9539,28 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 45.72 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9458,6 +9656,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 204.47 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 204.47 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cde8a91a-1538-4f3e-91f1-5b8b07e07bfe")
 		)
@@ -9532,6 +9752,28 @@
 		)
 		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
 			(at 74.93 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 74.93 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 74.93 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9626,6 +9868,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 96.52 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 96.52 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7331f4dd-45f8-4dac-8121-a4306a814480")
 		)
@@ -9708,6 +9972,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 24.13 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 24.13 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70475d81-baea-4204-805f-de762140c25c")
 		)
@@ -9779,6 +10065,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 90.17 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 90.17 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 90.17 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9881,6 +10189,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 71.12 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 71.12 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72eaec08-aaa3-4cbf-b801-4399113a04ea")
 		)
@@ -9953,6 +10283,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 66.04 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 66.04 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 66.04 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10045,6 +10397,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 36.83 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 36.83 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8348ac5-8530-40e7-bfd2-120556536f63")
 		)
@@ -10115,6 +10489,28 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 59.69 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 59.69 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 59.69 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10197,6 +10593,28 @@
 			)
 		)
 		(property "Description" "64-Kbit serial I²C bus EEPROM"
+			(at 27.94 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 27.94 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 27.94 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10307,6 +10725,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 33.02 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 33.02 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "30bf034e-1a8d-46e2-8bba-329995e567ba")
 		)
@@ -10379,6 +10819,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 48.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 48.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 48.26 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10469,6 +10931,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 55.88 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 55.88 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f938b44a-b778-4c10-8400-8e0417fc64bf")
 		)
@@ -10542,6 +11026,28 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 256KB flash, 48KB RAM, 72 MHz, 2.0-3.6V, 51 GPIO, LQFP64"
+			(at 236.22 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 236.22 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 236.22 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10841,6 +11347,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 88.9 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 88.9 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "011453a0-280e-4730-980b-3923652e2367")
 		)
@@ -10852,13 +11380,6 @@
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
 					(reference "R205")
 					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(field
-							(name "Value")
-							(value "10K")
-						)
-					)
 				)
 			)
 		)
@@ -10920,6 +11441,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 17.78 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 17.78 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 17.78 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11012,6 +11555,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 250.19 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 250.19 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "236720d8-0e46-41a0-acc7-6e2b914a04d3")
 		)
@@ -11084,6 +11649,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 227.33 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 227.33 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 227.33 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11174,6 +11761,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 198.12 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 198.12 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "08f21f48-c5b0-49e2-985e-5f2be51731bc")
 		)
@@ -11185,13 +11794,6 @@
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
 					(reference "R209")
 					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(field
-							(name "Value")
-							(value "4K7")
-						)
-					)
 				)
 			)
 		)
@@ -11253,6 +11855,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 62.23 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 62.23 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 62.23 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -11345,6 +11969,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 109.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 109.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "88492f8e-1611-4105-a64f-8a6c9e06688c")
 		)
@@ -11356,13 +12002,6 @@
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
 					(reference "R208")
 					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(field
-							(name "Value")
-							(value "10K")
-						)
-					)
 				)
 			)
 		)
@@ -11422,6 +12061,28 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 104.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 104.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 104.14 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11504,6 +12165,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 93.98 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 93.98 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 93.98 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11597,6 +12280,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 40.64 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 40.64 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6583c5b2-a76d-4f50-9c65-a7481af0131f")
 		)
@@ -11672,6 +12377,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 105.41 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 105.41 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11768,6 +12495,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 30.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 30.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b000fcca-da52-4fc1-b979-50cc83a90c60")
 		)
@@ -11842,6 +12591,28 @@
 		)
 		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
 			(at 109.22 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 109.22 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 109.22 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11934,6 +12705,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 198.12 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 198.12 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e15db05f-5aa5-4cdc-916b-54e587f9d793")
 		)
@@ -11945,13 +12738,6 @@
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5"
 					(reference "R210")
 					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(field
-							(name "Value")
-							(value "4K7")
-						)
-					)
 				)
 			)
 		)
@@ -12013,6 +12799,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 53.34 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 53.34 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 53.34 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12105,6 +12913,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 215.9 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 215.9 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "190df968-32d4-4b33-9a96-82e8af85c768")
 		)
@@ -12176,6 +13006,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 21.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 21.59 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 21.59 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12257,6 +13109,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 93.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 93.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 93.98 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12360,6 +13234,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 71.12 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 71.12 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de265b6a-cae4-45ca-8062-12affe5b4e3c")
 		)
@@ -12432,6 +13328,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 193.04 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 193.04 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 193.04 152.4 0)
 			(hide yes)
 			(show_name no)

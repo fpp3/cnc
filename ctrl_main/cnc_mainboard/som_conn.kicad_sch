@@ -5119,7 +5119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "149c42e3-71dc-4867-a3ac-ffea2f824a17")
-		(property "Reference" "J310"
+		(property "Reference" "J303"
 			(at 93.98 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5172,37 +5172,60 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 92.71 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 92.71 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "621d4cb5-3f7d-4c46-81e7-71ec40c59fa9")
+			(uuid "40c78e99-f10e-47cb-88b8-0c608c851eac")
 		)
 		(pin "6"
-			(uuid "403ec69c-4121-45cc-bffb-05beab26441f")
+			(uuid "30a41ef4-5c5b-4040-a3b1-450a59ab063b")
 		)
 		(pin "3"
-			(uuid "fc50b74a-b06a-4f76-ac55-a2425c6df2a8")
+			(uuid "42d0c724-82c1-410d-9f8c-3b4a835d1da8")
 		)
 		(pin "2"
-			(uuid "d8d66b37-0627-49cc-b555-0ab985454ded")
+			(uuid "f0768a81-6b2c-4e32-9e7e-3855b2abe7db")
 		)
 		(pin "7"
-			(uuid "849e9be9-5e62-45d7-b03c-1ebf4a8e406f")
+			(uuid "f9ff3f40-f54d-4f83-82f9-7deee878e287")
 		)
 		(pin "4"
-			(uuid "6a93cbd4-593d-4129-bf27-45a0d1588f3f")
+			(uuid "9b9a3dfa-7869-46db-bf40-a42bdee8e929")
 		)
 		(pin "5"
-			(uuid "d9b70395-5383-4298-8c5c-e0c0d16d5851")
+			(uuid "b627254f-e6b0-4f0a-9af8-083cdbde66ca")
 		)
 		(pin "8"
-			(uuid "9be1ad32-f288-42e9-90a6-0daf2d7573e8")
+			(uuid "cbf9c690-e358-409f-8de5-3265b571aa17")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J310")
+					(reference "J303")
 					(unit 1)
 					(variant
 						(name "GD32F103RCT6")
+						(in_bom no)
 						(field
 							(name "Value")
 							(value "AUX1")
@@ -5224,7 +5247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15b9cae1-10f6-4f93-a927-37e72067162b")
-		(property "Reference" "C302"
+		(property "Reference" "C301"
 			(at 186.69 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5279,24 +5302,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 182.88 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 182.88 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "225970a6-7815-47b3-a947-0c62ac044629")
+			(uuid "2b6e1598-cf52-4db9-ad08-a96e5ceba101")
 		)
 		(pin "2"
-			(uuid "a912a8cb-52f8-4407-9651-eb9a999e23b6")
+			(uuid "594eda5e-e863-4cee-b498-9cf2c5241d6a")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "C302")
+					(reference "C301")
 					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(field
-							(name "Value")
-							(value "10u")
-						)
-					)
 				)
 			)
 		)
@@ -5368,24 +5406,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 196.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 196.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "02fd8f66-5ecf-4917-833b-bcb947d7a415")
+			(uuid "4c1cb9a8-3cc5-43dd-8a68-126982f4ea23")
 		)
 		(pin "1"
-			(uuid "81d7a13d-42f3-4433-9827-85767b8903cf")
+			(uuid "3280bfb7-b0ac-4ef0-b356-fd7e55e82542")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
 					(reference "R301")
 					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(field
-							(name "Value")
-							(value "1M")
-						)
-					)
 				)
 			)
 		)
@@ -5402,7 +5455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cf1d064-8e1e-4eaa-8df4-46f5e4864ae5")
-		(property "Reference" "J311"
+		(property "Reference" "J313"
 			(at 209.55 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5455,25 +5508,47 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 209.55 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 209.55 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
-			(uuid "9f477bb3-e9bb-4fee-a5a0-3199ffc03b4f")
+			(uuid "ac3187f6-0772-4945-948c-7f0210069b56")
 		)
 		(pin "SH"
-			(uuid "bab7b010-2f97-4bd2-9c9b-de0bc566ac7c")
+			(uuid "e12b46b1-dacf-40d9-997d-4eb70fc6219a")
 		)
 		(pin "1"
-			(uuid "be07e82c-95e0-48b1-a01f-0dc27d3277f6")
+			(uuid "d7232574-9e94-4d0c-8cf7-26d7b5faed82")
 		)
 		(pin "4"
-			(uuid "500b1d76-9dc2-414d-81d4-1feca7be6c5f")
+			(uuid "3afb3519-1459-42e1-9164-e7600bf5f771")
 		)
 		(pin "2"
-			(uuid "00175ea2-1e19-4e7d-8758-5a12ac24d63f")
+			(uuid "80b461ae-a72a-4a40-98a1-03c29ed43454")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J311")
+					(reference "J313")
 					(unit 1)
 				)
 			)
@@ -5490,7 +5565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6560a4ca-522c-4b4f-974a-00095b7880c4")
-		(property "Reference" "J307"
+		(property "Reference" "J312"
 			(at 168.91 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5545,20 +5620,46 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 166.37 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 166.37 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "55677a76-2145-40d5-94f0-a311b9cac86e")
+			(uuid "ed1c3841-a69e-4df6-afea-147ed57fff0b")
 		)
 		(pin "2"
-			(uuid "f198e49e-c1e7-4ae1-9273-f8d9946ea7d4")
+			(uuid "0e3f145c-237e-4a02-bfbd-327d792c7160")
 		)
 		(pin "3"
-			(uuid "37090538-2473-4c97-9c0e-5d0599b44224")
+			(uuid "cc9b5619-f91a-467b-bb51-15acca5cfb13")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J307")
+					(reference "J312")
 					(unit 1)
+					(variant
+						(name "GD32F103RCT6")
+						(in_bom no)
+					)
 				)
 			)
 		)
@@ -5575,7 +5676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6781a98c-bb80-413a-abc0-a26afcdb6b85")
-		(property "Reference" "J308"
+		(property "Reference" "J302"
 			(at 46.99 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5628,43 +5729,66 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 45.72 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 45.72 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
-			(uuid "a4f2a60b-4032-4bbb-ac16-96e921b233c7")
+			(uuid "81e2feb6-7e89-4f2a-8852-3d8cca60a902")
 		)
 		(pin "9"
-			(uuid "96dfa009-27b4-496b-b50e-b91883c1f6fc")
+			(uuid "c4374c8a-2e10-42c8-9349-c18f7ffa3b41")
 		)
 		(pin "3"
-			(uuid "f77e901b-9315-4a87-b933-0578ae0cb69f")
+			(uuid "c1328476-297b-40f8-b175-12749ab16f11")
 		)
 		(pin "2"
-			(uuid "68c684ae-bdc1-45f7-b7fc-7d0590528875")
+			(uuid "550b5382-9b2a-400e-9805-8a502c40bfdf")
 		)
 		(pin "1"
-			(uuid "9ce94e80-1eb1-418a-8490-ff0e6b322eca")
+			(uuid "548fd3b3-0346-4299-ac1e-2e21915281b1")
 		)
 		(pin "4"
-			(uuid "0afe9946-50a1-4425-adf2-f7abf3083fa5")
+			(uuid "41c4fe32-c629-4b35-9b10-a4c210b79d6f")
 		)
 		(pin "7"
-			(uuid "78565489-f526-4bed-bdee-273912ae05c4")
+			(uuid "0ac0b02b-4977-4d69-a396-3c5d23370a50")
 		)
 		(pin "8"
-			(uuid "3ed796b6-aa04-4060-be5d-89037ce17754")
+			(uuid "1e581aa9-d83f-4092-940a-0e2445f120d3")
 		)
 		(pin "6"
-			(uuid "524a5755-111f-419d-9cc6-f5383a4fec1b")
+			(uuid "c5d359b4-284a-4d01-9825-1ca5ece544f0")
 		)
 		(pin "5"
-			(uuid "112ced85-cc68-4878-9fd4-9d8d7b734b22")
+			(uuid "ed15bd5b-0c86-40ab-a35f-bc99c0d74ee5")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J308")
+					(reference "J302")
 					(unit 1)
 					(variant
 						(name "GD32F103RCT6")
+						(in_bom no)
 						(field
 							(name "Value")
 							(value "EXP2")
@@ -5686,7 +5810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78d2080b-a010-4fb4-9e5b-8d50d5c453e6")
-		(property "Reference" "J314"
+		(property "Reference" "J306"
 			(at 93.98 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5739,37 +5863,60 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 92.71 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 92.71 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "1b4f164c-7e8e-43a3-9272-c24eb29aedad")
+			(uuid "e82888d6-e732-41b9-b07b-d680ac988ee9")
 		)
 		(pin "6"
-			(uuid "eb2bdec4-01c1-42c7-a188-eba897523475")
+			(uuid "a0e7ea8a-d688-4f22-9a45-4ffb1e525ba2")
 		)
 		(pin "3"
-			(uuid "e08f7431-19be-4073-a828-9b9d8a90bb65")
+			(uuid "ee2338f9-1c77-4d09-ba98-da60d88e0182")
 		)
 		(pin "2"
-			(uuid "180a7952-a119-4fcd-ba9b-dc1efcf0dc59")
+			(uuid "032631f6-f8f3-4a65-88a1-72c9391ac09a")
 		)
 		(pin "7"
-			(uuid "8483b204-30b4-4e99-83ba-f5a61445bac7")
+			(uuid "47287fa7-cf81-4fda-8722-ada721951ab0")
 		)
 		(pin "4"
-			(uuid "f62e3fc2-8ff1-4201-b8ad-6a5b63e8d3af")
+			(uuid "349c266c-973d-4345-8bce-a7f1077f4d06")
 		)
 		(pin "5"
-			(uuid "e501dc8e-7eab-4d0d-9e36-6891b35618e9")
+			(uuid "af01a9cd-8968-4b31-8d52-e98db8039449")
 		)
 		(pin "8"
-			(uuid "ba64cdbe-2811-422c-8bed-3e7334bc997a")
+			(uuid "9c20160c-45bf-49d6-8a10-dc464366792d")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J314")
+					(reference "J306")
 					(unit 1)
 					(variant
 						(name "GD32F103RCT6")
+						(in_bom no)
 						(field
 							(name "Value")
 							(value "AUX4")
@@ -5846,24 +5993,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 228.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 228.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "7d95164e-83c4-463d-a654-52f377ecfa30")
+			(uuid "bba31f7a-7fd3-4ed3-9a60-a35e3054d3c3")
 		)
 		(pin "1"
-			(uuid "9681a485-55e1-4008-8035-379546c59a0c")
+			(uuid "57b6656f-8c37-4ad5-bb1e-a20d3e83f284")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
 					(reference "R303")
 					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(field
-							(name "Value")
-							(value "22")
-						)
-					)
 				)
 			)
 		)
@@ -5879,7 +6041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "807d58dd-3dff-4f33-9660-3ac9311d9d0a")
-		(property "Reference" "J305"
+		(property "Reference" "J310"
 			(at 168.91 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5934,20 +6096,46 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 166.37 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 166.37 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "70dbb5ce-8cb6-456c-a560-54adf759cacb")
+			(uuid "d4b3b1b8-0c35-4dc0-b62c-e4b7c22b056b")
 		)
 		(pin "2"
-			(uuid "5bd33310-3e5d-4a5a-bbc0-2ecf5cc301c7")
+			(uuid "39922c45-c13b-4f78-8971-524ec5a0474f")
 		)
 		(pin "3"
-			(uuid "97048518-a200-4b71-aead-25a9423c1f44")
+			(uuid "d88acdf3-6da0-4c0f-83b2-ab2b475e993e")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J305")
+					(reference "J310")
 					(unit 1)
+					(variant
+						(name "GD32F103RCT6")
+						(in_bom no)
+					)
 				)
 			)
 		)
@@ -5964,7 +6152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e2880da-af08-47da-b694-ac495861de74")
-		(property "Reference" "R302"
+		(property "Reference" "R304"
 			(at 231.14 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6019,24 +6207,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 228.6 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 228.6 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "e724c90b-efac-4f46-bb55-8218bf9c9522")
+			(uuid "14f6daa1-d79a-4191-b32c-613ad1eec768")
 		)
 		(pin "1"
-			(uuid "6630b8de-e18e-4953-9beb-5f1ac0350684")
+			(uuid "308831ef-2d84-4459-b2d4-08e2d46e5661")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "R302")
+					(reference "R304")
 					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(field
-							(name "Value")
-							(value "22")
-						)
-					)
 				)
 			)
 		)
@@ -6053,7 +6256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a383512a-fb95-4f73-be1d-aef14e2a585f")
-		(property "Reference" "J304"
+		(property "Reference" "J301"
 			(at 46.99 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6106,43 +6309,66 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 45.72 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 45.72 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
-			(uuid "34a828f6-90c0-45cb-891f-a54bf8241791")
+			(uuid "70a7f288-c5d8-412a-830b-345c12dd2bd2")
 		)
 		(pin "9"
-			(uuid "246c4cd7-7cec-4abd-9d55-671fbaf8b389")
+			(uuid "53bb9bd2-475f-4715-a676-aa0c7666bacf")
 		)
 		(pin "3"
-			(uuid "33b89fa6-d157-4831-9e21-3f94c291cf70")
+			(uuid "edb4e738-55c6-455d-9859-c5c9b0703f62")
 		)
 		(pin "2"
-			(uuid "f9126b0f-ba48-44d3-813f-517461c746a9")
+			(uuid "b7d05fc6-784b-470d-b301-62d689ad5b75")
 		)
 		(pin "1"
-			(uuid "d1b45c44-ef8c-4b46-80b9-158bef1b074e")
+			(uuid "6cf63250-382b-4b29-bd9f-65a9b40171e1")
 		)
 		(pin "4"
-			(uuid "2392c3ee-41f1-4306-9c0b-5fba88a7aae3")
+			(uuid "776cf963-ffca-4123-ba8c-8163ac7e9dbf")
 		)
 		(pin "7"
-			(uuid "1a701bce-bac4-4386-a876-ee38d680085f")
+			(uuid "2d9a1603-672d-4b1b-b811-64357e07fff2")
 		)
 		(pin "8"
-			(uuid "cc9eb389-08e9-4425-a4ff-859cffb8abb2")
+			(uuid "8548abeb-88cc-4e1b-89b9-d2643015b30f")
 		)
 		(pin "6"
-			(uuid "faf7f3b5-2625-4f62-bd2c-180c5b96a768")
+			(uuid "5b7d612a-bf55-4cac-b142-631badcb37c9")
 		)
 		(pin "5"
-			(uuid "7c5cf759-a427-421a-9e67-2ed7a0e50f2c")
+			(uuid "18281035-5e73-4d33-81a6-16ca8225c8be")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J304")
+					(reference "J301")
 					(unit 1)
 					(variant
 						(name "GD32F103RCT6")
+						(in_bom no)
 						(field
 							(name "Value")
 							(value "EXP1")
@@ -6163,7 +6389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa4b1945-9c82-477b-a872-e064f25ccfec")
-		(property "Reference" "J301"
+		(property "Reference" "J307"
 			(at 137.16 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6218,23 +6444,49 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 134.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 134.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "f2a0aac9-a354-45d2-b7fb-c14c304c6f45")
+			(uuid "db37e6dc-92f3-4c10-a39d-20115decef7b")
 		)
 		(pin "2"
-			(uuid "ec2d9e4d-1d4a-40fe-8a68-80191198a386")
+			(uuid "2dcaeb3f-6f54-47a8-8886-eff1608718e1")
 		)
 		(pin "3"
-			(uuid "9e5b5659-b150-42fe-91f0-f368ee57442c")
+			(uuid "aaa9bd72-ab4e-42c7-a477-96c8949a3789")
 		)
 		(pin "4"
-			(uuid "6dafc027-a52c-47da-ade0-755a5dc56146")
+			(uuid "81ab89ea-adfd-47b3-a8b9-cfcbbdf4c5aa")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J301")
+					(reference "J307")
 					(unit 1)
+					(variant
+						(name "GD32F103RCT6")
+						(in_bom no)
+					)
 				)
 			)
 		)
@@ -6250,7 +6502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abb2f6c5-d199-4ee2-86bd-e8d5db68c52c")
-		(property "Reference" "J303"
+		(property "Reference" "J309"
 			(at 137.16 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6305,23 +6557,49 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "ec9b256e-707e-4558-9829-0dc03738105d")
+			(uuid "a58ee742-8c1a-49aa-b0f2-6407fc82d867")
 		)
 		(pin "2"
-			(uuid "bb6e4cdf-7010-4953-9c96-48efe5af3320")
+			(uuid "553c53f4-1a5c-431e-8d86-cfaeed78bbbd")
 		)
 		(pin "3"
-			(uuid "dd89d96c-282c-49db-8ea4-ae1cba71723a")
+			(uuid "d1304d6d-f8da-496a-97a8-6e5f209b238c")
 		)
 		(pin "4"
-			(uuid "ce34bad8-a6c2-4bdc-a918-67f3f1ea30c0")
+			(uuid "567874b9-0322-405e-aa47-9d028fc235ec")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J303")
+					(reference "J309")
 					(unit 1)
+					(variant
+						(name "GD32F103RCT6")
+						(in_bom no)
+					)
 				)
 			)
 		)
@@ -6338,7 +6616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9ca2671-d224-427e-8918-9d0be4753e71")
-		(property "Reference" "C303"
+		(property "Reference" "C302"
 			(at 199.39 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6393,24 +6671,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 195.58 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 195.58 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "29068d7a-cdfc-4150-af39-869a0fac517b")
+			(uuid "b29c0afe-82c0-4bca-a565-698acb01dcf4")
 		)
 		(pin "2"
-			(uuid "8bb83148-c34d-48cd-bccf-1988bb53939f")
+			(uuid "c7892de9-0f38-49d2-9938-9f4a95f4afa0")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "C303")
+					(reference "C302")
 					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(field
-							(name "Value")
-							(value "100n")
-						)
-					)
 				)
 			)
 		)
@@ -6427,7 +6720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba8ae7a7-8c93-4554-9e23-4e62d4a49908")
-		(property "Reference" "J312"
+		(property "Reference" "J304"
 			(at 93.98 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6480,37 +6773,60 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 92.71 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 92.71 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "ef9da711-3f42-449f-a07b-142b5f973701")
+			(uuid "b1fa77f9-fe7a-41d4-9eda-a9995eef970a")
 		)
 		(pin "6"
-			(uuid "62e5febb-cc0a-4add-82d7-f1ed825f771f")
+			(uuid "324e41d9-6b55-42cc-ad9e-82d5d8214ce9")
 		)
 		(pin "3"
-			(uuid "39c73838-fe8a-4687-bdc5-b6c01d433d88")
+			(uuid "3d1ee283-8e15-4bd5-bd66-69e9f9464896")
 		)
 		(pin "2"
-			(uuid "24c365c3-2483-4976-a405-0033105e1363")
+			(uuid "baf38ce3-702a-45b0-97e4-92610839e378")
 		)
 		(pin "7"
-			(uuid "d742db62-734e-4270-97de-6f1eff6709cc")
+			(uuid "8bd177d8-beac-4f96-bf57-c67acc54ba5c")
 		)
 		(pin "4"
-			(uuid "b601218f-e197-4ebb-98b6-b2bcb433e45c")
+			(uuid "156209ad-d5bd-4813-9486-f02ee96a542c")
 		)
 		(pin "5"
-			(uuid "ba583cb8-35a5-45ae-ad91-d2c62fdb6911")
+			(uuid "ea51ec9e-8505-4681-8a9c-f5c8bf8133a4")
 		)
 		(pin "8"
-			(uuid "da6a320f-1adb-4e4f-9ce4-29dec606ed83")
+			(uuid "901dbb5e-ed1c-40b3-b8ab-5b42083a55a5")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J312")
+					(reference "J304")
 					(unit 1)
 					(variant
 						(name "GD32F103RCT6")
+						(in_bom no)
 						(field
 							(name "Value")
 							(value "AUX2")
@@ -6532,7 +6848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcc296e4-f459-4321-a35e-978b5ea8c5f6")
-		(property "Reference" "R305"
+		(property "Reference" "R302"
 			(at 222.25 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6587,24 +6903,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 219.71 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 219.71 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "89f05314-c980-4844-a46c-ad1b94990340")
+			(uuid "8e707ff7-09cb-465e-bb8e-87a0a84fd89a")
 		)
 		(pin "1"
-			(uuid "9abc357a-eba7-4781-a6ec-ac1ad4d5803d")
+			(uuid "603b3f32-e6d6-48da-95a6-cf2e7fb1667d")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "R305")
+					(reference "R302")
 					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(field
-							(name "Value")
-							(value "1K5")
-						)
-					)
 				)
 			)
 		)
@@ -6621,7 +6952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3023e8c-e36f-4122-8b0c-ebcce19ad5a4")
-		(property "Reference" "C301"
+		(property "Reference" "C303"
 			(at 210.82 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6676,24 +7007,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 207.01 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 207.01 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "3d371902-a342-443c-b20a-68644b60a391")
+			(uuid "efa1ebc0-5207-46d6-8f9d-5f8ccb51dd21")
 		)
 		(pin "2"
-			(uuid "dbb7abc9-3b32-4fc8-84c1-bbe9d507b572")
+			(uuid "1bed6f5e-e365-4780-9b3f-aa9e22471b58")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "C301")
+					(reference "C303")
 					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(field
-							(name "Value")
-							(value "4.7n")
-						)
-					)
 				)
 			)
 		)
@@ -6710,7 +7056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d731c424-601c-4892-a8e4-8efd1d27494b")
-		(property "Reference" "J309"
+		(property "Reference" "J314"
 			(at 235.585 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6763,37 +7109,59 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 234.95 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 234.95 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "SH"
-			(uuid "71b98d44-52e4-4085-9bec-620f0303d652")
+			(uuid "6c503d0e-8e6d-4132-b37c-d909fe2ecd46")
 		)
 		(pin "1"
-			(uuid "6cbbadbd-2ffd-46dc-9150-e1b405ae8a06")
+			(uuid "641289b4-5df9-41a6-a526-8416979f97c5")
 		)
 		(pin "5"
-			(uuid "9ec9391b-8d56-4751-bff0-5359b4833fb4")
+			(uuid "21c0e1a8-7601-4668-bd0a-6a8fadebb82f")
 		)
 		(pin "2"
-			(uuid "5ed6ca88-c151-4f19-b7d9-b30102364ffa")
+			(uuid "b301ea97-955c-42ec-a952-6c415d3fc77b")
 		)
 		(pin "3"
-			(uuid "a59d556d-da4a-4b5f-8ea7-a25c0536c12b")
+			(uuid "1e792a00-19da-4dfd-93d5-a58e2549bca2")
 		)
 		(pin "8"
-			(uuid "ec950f8e-f689-4d1c-9764-572a5199adc0")
+			(uuid "14a91e4f-223f-458c-8847-cf6b2c37c36d")
 		)
 		(pin "4"
-			(uuid "f4318e21-1533-4600-ab44-0d2e4ad4f626")
+			(uuid "2f202dd6-f218-4489-b319-ac435bbcaf40")
 		)
 		(pin "7"
-			(uuid "57df38f1-0e86-4079-9dda-3f151fa266d4")
+			(uuid "331d0c37-88d8-4514-8998-45aaba907d46")
 		)
 		(pin "6"
-			(uuid "0243c44c-76d1-4f8b-b84f-9cbae8b7a571")
+			(uuid "cc8fa7c6-7fc9-4c36-b0a4-d325b1c34281")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J309")
+					(reference "J314")
 					(unit 1)
 				)
 			)
@@ -6810,7 +7178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8f62516-576d-4723-9a40-9ae5bd89298d")
-		(property "Reference" "J306"
+		(property "Reference" "J311"
 			(at 168.91 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6865,20 +7233,46 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 166.37 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 166.37 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "25c4c158-cd37-4e31-a5dd-ec04c051a84c")
+			(uuid "0d857769-d23f-4574-a93e-0e155e5599bd")
 		)
 		(pin "2"
-			(uuid "26b1c876-e816-4e77-9309-ad74278b93d7")
+			(uuid "e96eb590-983f-40ce-a411-6d8c3bf7d449")
 		)
 		(pin "3"
-			(uuid "7ac253ab-be07-4698-af04-99ecdd2c7a9b")
+			(uuid "ab643116-d2cf-4be6-8a7d-130304b714ca")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J306")
+					(reference "J311")
 					(unit 1)
+					(variant
+						(name "GD32F103RCT6")
+						(in_bom no)
+					)
 				)
 			)
 		)
@@ -6894,7 +7288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1cf840a-8590-447d-9a9d-65b37f66af68")
-		(property "Reference" "J302"
+		(property "Reference" "J308"
 			(at 137.16 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6949,23 +7343,49 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 134.62 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 134.62 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "d0a54771-3289-4b0c-b88d-baed54f7e9e9")
+			(uuid "322abe24-2abf-40fe-85f1-8797ca1e0e0b")
 		)
 		(pin "2"
-			(uuid "08ec9765-8ce1-445c-a68f-43006fea715e")
+			(uuid "58482452-1aa3-42da-b091-3e3791657a3a")
 		)
 		(pin "3"
-			(uuid "73961ae3-a1f2-4ce1-9c09-cdda0251267f")
+			(uuid "1371b5cf-c20f-4f26-aaeb-f9384b668131")
 		)
 		(pin "4"
-			(uuid "0238e9d3-0dcd-4c07-873c-14bfbcb85848")
+			(uuid "bc14919d-8f9b-42a5-9a6f-6099c9b498fe")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J302")
+					(reference "J308")
 					(unit 1)
+					(variant
+						(name "GD32F103RCT6")
+						(in_bom no)
+					)
 				)
 			)
 		)
@@ -6982,7 +7402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e632c6ab-2942-4737-bc8b-c16521261096")
-		(property "Reference" "J313"
+		(property "Reference" "J305"
 			(at 95.25 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7037,25 +7457,48 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 92.71 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 92.71 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
-			(uuid "077db07c-efa2-476b-bdcb-d7ffde5fd4cb")
+			(uuid "06befbe5-77e8-493a-a8fa-c5475f58c189")
 		)
 		(pin "1"
-			(uuid "e63823c9-bc7f-461c-ba73-f837d6cec0f6")
+			(uuid "4f2efcef-4c86-42cd-b8ac-a9169e1d5012")
 		)
 		(pin "4"
-			(uuid "1f68aac7-5778-48a8-995f-ad9f3541f5b2")
+			(uuid "e07ef94d-2e80-4595-8420-2f7ea2445bd9")
 		)
 		(pin "2"
-			(uuid "39ebbd5d-0680-4493-8e91-6ef97b0fc30a")
+			(uuid "a4f1af98-30f0-4fc8-8c2d-0c584c24c3ef")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J313")
+					(reference "J305")
 					(unit 1)
 					(variant
 						(name "GD32F103RCT6")
+						(in_bom no)
 						(field
 							(name "Value")
 							(value "AUX3")
@@ -7153,13 +7596,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "0ca12b21-096f-49fb-9984-0144bfa7b01e")
+			(uuid "331148af-d926-459b-8517-18a5fff5ddae")
 		)
 		(pin "3"
-			(uuid "fec9edf2-2d6b-47d5-a98d-22550f935928")
+			(uuid "02a0302f-6006-469a-8e26-b240b57e0042")
 		)
 		(pin "1"
-			(uuid "67aa3a0e-1eba-4d4e-a7e7-35ebce8b65c9")
+			(uuid "c5b0699d-9be6-4be8-8710-c236919bec68")
 		)
 		(instances
 			(project "cnc_mainboard"
@@ -7237,23 +7680,45 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 243.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 243.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
-			(uuid "42103737-2a36-4d69-80d9-2e14bb17ed6d")
+			(uuid "841faf0d-add3-4f06-a2ee-67f124b3b549")
 		)
 		(pin "1"
-			(uuid "54c9d6e5-2617-4793-ad01-bf0c317f2dae")
+			(uuid "0b55e242-9577-4d08-a329-28f14217e1f5")
 		)
 		(pin "3"
-			(uuid "bfdc721e-b668-4c07-a899-a00946079602")
+			(uuid "cb2bc126-377c-444c-a153-9be58380e43d")
 		)
 		(pin "2"
-			(uuid "bf6d0e8a-4e98-463a-9821-c74653e340aa")
+			(uuid "a6a54df0-f38f-40f4-80ae-133ed64f1217")
 		)
 		(pin "6"
-			(uuid "e5d3748f-5c06-4fc7-8f45-bcaf835698e9")
+			(uuid "7f193551-a51e-4654-adea-bb36b08308bf")
 		)
 		(pin "5"
-			(uuid "71ad99ab-4b27-423e-a9f2-9353381288ab")
+			(uuid "59010c45-7974-4c87-a5e0-aaf52e818e9b")
 		)
 		(instances
 			(project "cnc_mainboard"

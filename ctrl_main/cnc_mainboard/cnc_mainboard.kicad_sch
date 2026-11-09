@@ -5,6 +5,8 @@
 	(uuid "babe01e8-b5e3-4e64-9941-eb5b274d4891")
 	(paper "A4")
 	(title_block
+		(title "Control Numerico Computarizado")
+		(date "2026-11-09")
 		(rev "1.0.0")
 		(company "UTN FRC")
 		(comment 1 "Gaston Grasso")
@@ -979,7 +981,7 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 142.24 50.8 180)
+			(at 142.24 53.34 180)
 			(uuid "a3d480c3-d9c1-435e-b910-decda94ef625")
 			(effects
 				(font
@@ -989,7 +991,7 @@
 			)
 		)
 		(pin "+5V" input
-			(at 142.24 53.34 180)
+			(at 142.24 55.88 180)
 			(uuid "04d2f35a-5cec-49d3-9e2c-d18fa4952117")
 			(effects
 				(font
@@ -999,7 +1001,7 @@
 			)
 		)
 		(pin "EXT_X_END" input
-			(at 142.24 55.88 180)
+			(at 142.24 58.42 180)
 			(uuid "9f7440d8-e946-4d30-be8e-62aed2de4c06")
 			(effects
 				(font
@@ -1009,7 +1011,7 @@
 			)
 		)
 		(pin "EXT_Y_END" input
-			(at 142.24 58.42 180)
+			(at 142.24 60.96 180)
 			(uuid "bf2377ee-ff77-4e3d-a1af-3dd726d571f8")
 			(effects
 				(font
@@ -1019,7 +1021,7 @@
 			)
 		)
 		(pin "EXT_Z_END" input
-			(at 142.24 60.96 180)
+			(at 142.24 63.5 180)
 			(uuid "b57e3c17-dfc0-489d-9524-93304888a680")
 			(effects
 				(font
@@ -1029,7 +1031,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 142.24 63.5 180)
+			(at 142.24 50.8 180)
 			(uuid "b8a8fdc8-7e91-44c5-8914-2ec5bdfa887e")
 			(effects
 				(font
@@ -1049,7 +1051,7 @@
 			)
 		)
 		(pin "X_DIR" output
-			(at 142.24 68.58 180)
+			(at 142.24 71.12 180)
 			(uuid "6317ac24-b59d-4cac-a2ec-1b36456616e3")
 			(effects
 				(font
@@ -1059,7 +1061,7 @@
 			)
 		)
 		(pin "X_EN" output
-			(at 142.24 71.12 180)
+			(at 142.24 68.58 180)
 			(uuid "55f1d672-8760-4ae8-b3ca-333afe36601a")
 			(effects
 				(font
@@ -1079,7 +1081,7 @@
 			)
 		)
 		(pin "Y_DIR" output
-			(at 142.24 76.2 180)
+			(at 142.24 78.74 180)
 			(uuid "a93d0fd9-84e7-4461-8faf-6b48d5fcaa80")
 			(effects
 				(font
@@ -1089,7 +1091,7 @@
 			)
 		)
 		(pin "Y_EN" output
-			(at 142.24 78.74 180)
+			(at 142.24 76.2 180)
 			(uuid "d4a3073b-b1b6-4bc2-b47a-027314f53a87")
 			(effects
 				(font
@@ -1109,7 +1111,7 @@
 			)
 		)
 		(pin "Z_DIR" output
-			(at 142.24 83.82 180)
+			(at 142.24 86.36 180)
 			(uuid "13f7ed20-421b-4c72-b614-4ad0a6ca786e")
 			(effects
 				(font
@@ -1119,7 +1121,7 @@
 			)
 		)
 		(pin "Z_EN" output
-			(at 142.24 86.36 180)
+			(at 142.24 83.82 180)
 			(uuid "c7ae521c-58bf-4f8b-9a59-37a04de7b479")
 			(effects
 				(font

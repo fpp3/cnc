@@ -13,410 +13,7 @@
 		(comment 3 "Angelo Prieto")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -436,7 +33,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x04_Counter_Clockwise"
+			(property "Value" "Conn_02x04_Odd_Even"
 				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -468,7 +65,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -501,7 +98,7 @@
 					)
 				)
 			)
-			(symbol "Conn_02x04_Counter_Clockwise_1_1"
+			(symbol "Conn_02x04_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 3.81 -6.35)
@@ -620,7 +217,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -638,7 +235,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -656,7 +253,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -674,7 +271,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -710,7 +307,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -728,7 +325,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -748,7 +345,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x05_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -768,7 +365,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x05_Counter_Clockwise"
+			(property "Value" "Conn_02x05_Odd_Even"
 				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -800,7 +397,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -833,7 +430,7 @@
 					)
 				)
 			)
-			(symbol "Conn_02x05_Counter_Clockwise_1_1"
+			(symbol "Conn_02x05_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 6.35)
 					(end 3.81 -6.35)
@@ -974,7 +571,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -992,7 +589,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1010,7 +607,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1028,7 +625,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1046,7 +643,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1064,7 +661,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1082,7 +679,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1100,7 +697,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -1118,7 +715,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -1138,280 +735,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_3_Open"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_3_Open"
-				(at 0 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 3-pole, open"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-				(at 0 -17.78 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-				(at 0 -20.32 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Solder Jumper SPDT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Open_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(junction
-		(at 201.93 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "105b658a-5e8f-4c56-9f41-ff0b97759132")
-	)
-	(junction
-		(at 201.93 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4159a9ca-9b22-4b7e-a9e7-c75e68b118f6")
 	)
 	(no_connect
 		(at 105.41 90.17)
@@ -1453,15 +776,9 @@
 		(at 92.71 100.33)
 		(uuid "b345ec3a-e716-4ac9-af25-221c5cfbc539")
 	)
-	(wire
-		(pts
-			(xy 179.07 92.71) (xy 181.61 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06604d90-77d8-48df-a5ca-f770e8ce4e08")
+	(no_connect
+		(at 139.7 92.71)
+		(uuid "c7348550-7464-4b1a-855f-7434bb74c667")
 	)
 	(wire
 		(pts
@@ -1505,26 +822,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 97.79) (xy 181.61 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38f953e5-b529-4cc3-b5a8-c06bcbece586")
-	)
-	(wire
-		(pts
-			(xy 179.07 77.47) (xy 181.61 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c512a76-33bd-4b16-8eee-a07cd30b2e16")
-	)
-	(wire
-		(pts
 			(xy 109.22 80.01) (xy 105.41 80.01)
 		)
 		(stroke
@@ -1542,16 +839,6 @@
 			(type default)
 		)
 		(uuid "43d25dd4-d32f-4223-ba02-e6cda226ff20")
-	)
-	(wire
-		(pts
-			(xy 210.82 69.85) (xy 213.36 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46bd72c4-e36f-464e-982c-ad98a4547b30")
 	)
 	(wire
 		(pts
@@ -1575,16 +862,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 92.71) (xy 213.36 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b588720-a1a4-4371-a128-77cd4893b265")
-	)
-	(wire
-		(pts
 			(xy 156.21 90.17) (xy 152.4 90.17)
 		)
 		(stroke
@@ -1592,16 +869,6 @@
 			(type default)
 		)
 		(uuid "4e5a8f75-59a7-4335-951b-0c445348db92")
-	)
-	(wire
-		(pts
-			(xy 179.07 72.39) (xy 181.61 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef49d6a-6a57-4805-8ec9-76f8e88cf8a6")
 	)
 	(wire
 		(pts
@@ -1625,26 +892,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 69.85) (xy 181.61 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66acce8d-aa78-469b-a25d-03ec1b382935")
-	)
-	(wire
-		(pts
-			(xy 201.93 67.31) (xy 201.93 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a0fbd2b-67fa-49de-b594-157515fc990f")
-	)
-	(wire
-		(pts
 			(xy 88.9 97.79) (xy 92.71 97.79)
 		)
 		(stroke
@@ -1652,26 +899,6 @@
 			(type default)
 		)
 		(uuid "721ccb49-8795-4977-a78e-5d046450cf05")
-	)
-	(wire
-		(pts
-			(xy 201.93 74.93) (xy 201.93 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "771f3344-1534-4ad4-b1c0-a6f20210013e")
-	)
-	(wire
-		(pts
-			(xy 179.07 95.25) (xy 181.61 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80617a12-29ca-4ae9-9d58-fa53ead13dc3")
 	)
 	(wire
 		(pts
@@ -1685,36 +912,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 63.5) (xy 196.85 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "900f0de3-93fb-4268-9bbc-b169deaf625c")
-	)
-	(wire
-		(pts
-			(xy 210.82 110.49) (xy 213.36 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90638f93-7aa5-4be0-913d-4a209d92af70")
-	)
-	(wire
-		(pts
-			(xy 179.07 113.03) (xy 181.61 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "941621d6-8737-4ca0-8309-a23b105428a1")
-	)
-	(wire
-		(pts
 			(xy 88.9 80.01) (xy 92.71 80.01)
 		)
 		(stroke
@@ -1722,56 +919,6 @@
 			(type default)
 		)
 		(uuid "96a8b435-fac8-4d41-b5df-07bc8a16456b")
-	)
-	(wire
-		(pts
-			(xy 179.07 118.11) (xy 181.61 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d6c574-bf85-4a9b-837e-80175d4fd57a")
-	)
-	(wire
-		(pts
-			(xy 210.82 113.03) (xy 213.36 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4eb4e3c-aace-46ec-aba6-1572c42d57c9")
-	)
-	(wire
-		(pts
-			(xy 179.07 90.17) (xy 181.61 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad51c911-4b3b-46e7-a9d0-e6e8a1562b03")
-	)
-	(wire
-		(pts
-			(xy 201.93 95.25) (xy 213.36 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae41a3e4-c81e-4639-9d8f-cd5818d44f8c")
-	)
-	(wire
-		(pts
-			(xy 201.93 115.57) (xy 213.36 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4cfbd7f-d665-4a35-a081-99173d3dbd68")
 	)
 	(wire
 		(pts
@@ -1785,56 +932,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 63.5) (xy 208.28 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c04be0cc-fed5-4a35-80eb-be9bfc7c6cd5")
-	)
-	(wire
-		(pts
-			(xy 179.07 115.57) (xy 181.61 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce885ba6-688b-49f7-9add-a5ef4b8a04c1")
-	)
-	(wire
-		(pts
-			(xy 210.82 72.39) (xy 213.36 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d65abf86-715d-4cd9-b679-fca0a3253a78")
-	)
-	(wire
-		(pts
-			(xy 179.07 110.49) (xy 181.61 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3268cfa-1987-495e-8ee3-b75cc031ffc1")
-	)
-	(wire
-		(pts
-			(xy 201.93 74.93) (xy 213.36 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7979996-7e6e-4f95-9b76-3f3f88b89633")
-	)
-	(wire
-		(pts
 			(xy 105.41 77.47) (xy 109.22 77.47)
 		)
 		(stroke
@@ -1842,36 +939,6 @@
 			(type default)
 		)
 		(uuid "e8564c54-f8aa-431c-bd04-fce0ca26e2ee")
-	)
-	(wire
-		(pts
-			(xy 201.93 95.25) (xy 201.93 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8f73439-82ff-47a3-84ff-85a163134b67")
-	)
-	(wire
-		(pts
-			(xy 210.82 90.17) (xy 213.36 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec438d85-3530-4186-b52b-15f457a38894")
-	)
-	(wire
-		(pts
-			(xy 179.07 74.93) (xy 181.61 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edc45237-ec32-4319-ad79-ebb1b04ee8a4")
 	)
 	(wire
 		(pts
@@ -1893,17 +960,6 @@
 			(justify left)
 		)
 		(uuid "003a4e81-333b-41f7-80d3-05f66d6e4d61")
-	)
-	(hierarchical_label "Y_STEP"
-		(shape input)
-		(at 179.07 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03f90efe-0eeb-49c3-b8d0-2758a2e7aa3d")
 	)
 	(hierarchical_label "LCD_D4"
 		(shape input)
@@ -1929,50 +985,6 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 179.07 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "17d085d2-6992-4170-bbbb-647f008d04c9")
-	)
-	(hierarchical_label "Z_END"
-		(shape output)
-		(at 210.82 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25e66699-f3fd-4298-8644-e733f4908659")
-	)
-	(hierarchical_label "Y_DIR"
-		(shape input)
-		(at 179.07 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "29f6f97f-b623-4f73-bb8d-00c71c154fe1")
-	)
-	(hierarchical_label "Z_STEP"
-		(shape input)
-		(at 179.07 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3282e737-f708-4b76-9ec0-c3f03b819328")
-	)
-	(hierarchical_label "GND"
-		(shape input)
 		(at 135.89 85.09 180)
 		(effects
 			(font
@@ -1981,17 +993,6 @@
 			(justify right)
 		)
 		(uuid "3e996794-6df4-47ed-a8c6-6f309a294670")
-	)
-	(hierarchical_label "Y_END"
-		(shape output)
-		(at 210.82 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "428174e4-cdd1-4ca0-83ab-57379b644d71")
 	)
 	(hierarchical_label "ENC_B"
 		(shape output)
@@ -2015,28 +1016,6 @@
 		)
 		(uuid "487b8b3a-0c70-4fcb-b439-bbcd177574cb")
 	)
-	(hierarchical_label "X_STEP"
-		(shape input)
-		(at 179.07 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f1cb44f-094f-46aa-8413-08551c655e93")
-	)
-	(hierarchical_label "+5V"
-		(shape input)
-		(at 195.58 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5156e444-172a-469d-9dda-eaa2277b61b3")
-	)
 	(hierarchical_label "UART_TX"
 		(shape input)
 		(at 156.21 92.71 0)
@@ -2047,72 +1026,6 @@
 			(justify left)
 		)
 		(uuid "54195122-e932-461b-b5a2-4b8ee4497902")
-	)
-	(hierarchical_label "Y_EN"
-		(shape input)
-		(at 179.07 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "590e2567-5f2c-4995-a9cd-56f46cb59710")
-	)
-	(hierarchical_label "Z_DIR"
-		(shape input)
-		(at 179.07 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c52d14f-9739-4cec-9db5-1766e2d48e28")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 179.07 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5fd9ad74-1632-47fe-a304-d4c2efa05fbc")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 210.82 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "73111075-3e4c-4058-ba86-06a1218ff378")
-	)
-	(hierarchical_label "X_END"
-		(shape output)
-		(at 210.82 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75c90f9d-649d-4b5b-85fb-9940416e8895")
-	)
-	(hierarchical_label "X_EN"
-		(shape input)
-		(at 179.07 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a096bc6-3737-4446-be03-26f5da519ecc")
 	)
 	(hierarchical_label "+5V"
 		(shape input)
@@ -2147,50 +1060,6 @@
 		)
 		(uuid "8d742cbc-0051-467e-ae59-3f34c20114fd")
 	)
-	(hierarchical_label "UART_TX"
-		(shape input)
-		(at 139.7 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9c36aecd-0b3d-4eca-b0f4-57dcb1ae0cd8")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 210.82 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a242ab8f-1ad7-4aa7-842b-f2929838f825")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 210.82 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba69aed2-03a6-4f3e-8858-8b0ad9c08123")
-	)
-	(hierarchical_label "+3V3"
-		(shape input)
-		(at 208.28 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c791e746-3590-462b-8842-fa17c920959c")
-	)
 	(hierarchical_label "LCD_D6"
 		(shape input)
 		(at 88.9 72.39 180)
@@ -2213,17 +1082,6 @@
 		)
 		(uuid "d0deb7eb-0334-4803-8f54-63d224e64651")
 	)
-	(hierarchical_label "X_DIR"
-		(shape input)
-		(at 179.07 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d4bf65c4-6007-43ea-9021-c16f16bef02f")
-	)
 	(hierarchical_label "BUZZER"
 		(shape input)
 		(at 88.9 80.01 180)
@@ -2234,17 +1092,6 @@
 			(justify right)
 		)
 		(uuid "dd8619fe-7df0-4efe-990c-c19e23fa9f7d")
-	)
-	(hierarchical_label "Z_EN"
-		(shape input)
-		(at 179.07 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dffb54b0-8564-4130-9107-fc818106b90f")
 	)
 	(hierarchical_label "LCD_RS"
 		(shape input)
@@ -2290,237 +1137,8 @@
 		)
 		(uuid "f50d5457-1607-45e8-bd64-025f0b97dd7f")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 179.07 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f678ad26-9967-417b-98f9-da146009ba4d")
-	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 201.93 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09c541f7-f50c-4f79-a4db-1b685b0ba2ef")
-		(property "Reference" "JP601"
-			(at 201.93 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at 201.93 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 201.93 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 201.93 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at 201.93 81.28 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at 201.93 83.82 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8c73d4a2-3426-4a74-9517-136987a6436f")
-		)
-		(pin "3"
-			(uuid "5ea236ea-daf4-42de-aee5-d6535625238e")
-		)
-		(pin "1"
-			(uuid "03198d46-4f2c-4cee-8160-60cbf3e6608c")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/f2001c80-46dc-4a07-aa46-bcfa566b6261/cf0143d0-3794-48a6-b686-53ce9a31721c"
-					(reference "JP601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 186.69 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2d8b5d8d-d8fa-4854-9d59-f36af05f0601")
-		(property "Reference" "J606"
-			(at 189.23 113.0299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 189.23 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
-			(at 186.69 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 186.69 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 186.69 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4433bcea-b2d8-4cb4-915e-9d82759e91eb")
-		)
-		(pin "2"
-			(uuid "4a7ea26a-1151-4f34-8f9f-eedeb4bfb3ee")
-		)
-		(pin "3"
-			(uuid "873760ce-f4e8-48f3-a08b-bc8abf5b7618")
-		)
-		(pin "4"
-			(uuid "dddd095f-46c9-4112-a1e5-ec7bc948d0b2")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/f2001c80-46dc-4a07-aa46-bcfa566b6261/cf0143d0-3794-48a6-b686-53ce9a31721c"
-					(reference "J606")
-					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(in_bom no)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 97.79 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -2530,7 +1148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c042f7f-7862-4b51-9f2f-1e6a24d9ba1a")
+		(uuid "33f7bd71-a21f-4b8d-81a2-4d3b0e03b15d")
 		(property "Reference" "J602"
 			(at 99.06 83.82 0)
 			(show_name no)
@@ -2541,7 +1159,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Counter_Clockwise"
+		(property "Value" "Conn_02x05_Odd_Even"
 			(at 99.06 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2573,7 +1191,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 97.79 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2583,58 +1201,36 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "KLC_S3.3" ""
-			(at 97.79 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 97.79 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "7504c0a2-e2a4-48de-ae19-d6a18f7234fe")
-		)
-		(pin "9"
-			(uuid "f55ee5b3-9261-468c-a86b-4297990802b2")
-		)
-		(pin "3"
-			(uuid "d3390ced-6150-4027-b303-93f2a42a6f89")
-		)
-		(pin "2"
-			(uuid "a005a18c-0666-4173-8391-fb799cf63357")
-		)
-		(pin "1"
-			(uuid "80c4308f-4d88-4787-9d5b-dbd900e44ad0")
-		)
-		(pin "4"
-			(uuid "c26e9bcb-2bc3-42a1-88eb-63eebd74bf51")
-		)
-		(pin "7"
-			(uuid "bc490139-9aa7-40f2-af6b-19a266618317")
 		)
 		(pin "8"
-			(uuid "a4c0507d-faba-4114-8655-6903492e0b4c")
+			(uuid "4dbd7619-cca2-4320-9dff-7b02f50bddf4")
+		)
+		(pin "7"
+			(uuid "0b644a13-2379-41c4-a1fa-f39810b360a6")
+		)
+		(pin "9"
+			(uuid "0aed710a-f623-480d-ba20-4647967e0c28")
 		)
 		(pin "6"
-			(uuid "ee399351-5853-4e3d-859b-d7cb4eb474ff")
+			(uuid "f71f0a9f-6652-4906-b5b6-1ce2b536431f")
+		)
+		(pin "10"
+			(uuid "3c1d6c32-99f4-46ff-ae75-bbb9bb29e7fd")
 		)
 		(pin "5"
-			(uuid "63a6b79a-e65a-4cd1-82a6-77fe014e791c")
+			(uuid "6975514e-cc7c-46ec-abb6-73414902fe08")
+		)
+		(pin "2"
+			(uuid "ac7d0137-18c5-48d5-bec0-90027ad7ad5d")
+		)
+		(pin "3"
+			(uuid "cb6f2ebe-ac42-45ad-b652-133a31701d36")
+		)
+		(pin "1"
+			(uuid "d368ec37-fe16-4167-b8b3-c182289559a5")
+		)
+		(pin "4"
+			(uuid "9ad2a885-f1fc-46d8-a23b-d0f73bfe0554")
 		)
 		(instances
 			(project "cnc_mainboard"
@@ -2643,7 +1239,10 @@
 					(unit 1)
 					(variant
 						(name "GD32F103RCT6")
-						(in_bom no)
+						(field
+							(name "Footprint")
+							(value "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical")
+						)
 						(field
 							(name "Value")
 							(value "EXP2")
@@ -2654,230 +1253,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 186.69 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "78563b23-8a18-4214-974d-2aa7aaf8e7af")
-		(property "Reference" "J604"
-			(at 189.23 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 189.23 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
-			(at 186.69 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 186.69 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 186.69 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "908d470a-1438-4428-9d4b-f8f8430950bc")
-		)
-		(pin "2"
-			(uuid "759d6180-67a0-437b-816c-8c38cc2445e6")
-		)
-		(pin "3"
-			(uuid "52df8b4d-fa61-47f7-878e-ca3f61cccbe5")
-		)
-		(pin "4"
-			(uuid "29b1cb9c-16b3-42de-8210-708f1d53b112")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/f2001c80-46dc-4a07-aa46-bcfa566b6261/cf0143d0-3794-48a6-b686-53ce9a31721c"
-					(reference "J604")
-					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(in_bom no)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 218.44 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89cbfa91-e956-44d2-95dd-f06380c9451f")
-		(property "Reference" "J607"
-			(at 220.98 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 220.98 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 218.44 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 218.44 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 218.44 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 218.44 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41468a7a-8fee-4a64-912b-83886e01a707")
-		)
-		(pin "2"
-			(uuid "85637fd6-1e36-4748-8eff-64add604dbec")
-		)
-		(pin "3"
-			(uuid "4b63c1cc-b850-4380-b4e2-4b648cb5ab4c")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/f2001c80-46dc-4a07-aa46-bcfa566b6261/cf0143d0-3794-48a6-b686-53ce9a31721c"
-					(reference "J607")
-					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(in_bom no)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 97.79 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -2887,7 +1263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8cc310c0-4230-4cd8-8ce6-3435bd911314")
+		(uuid "ba6a4541-f8c0-437a-baf6-5f417b1b2965")
 		(property "Reference" "J601"
 			(at 99.06 63.5 0)
 			(show_name no)
@@ -2898,7 +1274,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Counter_Clockwise"
+		(property "Value" "Conn_02x05_Odd_Even"
 			(at 99.06 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2930,7 +1306,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 97.79 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2940,58 +1316,36 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "KLC_S3.3" ""
-			(at 97.79 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 97.79 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "10979e8c-b1ef-453d-83f6-b3fbd6e8f547")
-		)
-		(pin "9"
-			(uuid "b2baa52e-ca1f-4ee8-a1ff-722c3559a54a")
-		)
-		(pin "3"
-			(uuid "198b536f-6170-4e4d-aca8-9df20135fe6d")
-		)
-		(pin "2"
-			(uuid "c98d23e7-dafd-4106-8c27-b2741b60ad4d")
-		)
-		(pin "1"
-			(uuid "91c81584-f5d4-44a8-9164-0305d3dd1f43")
-		)
-		(pin "4"
-			(uuid "987d8d0e-d576-413c-bf94-040fb5f040bb")
-		)
-		(pin "7"
-			(uuid "1ec9e9ba-1027-4c15-ae17-a5a05f5c260b")
 		)
 		(pin "8"
-			(uuid "ced31dcd-0787-411d-afa4-be493f7774b9")
+			(uuid "51219f00-18c7-4c1e-84e7-815945d7f5f1")
+		)
+		(pin "7"
+			(uuid "675b5e57-6c92-4c65-ac0e-25f46f2a601a")
+		)
+		(pin "9"
+			(uuid "4a564ae3-b2c8-4f70-88e7-380d116dee48")
 		)
 		(pin "6"
-			(uuid "27cbd3c5-64c6-426d-a3d6-34c653061bc2")
+			(uuid "571a1c88-7a03-4833-a9db-a4656d78a369")
+		)
+		(pin "10"
+			(uuid "ba66c86e-a58c-4ebc-8f86-4ba7fb519704")
 		)
 		(pin "5"
-			(uuid "6ff9389e-e835-41da-a0bd-47409a0aec7d")
+			(uuid "3a195d24-6771-4d97-a402-4f308a72eed3")
+		)
+		(pin "2"
+			(uuid "f8a36dc6-2aa6-47b8-9da8-2334b19bc299")
+		)
+		(pin "3"
+			(uuid "49864577-d2cb-4df1-a936-ffbab46f6989")
+		)
+		(pin "1"
+			(uuid "d9eabf19-d9a2-4858-b470-1f7135b192d9")
+		)
+		(pin "4"
+			(uuid "f2a3501e-e722-4731-bc9f-9a1acaa4319c")
 		)
 		(instances
 			(project "cnc_mainboard"
@@ -3000,7 +1354,10 @@
 					(unit 1)
 					(variant
 						(name "GD32F103RCT6")
-						(in_bom no)
+						(field
+							(name "Footprint")
+							(value "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical")
+						)
 						(field
 							(name "Value")
 							(value "EXP1")
@@ -3011,340 +1368,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 186.69 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "952ed0ac-e2d6-475c-85de-517752488086")
-		(property "Reference" "J605"
-			(at 189.23 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 189.23 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
-			(at 186.69 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 186.69 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 186.69 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22413a87-3764-4701-8243-f0973c8ac6ca")
-		)
-		(pin "2"
-			(uuid "2bc825e2-736c-4f49-8b0f-9c9e18ac6b26")
-		)
-		(pin "3"
-			(uuid "151cd73b-9252-4748-8297-36be0eb0db27")
-		)
-		(pin "4"
-			(uuid "d2fa9213-7806-4141-b517-985d83e554c4")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/f2001c80-46dc-4a07-aa46-bcfa566b6261/cf0143d0-3794-48a6-b686-53ce9a31721c"
-					(reference "J605")
-					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(in_bom no)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 218.44 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a7742b69-074d-4bb9-98b7-086eff5b47db")
-		(property "Reference" "J608"
-			(at 220.98 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 220.98 93.9799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 218.44 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 218.44 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 218.44 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 218.44 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0336281f-ef7f-43be-ac84-8d57e76a39e5")
-		)
-		(pin "2"
-			(uuid "44639087-48b3-4fcd-b39e-5463dd23a3c1")
-		)
-		(pin "3"
-			(uuid "4c0a2236-36d9-442a-8bf2-8408178bfa20")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/f2001c80-46dc-4a07-aa46-bcfa566b6261/cf0143d0-3794-48a6-b686-53ce9a31721c"
-					(reference "J608")
-					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(in_bom no)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 218.44 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b07f65bc-8cc0-4b9b-9709-1d5410095c7d")
-		(property "Reference" "J609"
-			(at 220.98 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 220.98 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 218.44 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 218.44 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 218.44 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 218.44 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5bd6131-defa-4a2e-8804-8def0fc59203")
-		)
-		(pin "2"
-			(uuid "3f9691f7-e5db-4d8c-a96d-1368f4f05a44")
-		)
-		(pin "3"
-			(uuid "fd2588d1-d4eb-4f70-8781-6e5d0b1a4286")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/f2001c80-46dc-4a07-aa46-bcfa566b6261/cf0143d0-3794-48a6-b686-53ce9a31721c"
-					(reference "J609")
-					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(in_bom no)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
 		(at 144.78 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -3354,7 +1378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb6f08fe-d4bb-4400-8f53-e5a68392dbcb")
+		(uuid "c33a6fa4-a78f-46df-94bd-7be66d52c202")
 		(property "Reference" "J603"
 			(at 146.05 78.74 0)
 			(show_name no)
@@ -3365,7 +1389,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Counter_Clockwise"
+		(property "Value" "Conn_02x04_Odd_Even"
 			(at 146.05 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3397,7 +1421,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 144.78 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3407,52 +1431,30 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "KLC_S3.3" ""
-			(at 144.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 144.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "def2d827-1009-42d5-9d9d-858cdefdaecb")
-		)
-		(pin "6"
-			(uuid "d3bf95f2-f14c-4aa2-97ae-b079eef61c3d")
-		)
-		(pin "3"
-			(uuid "e0f9bfc8-dc1a-4594-9ecd-a4389fc7ddc8")
-		)
-		(pin "2"
-			(uuid "326ad5a9-0f55-4b8c-95d5-0bcfd4c6f2bd")
-		)
-		(pin "7"
-			(uuid "552bf963-d366-4f38-9946-ecc2079556d4")
-		)
-		(pin "4"
-			(uuid "89bd54b3-da19-429f-afa5-1b545c92220e")
-		)
-		(pin "5"
-			(uuid "49733521-f710-42b1-a1f0-7324964aee15")
 		)
 		(pin "8"
-			(uuid "361ffce9-bb22-4cd5-b2fe-19bbcb474516")
+			(uuid "3873b1f6-5895-4e97-8c1e-badb04438afa")
+		)
+		(pin "6"
+			(uuid "01725b62-125f-4a34-9588-dfbd9dcceb79")
+		)
+		(pin "5"
+			(uuid "085ddf4c-a9ad-477d-86d1-3b7eaf5356db")
+		)
+		(pin "4"
+			(uuid "822d2855-bb98-4318-88af-9f2bf2604c96")
+		)
+		(pin "3"
+			(uuid "31969e04-a4e0-4c8b-8975-2411a0e5fcb5")
+		)
+		(pin "7"
+			(uuid "38ce78bd-2873-4122-8435-99433839d194")
+		)
+		(pin "1"
+			(uuid "1ef8d690-eec7-4a0f-9097-c1992222afa2")
+		)
+		(pin "2"
+			(uuid "e3671dcb-9241-4579-bf6c-cbb1d7554bbe")
 		)
 		(instances
 			(project "cnc_mainboard"
@@ -3461,7 +1463,10 @@
 					(unit 1)
 					(variant
 						(name "GD32F103RCT6")
-						(in_bom no)
+						(field
+							(name "Footprint")
+							(value "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+						)
 						(field
 							(name "Value")
 							(value "AUX4")

@@ -1124,7 +1124,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1144,7 +1144,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x04_Counter_Clockwise"
+			(property "Value" "Conn_02x04_Odd_Even"
 				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1176,7 +1176,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1209,7 +1209,7 @@
 					)
 				)
 			)
-			(symbol "Conn_02x04_Counter_Clockwise_1_1"
+			(symbol "Conn_02x04_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 3.81 -6.35)
@@ -1328,7 +1328,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1346,7 +1346,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1364,7 +1364,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1382,7 +1382,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1418,7 +1418,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1436,7 +1436,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1456,7 +1456,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x05_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1476,7 +1476,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x05_Counter_Clockwise"
+			(property "Value" "Conn_02x05_Odd_Even"
 				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1508,7 +1508,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1541,7 +1541,7 @@
 					)
 				)
 			)
-			(symbol "Conn_02x05_Counter_Clockwise_1_1"
+			(symbol "Conn_02x05_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 6.35)
 					(end 3.81 -6.35)
@@ -1682,7 +1682,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1700,7 +1700,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1718,7 +1718,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1736,7 +1736,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1754,7 +1754,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1772,7 +1772,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1790,7 +1790,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1808,7 +1808,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -1826,7 +1826,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -5108,134 +5108,6 @@
 		(uuid "ff09e160-55ef-4e98-9f96-8bebff257f4c")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 92.71 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "149c42e3-71dc-4867-a3ac-ffea2f824a17")
-		(property "Reference" "J303"
-			(at 93.98 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 93.98 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 92.71 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 92.71 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 92.71 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40c78e99-f10e-47cb-88b8-0c608c851eac")
-		)
-		(pin "6"
-			(uuid "30a41ef4-5c5b-4040-a3b1-450a59ab063b")
-		)
-		(pin "3"
-			(uuid "42d0c724-82c1-410d-9f8c-3b4a835d1da8")
-		)
-		(pin "2"
-			(uuid "f0768a81-6b2c-4e32-9e7e-3855b2abe7db")
-		)
-		(pin "7"
-			(uuid "f9ff3f40-f54d-4f83-82f9-7deee878e287")
-		)
-		(pin "4"
-			(uuid "9b9a3dfa-7869-46db-bf40-a42bdee8e929")
-		)
-		(pin "5"
-			(uuid "b627254f-e6b0-4f0a-9af8-083cdbde66ca")
-		)
-		(pin "8"
-			(uuid "cbf9c690-e358-409f-8de5-3265b571aa17")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J303")
-					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(in_bom no)
-						(field
-							(name "Value")
-							(value "AUX1")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 182.88 148.59 0)
 		(unit 1)
@@ -5665,8 +5537,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
-		(at 45.72 91.44 0)
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 92.71 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5675,9 +5547,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6781a98c-bb80-413a-abc0-a26afcdb6b85")
-		(property "Reference" "J302"
-			(at 46.99 80.01 0)
+		(uuid "65f0fb8f-a7d7-4131-80af-51190a430969")
+		(property "Reference" "J303"
+			(at 93.98 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5686,142 +5558,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Counter_Clockwise"
-			(at 46.99 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
-			(at 45.72 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 45.72 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 45.72 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 45.72 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "81e2feb6-7e89-4f2a-8852-3d8cca60a902")
-		)
-		(pin "9"
-			(uuid "c4374c8a-2e10-42c8-9349-c18f7ffa3b41")
-		)
-		(pin "3"
-			(uuid "c1328476-297b-40f8-b175-12749ab16f11")
-		)
-		(pin "2"
-			(uuid "550b5382-9b2a-400e-9805-8a502c40bfdf")
-		)
-		(pin "1"
-			(uuid "548fd3b3-0346-4299-ac1e-2e21915281b1")
-		)
-		(pin "4"
-			(uuid "41c4fe32-c629-4b35-9b10-a4c210b79d6f")
-		)
-		(pin "7"
-			(uuid "0ac0b02b-4977-4d69-a396-3c5d23370a50")
-		)
-		(pin "8"
-			(uuid "1e581aa9-d83f-4092-940a-0e2445f120d3")
-		)
-		(pin "6"
-			(uuid "c5d359b4-284a-4d01-9825-1ca5ece544f0")
-		)
-		(pin "5"
-			(uuid "ed15bd5b-0c86-40ab-a35f-bc99c0d74ee5")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J302")
-					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(in_bom no)
-						(field
-							(name "Value")
-							(value "EXP2")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 92.71 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78d2080b-a010-4fb4-9e5b-8d50d5c453e6")
-		(property "Reference" "J306"
-			(at 93.98 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 93.98 120.65 0)
+		(property "Value" "Conn_02x04_Odd_Even"
+			(at 93.98 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5831,7 +5569,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 92.71 127 0)
+			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5842,7 +5580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 127 0)
+			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5852,8 +5590,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 127 0)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5862,64 +5600,45 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "KLC_S3.3" ""
-			(at 92.71 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 92.71 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e82888d6-e732-41b9-b07b-d680ac988ee9")
-		)
-		(pin "6"
-			(uuid "a0e7ea8a-d688-4f22-9a45-4ffb1e525ba2")
-		)
-		(pin "3"
-			(uuid "ee2338f9-1c77-4d09-ba98-da60d88e0182")
-		)
-		(pin "2"
-			(uuid "032631f6-f8f3-4a65-88a1-72c9391ac09a")
-		)
-		(pin "7"
-			(uuid "47287fa7-cf81-4fda-8722-ada721951ab0")
-		)
-		(pin "4"
-			(uuid "349c266c-973d-4345-8bce-a7f1077f4d06")
-		)
-		(pin "5"
-			(uuid "af01a9cd-8968-4b31-8d52-e98db8039449")
 		)
 		(pin "8"
-			(uuid "9c20160c-45bf-49d6-8a10-dc464366792d")
+			(uuid "2a602fd2-37d8-4b4b-a074-dbc3f712cc4d")
+		)
+		(pin "6"
+			(uuid "24ceff9b-6fe0-46a4-8fe7-f348ff6f18b7")
+		)
+		(pin "5"
+			(uuid "5d79ef12-5227-41e4-8f74-58e0cbcfca73")
+		)
+		(pin "4"
+			(uuid "e32c190d-940e-442a-a956-fa7f67dd5a32")
+		)
+		(pin "3"
+			(uuid "67adca70-540d-4ff9-8703-aee7c3725c83")
+		)
+		(pin "7"
+			(uuid "85a3641e-5c31-492e-98d4-c3ac94e3c882")
+		)
+		(pin "1"
+			(uuid "2711fc20-ff7e-43ab-828d-e886a4bd7ac6")
+		)
+		(pin "2"
+			(uuid "e928a7d3-c085-419f-b5dd-1790d5719690")
 		)
 		(instances
 			(project "cnc_mainboard"
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J306")
+					(reference "J303")
 					(unit 1)
 					(variant
 						(name "GD32F103RCT6")
-						(in_bom no)
+						(field
+							(name "Footprint")
+							(value "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+						)
 						(field
 							(name "Value")
-							(value "AUX4")
+							(value "AUX1")
 						)
 					)
 				)
@@ -6245,140 +5964,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
-		(at 45.72 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a383512a-fb95-4f73-be1d-aef14e2a585f")
-		(property "Reference" "J301"
-			(at 46.99 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x05_Counter_Clockwise"
-			(at 46.99 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
-			(at 45.72 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 45.72 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 45.72 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 45.72 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "70a7f288-c5d8-412a-830b-345c12dd2bd2")
-		)
-		(pin "9"
-			(uuid "53bb9bd2-475f-4715-a676-aa0c7666bacf")
-		)
-		(pin "3"
-			(uuid "edb4e738-55c6-455d-9859-c5c9b0703f62")
-		)
-		(pin "2"
-			(uuid "b7d05fc6-784b-470d-b301-62d689ad5b75")
-		)
-		(pin "1"
-			(uuid "6cf63250-382b-4b29-bd9f-65a9b40171e1")
-		)
-		(pin "4"
-			(uuid "776cf963-ffca-4123-ba8c-8163ac7e9dbf")
-		)
-		(pin "7"
-			(uuid "2d9a1603-672d-4b1b-b811-64357e07fff2")
-		)
-		(pin "8"
-			(uuid "8548abeb-88cc-4e1b-89b9-d2643015b30f")
-		)
-		(pin "6"
-			(uuid "5b7d612a-bf55-4cac-b142-631badcb37c9")
-		)
-		(pin "5"
-			(uuid "18281035-5e73-4d33-81a6-16ca8225c8be")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J301")
-					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(in_bom no)
-						(field
-							(name "Value")
-							(value "EXP1")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 134.62 68.58 0)
 		(unit 1)
@@ -6605,6 +6190,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 92.71 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b622b11a-246e-458a-9566-c5cdef2d4edb")
+		(property "Reference" "J306"
+			(at 93.98 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x04_Odd_Even"
+			(at 93.98 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 92.71 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 92.71 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "fc3d1c80-69e2-4256-9377-f28f75aa7c0a")
+		)
+		(pin "6"
+			(uuid "e7ec3274-9ffd-41ce-a430-200fbf1cf933")
+		)
+		(pin "5"
+			(uuid "ef85a028-d523-4110-a90c-858330756db1")
+		)
+		(pin "4"
+			(uuid "c8f33da3-b7cd-43f2-9b9c-6737a66f1969")
+		)
+		(pin "3"
+			(uuid "bed042e3-82fa-4682-8272-b41829d49677")
+		)
+		(pin "7"
+			(uuid "0e7fcdb7-5709-48be-9772-41f729788821")
+		)
+		(pin "1"
+			(uuid "eb0f6417-bcc1-4dc9-a19d-0b879c55669c")
+		)
+		(pin "2"
+			(uuid "b5797894-d0ba-4e56-9d43-426e60fd4f5b")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
+					(reference "J306")
+					(unit 1)
+					(variant
+						(name "GD32F103RCT6")
+						(field
+							(name "Footprint")
+							(value "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+						)
+						(field
+							(name "Value")
+							(value "AUX4")
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 195.58 148.59 0)
 		(unit 1)
@@ -6704,134 +6398,6 @@
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
 					(reference "C302")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 92.71 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba8ae7a7-8c93-4554-9e23-4e62d4a49908")
-		(property "Reference" "J304"
-			(at 93.98 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 93.98 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 92.71 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 92.71 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 92.71 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1fa77f9-fe7a-41d4-9eda-a9995eef970a")
-		)
-		(pin "6"
-			(uuid "324e41d9-6b55-42cc-ad9e-82d5d8214ce9")
-		)
-		(pin "3"
-			(uuid "3d1ee283-8e15-4bd5-bd66-69e9f9464896")
-		)
-		(pin "2"
-			(uuid "baf38ce3-702a-45b0-97e4-92610839e378")
-		)
-		(pin "7"
-			(uuid "8bd177d8-beac-4f96-bf57-c67acc54ba5c")
-		)
-		(pin "4"
-			(uuid "156209ad-d5bd-4813-9486-f02ee96a542c")
-		)
-		(pin "5"
-			(uuid "ea51ec9e-8505-4681-8a9c-f5c8bf8133a4")
-		)
-		(pin "8"
-			(uuid "901dbb5e-ed1c-40b3-b8ab-5b42083a55a5")
-		)
-		(instances
-			(project "cnc_mainboard"
-				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
-					(reference "J304")
-					(unit 1)
-					(variant
-						(name "GD32F103RCT6")
-						(in_bom no)
-						(field
-							(name "Value")
-							(value "AUX2")
-						)
-					)
 				)
 			)
 		)
@@ -7040,6 +6606,115 @@
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
 					(reference "C303")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 92.71 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d460a5e6-35d4-45cd-b3ba-e12daabd1390")
+		(property "Reference" "J304"
+			(at 93.98 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x04_Odd_Even"
+			(at 93.98 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 92.71 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 92.71 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "a9cc05a7-505b-44cb-8c04-17c8bd84d644")
+		)
+		(pin "6"
+			(uuid "63ed1f3f-90e3-47db-97c3-9eba0c7cd33a")
+		)
+		(pin "5"
+			(uuid "36f56112-9cd3-4720-8476-6971e8037bba")
+		)
+		(pin "4"
+			(uuid "1f31b9fb-3961-4543-9183-e453588651cb")
+		)
+		(pin "3"
+			(uuid "98e3cd42-5251-45fb-9565-3ce5394fe3d1")
+		)
+		(pin "7"
+			(uuid "3a1ba31e-210c-46ec-a9ad-98758956cf36")
+		)
+		(pin "1"
+			(uuid "7fed4902-d538-4cb5-a720-f0b59982a75b")
+		)
+		(pin "2"
+			(uuid "fd243fb0-c245-41b7-abf9-462b16ac928a")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
+					(reference "J304")
+					(unit 1)
+					(variant
+						(name "GD32F103RCT6")
+						(field
+							(name "Footprint")
+							(value "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+						)
+						(field
+							(name "Value")
+							(value "AUX2")
+						)
+					)
 				)
 			)
 		)
@@ -7272,6 +6947,121 @@
 					(variant
 						(name "GD32F103RCT6")
 						(in_bom no)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
+		(at 45.72 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc91f492-aab7-44b5-9588-f1dae85882c1")
+		(property "Reference" "J301"
+			(at 46.99 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x05_Odd_Even"
+			(at 46.99 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+			(at 45.72 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 45.72 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "f80e9436-a39d-4ee4-85a0-6f508698bf32")
+		)
+		(pin "7"
+			(uuid "04c0d2b5-b116-4ca6-876a-b0d3cca9ce6b")
+		)
+		(pin "9"
+			(uuid "48201b41-2f47-417c-87c1-897502ae5bff")
+		)
+		(pin "6"
+			(uuid "4a7b6fa0-f535-4800-80cc-af76490ff6dc")
+		)
+		(pin "10"
+			(uuid "8a8acd3d-05e3-4cd8-a53a-fb11dee29375")
+		)
+		(pin "5"
+			(uuid "4f664157-ddf9-4dd4-af0f-c6d63f52cf9f")
+		)
+		(pin "2"
+			(uuid "027b728f-47c7-405b-8c3f-fc67ac77198d")
+		)
+		(pin "3"
+			(uuid "f61aed0a-903c-43be-992d-d25ddf0730b3")
+		)
+		(pin "1"
+			(uuid "463e89c4-6ac6-42e7-a3e0-dcc27990ca95")
+		)
+		(pin "4"
+			(uuid "33ac0ad8-87f7-4943-9c43-988867ce2cdc")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
+					(reference "J301")
+					(unit 1)
+					(variant
+						(name "GD32F103RCT6")
+						(field
+							(name "Footprint")
+							(value "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical")
+						)
+						(field
+							(name "Value")
+							(value "EXP1")
+						)
 					)
 				)
 			)
@@ -7609,6 +7399,121 @@
 				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
 					(reference "JP301")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
+		(at 45.72 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fae7fd13-8b97-46b1-8e09-58a4f6099a43")
+		(property "Reference" "J302"
+			(at 46.99 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x05_Odd_Even"
+			(at 46.99 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+			(at 45.72 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 45.72 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "0e623e20-03cf-46e3-9430-9562a75ac925")
+		)
+		(pin "7"
+			(uuid "bb98d679-b654-4a4a-9a5c-2fc06a756e88")
+		)
+		(pin "9"
+			(uuid "bac639a6-9017-4764-b97b-434b4b771724")
+		)
+		(pin "6"
+			(uuid "e010c62c-edc3-4f91-992c-94d80fecf868")
+		)
+		(pin "10"
+			(uuid "8056b975-453b-4897-8eb7-de10c0f0e20a")
+		)
+		(pin "5"
+			(uuid "7be29393-0141-44f2-acd7-5d1cd0f57b89")
+		)
+		(pin "2"
+			(uuid "242cab0c-dd79-4de4-be30-d161fd962b9d")
+		)
+		(pin "3"
+			(uuid "56eb5583-997c-4bf9-bbc3-c52b47a9efcd")
+		)
+		(pin "1"
+			(uuid "3f1d9324-52f4-4e62-b2b9-8c348b44d51d")
+		)
+		(pin "4"
+			(uuid "42877ae3-20b4-4ed7-8c8b-c65863d2bcc3")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891/5559119d-2f78-4b6a-ba5e-cf82dc0f96d5/1f4c0b9f-5bf8-4b5d-8399-924bb84e544e"
+					(reference "J302")
+					(unit 1)
+					(variant
+						(name "GD32F103RCT6")
+						(field
+							(name "Footprint")
+							(value "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical")
+						)
+						(field
+							(name "Value")
+							(value "EXP2")
+						)
+					)
 				)
 			)
 		)

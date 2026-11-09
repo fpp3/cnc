@@ -1453,10 +1453,6 @@
 		(at 92.71 100.33)
 		(uuid "b345ec3a-e716-4ac9-af25-221c5cfbc539")
 	)
-	(no_connect
-		(at 139.7 92.71)
-		(uuid "b9573ce4-eb1b-4d3a-9c63-6db1dfe4620f")
-	)
 	(wire
 		(pts
 			(xy 179.07 92.71) (xy 181.61 92.71)
@@ -2041,6 +2037,17 @@
 		)
 		(uuid "5156e444-172a-469d-9dda-eaa2277b61b3")
 	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 156.21 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54195122-e932-461b-b5a2-4b8ee4497902")
+	)
 	(hierarchical_label "Y_EN"
 		(shape input)
 		(at 179.07 97.79 180)
@@ -2140,6 +2147,17 @@
 		)
 		(uuid "8d742cbc-0051-467e-ae59-3f34c20114fd")
 	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 139.7 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c36aecd-0b3d-4eca-b0f4-57dcb1ae0cd8")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 210.82 110.49 180)
@@ -2161,17 +2179,6 @@
 			(justify right)
 		)
 		(uuid "ba69aed2-03a6-4f3e-8858-8b0ad9c08123")
-	)
-	(hierarchical_label "UART_TX"
-		(shape input)
-		(at 156.21 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c1661df6-f5a3-4985-80ce-f766bfbabbdb")
 	)
 	(hierarchical_label "+3V3"
 		(shape input)

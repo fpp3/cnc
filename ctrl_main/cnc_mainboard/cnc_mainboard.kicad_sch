@@ -11,22 +11,457 @@
 		(comment 2 "Franco Palombo")
 		(comment 3 "Angelo Prieto")
 	)
-	(lib_symbols)
-	(no_connect
-		(at 142.24 71.12)
-		(uuid "01eca95b-f9ad-42f1-8b6d-ca474a2b8e02")
-	)
-	(no_connect
-		(at 142.24 83.82)
-		(uuid "07e408d5-b924-43a8-a3ad-c47a9cbcfa61")
-	)
-	(no_connect
-		(at 142.24 68.58)
-		(uuid "0f78073c-93e6-414d-b00a-bce7ded1a912")
-	)
-	(no_connect
-		(at 142.24 58.42)
-		(uuid "15d79b5f-addb-4c2c-9403-5c395196f254")
+	(lib_symbols
+		(symbol "Samacsys:PH1-16-UA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PH1-16-UA"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Samacsys:HDRV16W64P0X254_1X16_4064X250X847P"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.arrow.com/en/products/ph1-16-ua/adam-tech"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Conn Unshrouded Header HDR 14 POS 2.54mm Solder ST Top Entry Thru-Hole Bag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "8.469"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Adam Tech"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PH1-16-UA"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "737-PH1-16-UA"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/PH1-16-UA?qs=HoCaDK9Nz5fBNONrMDWJKA%3D%3D"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "PH1-16-UA"
+				(at 16.51 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "null?region=nac"
+				(at 16.51 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "PH1-16-UA_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -40.64)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(no_connect
 		(at 142.24 119.38)
@@ -45,32 +480,12 @@
 		(uuid "32383f7d-e12a-4c53-8a7a-879ac122d7d2")
 	)
 	(no_connect
-		(at 142.24 66.04)
-		(uuid "33f6ec04-5344-4c3c-8841-a3d7a48d99cb")
-	)
-	(no_connect
-		(at 142.24 86.36)
-		(uuid "42e104b1-8ad3-4407-ba91-e67f46015f4b")
-	)
-	(no_connect
-		(at 142.24 53.34)
-		(uuid "445daabb-3e7a-4f7f-a8f6-db7ce57cb450")
-	)
-	(no_connect
 		(at 142.24 116.84)
 		(uuid "48610db2-d3b5-4f4c-9b72-f4235a3bf159")
 	)
 	(no_connect
-		(at 142.24 50.8)
-		(uuid "4a912815-d225-4d47-b8b9-935b4f8a052b")
-	)
-	(no_connect
 		(at 142.24 121.92)
 		(uuid "5e2cfa21-d1d1-4848-a569-4ab5d468113e")
-	)
-	(no_connect
-		(at 142.24 60.96)
-		(uuid "67862d0f-124f-421c-9d59-a83f208e9105")
 	)
 	(no_connect
 		(at 142.24 147.32)
@@ -85,10 +500,6 @@
 		(uuid "90de4837-202a-4319-864b-40f879264a10")
 	)
 	(no_connect
-		(at 142.24 88.9)
-		(uuid "971f35e1-6863-47c2-8396-4ca81dbd45bb")
-	)
-	(no_connect
 		(at 142.24 137.16)
 		(uuid "9e515445-8313-4648-baaf-2a15e6a18432")
 	)
@@ -97,24 +508,8 @@
 		(uuid "a36476c5-73f4-4c9d-9a65-dec6c214876e")
 	)
 	(no_connect
-		(at 142.24 76.2)
-		(uuid "ad8910a8-6126-4d9e-a627-3f782aff8cfc")
-	)
-	(no_connect
-		(at 142.24 78.74)
-		(uuid "ba5dce97-f61d-41b3-8623-42f332d27cd7")
-	)
-	(no_connect
-		(at 142.24 55.88)
-		(uuid "cdd3ced7-19ff-4b78-aa53-79ef770d564e")
-	)
-	(no_connect
 		(at 142.24 132.08)
 		(uuid "d158a548-fda7-48a2-ae63-a400e4a8019f")
-	)
-	(no_connect
-		(at 142.24 81.28)
-		(uuid "d360d3cd-52b9-4bbc-9ac5-6ae4a51e22bc")
 	)
 	(no_connect
 		(at 142.24 134.62)
@@ -129,16 +524,217 @@
 		(uuid "dfa19835-8904-441d-8c45-d070e0aa4760")
 	)
 	(no_connect
-		(at 142.24 63.5)
-		(uuid "e30478f2-16b6-461a-b049-03a102c13a53")
-	)
-	(no_connect
-		(at 142.24 73.66)
-		(uuid "e7dd11ae-0a04-45e5-9698-8dce8514be0d")
-	)
-	(no_connect
 		(at 142.24 129.54)
 		(uuid "fb9cc8c1-b838-4d89-ba15-9247cdb961af")
+	)
+	(symbol
+		(lib_id "Samacsys:PH1-16-UA")
+		(at 142.24 50.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72c48373-c034-455c-8872-ce63e91332be")
+		(property "Reference" "J101"
+			(at 132.08 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PH1-16-UA"
+			(at 132.08 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:HDRV16W64P0X254_1X16_4064X250X847P"
+			(at 125.73 145.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/ph1-16-ua/adam-tech"
+			(at 125.73 245.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Conn Unshrouded Header HDR 14 POS 2.54mm Solder ST Top Entry Thru-Hole Bag"
+			(at 142.24 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.469"
+			(at 125.73 445.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Adam Tech"
+			(at 125.73 545.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-16-UA"
+			(at 125.73 645.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "737-PH1-16-UA"
+			(at 125.73 745.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/PH1-16-UA?qs=HoCaDK9Nz5fBNONrMDWJKA%3D%3D"
+			(at 125.73 845.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "PH1-16-UA"
+			(at 125.73 945.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "null?region=nac"
+			(at 125.73 1045.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "10"
+			(uuid "a4d38d73-ceaa-4f04-bab0-d2652575d3b1")
+		)
+		(pin "16"
+			(uuid "2a98f828-2f0b-4e88-99c1-3185f40650d9")
+		)
+		(pin "9"
+			(uuid "2c3afbea-154f-4a07-bde8-dd2cf4f9241f")
+		)
+		(pin "4"
+			(uuid "f6125f9e-7ad0-440d-a0fd-7544e82d0b83")
+		)
+		(pin "14"
+			(uuid "4c0853d8-2f16-4864-ba76-8b1916439609")
+		)
+		(pin "8"
+			(uuid "9b76c80c-eba4-479e-a00e-92d487f704a6")
+		)
+		(pin "13"
+			(uuid "3121a0cf-aafe-4dc6-8b3d-7117a92fd730")
+		)
+		(pin "6"
+			(uuid "65db4834-a86b-4d53-ad33-8ac463295d92")
+		)
+		(pin "2"
+			(uuid "e5a434cd-a9a0-4f75-8f5c-2edbf3856415")
+		)
+		(pin "1"
+			(uuid "06eeda19-4c41-43c8-abf5-9b04f8421f17")
+		)
+		(pin "15"
+			(uuid "f8cd187a-e3d2-42a5-9662-7f541ee41918")
+		)
+		(pin "7"
+			(uuid "76e12f7f-872a-4596-8f72-48248350cf2e")
+		)
+		(pin "5"
+			(uuid "b232d471-240c-4cc6-ac4c-ec508f27e430")
+		)
+		(pin "12"
+			(uuid "67515385-24ba-44b7-b35f-5681504d2d7c")
+		)
+		(pin "11"
+			(uuid "a32e9081-a9ec-4cdf-af3d-b6209a67cbdd")
+		)
+		(pin "3"
+			(uuid "143533d2-6025-4527-bf7f-a89ec245de58")
+		)
+		(instances
+			(project "cnc_mainboard"
+				(path "/babe01e8-b5e3-4e64-9941-eb5b274d4891"
+					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 142.24 105.41)

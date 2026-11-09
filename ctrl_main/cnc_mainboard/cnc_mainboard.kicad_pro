@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 1.0,
+          "height": 2.0,
+          "width": 3.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -140,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.3,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -203,7 +209,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.4,
+        0.8,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +241,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -691,7 +711,7 @@
         "uuid": "babe01e8-b5e3-4e64-9941-eb5b274d4891"
       }
     ],
-    "used_designators": "SW1,SW201,SW501,J1-3,J201-207,J301-314,J501-502,J601-614,#PWR1-16,#PWR201-239,#PWR301-315,Y1-2,Y201-202,Y501-502,JP301,JP601,R1-3,R201-210,R301-305,R501-510,R601-604,D1-2,D201-208,D501-507,C1-8,C201-220,C301-303,C501-520,C601-603,U1-5,U201-203,U301,U501-503,U601",
+    "used_designators": "SW1,SW201,SW501,J1-3,J101,J201-207,J301-314,J501-502,J601-614,#PWR1-16,#PWR201-239,#PWR301-315,Y1-2,Y201-202,Y501-502,JP301,JP601,R1-3,R201-210,R301-305,R501-510,R601-604,D1-2,D201-208,D501-507,C1-8,C201-220,C301-303,C501-520,C601-603,U1-5,U201-203,U301,U501-503,U601",
     "variants": [
       {
         "name": "GD32F103RCT6"

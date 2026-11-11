@@ -3396,6 +3396,14 @@
 		(at 149.86 78.74)
 		(uuid "3d6870a3-db2c-44a1-9151-5e8ebdb85723")
 	)
+	(no_connect
+		(at 228.6 77.47)
+		(uuid "93e4fc5b-53f7-4c59-b3a2-7f6e847e8c3f")
+	)
+	(no_connect
+		(at 228.6 80.01)
+		(uuid "c3a336cb-ec65-4b06-a498-e39f872e6472")
+	)
 	(wire
 		(pts
 			(xy 43.18 72.39) (xy 43.18 66.04)
@@ -3435,16 +3443,6 @@
 			(type default)
 		)
 		(uuid "73c9c1e5-c49f-40b6-9fbd-131dc171a23f")
-	)
-	(wire
-		(pts
-			(xy 149.86 76.2) (xy 162.56 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a86fd3b-e990-42fc-bdeb-298ad30c151b")
 	)
 	(wire
 		(pts
@@ -3576,16 +3574,6 @@
 		)
 		(uuid "1413e9ea-3810-46f8-bbbb-b41c4885e4ed")
 	)
-	(label "Z_EN"
-		(at 162.56 76.2 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b8aab14-0cdc-408b-aaf7-0022591f3854")
-	)
 	(label "Z_ES"
 		(at 223.1459 22.9235 180)
 		(effects
@@ -3676,16 +3664,6 @@
 		)
 		(uuid "449a761f-dfd8-437a-9d0e-bd8e6ec1c93a")
 	)
-	(label "X_EN"
-		(at 157.48 76.2 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4cf15158-a22f-4176-99ee-73f01d81edde")
-	)
 	(label "EN"
 		(at 62.23 26.67 180)
 		(effects
@@ -3706,7 +3684,7 @@
 		)
 		(uuid "59a96203-0bb2-495d-8aee-60fa36165fbc")
 	)
-	(label "X_EN"
+	(label "EN_3V3"
 		(at 228.6 74.93 0)
 		(effects
 			(font
@@ -3725,16 +3703,6 @@
 			(justify left bottom)
 		)
 		(uuid "63e05c1d-c241-4546-8263-662b23eb180c")
-	)
-	(label "Y_EN"
-		(at 228.6 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "662d877c-c214-454a-a5f0-2110e282cf03")
 	)
 	(label "DIR_Y_3V3"
 		(at 228.6 90.17 0)
@@ -3765,6 +3733,16 @@
 			(justify right bottom)
 		)
 		(uuid "704fbd1f-4bc8-4874-b35e-3787d64ce198")
+	)
+	(label "EN_3V3"
+		(at 149.86 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "728e1c3c-420f-4544-82fb-09cc056f734d")
 	)
 	(label "STEP_X"
 		(at 22.86 21.59 180)
@@ -3846,16 +3824,6 @@
 		)
 		(uuid "a00259af-a6e4-47bf-a40f-c02cb2b215a8")
 	)
-	(label "Y_EN"
-		(at 160.02 76.2 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a12e6dc1-83fd-46c0-b006-6620d82665c4")
-	)
 	(label "DIR_Z"
 		(at 149.86 83.82 0)
 		(effects
@@ -3925,16 +3893,6 @@
 			(justify left bottom)
 		)
 		(uuid "cb7abf5c-adda-4754-9de5-30ec93a70f11")
-	)
-	(label "Z_EN"
-		(at 228.6 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d0d17a0e-2453-4f6d-95ca-6f7f49f15a1d")
 	)
 	(label "STEP_Z_3V3"
 		(at 228.6 82.55 0)

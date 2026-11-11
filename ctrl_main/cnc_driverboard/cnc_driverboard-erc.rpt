@@ -1,31 +1,49 @@
-ERC report (2026-11-10T13:54:13, Encoding UTF8)
+ERC report (2026-11-11T10:15:49, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(69.85 mm, 184.15 mm): Symbol #PWR011 Pin 1 [Power input, Line]
+    @(34.29 mm, 158.75 mm): Symbol U2 Pin 2 [IN+, Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(76.20 mm, 35.56 mm): Symbol U1 Pin 16 [VMOT, Power input, Line]
+    @(44.45 mm, 24.13 mm): Symbol #PWR01 Pin 1 [Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(147.32 mm, 133.35 mm): Symbol #PWR043 Pin 1 [Power input, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(266.70 mm, 105.41 mm): Symbol U5 Pin 9 [A8, Bidirectional, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(266.70 mm, 118.11 mm): Symbol U5 Pin 11 [B8, Bidirectional, Line]
+    @(172.72 mm, 22.86 mm): Symbol #PWR04 Pin 1 [Power input, Line]
 [label_dangling]: Label not connected
     ; error
     @(345.44 mm, 229.87 mm): Label 'X_EN'
 [multiple_net_names]: Both X_EN and Z_EN are attached to the same items; X_EN will be used in the netlist
     ; warning
-    @(274.32 mm, 102.87 mm): Label 'X_EN'
-    @(279.40 mm, 102.87 mm): Label 'Z_EN'
+    @(157.48 mm, 76.20 mm): Label 'X_EN'
+    @(162.56 mm, 76.20 mm): Label 'Z_EN'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(205.305 mm, 22.924 mm): Symbol #PWR08 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(205.305 mm, 25.463 mm): Symbol #PWR011 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(235.846 mm, 22.924 mm): Symbol #PWR010 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(235.846 mm, 25.463 mm): Symbol #PWR012 Pin 1 [Power input, Line]
 
- ** ERC messages: 7  Errors 6  Warnings 1
+***** Sheet /Driver_X/
+
+***** Sheet /Driver_Y/
+
+***** Sheet /Driver_Z/
+
+***** Sheet /ES_X/
+
+***** Sheet /ES_Y/
+
+***** Sheet /ES_Z/
+
+ ** ERC messages: 9  Errors 4  Warnings 5
 
  ** Ignored checks:
     - Global label only appears once in the schematic

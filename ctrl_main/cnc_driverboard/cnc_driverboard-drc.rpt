@@ -1,0 +1,481 @@
+** Drc report for cnc_driverboard.kicad_pcb **
+** Created on 2026-11-11T10:20:17 **
+** Report includes: Errors, Warnings **
+
+** Found 120 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; 1 spokes connected to isolated island)
+    Local override; error
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+    @(168.4939 mm, 84.9777 mm): PTH pad 15 [GND] of U4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(159.7939 mm, 99.6867 mm): Footprint J8
+    @(162.1439 mm, 91.3277 mm): Footprint U4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(159.7939 mm, 99.6867 mm): PTH pad 1 [+5V] of J8
+    @(162.1439 mm, 91.3277 mm): Footprint U4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(159.7939 mm, 97.1467 mm): PTH pad 2 [Net-(U4-MS3)] of J8
+    @(162.1439 mm, 91.3277 mm): Footprint U4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(162.3339 mm, 99.6867 mm): PTH pad 3 [+5V] of J8
+    @(162.1439 mm, 91.3277 mm): Footprint U4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(162.3339 mm, 97.1467 mm): PTH pad 4 [Net-(U4-MS2)] of J8
+    @(162.1439 mm, 91.3277 mm): Footprint U4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(164.8739 mm, 99.6867 mm): PTH pad 5 [+5V] of J8
+    @(162.1439 mm, 91.3277 mm): Footprint U4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(164.8739 mm, 97.1467 mm): PTH pad 6 [Net-(U4-MS1)] of J8
+    @(162.1439 mm, 91.3277 mm): Footprint U4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(162.2689 mm, 84.6937 mm): Footprint C3
+    @(162.1439 mm, 91.3277 mm): Footprint U4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(161.0189 mm, 84.6937 mm): PTH pad 1 [/VDD] of C3
+    @(162.1439 mm, 91.3277 mm): Footprint U4
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(163.5189 mm, 84.6937 mm): PTH pad 2 [GND] of C3
+    @(162.1439 mm, 91.3277 mm): Footprint U4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(162.4601 mm, 106.9193 mm): Footprint C1
+    @(162.3351 mm, 113.5533 mm): Footprint U3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(161.2101 mm, 106.9193 mm): PTH pad 1 [/VDD] of C1
+    @(162.3351 mm, 113.5533 mm): Footprint U3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(163.7101 mm, 106.9193 mm): PTH pad 2 [GND] of C1
+    @(162.3351 mm, 113.5533 mm): Footprint U3
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(159.6812 mm, 77.2112 mm): Footprint J10
+    @(162.0312 mm, 68.8522 mm): Footprint U5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(159.6812 mm, 77.2112 mm): PTH pad 1 [+5V] of J10
+    @(162.0312 mm, 68.8522 mm): Footprint U5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(159.6812 mm, 74.6712 mm): PTH pad 2 [Net-(U5-MS3)] of J10
+    @(162.0312 mm, 68.8522 mm): Footprint U5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(162.2212 mm, 77.2112 mm): PTH pad 3 [+5V] of J10
+    @(162.0312 mm, 68.8522 mm): Footprint U5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(162.2212 mm, 74.6712 mm): PTH pad 4 [Net-(U5-MS2)] of J10
+    @(162.0312 mm, 68.8522 mm): Footprint U5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(164.7612 mm, 77.2112 mm): PTH pad 5 [+5V] of J10
+    @(162.0312 mm, 68.8522 mm): Footprint U5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(164.7612 mm, 74.6712 mm): PTH pad 6 [Net-(U5-MS1)] of J10
+    @(162.0312 mm, 68.8522 mm): Footprint U5
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(162.0312 mm, 68.8522 mm): Footprint U5
+    @(162.1562 mm, 62.2182 mm): Footprint C5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(160.9062 mm, 62.2182 mm): PTH pad 1 [/VDD] of C5
+    @(162.0312 mm, 68.8522 mm): Footprint U5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(163.4062 mm, 62.2182 mm): PTH pad 2 [GND] of C5
+    @(162.0312 mm, 68.8522 mm): Footprint U5
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(159.9851 mm, 121.9123 mm): Footprint J6
+    @(162.3351 mm, 113.5533 mm): Footprint U3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(159.9851 mm, 121.9123 mm): PTH pad 1 [+5V] of J6
+    @(162.3351 mm, 113.5533 mm): Footprint U3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(159.9851 mm, 119.3723 mm): PTH pad 2 [Net-(U3-MS3)] of J6
+    @(162.3351 mm, 113.5533 mm): Footprint U3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(162.5251 mm, 121.9123 mm): PTH pad 3 [+5V] of J6
+    @(162.3351 mm, 113.5533 mm): Footprint U3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(162.5251 mm, 119.3723 mm): PTH pad 4 [Net-(U3-MS2)] of J6
+    @(162.3351 mm, 113.5533 mm): Footprint U3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(165.0651 mm, 121.9123 mm): PTH pad 5 [+5V] of J6
+    @(162.3351 mm, 113.5533 mm): Footprint U3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(165.0651 mm, 119.3723 mm): PTH pad 6 [Net-(U3-MS1)] of J6
+    @(162.3351 mm, 113.5533 mm): Footprint U3
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.1905 mm)
+    Local override; error
+    @(155.9851 mm, 104.6633 mm): PTH pad 1 [/EN] of U3
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.1905 mm)
+    Local override; error
+    @(155.7939 mm, 82.4377 mm): PTH pad 1 [/EN] of U4
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.1905 mm)
+    Local override; error
+    @(155.6812 mm, 59.9622 mm): PTH pad 1 [/EN] of U5
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(116.3086 mm, 84.2050 mm): Pad 1 [+5V] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(116.3086 mm, 83.5550 mm): Pad 2 [/DIR_X_3V3] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(116.3086 mm, 82.9050 mm): Pad 3 [/STEP_X_3V3] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(116.3086 mm, 82.2550 mm): Pad 4 [/DIR_Y_3V3] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(116.3086 mm, 81.6050 mm): Pad 5 [/STEP_Y_3V3] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(116.3086 mm, 80.9550 mm): Pad 6 [/DIR_Z_3V3] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(116.3086 mm, 80.3050 mm): Pad 7 [/STEP_Z_3V3] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(116.3086 mm, 79.6550 mm): Pad 8 [/X_EN] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(116.3086 mm, 79.0050 mm): Pad 9 [unconnected-(U1-A8-Pad9)] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(122.0486 mm, 78.3550 mm): Pad 11 [unconnected-(U1-B8-Pad11)] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(122.0486 mm, 79.0050 mm): Pad 12 [/EN] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(122.0486 mm, 79.6550 mm): Pad 13 [/STEP_Z] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(122.0486 mm, 80.3050 mm): Pad 14 [/DIR_Z] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(122.0486 mm, 80.9550 mm): Pad 15 [/STEP_Y] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(122.0486 mm, 81.6050 mm): Pad 16 [/DIR_Y] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(122.0486 mm, 82.2550 mm): Pad 17 [/STEP_X] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(122.0486 mm, 82.9050 mm): Pad 18 [/DIR_X] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2005 mm)
+    Local override; error
+    @(122.0486 mm, 84.2050 mm): Pad 20 [+5V] of U1 on B.Cu
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(159.6812 mm, 77.2112 mm): Reference field of J10
+    @(158.2112 mm, 77.2112 mm): Segment of J10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.1852 mm, 62.0724 mm): Reference field of J15
+    @(140.9229 mm, 63.0818 mm): Reference field of J16
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(125.1474 mm, 100.7384 mm): Reference field of R2
+    @(125.1474 mm, 101.0334 mm): Reference field of R1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(116.7133 mm, 106.2741 mm): Reference field of Q1
+    @(114.5988 mm, 105.6906 mm): Segment of D1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(109.4783 mm, 100.1941 mm): Segment of Q1 on F.Silkscreen
+    @(114.4794 mm, 100.2714 mm): Reference field of R3
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.7878 mm, 96.8326 mm): Reference field of Q2
+    @(117.7494 mm, 96.5314 mm): Segment of R3 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(127.9796 mm, 63.0818 mm): Reference field of J14
+    @(129.2419 mm, 62.0724 mm): Reference field of J13
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(116.0232 mm, 62.0407 mm): Reference field of J11
+    @(114.7609 mm, 63.0501 mm): Reference field of J12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(159.7939 mm, 99.6867 mm): Reference field of J8
+    @(159.7939 mm, 99.6867 mm): PTH pad 1 [+5V] of J8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(159.9851 mm, 121.9123 mm): Reference field of J6
+    @(159.9851 mm, 121.9123 mm): PTH pad 1 [+5V] of J6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.2689 mm, 84.6937 mm): Circle of C3 on F.Silkscreen
+    @(166.4460 mm, 83.5011 mm): Via [+5V] on F.Cu - B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(159.6812 mm, 77.2112 mm): Reference field of J10
+    @(159.6812 mm, 77.2112 mm): PTH pad 1 [+5V] of J10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(142.1852 mm, 62.0724 mm): Reference field of J15
+    @(140.8136 mm, 62.0724 mm): PTH pad 2 [GND] of J15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(140.9229 mm, 63.0818 mm): Reference field of J16
+    @(140.8136 mm, 62.0724 mm): PTH pad 2 [GND] of J15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(142.1852 mm, 62.0724 mm): Reference field of J15
+    @(143.3536 mm, 62.0724 mm): PTH pad 1 [/Z_ES] of J15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(166.2312 mm, 73.3262 mm): Segment of J10 on F.Silkscreen
+    @(166.6877 mm, 73.9704 mm): Via [+5V] on F.Cu - B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(166.2312 mm, 78.5562 mm): Segment of J10 on F.Silkscreen
+    @(166.6877 mm, 73.9704 mm): Via [+5V] on F.Cu - B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.5638 mm, 91.8946 mm): Segment of U2 on F.Silkscreen
+    @(144.6038 mm, 93.0246 mm): PTH pad 4 [/5Vnc] of U2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.5638 mm, 91.8946 mm): Segment of U2 on F.Silkscreen
+    @(135.4638 mm, 93.0246 mm): PTH pad 3 [GND] of U2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.4938 mm, 109.3946 mm): Segment of U2 on F.Silkscreen
+    @(135.4638 mm, 108.2646 mm): PTH pad 1 [GND] of U2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.4938 mm, 109.3946 mm): Segment of U2 on F.Silkscreen
+    @(135.4638 mm, 93.0246 mm): PTH pad 3 [GND] of U2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.4794 mm, 100.2714 mm): Reference field of R3
+    @(114.5583 mm, 101.6716 mm): PTH pad 2 [/GND_Spindle] of Q1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.0788 mm, 108.3406 mm): Segment of D1 on F.Silkscreen
+    @(127.0788 mm, 108.3406 mm): PTH pad 1 [/VDD] of D1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.5988 mm, 108.3406 mm): Segment of D1 on F.Silkscreen
+    @(111.6188 mm, 108.3406 mm): PTH pad 2 [/GND_Spindle] of D1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(129.2419 mm, 62.0724 mm): Reference field of J13
+    @(127.8703 mm, 62.0724 mm): PTH pad 2 [GND] of J13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(129.2419 mm, 62.0724 mm): Reference field of J13
+    @(130.4103 mm, 62.0724 mm): PTH pad 1 [/Y_ES] of J13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.9796 mm, 63.0818 mm): Reference field of J14
+    @(127.8703 mm, 62.0724 mm): PTH pad 2 [GND] of J13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.7609 mm, 63.0501 mm): Reference field of J12
+    @(114.6516 mm, 62.0407 mm): PTH pad 2 [GND] of J11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(116.0232 mm, 62.0407 mm): Reference field of J11
+    @(114.6516 mm, 62.0407 mm): PTH pad 2 [GND] of J11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(116.0232 mm, 62.0407 mm): Reference field of J11
+    @(117.1916 mm, 62.0407 mm): PTH pad 1 [/X_ES] of J11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.4938 mm, 109.3946 mm): Segment of U2 on F.Silkscreen
+    @(135.4638 mm, 108.2646 mm): PTH pad 1 [GND] of U2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.4938 mm, 109.3946 mm): Segment of U2 on F.Silkscreen
+    @(144.6038 mm, 108.2646 mm): PTH pad 2 [/VDD] of U2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.5638 mm, 91.8946 mm): Segment of U2 on F.Silkscreen
+    @(144.6038 mm, 108.2646 mm): PTH pad 2 [/VDD] of U2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.5638 mm, 91.8946 mm): Segment of U2 on F.Silkscreen
+    @(144.6038 mm, 93.0246 mm): PTH pad 4 [/5Vnc] of U2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.7524 mm, 118.2934 mm): Segment of J4 on F.Silkscreen
+    @(137.0854 mm, 118.6024 mm): Via [GND] on F.Cu - B.Cu
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.4800 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.4089 mm, 88.9785 mm): Reference field of C3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.4800 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.6001 mm, 111.2041 mm): Reference field of C1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(114.7609 mm, 63.0501 mm): Reference field of J12
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(104.5210 mm, 57.9120 mm): Reference field of J2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(140.9229 mm, 63.0818 mm): Reference field of J16
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.4800 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.2962 mm, 66.5030 mm): Reference field of C5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(127.9796 mm, 63.0818 mm): Reference field of J14
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(145.3366 mm, 89.9533 mm): Reference field of J3
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(153.7066 mm, 117.9833 mm): Track [/STEP_X] on B.Cu, length 0.2979 mm
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+
+** Found 4 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.3812 mm, 62.5022 mm): PTH pad 15 [GND] of U5
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.4939 mm, 84.9777 mm): PTH pad 15 [GND] of U4
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.4939 mm, 84.9777 mm): PTH pad 15 [GND] of U4
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.4939 mm, 100.2177 mm): PTH pad 9 [GND] of U4
+    @(97.5625 mm, 56.6496 mm): Zone [GND] on B.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

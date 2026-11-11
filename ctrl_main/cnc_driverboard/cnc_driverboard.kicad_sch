@@ -3456,6 +3456,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 74.93) (xy 228.6 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c24618-37ae-43aa-97f1-24879b3d4088")
+	)
+	(wire
+		(pts
 			(xy 43.18 57.15) (xy 46.99 57.15)
 		)
 		(stroke
@@ -3685,7 +3695,7 @@
 		(uuid "59a96203-0bb2-495d-8aee-60fa36165fbc")
 	)
 	(label "EN_3V3"
-		(at 228.6 74.93 0)
+		(at 248.92 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4642,6 +4652,88 @@
 			(project "cnc_driverboard"
 				(path "/137db5f0-82c6-4bbe-b609-866b441767e8"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 248.92 78.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "291fb0d6-8e09-45c9-a6e7-64b73bd97746")
+		(property "Reference" "R8"
+			(at 246.38 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 246.38 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+			(at 250.698 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 248.92 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b407a8af-4675-46b8-b242-73658391541e")
+		)
+		(pin "2"
+			(uuid "da31082a-45eb-4994-bce8-b95d5207b77a")
+		)
+		(instances
+			(project "cnc_driverboard"
+				(path "/137db5f0-82c6-4bbe-b609-866b441767e8"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6535,6 +6627,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 248.92 82.55 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cef1f91-cf01-4bc1-ab8d-f9d8e8f74b12")
+		(property "Reference" "#PWR075"
+			(at 248.92 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 248.92 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Snapeda:61300211121"
+			(at 248.92 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 248.92 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f6560b7-cd33-47d0-ad33-bab92450c3d0")
+		)
+		(instances
+			(project "cnc_driverboard"
+				(path "/137db5f0-82c6-4bbe-b609-866b441767e8"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 96.52 0)
 		(unit 1)
@@ -7904,12 +8075,6 @@
 		(uuid "815c8dbc-d88d-4f83-adac-85472cd03b76")
 		(members "34007ce6-e0a3-4a8c-9c2b-98e809fed407" "4767d24e-78da-4a0b-bf9c-824dc82c6f26"
 			"b5fe4daa-e439-4940-aae2-536e4e9ebd24" "eb23d5fa-f5d4-47b8-8faf-2d60a4cae104"
-		)
-	)
-	(group ""
-		(uuid "cd88c45f-db60-4762-beeb-1a1e85534f2f")
-		(members "52bc5017-2a56-4ba6-9de6-7a4704ecf96d" "704fbd1f-4bc8-4874-b35e-3787d64ce198"
-			"d6bf4ec1-41af-4b7e-a3c2-21ee0016be48" "f0d90af3-7edb-41ec-8d5a-6a2e590db381"
 		)
 	)
 	(sheet

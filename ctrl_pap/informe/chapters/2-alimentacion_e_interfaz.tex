@@ -1,0 +1,89 @@
+\chapter{Alimentación e Interfaz de Control}
+\label{sec:alimentacion_interfaz}
+
+La placa usa una fuente continua externa en \texttt{J1} y señales de $3.3\V$ en \texttt{J3}. A continuación se
+detalla cómo protege y regula la energía interna y cómo acondiciona cada entrada.
+
+\section{Protección de Entrada, Bus de Potencia y Regulación Lógica}
+\label{sec:alimentacion_regulacion}
+
+La tensión externa entra por \texttt{J1} (pin 1 \texttt{V+}, pin 2 \texttt{GND}) y pasa en serie por el diodo de
+silicio \texttt{D1} (\texttt{1N5408}, $1000\V$, $3\A$). Si se conecta la fuente al revés, \texttt{D1} bloquea la
+corriente y protege capacitores e integrados; en uso normal cae entre $0.9\V$ y $1.0\V$ a $2\A$, dando lugar al
+bus de potencia \texttt{VS}.
+
+Sobre \texttt{VS} se conectan en paralelo los capacitores electrolíticos \texttt{C1} ($470\uF$, $35\V$) y
+\texttt{C5} ($100\uF$, $35\V$) junto al cerámico \texttt{C8} ($100\nF$). \texttt{C1} y \texttt{C5} entregan los
+picos rápidos de corriente que piden las bobinas y absorben la energía devuelta en cada conmutación, mientras
+\texttt{C8} (junto al pin 4 de \texttt{IC1}) deriva ruido de alta frecuencia a masa.
+
+El bus lógico de $+5\V$ (\texttt{VSS}) se obtiene con el regulador lineal \texttt{IC4} (\texttt{LM7805CT}, hasta
+$1\A$). Toma tensión de \texttt{VS} (pin 1), usa \texttt{GND} como referencia (pin 2) y entrega $+5\V$ estables
+(pin 3). Como el regulador necesita unos $2\V$ de caída mínima y \texttt{D1} resta cerca de $1\V$, la entrada en
+\texttt{J1} requiere al menos $8\V$; el tope máximo queda en $35\V$ por la tensión límite de \texttt{C1},
+\texttt{C5}, \texttt{C6} y del propio \texttt{IC4}.
+
+Para estabilizar \texttt{VSS}, la placa incluye \texttt{C6} ($10\uF$, $35\V$) y cerámicos de $100\nF$:
+\texttt{C7} en \texttt{IC1} (pin 9), \texttt{C3} en \texttt{IC2} (pin 16), \texttt{C4} en \texttt{IC3} (pin 16)
+y \texttt{C2} en el bus.
+
+\section{Acondicionamiento de las Señales ENABLE y STEP}
+\label{sec:enable_step}
+
+Las entradas \texttt{ENABLE} y \texttt{STEP} se conectan directo a \texttt{IC1} y \texttt{IC2} con resistores a
+masa y sin etapa elevadora, porque ambos integrados reconocen $3.3\V$ como nivel alto válido:
+
+\begin{itemize}
+  \item \texttt{ENABLE} (\texttt{J3} pin 2): llega a \texttt{ENABLE\_A} (pin 6) y \texttt{ENABLE\_B} (pin 11) de
+    \texttt{IC1} (\texttt{L298N}). El resistor \texttt{R3} ($10\kohm$ a \texttt{GND}) apaga la etapa si el cable
+    queda desconectado o mientras el microcontrolador arranca; en paralelo, \texttt{R6} ($470\ohm$) y el LED azul
+    \texttt{LED1} indican cuándo el puente está habilitado.
+  \item \texttt{STEP} (\texttt{J3} pin 4): ataca el reloj \texttt{CLK} (pin 9) de \texttt{IC2}
+    (\texttt{SN74LS175N}), que cambia de estado en cada flanco ascendente. El resistor \texttt{R5} ($1\kohm$ a
+    \texttt{GND}) fija el reposo en bajo y reduce el acoplamiento de ruido desde la etapa de potencia.
+\end{itemize}
+
+Según sus hojas de datos, el \texttt{SN74LS175N} garantiza nivel alto desde $V_{IH(\min)} = 2.0\V$
+($V_{IL(\max)} = 0.8\V$) y el \texttt{L298N} desde $V_{IH(\min)} = 2.3\V$ ($V_{IL(\max)} = 1.5\V$). Por ello
+$3.3\V$ alcanzan con buen margen y \texttt{R5} exige apenas $3.3\mA$ al pin del microcontrolador.
+
+\section{Adaptador de Nivel Lógico para la Señal de Dirección}
+\label{sec:adaptador_dir}
+
+En cambio, la señal de dirección entra al selector \texttt{A} (pin 10) de \texttt{IC3} (\texttt{CD4052BF}), un
+integrado CMOS alimentado con $+5\V$ desde \texttt{VSS}. Para $5\V$, el \texttt{CD4052BF} exige un nivel alto
+mínimo $V_{IH(\min)} = 3.5\V$ ($0.7\,V_{DD}$) y un nivel bajo máximo $V_{IL(\max)} = 1.5\V$, de modo que $3.3\V$
+directos no aseguran la conmutación.
+
+Para elevar la señal sin invertir su polaridad, implementamos el adaptador con dos transistores NPN
+\texttt{BC337} (\texttt{Q1} y \texttt{Q2}) en cascada de la figura~\ref{crkt.ej2:adaptador_nivel}.
+
+\begin{figure}[!ht]
+  \centering
+  \input{figures/crkt_ej2_adaptador_nivel.tex}
+  \caption{Esquemático del adaptador de nivel de $3.3\V$ a $5\V$ para la señal de dirección.}
+  \label{crkt.ej2:adaptador_nivel}
+\end{figure}
+
+El funcionamiento alterna corte y saturación según la entrada \texttt{DIR3V3} (\texttt{J3} pin 3):
+
+\begin{itemize}
+  \item Entrada baja ($\text{DIR3V3} = 0\V$) o abierta: \texttt{R11} ($10\kohm$) mantiene a \texttt{Q1} en corte y
+    \texttt{R10} ($4.7\kohm$) inyecta corriente a la base de \texttt{Q2} desde \texttt{VSS}:
+    \begin{equation*}
+      I_{B2} \approx \frac{V_{SS} - V_{BE2}}{R_{10}} = \frac{5\V - 0.7\V}{4.7\kohm} \approx 0.91\mA
+    \end{equation*}
+    Como la carga \texttt{R12} ($4.7\kohm$) limita la corriente de colector a $I_{C2(\text{sat})} \approx 1.06\mA$,
+    \texttt{Q2} satura con facilidad y fija \texttt{DIR} en $V_{CE2(\text{sat})} \approx 0.1\V$.
+  \item Entrada alta ($\text{DIR3V3} = 3.3\V$): circula corriente por \texttt{R9} ($4.7\kohm$) hacia la base de
+    \texttt{Q1}:
+    \begin{equation*}
+      I_{B1} \approx \frac{V_{IN} - V_{BE1}}{R_9} = \frac{3.3\V - 0.7\V}{4.7\kohm} \approx 0.55\mA
+    \end{equation*}
+    Como \texttt{Q1} solo drena unos $1.04\mA$ desde \texttt{R10}, satura de inmediato y baja su colector a
+    $V_{CE1(\text{sat})} \approx 0.1\V$. Eso corta a \texttt{Q2} y, dado que la entrada CMOS apenas toma
+    $\pm 0.1\uA$, \texttt{R12} sube el nodo \texttt{DIR} a $+5\V$.
+\end{itemize}
+
+La doble inversión conserva la lógica de \texttt{DIR3V3} en \texttt{DIR} entre $0.1\V$ y $5\V$. En el impreso
+\texttt{R4} queda sin montar para no atenuar el nivel alto impuesto por \texttt{R12}.

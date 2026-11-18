@@ -1,0 +1,25 @@
+\chapter{Conclusiones y Puesta en Marcha}
+\label{sec:conclusiones}
+
+En síntesis, la placa \texttt{ctrl\_pap} integra en un módulo pasante la regulación lógica de $+5\V$, la
+adaptación de nivel desde $3.3\V$, la máquina de estados sincrónica con dos integrados (\texttt{SN74LS175N} y
+\texttt{CD4052BF}) y el doble puente H \texttt{L298N} protegido por diodos Schottky \texttt{1N5822}. De este
+modo comanda un motor paso a paso bipolar de hasta $2\A$ por fase usando únicamente tres líneas digitales del
+controlador principal y exponiendo el retorno unificado para detección externa de sobrecargas.
+
+\section{Recaudos Operativos para la Puesta en Marcha}
+\label{sec:recaudos_operativos}
+
+Antes de energizar la placa en la máquina CNC o en banco de pruebas, verifique los siguientes puntos:
+
+\begin{enumerate}
+  \item Cierre de \texttt{J5}: si no está conectado el módulo analógico de sensado, coloque un puente o una
+    resistencia derivadora entre los pines 1 y 2 de \texttt{J5} para cerrar el retorno a masa del \texttt{L298N}.
+  \item Tensión en \texttt{J1}: alimente \texttt{V+} entre $8\V$ y $35\V$. Por debajo de $8\V$ no alcanza el margen
+    de regulación para $+5\V$; por encima de $35\V$ se supera la tensión nominal de \texttt{C1}, \texttt{C5},
+    \texttt{C6} e \texttt{IC4}.
+  \item Disipación térmica: instale disipadores en \texttt{IC1} e \texttt{IC4} cuando trabaje cerca de $2\A$ por
+    bobina o con fuentes superiores a $18\V$.
+  \item Polaridad de bobinas en \texttt{J4}: identifique ambos devanados con óhmetro y conecte la fase A entre los
+    pines 1 y 2, y la fase B entre los pines 3 y 4.
+\end{enumerate}

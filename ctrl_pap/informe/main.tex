@@ -1,0 +1,31 @@
+\documentclass[]{informeutn}
+
+\usepackage{csquotes}
+\usepackage{multirow}
+\usetikzlibrary{arrows, arrows.meta, positioning, shapes.geometric, calc}
+\graphicspath{{images/}{figures/}{./}}
+
+\materia{EA2, TD2, MEIE}
+\titulo{Controlador Modular de Motor Paso a Paso Bipolar}
+\subtitulo{Descripción Funcional, Análisis Circuital y Diseño de PCB (ctrl\_pap)}
+\comision{4R2}
+\autores{
+  Gil, Ignacio - 401891 \\
+  Grasso, Gaston - 401892 \\
+  Palombo, Franco - 401910 \\
+  Prieto, Angelo - 401012
+}
+\fecha{\today}
+
+\begin{document}
+  \maketitle
+  \tableofcontents
+  \setcounter{page}{1}
+  \thispagestyle{plain}
+
+  \input{chapters/1-introduccion.tex}
+  \input{chapters/2-alimentacion_e_interfaz.tex}
+  \input{chapters/3-secuenciador_digital.tex}
+  \input{chapters/4-etapa_potencia_y_pcb.tex}
+  \input{chapters/5-conclusiones.tex}
+\end{document}

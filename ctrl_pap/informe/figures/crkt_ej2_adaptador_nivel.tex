@@ -1,0 +1,35 @@
+\begin{circuitikz}[american, scale=0.9, transform shape]
+  % Rieles de alimentacion
+  \draw (0,0) node[ground] {} to[short] (11.2,0);
+  \draw (3.2,5.4) node[left] {\texttt{VSS} ($+5\V$)} to[short, o-] (9.6,5.4);
+
+  % Entrada DIR3V3 y pull-down R11
+  \draw (0,2.2) node[left] {\texttt{DIR3V3}} to[short, o-] (1.4,2.2);
+  \draw (1.4,2.2) to[R, l_={$R_{11}=10\kohm$}, *-*] (1.4,0);
+
+  % Base de Q1
+  \draw (1.4,2.2) to[R, l={$R_9=4.7\kohm$}] (3.3,2.2);
+  \node[npn] (Q1) at (4.4,2.2) {};
+  \node[below right, font=\footnotesize] at (4.65,1.95) {$Q_1$ (BC337)};
+  \draw (3.3,2.2) -- (Q1.B);
+  \draw (Q1.E) to[short, -*] (4.4,0);
+
+  % Colector de Q1 y R10 hacia VSS
+  \draw (4.4,5.4) to[R, l={$R_{10}=4.7\kohm$}, *-] (4.4,3.3);
+  \draw (4.4,3.3) -- (Q1.C);
+
+  % Base de Q2
+  \node[npn] (Q2) at (7.4,2.2) {};
+  \node[below right, font=\footnotesize] at (7.65,1.95) {$Q_2$ (BC337)};
+  \draw (4.4,3.3) to[short, *-] (6.1,3.3) |- (Q2.B);
+  \draw (Q2.E) to[short, -*] (7.4,0);
+
+  % Colector de Q2, R12 hacia VSS, salida DIR y huella R4 sin montaje
+  \draw (7.4,5.4) to[R, l={$R_{12}=4.7\kohm$}, *-] (7.4,3.3);
+  \draw (7.4,3.3) -- (Q2.C);
+  \draw (7.4,3.3) to[short, *-] (11.2,3.3) to[short, -o] (11.2,3.3)
+    node[right] {\texttt{DIR} (a \texttt{IC3})};
+
+  % Huella R4 sin montaje
+  \draw[dashed, gray] (9.8,3.3) to[R, l={$R_4$ (sin montaje)}, *-*] (9.8,0);
+\end{circuitikz}

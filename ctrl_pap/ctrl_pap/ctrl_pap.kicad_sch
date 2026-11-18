@@ -1673,7 +1673,310 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:C350C224F1G5TA"
+		(symbol "Samacsys:BC337"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 13.97 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BC337"
+				(at 13.97 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Samacsys:BC337"
+				(at 13.97 -101.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.microsemi.com/existing-parts/parts/43873#diagrams"
+				(at 13.97 -201.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "general purpose NPN bipolar transistor VCE(sat) 0.7V, VBR(CBO) 50V, IC 0.8A, TO-92"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "5.33"
+				(at 13.97 -401.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Microsemi Corporation"
+				(at 13.97 -501.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BC337"
+				(at 13.97 -601.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -701.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -801.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -901.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -1001.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "BC337_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 10.16 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 10.16 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -2.54) (xy 8.89 -2.032) (xy 9.398 -3.048) (xy 8.382 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 0)
+					(radius 4.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -3.81) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Samacsys:C320C104K5R5TA"
 			(pin_names
 				(hide yes)
 			)
@@ -1693,7 +1996,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "C350C224F1G5TA"
+			(property "Value" "C320C104K5R5TA"
 				(at 8.89 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1704,7 +2007,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:C350C224F1G5TA"
+			(property "Footprint" "Samacsys:C320C104K5R5TA"
 				(at 8.89 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1716,7 +2019,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1049_GOLDMAX_C0G"
+			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
 				(at 8.89 -196.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1739,7 +2042,7 @@
 					)
 				)
 			)
-			(property "Height" "10.16"
+			(property "Height" "5.84"
 				(at 8.89 -396.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1763,7 +2066,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "C350C224F1G5TA"
+			(property "Manufacturer_Part_Number" "C320C104K5R5TA"
 				(at 8.89 -596.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1775,7 +2078,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "80-C350C224F1G5TA"
+			(property "Mouser Part Number" "80-C320C104K5R"
 				(at 8.89 -696.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1787,7 +2090,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C350C224F1G5TA?qs=h3%2Fj8evtlm0wFcP6QhgEYA%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C320C104K5R5TA?qs=PmkNt%2FFLxQc4kNUCHU6a6Q%3D%3D"
 				(at 8.89 -796.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1799,7 +2102,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Part Number" ""
+			(property "Arrow Part Number" "C320C104K5R5TA"
 				(at 8.89 -896.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1811,7 +2114,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Price/Stock" ""
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c320c104k5r5ta/kemet-corporation.html?utm_currency=USD&region=nac"
 				(at 8.89 -996.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1823,7 +2126,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "C350C224F1G5TA_1_1"
+			(symbol "C320C104K5R5TA_1_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 5.588 0)
@@ -4092,21 +4395,43 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 176.53 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f35dd57-57da-4cb0-8a08-9bda70959fb3")
+	)
+	(junction
+		(at 144.78 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66a404a6-2202-4527-b35c-24082e8ce364")
+	)
 	(no_connect
-		(at 248.92 96.52)
+		(at 267.97 85.09)
 		(uuid "0f658e66-3728-4808-b5e2-1438af1c4d7d")
 	)
 	(no_connect
-		(at 248.92 83.82)
+		(at 267.97 72.39)
 		(uuid "39d0503a-356e-4069-8957-1f0829c0662e")
 	)
 	(no_connect
-		(at 248.92 93.98)
+		(at 267.97 82.55)
 		(uuid "7fbff53f-5e51-4ed2-a72d-8f96a05e0c91")
 	)
 	(no_connect
-		(at 248.92 86.36)
+		(at 267.97 74.93)
 		(uuid "88789154-dad8-430e-a6aa-4abd161bba9a")
+	)
+	(wire
+		(pts
+			(xy 204.47 124.46) (xy 207.01 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b60890-26b1-4ce2-b622-7e58babd956a")
 	)
 	(wire
 		(pts
@@ -4120,6 +4445,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 132.08) (xy 176.53 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350aa1c7-8477-438a-a569-7104838ae2ce")
+	)
+	(wire
+		(pts
 			(xy 50.8 154.94) (xy 46.99 154.94)
 		)
 		(stroke
@@ -4127,6 +4462,46 @@
 			(type default)
 		)
 		(uuid "4c55e7d0-3ad2-4a97-8a3a-833552104a4e")
+	)
+	(wire
+		(pts
+			(xy 231.14 80.01) (xy 240.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716c6f7f-586f-4592-829f-4e4501b8cda0")
+	)
+	(wire
+		(pts
+			(xy 36.83 40.64) (xy 45.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2dfeb9-2004-4830-9c26-d6fdc55c691c")
+	)
+	(wire
+		(pts
+			(xy 231.14 69.85) (xy 231.14 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852b3bf0-ceb6-4e41-b35c-ed30665ab9ca")
+	)
+	(wire
+		(pts
+			(xy 144.78 139.7) (xy 146.05 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f62954-5afe-4c04-bf3d-16f8c48404a2")
 	)
 	(wire
 		(pts
@@ -4138,8 +4513,28 @@
 		)
 		(uuid "a0781c65-0cbf-4f88-871f-383c99a04562")
 	)
+	(wire
+		(pts
+			(xy 140.97 139.7) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc373e46-179a-491b-bd12-0ecbecaf749f")
+	)
+	(wire
+		(pts
+			(xy 231.14 77.47) (xy 240.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f404e389-9098-41e0-9c57-733f813f4540")
+	)
 	(label "VS"
-		(at 144.78 165.1 270)
+		(at 157.48 77.47 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4149,7 +4544,7 @@
 		(uuid "03ee81b2-48da-4d7b-b4ac-8551c7b51045")
 	)
 	(label "VS"
-		(at 208.28 124.46 180)
+		(at 254 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4159,7 +4554,7 @@
 		(uuid "0577928e-e244-4d8a-8bc7-06bd36b81c22")
 	)
 	(label "GND"
-		(at 200.66 43.18 180)
+		(at 208.28 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4189,7 +4584,7 @@
 		(uuid "09e04362-365a-46aa-955a-ed9ebe493422")
 	)
 	(label "GND"
-		(at 220.98 137.16 0)
+		(at 266.7 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4209,7 +4604,7 @@
 		(uuid "0cb3a36d-7666-4cc3-b4f1-ab69da0533f7")
 	)
 	(label "OUT1"
-		(at 144.78 106.68 0)
+		(at 157.48 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4217,6 +4612,16 @@
 			(justify left bottom)
 		)
 		(uuid "10933e28-191d-43c7-ad8e-140c1c1ac889")
+	)
+	(label "GND"
+		(at 24.13 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1133b4de-fa63-409c-bb96-64aa1bf5eb38")
 	)
 	(label "SENSE_B"
 		(at 50.8 154.94 270)
@@ -4239,7 +4644,7 @@
 		(uuid "145a69bc-efa0-47ff-b046-315a9f70ad15")
 	)
 	(label "D0"
-		(at 271.78 48.26 0)
+		(at 279.4 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4249,7 +4654,7 @@
 		(uuid "1480e802-b9ca-4144-9696-77f03a2d2a23")
 	)
 	(label "IN2"
-		(at 200.66 50.8 180)
+		(at 208.28 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4259,7 +4664,7 @@
 		(uuid "162dcc57-69e6-4d72-96ab-beab01523b9e")
 	)
 	(label "GND"
-		(at 248.92 88.9 0)
+		(at 267.97 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4267,6 +4672,16 @@
 			(justify left bottom)
 		)
 		(uuid "1683af24-6c34-4703-91bb-086f6eded61d")
+	)
+	(label "GND"
+		(at 210.82 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17a4d0f2-8266-4ee9-9173-1d5bca048154")
 	)
 	(label "GND"
 		(at 48.26 177.8 0)
@@ -4278,18 +4693,8 @@
 		)
 		(uuid "17fbfc05-62a1-45e0-afd0-230f583dacd8")
 	)
-	(label "VSS"
-		(at 88.9 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "196506b3-3687-470c-9181-4fab7b55070f")
-	)
 	(label "D0"
-		(at 220.98 88.9 180)
+		(at 240.03 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4309,7 +4714,7 @@
 		(uuid "1d7a7381-66ee-4069-8325-e4b31ed8cffe")
 	)
 	(label "GND"
-		(at 271.78 43.18 0)
+		(at 279.4 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4319,7 +4724,7 @@
 		(uuid "1ee33454-a4b1-4f6c-8fdf-50cb47a92226")
 	)
 	(label "VSS"
-		(at 208.28 152.4 180)
+		(at 254 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4329,7 +4734,7 @@
 		(uuid "20f5f856-557c-4d45-ae5e-05f7b0271f57")
 	)
 	(label "GND"
-		(at 200.66 53.34 180)
+		(at 208.28 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4369,7 +4774,7 @@
 		(uuid "3117b92e-d92b-4d57-a663-ee114b338852")
 	)
 	(label "D1"
-		(at 200.66 45.72 180)
+		(at 208.28 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4379,7 +4784,7 @@
 		(uuid "3253fe63-d042-4132-8801-155f881b58ca")
 	)
 	(label "GND"
-		(at 162.56 144.78 270)
+		(at 175.26 57.15 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4388,8 +4793,18 @@
 		)
 		(uuid "3428893e-df5e-41fd-8c44-32218cbd7a1e")
 	)
+	(label "GND"
+		(at 116.84 20.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35c054e1-d6f5-404a-aeb9-77f12a56e43c")
+	)
 	(label "IN3"
-		(at 220.98 96.52 180)
+		(at 240.03 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4409,7 +4824,7 @@
 		(uuid "5380d17a-616b-47f5-a868-7a00dc2ea918")
 	)
 	(label "GND"
-		(at 200.66 48.26 180)
+		(at 208.28 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4419,7 +4834,7 @@
 		(uuid "54ae877e-61da-4436-a211-5b8c40432ff2")
 	)
 	(label "GND"
-		(at 60.96 81.28 270)
+		(at 41.91 83.82 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4439,7 +4854,7 @@
 		(uuid "5802ef85-80fb-493a-93e1-4c6b355af425")
 	)
 	(label "STEP"
-		(at 248.92 99.06 0)
+		(at 267.97 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4449,7 +4864,7 @@
 		(uuid "5cd7dc4c-ec9f-4dbc-a036-e06d725a2fe2")
 	)
 	(label "OUT2"
-		(at 162.56 129.54 0)
+		(at 175.26 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4469,7 +4884,7 @@
 		(uuid "5e66708c-d7a5-4e05-854e-0d3728f9b7d4")
 	)
 	(label "OUT1"
-		(at 162.56 106.68 0)
+		(at 175.26 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4479,7 +4894,7 @@
 		(uuid "5ff37d78-6cfe-4f09-b189-a95873138593")
 	)
 	(label "GND"
-		(at 200.66 58.42 180)
+		(at 208.28 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4489,7 +4904,7 @@
 		(uuid "60fc03e6-637b-4ad4-9b06-9ab6acc01974")
 	)
 	(label "GND"
-		(at 271.78 27.94 90)
+		(at 279.4 15.24 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4519,7 +4934,7 @@
 		(uuid "639027bc-3722-496d-8c4e-f9f351c706e8")
 	)
 	(label "OUT4"
-		(at 144.78 170.18 0)
+		(at 157.48 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4539,7 +4954,7 @@
 		(uuid "648633a5-6434-4133-b598-8a215634f7c4")
 	)
 	(label "VS"
-		(at 144.78 121.92 270)
+		(at 157.48 34.29 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4549,7 +4964,7 @@
 		(uuid "66f7d6d6-6189-4a9d-9aef-4335c9167bdc")
 	)
 	(label "D1"
-		(at 220.98 91.44 180)
+		(at 240.03 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4559,7 +4974,7 @@
 		(uuid "6b1ccffd-8c91-4dec-a25e-f3ed59ce3274")
 	)
 	(label "VSS"
-		(at 271.78 40.64 0)
+		(at 279.4 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4579,7 +4994,7 @@
 		(uuid "736ec05b-b36b-4df1-946a-70bc18b01b82")
 	)
 	(label "IN3"
-		(at 271.78 45.72 0)
+		(at 279.4 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4599,7 +5014,7 @@
 		(uuid "75cfb9cc-8f99-400a-a4d8-160b6c917b27")
 	)
 	(label "GND"
-		(at 200.66 55.88 180)
+		(at 208.28 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4609,7 +5024,7 @@
 		(uuid "7c45c472-f58f-40ff-aa83-d7b56fcc2875")
 	)
 	(label "VSS"
-		(at 208.28 111.76 180)
+		(at 254 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4619,7 +5034,7 @@
 		(uuid "7dc13e80-9815-46f3-b221-70bea1453861")
 	)
 	(label "GND"
-		(at 162.56 121.92 270)
+		(at 175.26 34.29 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4628,7 +5043,7 @@
 		)
 		(uuid "803034ca-e773-49f6-901a-fbdd1d576445")
 	)
-	(label "DIR"
+	(label "DIR3V3"
 		(at 53.34 111.76 0)
 		(effects
 			(font
@@ -4638,8 +5053,18 @@
 		)
 		(uuid "806507f3-68fd-40ae-a7c9-4e1c193b239f")
 	)
+	(label "GND"
+		(at 210.82 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "810fc078-48e7-4ea3-97aa-752dec473d92")
+	)
 	(label "OUT3"
-		(at 144.78 149.86 0)
+		(at 157.48 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4659,7 +5084,7 @@
 		(uuid "81d883bd-713f-4166-a79e-189dd73c26f0")
 	)
 	(label "IN1"
-		(at 200.66 40.64 180)
+		(at 208.28 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4669,7 +5094,7 @@
 		(uuid "850c27d5-b1b2-46f2-80cd-aaf596f61b6d")
 	)
 	(label "IN2"
-		(at 220.98 86.36 180)
+		(at 240.03 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4679,7 +5104,7 @@
 		(uuid "86d20fd5-7b41-4c34-abf4-8540981a30b1")
 	)
 	(label "VS"
-		(at 208.28 137.16 180)
+		(at 254 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4688,8 +5113,18 @@
 		)
 		(uuid "8953323c-6864-4ab3-8a2b-753e4cfff486")
 	)
+	(label "VSS"
+		(at 204.47 104.14 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a69346f-ac44-42e5-9284-6fb897a0543e")
+	)
 	(label "IN1"
-		(at 220.98 83.82 180)
+		(at 240.03 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4697,6 +5132,16 @@
 			(justify right bottom)
 		)
 		(uuid "913b924d-63ab-47e7-82a2-535d4e54b3d9")
+	)
+	(label "GND"
+		(at 88.9 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92a897f9-9b92-41cb-be90-8f420ed0c401")
 	)
 	(label "ENABLE"
 		(at 116.84 38.1 0)
@@ -4719,7 +5164,7 @@
 		(uuid "97e5d4c1-de17-4614-8ae5-c878b5d807fc")
 	)
 	(label "IN4"
-		(at 220.98 93.98 180)
+		(at 240.03 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4729,7 +5174,7 @@
 		(uuid "9c08a179-963f-40b5-a58e-91d8f52feeb0")
 	)
 	(label "VS"
-		(at 144.78 144.78 270)
+		(at 157.48 57.15 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4739,7 +5184,7 @@
 		(uuid "9e28c883-8ca5-4cb8-a43c-3590c2ecbc1d")
 	)
 	(label "VS"
-		(at 58.42 81.28 270)
+		(at 39.37 83.82 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4759,7 +5204,7 @@
 		(uuid "a04f880f-b440-4e34-8d29-ce454c562e8c")
 	)
 	(label "GND"
-		(at 220.98 111.76 0)
+		(at 266.7 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4767,6 +5212,16 @@
 			(justify left bottom)
 		)
 		(uuid "a409e2c3-8b03-4d9a-8232-6aa303da9a18")
+	)
+	(label "VSS"
+		(at 176.53 111.76 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6938323-d482-4fd1-853c-d1ddc50cc9f5")
 	)
 	(label "V+"
 		(at 48.26 175.26 0)
@@ -4809,7 +5264,7 @@
 		(uuid "ae997711-b08b-402d-95f6-8ebe6459f0ec")
 	)
 	(label "DIR"
-		(at 271.78 55.88 0)
+		(at 279.4 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4819,7 +5274,7 @@
 		(uuid "af981fac-cc6e-4eef-b098-f0ce37e5348e")
 	)
 	(label "VS"
-		(at 144.78 185.42 270)
+		(at 157.48 97.79 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4839,7 +5294,7 @@
 		(uuid "b16b0f48-a160-4d3b-b94e-c40c63151932")
 	)
 	(label "GND"
-		(at 162.56 185.42 270)
+		(at 175.26 97.79 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4849,7 +5304,7 @@
 		(uuid "b1c6e561-18d4-400d-b93e-a449f0061461")
 	)
 	(label "GND"
-		(at 271.78 53.34 0)
+		(at 279.4 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4859,7 +5314,7 @@
 		(uuid "b2952e32-6129-4378-b60a-5ce1352a2e2a")
 	)
 	(label "GND"
-		(at 220.98 99.06 180)
+		(at 240.03 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4889,7 +5344,7 @@
 		(uuid "c0236885-aa68-4b96-8419-7a8c432c944f")
 	)
 	(label "VSS"
-		(at 63.5 81.28 270)
+		(at 44.45 83.82 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4899,7 +5354,7 @@
 		(uuid "c2a30b17-c1dd-4880-8f6f-f1e635c7d30b")
 	)
 	(label "GND"
-		(at 271.78 58.42 0)
+		(at 279.4 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4919,7 +5374,7 @@
 		(uuid "c3bacf24-b85f-40cc-a328-0eb5a2ac56cc")
 	)
 	(label "GND"
-		(at 248.92 91.44 0)
+		(at 267.97 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4928,8 +5383,28 @@
 		)
 		(uuid "c521d124-0b8b-4183-a6b0-42d889578b1f")
 	)
+	(label "GND"
+		(at 176.53 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c595ffbc-3655-43dd-b254-468b0023387e")
+	)
+	(label "GND"
+		(at 144.78 160.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c607e2f1-0afd-4c81-bc4a-2ce5098457d4")
+	)
 	(label "OUT3"
-		(at 162.56 149.86 0)
+		(at 175.26 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4939,7 +5414,7 @@
 		(uuid "cf1d813c-bc20-4a88-9b66-272da81fd657")
 	)
 	(label "VSS"
-		(at 248.92 81.28 0)
+		(at 267.97 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4948,8 +5423,18 @@
 		)
 		(uuid "d57d0794-777f-4c01-bd57-8cad913b862b")
 	)
+	(label "GND"
+		(at 204.47 139.7 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5941f81-f9a3-4bdb-a91d-a8b9c6471e74")
+	)
 	(label "OUT2"
-		(at 144.78 129.54 0)
+		(at 157.48 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4959,7 +5444,7 @@
 		(uuid "df11863a-7c01-4398-9a59-1fce23a04fa6")
 	)
 	(label "IN4"
-		(at 271.78 50.8 0)
+		(at 279.4 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4978,8 +5463,18 @@
 		)
 		(uuid "e1fe8d64-baba-448b-bfb1-fa413c582e33")
 	)
+	(label "DIR"
+		(at 207.01 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3148d9d-0900-4bfe-a89e-f83933af4fb5")
+	)
 	(label "VSS"
-		(at 220.98 81.28 180)
+		(at 240.03 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4999,7 +5494,7 @@
 		(uuid "e4977a2b-e88c-4d79-930f-78d35c4e67d3")
 	)
 	(label "GND"
-		(at 162.56 165.1 270)
+		(at 175.26 77.47 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5039,7 +5534,7 @@
 		(uuid "edc75fab-b8d8-4a8f-8faf-ed1579dcf2b4")
 	)
 	(label "GND"
-		(at 248.92 68.58 90)
+		(at 267.97 57.15 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5049,7 +5544,7 @@
 		(uuid "f2960ef2-a12d-4b0d-aaa2-ea092d0b9289")
 	)
 	(label "GND"
-		(at 220.98 152.4 0)
+		(at 266.7 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5069,7 +5564,7 @@
 		(uuid "f8cd153c-1a5d-44a5-930d-0d633966e9d2")
 	)
 	(label "GND"
-		(at 220.98 124.46 0)
+		(at 266.7 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5078,8 +5573,18 @@
 		)
 		(uuid "f938111d-19a2-4d2f-b627-0f704f319017")
 	)
+	(label "DIR3V3"
+		(at 140.97 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fab166d1-7434-4838-9a7f-cc8b699b5e80")
+	)
 	(label "OUT4"
-		(at 162.56 170.18 0)
+		(at 175.26 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5089,8 +5594,392 @@
 		(uuid "fe17c531-8fd9-414f-b358-0fcd895d8cf2")
 	)
 	(symbol
+		(lib_id "Samacsys:C320C104K5R5TA")
+		(at 116.84 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0574b3e0-d796-4211-9d3c-cbfdfce17f31")
+		(property "Reference" "C7"
+			(at 120.65 25.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C320C104K5R5TA"
+			(at 120.65 27.9399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:C320C104K5R5TA"
+			(at 213.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
+			(at 313.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "GoldMax, Commercial Standard"
+			(at 116.84 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "5.84"
+			(at 513.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 613.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C320C104K5R5TA"
+			(at 713.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "80-C320C104K5R"
+			(at 813.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C320C104K5R5TA?qs=PmkNt%2FFLxQc4kNUCHU6a6Q%3D%3D"
+			(at 913.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "C320C104K5R5TA"
+			(at 1013.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c320c104k5r5ta/kemet-corporation.html?utm_currency=USD&region=nac"
+			(at 1113.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "c00dac99-8792-41b2-b060-e034725fe0f9")
+		)
+		(pin "2"
+			(uuid "68c460cd-3fd9-45e9-8792-8a9e32a9de56")
+		)
+		(instances
+			(project "ctrl_pap"
+				(path "/11e0ee54-35cb-4454-8fa6-589f86c57c0c"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Snapeda:MFR-25FBF52-10K2")
+		(at 204.47 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bd02649-d354-454c-9d54-724b181bf1a4")
+		(property "Reference" "R12"
+			(at 208.28 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 208.28 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Snapeda:RESAD1100W55L680D260"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10.2 kOhms ±1% 0.25W, 1/4W Through Hole Resistor Axial - Metal Film"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.6mm"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "RADIAL-2 Yageo"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MFR-25FBF52-10K2/Yageo/view-part/?ref=eda"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "201304"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MFR-25FBF52-10K2/Yageo/view-part/?ref=snap"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MFR-25FBF52-10K2"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Yageo Corporation"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "e09f2af8-b23e-4ee6-b126-12883d0a0e5c")
+		)
+		(pin "2"
+			(uuid "2ec1e01a-97b2-459c-9abe-a7fbf7b8099b")
+		)
+		(instances
+			(project "ctrl_pap"
+				(path "/11e0ee54-35cb-4454-8fa6-589f86c57c0c"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:1N5822")
-		(at 162.56 129.54 270)
+		(at 175.26 41.91 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5101,7 +5990,7 @@
 		(fields_autoplaced yes)
 		(uuid "17c443a8-2a0d-454f-88ea-ffabf37256d5")
 		(property "Reference" "D5"
-			(at 166.37 135.8899 90)
+			(at 179.07 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5112,7 +6001,7 @@
 			)
 		)
 		(property "Value" "1N5822"
-			(at 166.37 138.4299 90)
+			(at 179.07 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5123,7 +6012,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:DIOAD3070W130L950D530"
-			(at 65.1 140.97 0)
+			(at 77.8 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5135,7 +6024,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/1N5820-D.PDF"
-			(at -34.9 140.97 0)
+			(at -22.2 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5147,7 +6036,7 @@
 			)
 		)
 		(property "Description" "Obsolete - Schottky Barrier Rectifier, 3.0 A, 40 V"
-			(at 162.56 129.54 0)
+			(at 175.26 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5158,7 +6047,7 @@
 			)
 		)
 		(property "Height" ""
-			(at -234.9 140.97 0)
+			(at -222.2 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5170,7 +6059,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at -334.9 140.97 0)
+			(at -322.2 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5182,7 +6071,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5822"
-			(at -434.9 140.97 0)
+			(at -422.2 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5194,7 +6083,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-1N5822"
-			(at -534.9 140.97 0)
+			(at -522.2 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5206,7 +6095,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N5822?qs=UY9CvlAIy0ilZt8GFdM7Zg%3D%3D"
-			(at -634.9 140.97 0)
+			(at -622.2 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5218,7 +6107,7 @@
 			)
 		)
 		(property "Arrow Part Number" "1N5822"
-			(at -734.9 140.97 0)
+			(at -722.2 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,7 +6119,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1n5822/on-semiconductor"
-			(at -834.9 140.97 0)
+			(at -822.2 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5278,7 +6167,7 @@
 				)
 			)
 		)
-		(property "Value" "MFR-25FBF52-10K2"
+		(property "Value" "470"
 			(at 88.9 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5640,8 +6529,224 @@
 		)
 	)
 	(symbol
+		(lib_id "Snapeda:MFR-25FBF52-10K2")
+		(at 176.53 121.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2311251c-5797-4773-9176-71e7106739b8")
+		(property "Reference" "R10"
+			(at 180.34 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 180.34 123.1899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Snapeda:RESAD1100W55L680D260"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10.2 kOhms ±1% 0.25W, 1/4W Through Hole Resistor Axial - Metal Film"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.6mm"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "RADIAL-2 Yageo"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MFR-25FBF52-10K2/Yageo/view-part/?ref=eda"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "201304"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MFR-25FBF52-10K2/Yageo/view-part/?ref=snap"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MFR-25FBF52-10K2"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Yageo Corporation"
+			(at 176.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "0d04293d-a25d-4729-b4ed-84e9163cabca")
+		)
+		(pin "2"
+			(uuid "aae55408-2776-413c-9d98-7dd99a5e37ff")
+		)
+		(instances
+			(project "ctrl_pap"
+				(path "/11e0ee54-35cb-4454-8fa6-589f86c57c0c"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:1N5822")
-		(at 144.78 165.1 90)
+		(at 157.48 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5652,7 +6757,7 @@
 		(fields_autoplaced yes)
 		(uuid "2745bd27-be58-408b-8cc6-1c687cb6880a")
 		(property "Reference" "D6"
-			(at 148.59 156.2099 90)
+			(at 161.29 68.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5663,7 +6768,7 @@
 			)
 		)
 		(property "Value" "1N5822"
-			(at 148.59 158.7499 90)
+			(at 161.29 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5674,7 +6779,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:DIOAD3070W130L950D530"
-			(at 242.24 153.67 0)
+			(at 254.94 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5686,7 +6791,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/1N5820-D.PDF"
-			(at 342.24 153.67 0)
+			(at 354.94 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5698,7 +6803,7 @@
 			)
 		)
 		(property "Description" "Obsolete - Schottky Barrier Rectifier, 3.0 A, 40 V"
-			(at 144.78 165.1 0)
+			(at 157.48 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5709,7 +6814,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 542.24 153.67 0)
+			(at 554.94 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5721,7 +6826,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 642.24 153.67 0)
+			(at 654.94 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5733,7 +6838,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5822"
-			(at 742.24 153.67 0)
+			(at 754.94 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5745,7 +6850,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-1N5822"
-			(at 842.24 153.67 0)
+			(at 854.94 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5757,7 +6862,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N5822?qs=UY9CvlAIy0ilZt8GFdM7Zg%3D%3D"
-			(at 942.24 153.67 0)
+			(at 954.94 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,7 +6874,7 @@
 			)
 		)
 		(property "Arrow Part Number" "1N5822"
-			(at 1042.24 153.67 0)
+			(at 1054.94 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5781,7 +6886,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1n5822/on-semiconductor"
-			(at 1142.24 153.67 0)
+			(at 1154.94 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,8 +7254,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:C350C224F1G5TA")
-		(at 208.28 152.4 0)
+		(lib_id "Samacsys:BC337")
+		(at 166.37 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6159,29 +7264,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3d6f1f0c-5b1d-48d6-9b5a-2b9708ca1eff")
-		(property "Reference" "C2"
-			(at 214.63 144.78 0)
+		(uuid "3c26c9fd-1044-46bc-b048-b67b8a7393aa")
+		(property "Reference" "Q1"
+			(at 180.34 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "C350C224F1G5TA"
-			(at 214.63 147.32 0)
+		(property "Value" "BC337"
+			(at 180.34 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:C350C224F1G5TA"
-			(at 217.17 248.59 0)
+		(property "Footprint" "Samacsys:BC337"
+			(at 180.34 240.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6192,8 +7299,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1049_GOLDMAX_C0G"
-			(at 217.17 348.59 0)
+		(property "Datasheet" "https://www.microsemi.com/existing-parts/parts/43873#diagrams"
+			(at 180.34 340.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6204,8 +7311,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "GoldMax, Commercial Standard"
-			(at 208.28 152.4 0)
+		(property "Description" "general purpose NPN bipolar transistor VCE(sat) 0.7V, VBR(CBO) 50V, IC 0.8A, TO-92"
+			(at 166.37 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6215,20 +7322,8 @@
 				)
 			)
 		)
-		(property "Height" "10.16"
-			(at 217.17 548.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo Group"
-			(at 217.17 648.59 0)
+		(property "Height" "5.33"
+			(at 180.34 540.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6239,8 +7334,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C350C224F1G5TA"
-			(at 217.17 748.59 0)
+		(property "Manufacturer_Name" "Microsemi Corporation"
+			(at 180.34 640.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6251,8 +7346,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "80-C350C224F1G5TA"
-			(at 217.17 848.59 0)
+		(property "Manufacturer_Part_Number" "BC337"
+			(at 180.34 740.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6263,8 +7358,20 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C350C224F1G5TA?qs=h3%2Fj8evtlm0wFcP6QhgEYA%3D%3D"
-			(at 217.17 948.59 0)
+		(property "Mouser Part Number" ""
+			(at 180.34 840.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 180.34 940.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6276,7 +7383,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 217.17 1048.59 0)
+			(at 180.34 1040.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6288,7 +7395,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 217.17 1148.59 0)
+			(at 180.34 1140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6299,16 +7406,19 @@
 				(justify left top)
 			)
 		)
-		(pin "1"
-			(uuid "a984f2d2-e7c5-4805-8043-a602c0830c52")
-		)
 		(pin "2"
-			(uuid "cbe1f711-96c5-450c-af53-29efd987cfca")
+			(uuid "94d4d142-adff-4597-8256-43de8c1aa4df")
+		)
+		(pin "3"
+			(uuid "e07b7469-3359-42fa-92ed-1273161f3f80")
+		)
+		(pin "1"
+			(uuid "a1553938-e180-4f50-9975-158d0a894afc")
 		)
 		(instances
 			(project "ctrl_pap"
 				(path "/11e0ee54-35cb-4454-8fa6-589f86c57c0c"
-					(reference "C2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6316,7 +7426,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:LM7805CT")
-		(at 58.42 81.28 90)
+		(at 39.37 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6327,7 +7437,7 @@
 		(fields_autoplaced yes)
 		(uuid "45c935e8-1b33-4e2b-b719-d58c83282686")
 		(property "Reference" "IC4"
-			(at 67.31 67.3099 90)
+			(at 48.26 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6338,7 +7448,7 @@
 			)
 		)
 		(property "Value" "LM7805CT"
-			(at 67.31 69.8499 90)
+			(at 48.26 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6349,7 +7459,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:TO254P470X1028X1955-3P"
-			(at 153.34 59.69 0)
+			(at 134.29 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6361,7 +7471,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm340.pdf"
-			(at 253.34 59.69 0)
+			(at 234.29 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6373,7 +7483,7 @@
 			)
 		)
 		(property "Description" "Linear voltage regulator,LM7805CT 5V 1A"
-			(at 58.42 81.28 0)
+			(at 39.37 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6384,7 +7494,7 @@
 			)
 		)
 		(property "Height" "4.7"
-			(at 453.34 59.69 0)
+			(at 434.29 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6396,7 +7506,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 553.34 59.69 0)
+			(at 534.29 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,7 +7518,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LM7805CT"
-			(at 653.34 59.69 0)
+			(at 634.29 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6420,7 +7530,7 @@
 			)
 		)
 		(property "Mouser Part Number" "926-LM7805CT"
-			(at 753.34 59.69 0)
+			(at 734.29 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6432,7 +7542,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM7805CT?qs=QbsRYf82W3EaqXeMDVwIfQ%3D%3D"
-			(at 853.34 59.69 0)
+			(at 834.29 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6444,7 +7554,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LM7805CT"
-			(at 953.34 59.69 0)
+			(at 934.29 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6456,7 +7566,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm7805ct/texas-instruments?region=europe"
-			(at 1053.34 59.69 0)
+			(at 1034.29 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6486,8 +7596,174 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:C320C104K5R5TA")
+		(at 254 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "592697a8-9af7-4021-a15c-b580b97c61cd")
+		(property "Reference" "C2"
+			(at 260.35 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C320C104K5R5TA"
+			(at 260.35 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:C320C104K5R5TA"
+			(at 262.89 248.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
+			(at 262.89 348.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "GoldMax, Commercial Standard"
+			(at 254 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "5.84"
+			(at 262.89 548.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 262.89 648.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C320C104K5R5TA"
+			(at 262.89 748.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "80-C320C104K5R"
+			(at 262.89 848.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C320C104K5R5TA?qs=PmkNt%2FFLxQc4kNUCHU6a6Q%3D%3D"
+			(at 262.89 948.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "C320C104K5R5TA"
+			(at 262.89 1048.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c320c104k5r5ta/kemet-corporation.html?utm_currency=USD&region=nac"
+			(at 262.89 1148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "612aec10-7410-4aac-950c-ac6f33fa5973")
+		)
+		(pin "2"
+			(uuid "56043af0-e593-4218-9312-f7df59e81ad1")
+		)
+		(instances
+			(project "ctrl_pap"
+				(path "/11e0ee54-35cb-4454-8fa6-589f86c57c0c"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:1N5822")
-		(at 162.56 170.18 270)
+		(at 175.26 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6498,7 +7774,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b02e331-5903-4c85-96b3-913d097fe9ae")
 		(property "Reference" "D9"
-			(at 166.37 176.5299 90)
+			(at 179.07 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6509,7 +7785,7 @@
 			)
 		)
 		(property "Value" "1N5822"
-			(at 166.37 179.0699 90)
+			(at 179.07 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6520,7 +7796,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:DIOAD3070W130L950D530"
-			(at 65.1 181.61 0)
+			(at 77.8 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6532,7 +7808,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/1N5820-D.PDF"
-			(at -34.9 181.61 0)
+			(at -22.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6544,7 +7820,7 @@
 			)
 		)
 		(property "Description" "Obsolete - Schottky Barrier Rectifier, 3.0 A, 40 V"
-			(at 162.56 170.18 0)
+			(at 175.26 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6555,7 +7831,7 @@
 			)
 		)
 		(property "Height" ""
-			(at -234.9 181.61 0)
+			(at -222.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6567,7 +7843,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at -334.9 181.61 0)
+			(at -322.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +7855,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5822"
-			(at -434.9 181.61 0)
+			(at -422.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6591,7 +7867,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-1N5822"
-			(at -534.9 181.61 0)
+			(at -522.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6603,7 +7879,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N5822?qs=UY9CvlAIy0ilZt8GFdM7Zg%3D%3D"
-			(at -634.9 181.61 0)
+			(at -622.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6615,7 +7891,7 @@
 			)
 		)
 		(property "Arrow Part Number" "1N5822"
-			(at -734.9 181.61 0)
+			(at -722.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6627,7 +7903,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1n5822/on-semiconductor"
-			(at -834.9 181.61 0)
+			(at -822.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6654,8 +7930,436 @@
 		)
 	)
 	(symbol
+		(lib_id "Snapeda:MFR-25FBF52-10K2")
+		(at 220.98 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e1fc0e7-3249-44e6-a68e-a48045fe8f7d")
+		(property "Reference" "R7"
+			(at 220.98 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8k"
+			(at 220.98 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Snapeda:RESAD1100W55L680D260"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10.2 kOhms ±1% 0.25W, 1/4W Through Hole Resistor Axial - Metal Film"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.6mm"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "RADIAL-2 Yageo"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MFR-25FBF52-10K2/Yageo/view-part/?ref=eda"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "201304"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MFR-25FBF52-10K2/Yageo/view-part/?ref=snap"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MFR-25FBF52-10K2"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Yageo Corporation"
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "ae985c71-c24a-407e-8270-2d3586233062")
+		)
+		(pin "2"
+			(uuid "cd2f3a67-9e5b-4032-99fb-d72bccc81dcf")
+		)
+		(instances
+			(project "ctrl_pap"
+				(path "/11e0ee54-35cb-4454-8fa6-589f86c57c0c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Snapeda:MFR-25FBF52-10K2")
+		(at 220.98 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a1ddbcc-5098-4f3f-b76e-56ed56a736bd")
+		(property "Reference" "R8"
+			(at 220.98 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8k"
+			(at 220.98 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Snapeda:RESAD1100W55L680D260"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10.2 kOhms ±1% 0.25W, 1/4W Through Hole Resistor Axial - Metal Film"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.6mm"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "RADIAL-2 Yageo"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MFR-25FBF52-10K2/Yageo/view-part/?ref=eda"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "201304"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MFR-25FBF52-10K2/Yageo/view-part/?ref=snap"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MFR-25FBF52-10K2"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Yageo Corporation"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "1d028f34-f198-493a-88fd-3328e02ec803")
+		)
+		(pin "2"
+			(uuid "97dbdf16-a53a-4646-88e5-1451deab6186")
+		)
+		(instances
+			(project "ctrl_pap"
+				(path "/11e0ee54-35cb-4454-8fa6-589f86c57c0c"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:1N5822")
-		(at 144.78 185.42 90)
+		(at 157.48 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6666,7 +8370,7 @@
 		(fields_autoplaced yes)
 		(uuid "6db4f3b0-2010-4dfc-9f8c-3daf0cbc1c66")
 		(property "Reference" "D8"
-			(at 148.59 176.5299 90)
+			(at 161.29 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6677,7 +8381,7 @@
 			)
 		)
 		(property "Value" "1N5822"
-			(at 148.59 179.0699 90)
+			(at 161.29 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6688,7 +8392,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:DIOAD3070W130L950D530"
-			(at 242.24 173.99 0)
+			(at 254.94 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6700,7 +8404,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/1N5820-D.PDF"
-			(at 342.24 173.99 0)
+			(at 354.94 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6712,7 +8416,7 @@
 			)
 		)
 		(property "Description" "Obsolete - Schottky Barrier Rectifier, 3.0 A, 40 V"
-			(at 144.78 185.42 0)
+			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +8427,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 542.24 173.99 0)
+			(at 554.94 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6735,7 +8439,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 642.24 173.99 0)
+			(at 654.94 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6747,7 +8451,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5822"
-			(at 742.24 173.99 0)
+			(at 754.94 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6759,7 +8463,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-1N5822"
-			(at 842.24 173.99 0)
+			(at 854.94 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6771,7 +8475,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N5822?qs=UY9CvlAIy0ilZt8GFdM7Zg%3D%3D"
-			(at 942.24 173.99 0)
+			(at 954.94 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6783,7 +8487,7 @@
 			)
 		)
 		(property "Arrow Part Number" "1N5822"
-			(at 1042.24 173.99 0)
+			(at 1054.94 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6795,7 +8499,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1n5822/on-semiconductor"
-			(at 1142.24 173.99 0)
+			(at 1154.94 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6822,8 +8526,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:C350C224F1G5TA")
-		(at 248.92 81.28 90)
+		(lib_id "Samacsys:C320C104K5R5TA")
+		(at 267.97 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6832,9 +8536,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "711e83c1-1996-4a10-bf2b-62032179447b")
+		(uuid "6fc76fb8-3c35-4214-912a-21d9ad676621")
 		(property "Reference" "C3"
-			(at 252.73 73.6599 90)
+			(at 271.78 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6844,8 +8548,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C350C224F1G5TA"
-			(at 252.73 76.1999 90)
+		(property "Value" "C320C104K5R5TA"
+			(at 271.78 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6855,8 +8559,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Samacsys:C350C224F1G5TA"
-			(at 345.11 72.39 0)
+		(property "Footprint" "Samacsys:C320C104K5R5TA"
+			(at 364.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6867,8 +8571,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1049_GOLDMAX_C0G"
-			(at 445.11 72.39 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
+			(at 464.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6880,7 +8584,7 @@
 			)
 		)
 		(property "Description" "GoldMax, Commercial Standard"
-			(at 248.92 81.28 0)
+			(at 267.97 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6890,8 +8594,8 @@
 				)
 			)
 		)
-		(property "Height" "10.16"
-			(at 645.11 72.39 0)
+		(property "Height" "5.84"
+			(at 664.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6903,7 +8607,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo Group"
-			(at 745.11 72.39 0)
+			(at 764.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6914,8 +8618,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C350C224F1G5TA"
-			(at 845.11 72.39 0)
+		(property "Manufacturer_Part_Number" "C320C104K5R5TA"
+			(at 864.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6926,8 +8630,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "80-C350C224F1G5TA"
-			(at 945.11 72.39 0)
+		(property "Mouser Part Number" "80-C320C104K5R"
+			(at 964.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6938,8 +8642,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C350C224F1G5TA?qs=h3%2Fj8evtlm0wFcP6QhgEYA%3D%3D"
-			(at 1045.11 72.39 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C320C104K5R5TA?qs=PmkNt%2FFLxQc4kNUCHU6a6Q%3D%3D"
+			(at 1064.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6950,8 +8654,8 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 1145.11 72.39 0)
+		(property "Arrow Part Number" "C320C104K5R5TA"
+			(at 1164.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6962,8 +8666,8 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 1245.11 72.39 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c320c104k5r5ta/kemet-corporation.html?utm_currency=USD&region=nac"
+			(at 1264.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6975,10 +8679,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb27eee9-a92d-4b76-a2e8-007c31552989")
+			(uuid "564d9d6a-30c5-46b2-ac4f-70c3cd21f360")
 		)
 		(pin "2"
-			(uuid "71dfdfc7-563b-4d12-9f3e-9bf6256097bf")
+			(uuid "bcc3edc9-80eb-4834-ba96-53d19fa5a03e")
 		)
 		(instances
 			(project "ctrl_pap"
@@ -7166,7 +8870,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:1N5822")
-		(at 162.56 149.86 270)
+		(at 175.26 62.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7177,7 +8881,7 @@
 		(fields_autoplaced yes)
 		(uuid "8353bb3d-1dee-4849-b611-e2bf1dd66475")
 		(property "Reference" "D7"
-			(at 166.37 156.2099 90)
+			(at 179.07 68.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7188,7 +8892,7 @@
 			)
 		)
 		(property "Value" "1N5822"
-			(at 166.37 158.7499 90)
+			(at 179.07 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7199,7 +8903,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:DIOAD3070W130L950D530"
-			(at 65.1 161.29 0)
+			(at 77.8 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7211,7 +8915,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/1N5820-D.PDF"
-			(at -34.9 161.29 0)
+			(at -22.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7223,7 +8927,7 @@
 			)
 		)
 		(property "Description" "Obsolete - Schottky Barrier Rectifier, 3.0 A, 40 V"
-			(at 162.56 149.86 0)
+			(at 175.26 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7234,7 +8938,7 @@
 			)
 		)
 		(property "Height" ""
-			(at -234.9 161.29 0)
+			(at -222.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7246,7 +8950,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at -334.9 161.29 0)
+			(at -322.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7258,7 +8962,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5822"
-			(at -434.9 161.29 0)
+			(at -422.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7270,7 +8974,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-1N5822"
-			(at -534.9 161.29 0)
+			(at -522.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7282,7 +8986,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N5822?qs=UY9CvlAIy0ilZt8GFdM7Zg%3D%3D"
-			(at -634.9 161.29 0)
+			(at -622.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7294,7 +8998,7 @@
 			)
 		)
 		(property "Arrow Part Number" "1N5822"
-			(at -734.9 161.29 0)
+			(at -722.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7306,7 +9010,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1n5822/on-semiconductor"
-			(at -834.9 161.29 0)
+			(at -822.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7334,7 +9038,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:CD4052BF")
-		(at 200.66 40.64 0)
+		(at 208.28 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7345,7 +9049,7 @@
 		(fields_autoplaced yes)
 		(uuid "9462ae1c-5a21-4e57-a49a-614428352355")
 		(property "Reference" "IC3"
-			(at 236.22 33.02 0)
+			(at 243.84 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7355,7 +9059,7 @@
 			)
 		)
 		(property "Value" "CD4052BF"
-			(at 236.22 35.56 0)
+			(at 243.84 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7365,7 +9069,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:CDIP762W66P254L2134H508Q16"
-			(at 267.97 135.56 0)
+			(at 275.59 122.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7377,7 +9081,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4052b-mil.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1636445213364&ref_url=https%253A%252F%252Fwww.mouser.in%252F"
-			(at 267.97 235.56 0)
+			(at 275.59 222.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7389,7 +9093,7 @@
 			)
 		)
 		(property "Description" "Multiplexer Switch ICs 4-Channel Analog Multiplexer/Demux"
-			(at 200.66 40.64 0)
+			(at 208.28 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7400,7 +9104,7 @@
 			)
 		)
 		(property "Height" "5.08"
-			(at 267.97 435.56 0)
+			(at 275.59 422.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7412,7 +9116,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 267.97 535.56 0)
+			(at 275.59 522.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7424,7 +9128,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CD4052BF"
-			(at 267.97 635.56 0)
+			(at 275.59 622.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7436,7 +9140,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-CD4052BF"
-			(at 267.97 735.56 0)
+			(at 275.59 722.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7448,7 +9152,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-CD4052BF"
-			(at 267.97 835.56 0)
+			(at 275.59 822.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7460,7 +9164,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CD4052BF"
-			(at 267.97 935.56 0)
+			(at 275.59 922.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7472,7 +9176,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cd4052bf/texas-instruments.html?utm_currency=USD&region=nac"
-			(at 267.97 1035.56 0)
+			(at 275.59 1022.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7542,7 +9246,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:SN74LS175N")
-		(at 220.98 81.28 0)
+		(at 240.03 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7553,7 +9257,7 @@
 		(fields_autoplaced yes)
 		(uuid "98d4c7df-aa43-49b4-b329-e4c853c638dd")
 		(property "Reference" "IC2"
-			(at 234.95 73.66 0)
+			(at 254 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7563,7 +9267,7 @@
 			)
 		)
 		(property "Value" "SN74LS175N"
-			(at 234.95 76.2 0)
+			(at 254 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7573,7 +9277,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:DIP794W53P254L1930H508Q16N"
-			(at 245.11 176.2 0)
+			(at 264.16 164.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7585,7 +9289,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls175"
-			(at 245.11 276.2 0)
+			(at 264.16 264.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7597,7 +9301,7 @@
 			)
 		)
 		(property "Description" "HEX/QUADRUPLE D-TYPE FLIP-FLOPS WITH CLEAR"
-			(at 220.98 81.28 0)
+			(at 240.03 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7608,7 +9312,7 @@
 			)
 		)
 		(property "Height" "5.08"
-			(at 245.11 476.2 0)
+			(at 264.16 464.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7620,7 +9324,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 245.11 576.2 0)
+			(at 264.16 564.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7632,7 +9336,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LS175N"
-			(at 245.11 676.2 0)
+			(at 264.16 664.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7644,7 +9348,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LS175N"
-			(at 245.11 776.2 0)
+			(at 264.16 764.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7656,7 +9360,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LS175N?qs=WzgTT80quPFE8M0oojcOlA%3D%3D"
-			(at 245.11 876.2 0)
+			(at 264.16 864.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7668,7 +9372,7 @@
 			)
 		)
 		(property "Arrow Part Number" "SN74LS175N"
-			(at 245.11 976.2 0)
+			(at 264.16 964.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7680,7 +9384,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ls175n/texas-instruments?region=nac"
-			(at 245.11 1076.2 0)
+			(at 264.16 1064.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7750,7 +9454,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:1N5822")
-		(at 144.78 144.78 90)
+		(at 157.48 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7761,7 +9465,7 @@
 		(fields_autoplaced yes)
 		(uuid "991c1c1c-fbdc-4eb4-98fc-4134bd7b16a2")
 		(property "Reference" "D4"
-			(at 148.59 135.8899 90)
+			(at 161.29 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7772,7 +9476,7 @@
 			)
 		)
 		(property "Value" "1N5822"
-			(at 148.59 138.4299 90)
+			(at 161.29 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7783,7 +9487,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:DIOAD3070W130L950D530"
-			(at 242.24 133.35 0)
+			(at 254.94 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7795,7 +9499,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/1N5820-D.PDF"
-			(at 342.24 133.35 0)
+			(at 354.94 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +9511,7 @@
 			)
 		)
 		(property "Description" "Obsolete - Schottky Barrier Rectifier, 3.0 A, 40 V"
-			(at 144.78 144.78 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7818,7 +9522,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 542.24 133.35 0)
+			(at 554.94 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7830,7 +9534,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 642.24 133.35 0)
+			(at 654.94 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7842,7 +9546,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5822"
-			(at 742.24 133.35 0)
+			(at 754.94 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7854,7 +9558,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-1N5822"
-			(at 842.24 133.35 0)
+			(at 854.94 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7866,7 +9570,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N5822?qs=UY9CvlAIy0ilZt8GFdM7Zg%3D%3D"
-			(at 942.24 133.35 0)
+			(at 954.94 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7878,7 +9582,7 @@
 			)
 		)
 		(property "Arrow Part Number" "1N5822"
-			(at 1042.24 133.35 0)
+			(at 1054.94 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7890,7 +9594,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1n5822/on-semiconductor"
-			(at 1142.24 133.35 0)
+			(at 1154.94 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7917,8 +9621,438 @@
 		)
 	)
 	(symbol
+		(lib_id "Snapeda:MFR-25FBF52-10K2")
+		(at 144.78 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a33a257f-a671-4c91-a2b2-b209254e01f7")
+		(property "Reference" "R11"
+			(at 148.59 148.5899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 148.59 151.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Snapeda:RESAD1100W55L680D260"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10.2 kOhms ±1% 0.25W, 1/4W Through Hole Resistor Axial - Metal Film"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.6mm"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "RADIAL-2 Yageo"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MFR-25FBF52-10K2/Yageo/view-part/?ref=eda"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "201304"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MFR-25FBF52-10K2/Yageo/view-part/?ref=snap"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MFR-25FBF52-10K2"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Yageo Corporation"
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "48ee0fe5-0b18-439f-b093-690ac43e228a")
+		)
+		(pin "2"
+			(uuid "bcddcd65-4d3f-4f3c-91d1-ad0394c6a6b3")
+		)
+		(instances
+			(project "ctrl_pap"
+				(path "/11e0ee54-35cb-4454-8fa6-589f86c57c0c"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Snapeda:MFR-25FBF52-10K2")
+		(at 156.21 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af6a8941-454e-43bb-9130-e5892d158aa7")
+		(property "Reference" "R9"
+			(at 156.21 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 156.21 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Snapeda:RESAD1100W55L680D260"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10.2 kOhms ±1% 0.25W, 1/4W Through Hole Resistor Axial - Metal Film"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.6mm"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "RADIAL-2 Yageo"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MFR-25FBF52-10K2/Yageo/view-part/?ref=eda"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "201304"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MFR-25FBF52-10K2/Yageo/view-part/?ref=snap"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MFR-25FBF52-10K2"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Yageo Corporation"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "322a93b0-d175-4ace-89f4-c5ab13d1ba65")
+		)
+		(pin "2"
+			(uuid "17e48dd2-d607-4d76-9693-18deeea1a75d")
+		)
+		(instances
+			(project "ctrl_pap"
+				(path "/11e0ee54-35cb-4454-8fa6-589f86c57c0c"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:1N5822")
-		(at 144.78 121.92 90)
+		(at 157.48 34.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7929,7 +10063,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5c1281a-29d6-43ab-99fa-8d9a2e1efe9c")
 		(property "Reference" "D2"
-			(at 148.59 113.0299 90)
+			(at 161.29 25.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7940,7 +10074,7 @@
 			)
 		)
 		(property "Value" "1N5822"
-			(at 148.59 115.5699 90)
+			(at 161.29 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7951,7 +10085,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:DIOAD3070W130L950D530"
-			(at 242.24 110.49 0)
+			(at 254.94 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7963,7 +10097,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/1N5820-D.PDF"
-			(at 342.24 110.49 0)
+			(at 354.94 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7975,7 +10109,7 @@
 			)
 		)
 		(property "Description" "Obsolete - Schottky Barrier Rectifier, 3.0 A, 40 V"
-			(at 144.78 121.92 0)
+			(at 157.48 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7986,7 +10120,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 542.24 110.49 0)
+			(at 554.94 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7998,7 +10132,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 642.24 110.49 0)
+			(at 654.94 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8010,7 +10144,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5822"
-			(at 742.24 110.49 0)
+			(at 754.94 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8022,7 +10156,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-1N5822"
-			(at 842.24 110.49 0)
+			(at 854.94 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8034,7 +10168,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N5822?qs=UY9CvlAIy0ilZt8GFdM7Zg%3D%3D"
-			(at 942.24 110.49 0)
+			(at 954.94 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8046,7 +10180,7 @@
 			)
 		)
 		(property "Arrow Part Number" "1N5822"
-			(at 1042.24 110.49 0)
+			(at 1054.94 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8058,7 +10192,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1n5822/on-semiconductor"
-			(at 1142.24 110.49 0)
+			(at 1154.94 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8086,7 +10220,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:1N5822")
-		(at 162.56 106.68 270)
+		(at 175.26 19.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8097,7 +10231,7 @@
 		(fields_autoplaced yes)
 		(uuid "b90d2a1c-8dc1-4820-aa4c-1a6a0c266ff6")
 		(property "Reference" "D3"
-			(at 166.37 113.0299 90)
+			(at 179.07 25.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8108,7 +10242,7 @@
 			)
 		)
 		(property "Value" "1N5822"
-			(at 166.37 115.5699 90)
+			(at 179.07 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8119,7 +10253,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:DIOAD3070W130L950D530"
-			(at 65.1 118.11 0)
+			(at 77.8 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8131,7 +10265,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/1N5820-D.PDF"
-			(at -34.9 118.11 0)
+			(at -22.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8143,7 +10277,7 @@
 			)
 		)
 		(property "Description" "Obsolete - Schottky Barrier Rectifier, 3.0 A, 40 V"
-			(at 162.56 106.68 0)
+			(at 175.26 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8154,7 +10288,7 @@
 			)
 		)
 		(property "Height" ""
-			(at -234.9 118.11 0)
+			(at -222.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8166,7 +10300,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at -334.9 118.11 0)
+			(at -322.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8178,7 +10312,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5822"
-			(at -434.9 118.11 0)
+			(at -422.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +10324,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-1N5822"
-			(at -534.9 118.11 0)
+			(at -522.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8202,7 +10336,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N5822?qs=UY9CvlAIy0ilZt8GFdM7Zg%3D%3D"
-			(at -634.9 118.11 0)
+			(at -622.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8214,7 +10348,7 @@
 			)
 		)
 		(property "Arrow Part Number" "1N5822"
-			(at -734.9 118.11 0)
+			(at -722.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8226,7 +10360,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1n5822/on-semiconductor"
-			(at -834.9 118.11 0)
+			(at -822.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8253,8 +10387,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:C350C224F1G5TA")
-		(at 271.78 40.64 90)
+		(lib_id "Samacsys:C320C104K5R5TA")
+		(at 279.4 27.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8263,9 +10397,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf642307-df92-4608-b34b-a6138bbf2c95")
+		(uuid "bc15d185-c3c5-4615-9193-e0d68dab6405")
 		(property "Reference" "C4"
-			(at 275.59 33.0199 90)
+			(at 283.21 20.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8275,8 +10409,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C350C224F1G5TA"
-			(at 275.59 35.5599 90)
+		(property "Value" "C320C104K5R5TA"
+			(at 283.21 22.8599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8286,8 +10420,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Samacsys:C350C224F1G5TA"
-			(at 367.97 31.75 0)
+		(property "Footprint" "Samacsys:C320C104K5R5TA"
+			(at 375.59 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8298,8 +10432,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1049_GOLDMAX_C0G"
-			(at 467.97 31.75 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
+			(at 475.59 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8311,7 +10445,7 @@
 			)
 		)
 		(property "Description" "GoldMax, Commercial Standard"
-			(at 271.78 40.64 0)
+			(at 279.4 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8321,8 +10455,8 @@
 				)
 			)
 		)
-		(property "Height" "10.16"
-			(at 667.97 31.75 0)
+		(property "Height" "5.84"
+			(at 675.59 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8334,7 +10468,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo Group"
-			(at 767.97 31.75 0)
+			(at 775.59 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8345,8 +10479,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C350C224F1G5TA"
-			(at 867.97 31.75 0)
+		(property "Manufacturer_Part_Number" "C320C104K5R5TA"
+			(at 875.59 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8357,8 +10491,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "80-C350C224F1G5TA"
-			(at 967.97 31.75 0)
+		(property "Mouser Part Number" "80-C320C104K5R"
+			(at 975.59 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8369,8 +10503,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C350C224F1G5TA?qs=h3%2Fj8evtlm0wFcP6QhgEYA%3D%3D"
-			(at 1067.97 31.75 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C320C104K5R5TA?qs=PmkNt%2FFLxQc4kNUCHU6a6Q%3D%3D"
+			(at 1075.59 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8381,8 +10515,8 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 1167.97 31.75 0)
+		(property "Arrow Part Number" "C320C104K5R5TA"
+			(at 1175.59 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8393,8 +10527,8 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 1267.97 31.75 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c320c104k5r5ta/kemet-corporation.html?utm_currency=USD&region=nac"
+			(at 1275.59 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8406,10 +10540,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "750d4f20-f3a3-4282-8591-9a2aa644c66d")
+			(uuid "ec2c2c91-3ff9-45d4-bd67-3f5d2cfd5bb6")
 		)
 		(pin "2"
-			(uuid "17f1e1cf-7a73-455b-93e5-e2d0344f7500")
+			(uuid "0333405b-1caa-41d6-ba3d-26f37fa7049e")
 		)
 		(instances
 			(project "ctrl_pap"
@@ -8442,7 +10576,7 @@
 				)
 			)
 		)
-		(property "Value" "MFR-25FBF52-10K2"
+		(property "Value" "1k"
 			(at 99.06 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8635,8 +10769,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:860080574007")
-		(at 208.28 124.46 0)
+		(lib_id "Samacsys:BC337")
+		(at 194.31 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8645,29 +10779,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1a50883-0065-4837-9f55-f2abff5f0fa3")
-		(property "Reference" "C5"
-			(at 214.63 116.84 0)
+		(uuid "ceb5db74-b47a-4731-8be3-e2f34c1e46df")
+		(property "Reference" "Q2"
+			(at 208.28 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "860080574007"
-			(at 214.63 119.38 0)
+		(property "Value" "BC337"
+			(at 208.28 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CAPPRD350W52D800H1300"
-			(at 217.17 220.65 0)
+		(property "Footprint" "Samacsys:BC337"
+			(at 208.28 233.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8678,8 +10814,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/860080574007.pdf"
-			(at 217.17 320.65 0)
+		(property "Datasheet" "https://www.microsemi.com/existing-parts/parts/43873#diagrams"
+			(at 208.28 333.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8690,8 +10826,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "WCAP-ATLI Aluminum Electrolytic Capacitors ATEE115101M035DSPA7C000; THT Radial; 100 F +/- 20%; 35 V(DC); 3000 h; -55C / +105C; size DxL 8.0 x 11.5; pitch 3.5; Pin  0.5; Max. Iripple 560 mA @100 kHz; LC 35 A; DF 9%"
-			(at 208.28 124.46 0)
+		(property "Description" "general purpose NPN bipolar transistor VCE(sat) 0.7V, VBR(CBO) 50V, IC 0.8A, TO-92"
+			(at 194.31 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8701,20 +10837,8 @@
 				)
 			)
 		)
-		(property "Height" "13"
-			(at 217.17 520.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 217.17 620.65 0)
+		(property "Height" "5.33"
+			(at 208.28 533.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8725,8 +10849,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "860080574007"
-			(at 217.17 720.65 0)
+		(property "Manufacturer_Name" "Microsemi Corporation"
+			(at 208.28 633.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8737,8 +10861,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "710-860080574007"
-			(at 217.17 820.65 0)
+		(property "Manufacturer_Part_Number" "BC337"
+			(at 208.28 733.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8749,8 +10873,20 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/860080574007?qs=0KOYDY2FL28IzuziWmz%252B%252BA%3D%3D"
-			(at 217.17 920.65 0)
+		(property "Mouser Part Number" ""
+			(at 208.28 833.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 208.28 933.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +10898,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 217.17 1020.65 0)
+			(at 208.28 1033.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8774,7 +10910,176 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 217.17 1120.65 0)
+			(at 208.28 1133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "cd72dd39-294d-43ad-b57f-78e0c284675a")
+		)
+		(pin "3"
+			(uuid "9e6be11e-e562-42dc-b12f-c6f82615fac2")
+		)
+		(pin "1"
+			(uuid "b1aa584d-57a9-4d51-8591-50b9dad42b63")
+		)
+		(instances
+			(project "ctrl_pap"
+				(path "/11e0ee54-35cb-4454-8fa6-589f86c57c0c"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:860080574007")
+		(at 254 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1a50883-0065-4837-9f55-f2abff5f0fa3")
+		(property "Reference" "C5"
+			(at 260.35 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "860080574007"
+			(at 260.35 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:CAPPRD350W52D800H1300"
+			(at 262.89 220.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/860080574007.pdf"
+			(at 262.89 320.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "WCAP-ATLI Aluminum Electrolytic Capacitors ATEE115101M035DSPA7C000; THT Radial; 100 F +/- 20%; 35 V(DC); 3000 h; -55C / +105C; size DxL 8.0 x 11.5; pitch 3.5; Pin  0.5; Max. Iripple 560 mA @100 kHz; LC 35 A; DF 9%"
+			(at 254 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "13"
+			(at 262.89 520.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 262.89 620.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "860080574007"
+			(at 262.89 720.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "710-860080574007"
+			(at 262.89 820.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/860080574007?qs=0KOYDY2FL28IzuziWmz%252B%252BA%3D%3D"
+			(at 262.89 920.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 262.89 1020.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 262.89 1120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8822,7 +11127,7 @@
 				)
 			)
 		)
-		(property "Value" "MFR-25FBF52-10K2"
+		(property "Value" "10k"
 			(at 99.06 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9228,7 +11533,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e3638dc4-2ff2-43c9-a98e-94ff1afed746")
 		(property "Reference" "R4"
@@ -9241,7 +11546,7 @@
 				)
 			)
 		)
-		(property "Value" "MFR-25FBF52-10K2"
+		(property "Value" "DNP"
 			(at 99.06 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9435,7 +11740,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:860020572003")
-		(at 208.28 111.76 0)
+		(at 254 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9446,7 +11751,7 @@
 		(fields_autoplaced yes)
 		(uuid "e470cae6-bdda-4c3f-b91c-7d8d89ebb2f5")
 		(property "Reference" "C6"
-			(at 214.63 104.14 0)
+			(at 260.35 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9456,7 +11761,7 @@
 			)
 		)
 		(property "Value" "860020572003"
-			(at 214.63 106.68 0)
+			(at 260.35 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9466,7 +11771,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:CAPPRD200W52D500H1250"
-			(at 217.17 207.95 0)
+			(at 262.89 207.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9478,7 +11783,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/860020572003.pdf"
-			(at 217.17 307.95 0)
+			(at 262.89 307.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9490,7 +11795,7 @@
 			)
 		)
 		(property "Description" "WCAP-ATG5 Aluminum Electrolytic Capacitors ATDC110100M035DSPA3B000; THT Radial; 10 F +/- 20%; 35 V(DC); 2000 h; -40C / +105C; size DxL 5.0 x 11.0; pitch 2.0; Pin  0.5; Max. Iripple 46 mA @120 Hz; LC 3.5 A; DF 12%"
-			(at 208.28 111.76 0)
+			(at 254 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9501,7 +11806,7 @@
 			)
 		)
 		(property "Height" "12.5"
-			(at 217.17 507.95 0)
+			(at 262.89 507.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9513,7 +11818,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 217.17 607.95 0)
+			(at 262.89 607.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9525,7 +11830,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "860020572003"
-			(at 217.17 707.95 0)
+			(at 262.89 707.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9537,7 +11842,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-860020572003"
-			(at 217.17 807.95 0)
+			(at 262.89 807.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,7 +11854,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/860020572003?qs=0KOYDY2FL28Nvm4U9TAejQ%3D%3D"
-			(at 217.17 907.95 0)
+			(at 262.89 907.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9561,7 +11866,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 217.17 1007.95 0)
+			(at 262.89 1007.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9573,7 +11878,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 217.17 1107.95 0)
+			(at 262.89 1107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9601,7 +11906,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:35PX470MEFC10X12.5")
-		(at 208.28 137.16 0)
+		(at 254 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9612,7 +11917,7 @@
 		(fields_autoplaced yes)
 		(uuid "e56228df-abf8-43e4-8130-e014e80ac9ee")
 		(property "Reference" "C1"
-			(at 214.63 129.54 0)
+			(at 260.35 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9622,7 +11927,7 @@
 			)
 		)
 		(property "Value" "35PX470MEFC10X12.5"
-			(at 214.63 132.08 0)
+			(at 260.35 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9632,7 +11937,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:CAPPRD500W60D1025H1400"
-			(at 217.17 233.35 0)
+			(at 262.89 233.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9644,7 +11949,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/35PX470MEFC10X12.5.pdf"
-			(at 217.17 333.35 0)
+			(at 262.89 333.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9656,7 +11961,7 @@
 			)
 		)
 		(property "Description" "RUBYCON - 35PX470MEFC10X12.5 - CAP, ALU ELEC, 470UF, 35V, RAD"
-			(at 208.28 137.16 0)
+			(at 254 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9667,7 +11972,7 @@
 			)
 		)
 		(property "Height" "14"
-			(at 217.17 533.35 0)
+			(at 262.89 533.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9679,7 +11984,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Rubycon"
-			(at 217.17 633.35 0)
+			(at 262.89 633.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9691,7 +11996,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "35PX470MEFC10X12.5"
-			(at 217.17 733.35 0)
+			(at 262.89 733.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9703,7 +12008,7 @@
 			)
 		)
 		(property "Mouser Part Number" "232-35PX470MEFC10X12"
-			(at 217.17 833.35 0)
+			(at 262.89 833.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9715,7 +12020,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Rubycon/35PX470MEFC10X125?qs=T3oQrply3y%2FsX4ce3rzYNQ%3D%3D"
-			(at 217.17 933.35 0)
+			(at 262.89 933.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9727,7 +12032,7 @@
 			)
 		)
 		(property "Arrow Part Number" "35PX470MEFC10X12.5"
-			(at 217.17 1033.35 0)
+			(at 262.89 1033.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9739,7 +12044,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/35px470mefc10x12.5/rubycon"
-			(at 217.17 1133.35 0)
+			(at 262.89 1133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9929,6 +12234,172 @@
 			(project "ctrl_pap"
 				(path "/11e0ee54-35cb-4454-8fa6-589f86c57c0c"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:C320C104K5R5TA")
+		(at 36.83 40.64 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f21f5129-e92c-4a4b-a740-117b57c93875")
+		(property "Reference" "C8"
+			(at 30.48 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C320C104K5R5TA"
+			(at 30.48 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:C320C104K5R5TA"
+			(at 27.94 -55.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
+			(at 27.94 -155.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "GoldMax, Commercial Standard"
+			(at 36.83 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "5.84"
+			(at 27.94 -355.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 27.94 -455.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C320C104K5R5TA"
+			(at 27.94 -555.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "80-C320C104K5R"
+			(at 27.94 -655.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C320C104K5R5TA?qs=PmkNt%2FFLxQc4kNUCHU6a6Q%3D%3D"
+			(at 27.94 -755.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "C320C104K5R5TA"
+			(at 27.94 -855.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c320c104k5r5ta/kemet-corporation.html?utm_currency=USD&region=nac"
+			(at 27.94 -955.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "df34c263-ad69-45b5-94a1-687c39f1ca6f")
+		)
+		(pin "2"
+			(uuid "8818e469-940a-4dc1-b760-1ac75d153d26")
+		)
+		(instances
+			(project "ctrl_pap"
+				(path "/11e0ee54-35cb-4454-8fa6-589f86c57c0c"
+					(reference "C8")
 					(unit 1)
 				)
 			)

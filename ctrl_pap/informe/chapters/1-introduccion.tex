@@ -1,0 +1,69 @@
+\chapter{Introducción y Arquitectura General}
+\label{sec:introduccion}
+
+La placa \texttt{ctrl\_pap} acciona un motor paso a paso bipolar de dos fases dentro de la máquina CNC de tres
+ejes. Cada eje lleva un módulo idéntico que recibe órdenes simples del controlador principal, genera la secuencia
+de pasos por hardware y conmuta la potencia sobre los bobinados.
+
+\section{Propósito dentro del Sistema CNC}
+\label{sec:proposito_cnc}
+
+En el sistema general optamos por separar el controlador embebido de las etapas de potencia mediante placas
+dedicadas por eje. Esto aísla fallas eléctricas entre canales, ordena el cableado y reduce la cantidad de pines
+necesarios en el microcontrolador a solo tres salidas por eje: paso, sentido y habilitación.
+
+Además, la placa saca hacia una bornera externa el retorno común de corriente de los dos puentes H. Ese terminal
+conecta con el módulo de sensado analógico del CNC para medir la carga mecánica del eje y detectar topes o
+sobrecargas.
+
+\section{Diagrama en Bloques e Interfaces Externas}
+\label{sec:bloques_interfaces}
+
+El circuito se organiza en cinco bloques: protección y regulación de tensión, adaptación de entrada, secuenciador
+digital, puente H con diodos de protección y retorno de corriente. En la figura~\ref{fig.ej1:bloques_placa} se
+observa cómo se vinculan entre sí y con las cuatro borneras perimetrales de paso $5\,\unit{\milli\meter}$.
+
+\begin{figure}[!ht]
+  \centering
+  \resizebox{\textwidth}{!}{\input{figures/fig_ej1_bloques_placa.tex}}
+  \caption{Diagrama en bloques funcional de la placa \texttt{ctrl\_pap} y sus borneras de interfaz.}
+  \label{fig.ej1:bloques_placa}
+\end{figure}
+
+En la tabla~\ref{tab.ej1:conectores} se detalla el pinado completo de las borneras \texttt{J1}, \texttt{J3},
+\texttt{J4} y \texttt{J5}.
+
+\begin{table}[!ht]
+  \centering
+  \resizebox{\textwidth}{!}{
+    \begin{tabular}{|c|c|l|p{9.0cm}|}
+      \hline
+      \textbf{Ref.} & \textbf{Pin} & \textbf{Red} & \textbf{Función en el circuito} \\ \hline
+      \multirow{2}{*}{\texttt{J1}} & 1 & \texttt{V+} &
+        Entrada positiva de alimentación de potencia ($12\V$ a $24\V$ típicos). \\ \cline{2-4}
+       & 2 & \texttt{GND} & Referencia común de masa de alimentación. \\ \hline
+      \multirow{4}{*}{\texttt{J3}} & 1 & \texttt{GND} &
+        Masa de referencia para las señales lógicas de control. \\ \cline{2-4}
+       & 2 & \texttt{ENABLE} &
+        Habilitación simultánea de ambos puentes H en \texttt{IC1} (activa en alto). \\ \cline{2-4}
+       & 3 & \texttt{DIR3V3} & Selección del sentido de giro proveniente de lógica de $3.3\V$. \\ \cline{2-4}
+       & 4 & \texttt{STEP} & Tren de pulsos de paso; avanza un paso en cada flanco ascendente. \\ \hline
+      \multirow{4}{*}{\texttt{J4}} & 1 & \texttt{OUT1} &
+        Terminal positivo del devanado de fase A del motor. \\ \cline{2-4}
+       & 2 & \texttt{OUT2} & Terminal negativo del devanado de fase A del motor. \\ \cline{2-4}
+       & 3 & \texttt{OUT3} & Terminal positivo del devanado de fase B del motor. \\ \cline{2-4}
+       & 4 & \texttt{OUT4} & Terminal negativo del devanado de fase B del motor. \\ \hline
+      \multirow{2}{*}{\texttt{J5}} & 1 & \texttt{GND} &
+        Masa de referencia del retorno de corriente. \\ \cline{2-4}
+       & 2 & \texttt{SENSE\_A} &
+        Retorno unificado de los emisores inferiores de \texttt{IC1} hacia sensado externo. \\ \hline
+    \end{tabular}
+  }
+  \caption{Asignación de pines en las borneras externas de la placa \texttt{ctrl\_pap}.}
+  \label{tab.ej1:conectores}
+\end{table}
+
+El funcionamiento sigue una cadena directa: al alimentar \texttt{J1}, la placa alimenta los puentes de potencia y
+regula $+5\V$ para su propia lógica. Luego, por \texttt{J3} entran las señales de $3.3\V$: \texttt{ENABLE}
+habilita las salidas, \texttt{DIR3V3} se eleva a $5\V$ para fijar el sentido y cada pulso en \texttt{STEP}
+actualiza las cuatro líneas \texttt{IN1}--\texttt{IN4} que invierten las bobinas en \texttt{J4}.

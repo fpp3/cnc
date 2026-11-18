@@ -1,0 +1,44 @@
+\begin{circuitikz}[american, scale=0.82, transform shape]
+  % Bloque IC1 L298N
+  \draw[thick, fill=orange!6] (-0.2,-4.3) rectangle (2.7,8.4);
+  \node[align=center, font=\small\bfseries] at (1.25,7.8) {\texttt{IC1}\\L298N};
+
+  % Salidas hacia J4 (espaciadas para evitar cruces con diodos)
+  \draw (2.7,7.0) node[left, font=\scriptsize] {\texttt{OUT1} (2)} -- (9.6,7.0);
+  \draw (2.7,4.2) node[left, font=\scriptsize] {\texttt{OUT2} (3)} -- (9.6,4.2);
+  \draw (2.7,1.4) node[left, font=\scriptsize] {\texttt{OUT3} (13)} -- (9.6,1.4);
+  \draw (2.7,-1.4) node[left, font=\scriptsize] {\texttt{OUT4} (14)} -- (9.6,-1.4);
+
+  % Pines de sensado 1 y 15 unificados hacia J5 (por debajo de D9)
+  \draw (2.7,-3.6) node[left, font=\scriptsize] {\texttt{SEN\_A} (1)} -- (3.4,-3.6);
+  \draw (2.7,-4.0) node[left, font=\scriptsize] {\texttt{SEN\_B} (15)} -- (3.4,-4.0) -- (3.4,-3.6);
+  \draw (3.4,-3.6) to[short, *-] (9.6,-3.6) to[short, -o] (9.6,-3.6)
+    node[right, font=\scriptsize] {\texttt{J5.2 (SENSE\_A)}};
+  \draw (9.6,-4.3) node[ground] {} to[short, -o] (9.6,-4.3)
+    node[right, font=\scriptsize] {\texttt{J5.1 (GND)}};
+
+  % Par D2/D3 en OUT1 (x = 4.5)
+  \draw (4.5,7.0) to[sD*, l=$D_2$, *-] (4.5,8.4) node[above, font=\scriptsize] {\texttt{VS}};
+  \draw (4.5,5.6) node[ground] {} to[sD*, l=$D_3$, -*] (4.5,7.0);
+
+  % Par D4/D5 en OUT2 (x = 6.7)
+  \draw (6.7,4.2) to[sD*, l=$D_4$, *-] (6.7,5.6) node[above, font=\scriptsize] {\texttt{VS}};
+  \draw (6.7,2.8) node[ground] {} to[sD*, l=$D_5$, -*] (6.7,4.2);
+
+  % Par D6/D7 en OUT3 (x = 4.5)
+  \draw (4.5,1.4) to[sD*, l=$D_6$, *-] (4.5,2.8) node[above, font=\scriptsize] {\texttt{VS}};
+  \draw (4.5,0.0) node[ground] {} to[sD*, l=$D_7$, -*] (4.5,1.4);
+
+  % Par D8/D9 en OUT4 (x = 6.7)
+  \draw (6.7,-1.4) to[sD*, l=$D_8$, *-] (6.7,0.0) node[above, font=\scriptsize] {\texttt{VS}};
+  \draw (6.7,-2.8) node[ground] {} to[sD*, l=$D_9$, -*] (6.7,-1.4);
+
+  % Etiquetas J4 y bobinas del motor paso a paso
+  \node[above left, font=\scriptsize] at (9.6,7.0) {\texttt{J4.1}};
+  \node[below left, font=\scriptsize] at (9.6,4.2) {\texttt{J4.2}};
+  \node[above left, font=\scriptsize] at (9.6,1.4) {\texttt{J4.3}};
+  \node[below left, font=\scriptsize] at (9.6,-1.4) {\texttt{J4.4}};
+
+  \draw (9.6,7.0) to[L, l=Fase A, o-o] (9.6,4.2);
+  \draw (9.6,1.4) to[L, l=Fase B, o-o] (9.6,-1.4);
+\end{circuitikz}

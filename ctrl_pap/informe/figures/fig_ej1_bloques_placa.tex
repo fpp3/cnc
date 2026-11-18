@@ -1,0 +1,63 @@
+\begin{tikzpicture}[
+  >=stealth, thick,
+  font=\footnotesize,
+  box/.style={
+    draw=blue!70!black, fill=blue!8, rectangle, rounded corners=4pt,
+    minimum height=1.25cm, minimum width=2.7cm, align=center
+  },
+  pwr/.style={
+    draw=orange!80!black, fill=orange!10, rectangle, rounded corners=4pt,
+    minimum height=1.25cm, minimum width=3.1cm, align=center
+  },
+  term/.style={
+    draw=green!60!black, fill=green!10, rectangle, rounded corners=3pt,
+    minimum height=1.0cm, minimum width=2.0cm, align=center
+  },
+  sens/.style={
+    draw=purple!70!black, fill=purple!10, rectangle, rounded corners=4pt,
+    minimum height=1.1cm, minimum width=3.0cm, align=center
+  }
+]
+
+  % Fila superior: Alimentacion
+  \node[term] (j1) {Bornera J1\\{\scriptsize V+, GND}};
+  \node[pwr, right=0.9cm of j1] (reg) {Protección y\\Regulación\\{\scriptsize D1, C1, C5, LM7805CT}};
+
+  % Fila central: Cadena de senal
+  \node[term, below=1.6cm of j1] (j3) {Bornera J3\\{\scriptsize STEP, DIR3V3, EN}};
+  \node[box, right=0.8cm of j3] (ifz) {Interfaz y\\Nivelación\\{\scriptsize Q1, Q2, LED1}};
+  \node[box, right=1.1cm of ifz] (seq) {Secuenciador\\Digital\\{\scriptsize 74LS175, CD4052}};
+  \node[pwr, right=1.3cm of seq] (drv) {Etapa de Potencia\\y Protección\\{\scriptsize L298N, D2--D9}};
+  \node[term, right=0.8cm of drv] (j4) {Bornera J4\\{\scriptsize OUT1--OUT4}};
+
+  % Fila inferior: Retorno de corriente
+  \node[sens, below=1.3cm of drv] (ret) {Retorno Común\\{\scriptsize SENSE\_A (Pines 1 y 15)}};
+  \node[term, right=0.8cm of ret] (j5) {Bornera J5\\{\scriptsize SENSE\_A, GND}};
+
+  % Contenedor de placa
+  \draw[dashed, draw=gray!70, rounded corners=6pt]
+    ([xshift=-0.25cm, yshift=0.35cm]reg.north west -| ifz.west)
+    rectangle
+    ([xshift=0.25cm, yshift=-0.35cm]ret.south east -| drv.east);
+  \node[anchor=north east, font=\scriptsize\bfseries, text=black!75]
+    at ([xshift=0.15cm, yshift=0.25cm]reg.north east -| drv.east) {Placa ctrl\_pap};
+
+  % Conexiones
+  \draw[->] (j1) -- (reg);
+  \draw[->, draw=orange!80!black] (reg.east) -|
+    node[pos=0.25, above, font=\scriptsize] {VS} (drv.north);
+  \draw[->, draw=blue!70!black] (reg.south) |- ([yshift=0.5cm]seq.north)
+    node[pos=0.72, above, font=\scriptsize] {VSS ($+5\V$)} -- (seq.north);
+  \draw[->, draw=blue!70!black] ([yshift=0.5cm]seq.north) -| (ifz.north);
+
+  \draw[->] (j3) -- (ifz);
+  \draw[->] (ifz) -- node[above, font=\scriptsize] {DIR} (seq);
+  \draw[->] (ifz.south) -- ++(0,-0.45) -|
+    node[pos=0.25, below, font=\scriptsize] {STEP} ([xshift=-0.3cm]seq.south);
+  \draw[->] ([yshift=-0.45cm]ifz.south) -- ++(0,-0.35) -|
+    node[pos=0.32, below, font=\scriptsize] {ENABLE} ([xshift=-0.5cm]drv.south);
+  \draw[->] (seq) -- node[above, font=\scriptsize] {IN1--IN4} (drv);
+  \draw[->] (drv) -- (j4);
+  \draw[->] (drv) -- (ret);
+  \draw[->] (ret) -- (j5);
+\end{tikzpicture}

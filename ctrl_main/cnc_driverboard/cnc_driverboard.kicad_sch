@@ -3446,6 +3446,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 114.3) (xy 39.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4f9594-06ae-4694-92bd-f91e409119ae")
+	)
+	(wire
+		(pts
 			(xy 62.23 106.68) (xy 67.31 106.68)
 		)
 		(stroke
@@ -3476,16 +3486,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 114.3) (xy 39.37 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1cae6d9-0a97-463c-a3a7-159b7cd163a4")
-	)
-	(wire
-		(pts
 			(xy 44.45 105.41) (xy 44.45 106.68)
 		)
 		(stroke
@@ -3493,6 +3493,16 @@
 			(type default)
 		)
 		(uuid "b344eccf-8b02-4965-bd5e-892dc0dddd84")
+	)
+	(wire
+		(pts
+			(xy 27.94 115.57) (xy 27.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fac55e-150c-431f-93df-f99908463f91")
 	)
 	(wire
 		(pts
@@ -4205,6 +4215,85 @@
 			(project "cnc_driverboard"
 				(path "/137db5f0-82c6-4bbe-b609-866b441767e8"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 27.94 123.19 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16247c04-a0e7-4f88-b303-aeb172f535e4")
+		(property "Reference" "#PWR076"
+			(at 27.94 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 27.94 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Snapeda:61300211121"
+			(at 27.94 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 27.94 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d01deb4-bd3b-47be-ac55-082594517071")
+		)
+		(instances
+			(project "cnc_driverboard"
+				(path "/137db5f0-82c6-4bbe-b609-866b441767e8"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -5173,7 +5262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4k7"
 			(at 41.91 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6706,6 +6795,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 27.94 119.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9da70324-3ae1-43b7-ba01-7e4fe41b4e4d")
+		(property "Reference" "R9"
+			(at 22.8599 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 25.3999 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 29.718 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 27.94 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dabce8f3-089a-4bed-823f-3e3bb23f5ba0")
+		)
+		(pin "2"
+			(uuid "c168fbd8-e162-4cc2-b5ff-d70c3fd42234")
+		)
+		(instances
+			(project "cnc_driverboard"
+				(path "/137db5f0-82c6-4bbe-b609-866b441767e8"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 96.52 0)
 		(unit 1)
@@ -7982,7 +8153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4k7"
 			(at 59.69 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)

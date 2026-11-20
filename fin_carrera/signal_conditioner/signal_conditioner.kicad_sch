@@ -160,6 +160,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "OPAMP_1"
 			(pin_names
 				(offset 0.254)
@@ -866,6 +1021,205 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Simulation_SPICE:VPULSE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "V"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "VPULSE"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Voltage source, pulse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "PULSE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Sim.Params" "y1=0 y2=1 td=2n tr=2n tf=2n tw=50n per=100n"
+				(at 2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VPULSE_0_0"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy -1.397 -0.762) (xy -1.143 0.762) (xy -0.127 0.762) (xy 0.127 -0.762) (xy 1.143 -0.762)
+						(xy 1.397 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at 0 1.905 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "VPULSE_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "VPULSE_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:VSIN"
 			(pin_numbers
 				(hide yes)
@@ -1205,68 +1559,90 @@
 		(uuid "a0000000-0000-0000-0000-000000000002")
 	)
 	(junction
-		(at 102.87 163.83)
+		(at 101.6 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1775c8f6-633d-43bd-8d5b-f159268e6529")
+		(uuid "1d1d96da-5896-4a24-8db7-6cb65ae0e080")
 	)
 	(junction
-		(at 124.46 147.32)
+		(at 190.5 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "299479c3-6e02-4067-ae5c-16ce3ba5a1e0")
+		(uuid "32f3bfa0-c5e5-47d7-a47e-84e2b8d13a78")
 	)
 	(junction
-		(at 176.53 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7421122f-2620-4487-9c20-ad320361ea75")
-	)
-	(junction
-		(at 151.13 69.85)
+		(at 166.37 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ea156a0-a929-4c33-81c8-7ae674c933ed")
 	)
 	(junction
-		(at 101.6 91.44)
+		(at 116.84 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "927bbd5c-4327-4e52-9c58-49653e278c7a")
 	)
 	(junction
-		(at 86.36 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93f9e136-e8c8-4ff6-a151-5cd033a41ebd")
-	)
-	(junction
-		(at 175.26 72.39)
+		(at 190.5 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9adc6128-bf70-4141-9951-9b252209ffc2")
 	)
 	(junction
-		(at 123.19 74.93)
+		(at 116.84 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c0ffa62-f1c3-42ca-b402-331fc9d09cc2")
+	)
+	(junction
+		(at 101.6 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9faaccaa-63c1-4395-af67-91ef45daa50d")
+	)
+	(junction
+		(at 138.43 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2a8b313-67fe-4be5-bfaa-6eb6755ac649")
 	)
 	(junction
-		(at 87.63 144.78)
+		(at 162.56 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef1cf05b-696e-49cb-aef5-f6d96eb3c423")
+		(uuid "d4c8bcc1-018a-4d92-beaf-182541064f7b")
 	)
 	(junction
-		(at 152.4 142.24)
+		(at 162.56 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f95c45af-4f40-4acf-bc7f-aca221187b7b")
+		(uuid "e696754f-b873-453b-af67-9b8fe5ebbe2f")
+	)
+	(junction
+		(at 166.37 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee0ea4e5-3e22-430f-b148-43fbcbb4edb5")
+	)
+	(junction
+		(at 138.43 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f227e77e-dc23-4694-8c65-7854bf4da7b3")
 	)
 	(wire
 		(pts
-			(xy 151.13 52.07) (xy 160.02 52.07)
+			(xy 185.42 128.27) (xy 190.5 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024f7b49-bb69-4345-8a6e-081874f47207")
+	)
+	(wire
+		(pts
+			(xy 166.37 26.67) (xy 175.26 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1276,27 +1652,57 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 142.24) (xy 152.4 142.24)
+			(xy 116.84 76.2) (xy 116.84 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0586cd2f-e991-4bd5-bc44-2aad814b9955")
+		(uuid "0573d236-cdac-4f67-aad9-5ff9e810abdb")
 	)
 	(wire
 		(pts
-			(xy 87.63 153.67) (xy 87.63 166.37)
+			(xy 101.6 57.15) (xy 101.6 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07155ea9-ad20-4d00-bcce-366c8c97af92")
+		(uuid "08853a6e-3cd5-42e4-adf0-af9e96c8cabf")
 	)
 	(wire
 		(pts
-			(xy 68.58 78.74) (xy 68.58 72.39)
+			(xy 146.05 142.24) (xy 146.05 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1f273f-8f38-44ce-a1c9-6d6c1c7b067d")
+	)
+	(wire
+		(pts
+			(xy 190.5 128.27) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114ec616-03f8-4477-865e-d8f1c506def3")
+	)
+	(wire
+		(pts
+			(xy 83.82 160.02) (xy 83.82 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12aa0fed-13c0-49ad-90b8-8c3f800fc48c")
+	)
+	(wire
+		(pts
+			(xy 83.82 53.34) (xy 83.82 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1306,127 +1712,107 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 185.42) (xy 102.87 193.04)
+			(xy 83.82 175.26) (xy 83.82 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f722480-67b6-46fc-85b0-1e1563af6000")
+		(uuid "1fbaacad-19ee-490c-a731-97721b2fde4a")
 	)
 	(wire
 		(pts
-			(xy 83.82 72.39) (xy 86.36 72.39)
+			(xy 97.79 46.99) (xy 101.6 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25c54d9c-c2b3-4e3e-bf8c-9c6814803652")
+		(uuid "2e763f13-601b-4a30-88ba-298cc8a3dce6")
 	)
 	(wire
 		(pts
-			(xy 137.16 130.81) (xy 137.16 142.24)
+			(xy 83.82 93.98) (xy 83.82 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c714d83-30a8-4f45-b8ea-30446c08a9a6")
+		(uuid "3262206c-5086-430b-9934-4ebe68859f1c")
 	)
 	(wire
 		(pts
-			(xy 124.46 147.32) (xy 156.21 147.32)
+			(xy 166.37 107.95) (xy 166.37 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d76ea15-b0d7-4989-bb4a-068fe636d2b5")
+		(uuid "35b3da72-db5f-426b-90ce-1c141e329100")
 	)
 	(wire
 		(pts
-			(xy 69.85 161.29) (xy 69.85 166.37)
+			(xy 135.89 130.81) (xy 138.43 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32e14713-d055-49bc-8448-33cd09e640ae")
+		(uuid "36a8cb69-8a01-4d21-9d90-b41b5c206be3")
 	)
 	(wire
 		(pts
-			(xy 152.4 142.24) (xy 156.21 142.24)
+			(xy 146.05 60.96) (xy 146.05 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3cec5598-0c1d-4df3-842e-828482f1396a")
+		(uuid "3a74c8c2-d85c-4364-ad16-ae36faef3285")
 	)
 	(wire
 		(pts
-			(xy 135.89 58.42) (xy 135.89 69.85)
+			(xy 125.73 138.43) (xy 125.73 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d2942cc-444a-488b-9fed-a9af6d4fa6c6")
+		(uuid "3cd1b218-62be-4f86-bb4f-1436a3f38fbd")
 	)
 	(wire
 		(pts
-			(xy 68.58 104.14) (xy 68.58 109.22)
+			(xy 124.46 147.32) (xy 116.84 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d774776-f42f-48cd-b7e1-a98f0d17f46e")
+		(uuid "3f3db638-55d0-4fee-9b51-1e391ea0e64b")
 	)
 	(wire
 		(pts
-			(xy 171.45 144.78) (xy 176.53 144.78)
+			(xy 120.65 133.35) (xy 116.84 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e8e3e6d-50d1-4612-a9a4-c52bf24316b2")
+		(uuid "41dd1957-7958-4170-b113-8a1ea2f5e06e")
 	)
 	(wire
 		(pts
-			(xy 137.16 142.24) (xy 139.7 142.24)
+			(xy 101.6 138.43) (xy 101.6 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "404ca00d-c5a5-464d-a77f-8ebc965ebbd3")
+		(uuid "4595de05-2c0b-40c6-8172-880da297dc53")
 	)
 	(wire
 		(pts
-			(xy 135.89 45.72) (xy 135.89 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "439adaba-53c7-4023-9bd8-16188510f4dc")
-	)
-	(wire
-		(pts
-			(xy 129.54 123.19) (xy 129.54 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45b17db5-584d-493b-be6e-626e23b57b9b")
-	)
-	(wire
-		(pts
-			(xy 123.19 74.93) (xy 123.19 91.44)
+			(xy 138.43 49.53) (xy 138.43 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 77.47) (xy 101.6 91.44)
+			(xy 116.84 52.07) (xy 116.84 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1446,37 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 144.78) (xy 76.2 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48b4deb3-c264-4ac2-a182-15b012a42297")
-	)
-	(wire
-		(pts
-			(xy 102.87 173.99) (xy 102.87 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a767bc8-0021-4e53-bb6b-c904b1de09f5")
-	)
-	(wire
-		(pts
-			(xy 128.27 50.8) (xy 128.27 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b0de0ed-18fc-41bd-b7b6-a8892d384614")
-	)
-	(wire
-		(pts
-			(xy 175.26 72.39) (xy 175.26 52.07)
+			(xy 190.5 46.99) (xy 190.5 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1486,37 +1842,47 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 144.78) (xy 176.53 124.46)
+			(xy 175.26 135.89) (xy 175.26 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "501d00f7-74d1-4ae5-858b-6943ed2aaea2")
+		(uuid "4dd4b8d0-7196-4cb3-9f2f-cf663cf01dc0")
 	)
 	(wire
 		(pts
-			(xy 152.4 124.46) (xy 152.4 142.24)
+			(xy 162.56 44.45) (xy 166.37 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5063fc7f-0310-4fa7-bc1a-b2cebc71b3b4")
+		(uuid "4e102493-e869-403d-8352-8c0008394cd9")
 	)
 	(wire
 		(pts
-			(xy 69.85 176.53) (xy 69.85 181.61)
+			(xy 101.6 128.27) (xy 120.65 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "541aa805-af42-446a-88ab-5a5aafbeb531")
+		(uuid "5375b551-2a13-4fc6-8002-b00dcc109095")
 	)
 	(wire
 		(pts
-			(xy 120.65 74.93) (xy 123.19 74.93)
+			(xy 175.26 115.57) (xy 175.26 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5546e868-898c-403f-887b-fc7e239c687c")
+	)
+	(wire
+		(pts
+			(xy 135.89 49.53) (xy 138.43 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1526,17 +1892,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 72.39) (xy 86.36 78.74)
+			(xy 83.82 128.27) (xy 90.17 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59ec5346-bb38-4067-a1de-834a0bfdc244")
+		(uuid "5e26c959-2446-4036-87e6-479ec5802090")
 	)
 	(wire
 		(pts
-			(xy 86.36 104.14) (xy 86.36 109.22)
+			(xy 101.6 46.99) (xy 101.6 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1546,53 +1912,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 72.39) (xy 76.2 72.39)
+			(xy 83.82 144.78) (xy 83.82 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61598336-a389-4137-8431-934414ad689c")
+		(uuid "6a5a7d65-ba28-4ecd-8880-cd5bdb7c847a")
 	)
 	(wire
 		(pts
-			(xy 101.6 113.03) (xy 101.6 120.65)
+			(xy 83.82 78.74) (xy 83.82 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68433f74-ed12-43e4-a5af-3a273b56c5bb")
-	)
-	(wire
-		(pts
-			(xy 83.82 144.78) (xy 87.63 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c33015a-c364-4542-9de0-996f074ab1d4")
-	)
-	(wire
-		(pts
-			(xy 129.54 118.11) (xy 137.16 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70f520de-a51d-4113-8229-f4c148abc2cc")
-	)
-	(wire
-		(pts
-			(xy 87.63 144.78) (xy 106.68 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70fac115-2c4c-4d3f-80c2-b5c1bd57ea3e")
+		(uuid "70e59bf4-0c67-4c2a-b8a6-dfd34e3de3dd")
 	)
 	(wire
 		(pts
@@ -1606,27 +1942,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 69.85) (xy 138.43 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71f1197b-4fa9-4b61-aa0c-441cce926e93")
-	)
-	(wire
-		(pts
-			(xy 124.46 163.83) (xy 118.11 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b876b8-88dc-4626-9767-49ff8ef0ca36")
-	)
-	(wire
-		(pts
-			(xy 110.49 82.55) (xy 110.49 85.09)
+			(xy 125.73 57.15) (xy 125.73 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1636,27 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 144.78) (xy 87.63 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79682716-fb6a-420f-a6a8-8cb64f1d1cbd")
-	)
-	(wire
-		(pts
-			(xy 161.29 132.08) (xy 161.29 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bbc59e8-0d8c-49a6-8cac-9b855c3500e1")
-	)
-	(wire
-		(pts
-			(xy 101.6 91.44) (xy 101.6 93.98)
+			(xy 116.84 66.04) (xy 116.84 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1666,17 +1962,27 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 124.46) (xy 176.53 124.46)
+			(xy 162.56 125.73) (xy 166.37 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88cf04d6-f24a-46cd-9758-e1e56a3bb500")
+		(uuid "81ff3a33-08f5-4ca8-bbfd-d33c3fde8bfa")
 	)
 	(wire
 		(pts
-			(xy 116.84 91.44) (xy 123.19 91.44)
+			(xy 125.73 120.65) (xy 125.73 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84338d93-7ed6-435b-829c-3f9300d8f1f2")
+	)
+	(wire
+		(pts
+			(xy 132.08 66.04) (xy 138.43 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1686,17 +1992,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 176.53) (xy 87.63 181.61)
+			(xy 116.84 147.32) (xy 116.84 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f452434-00a8-4707-be35-f59cb2f1341f")
+		(uuid "8fdbbf2c-7052-4eb5-b0c1-8c1759552637")
 	)
 	(wire
 		(pts
-			(xy 68.58 88.9) (xy 68.58 93.98)
+			(xy 83.82 63.5) (xy 83.82 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1706,57 +2012,67 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 137.16) (xy 111.76 139.7)
+			(xy 166.37 107.95) (xy 175.26 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "945c4836-3e80-4a7b-8ca1-72acd2fd069f")
+		(uuid "93dfae42-e3f6-465d-ac8c-7343aacc6ebe")
 	)
 	(wire
 		(pts
-			(xy 106.68 149.86) (xy 102.87 149.86)
+			(xy 161.29 125.73) (xy 162.56 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96c92dda-4943-40c8-959b-02ae621c5ea6")
+		(uuid "950bd5c8-9ef3-4107-9e82-69dfb69152a3")
 	)
 	(wire
 		(pts
-			(xy 110.49 163.83) (xy 102.87 163.83)
+			(xy 166.37 125.73) (xy 170.18 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bc07190-c1f9-4a4a-9a2c-efdefc05aa38")
+		(uuid "9a457386-5a4c-4435-8f09-091f46641a34")
 	)
 	(wire
 		(pts
-			(xy 137.16 118.11) (xy 137.16 120.65)
+			(xy 146.05 125.73) (xy 153.67 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e7ef71d-c6db-45ae-810c-8aa48bca32ed")
+		(uuid "9dd27e85-9b34-4f60-a524-5784a2ad43cb")
 	)
 	(wire
 		(pts
-			(xy 176.53 144.78) (xy 182.88 144.78)
+			(xy 182.88 107.95) (xy 190.5 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac781ca5-7f50-4e92-976d-62599a5ae38e")
+		(uuid "a594e30f-bba4-49df-84d7-f79a5cd0d696")
 	)
 	(wire
 		(pts
-			(xy 110.49 64.77) (xy 110.49 67.31)
+			(xy 132.08 147.32) (xy 138.43 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5390b5-713c-4686-a0ca-a86a3cbad757")
+	)
+	(wire
+		(pts
+			(xy 125.73 39.37) (xy 125.73 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1766,13 +2082,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 152.4) (xy 161.29 154.94)
+			(xy 83.82 134.62) (xy 83.82 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aef4b843-99f3-462d-9c7e-1bf5eb8ba84d")
+		(uuid "ae46f91f-608c-4aeb-afd7-eed8efda7677")
 	)
 	(wire
 		(pts
@@ -1786,37 +2102,57 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 149.86) (xy 102.87 163.83)
+			(xy 116.84 157.48) (xy 116.84 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b503d644-02aa-47ac-99ba-32ae845c69fa")
+		(uuid "b1994a69-f9bb-40dc-abed-02d2d3c64550")
 	)
 	(wire
 		(pts
-			(xy 102.87 163.83) (xy 102.87 166.37)
+			(xy 83.82 46.99) (xy 90.17 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bac9a265-baaf-47bc-8440-a93e3fb7e312")
+		(uuid "b5cc1239-02bd-4075-aba9-cc907e0df11b")
 	)
 	(wire
 		(pts
-			(xy 111.76 154.94) (xy 111.76 157.48)
+			(xy 97.79 128.27) (xy 101.6 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be40661e-8da5-4d70-a2f1-65cc4b91fde3")
+		(uuid "b6bda1be-2790-417e-abff-a09d6d310dc6")
 	)
 	(wire
 		(pts
-			(xy 123.19 74.93) (xy 154.94 74.93)
+			(xy 146.05 50.8) (xy 146.05 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b88564-b364-4a82-8c76-33c328f2bced")
+	)
+	(wire
+		(pts
+			(xy 162.56 59.69) (xy 162.56 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba46868c-510a-404a-98c7-66c25584821b")
+	)
+	(wire
+		(pts
+			(xy 138.43 49.53) (xy 170.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1826,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 59.69) (xy 160.02 64.77)
+			(xy 175.26 34.29) (xy 175.26 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1836,47 +2172,57 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 147.32) (xy 124.46 163.83)
+			(xy 146.05 44.45) (xy 153.67 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8c767eb-5791-4915-9118-d068ae916366")
+		(uuid "c1c41329-a962-4988-91e9-9265269e9bbb")
 	)
 	(wire
 		(pts
-			(xy 121.92 147.32) (xy 124.46 147.32)
+			(xy 116.84 133.35) (xy 116.84 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "caa77669-f238-48b9-a166-24de3c738a8e")
+		(uuid "c89cc6df-acc9-4e80-9314-06ce15342655")
 	)
 	(wire
 		(pts
-			(xy 86.36 86.36) (xy 86.36 93.98)
+			(xy 138.43 130.81) (xy 138.43 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc9f18a7-347e-47d1-af71-42d20fb2cc72")
+		(uuid "ca0f45ad-1db7-4476-8b79-0c167649aaa0")
 	)
 	(wire
 		(pts
-			(xy 69.85 151.13) (xy 69.85 144.78)
+			(xy 138.43 130.81) (xy 170.18 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7399f04-d4cf-4165-b2b0-0ca7feeb1c3f")
+		(uuid "ce50bd1a-c111-4a58-9ae2-b627f95c4253")
 	)
 	(wire
 		(pts
-			(xy 175.26 72.39) (xy 181.61 72.39)
+			(xy 162.56 125.73) (xy 162.56 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07c0433-de98-4e3a-a11b-b646dfe625e4")
+	)
+	(wire
+		(pts
+			(xy 190.5 46.99) (xy 196.85 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1886,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 69.85) (xy 154.94 69.85)
+			(xy 166.37 44.45) (xy 170.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1896,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 80.01) (xy 160.02 82.55)
+			(xy 175.26 54.61) (xy 175.26 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1906,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 52.07) (xy 175.26 52.07)
+			(xy 182.88 26.67) (xy 190.5 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1916,7 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 72.39) (xy 105.41 72.39)
+			(xy 101.6 46.99) (xy 120.65 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1926,7 +2272,27 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 77.47) (xy 101.6 77.47)
+			(xy 146.05 132.08) (xy 146.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebce0f42-3bb1-4366-a11b-2188ddd793dd")
+	)
+	(wire
+		(pts
+			(xy 101.6 128.27) (xy 101.6 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe49d35-2bae-466b-8fa0-49061dce2f21")
+	)
+	(wire
+		(pts
+			(xy 120.65 52.07) (xy 116.84 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1936,7 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 69.85) (xy 151.13 69.85)
+			(xy 161.29 44.45) (xy 162.56 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1946,17 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 124.46) (xy 161.29 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eebecd34-9827-41af-9520-018cf952c16c")
-	)
-	(wire
-		(pts
-			(xy 170.18 72.39) (xy 175.26 72.39)
+			(xy 185.42 46.99) (xy 190.5 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1966,17 +2322,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 45.72) (xy 135.89 45.72)
+			(xy 162.56 140.97) (xy 162.56 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3a0ad88-2a33-4b81-887a-5d1ae9da4cb8")
+		(uuid "f192ed88-cb02-4701-b581-fa407d6b08f0")
 	)
 	(wire
 		(pts
-			(xy 109.22 91.44) (xy 101.6 91.44)
+			(xy 124.46 66.04) (xy 116.84 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1986,7 +2342,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 52.07) (xy 151.13 69.85)
+			(xy 190.5 128.27) (xy 196.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66b0431-6965-48c1-b988-d772110cb5b0")
+	)
+	(wire
+		(pts
+			(xy 166.37 26.67) (xy 166.37 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1996,13 +2362,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 101.6 105.41)
+			(xy 162.56 44.45) (xy 162.56 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff10b6e9-bee0-4f52-bd06-b4ef02f316a7")
+		(uuid "fd5aea31-4113-4869-8edf-3b4c975973bf")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2080,7 +2446,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 101.6 120.65 0)
+		(at 116.84 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2091,7 +2457,7 @@
 		(fields_autoplaced yes)
 		(uuid "07e2f98a-78b7-4af7-b264-fc6f77245c5a")
 		(property "Reference" "#GND07"
-			(at 101.6 125.73 0)
+			(at 116.84 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2102,7 +2468,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 101.6 118.11 0)
+			(at 116.84 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2112,7 +2478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 120.65 0)
+			(at 116.84 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2123,7 +2489,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 101.6 130.81 0)
+			(at 116.84 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2134,7 +2500,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 101.6 128.27 0)
+			(at 116.84 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2157,82 +2523,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 161.29 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c66000c-c77e-4669-8b0c-8aad08f9d1f4")
-		(property "Reference" "#PWR021"
-			(at 161.29 128.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 161.29 128.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a2c3a04-ea36-416e-bde5-762d9fab11ca")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 69.85 181.61 0)
+		(at 125.73 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2241,9 +2533,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "172a9210-f843-4d3b-b761-52354f56d444")
-		(property "Reference" "#GND011"
-			(at 69.85 186.69 0)
+		(uuid "1612d2d7-3101-4de2-ac30-fc438b8a9c80")
+		(property "Reference" "#GND06"
+			(at 125.73 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2254,7 +2546,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 69.85 179.07 0)
+			(at 125.73 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2264,7 +2556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 181.61 0)
+			(at 125.73 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2275,7 +2567,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 69.85 191.77 0)
+			(at 125.73 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2286,7 +2578,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 69.85 189.23 0)
+			(at 125.73 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2297,12 +2589,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bb58c44-d9cd-4607-b801-acaf6ea8aa69")
+			(uuid "bae971ee-04f4-4148-ab81-e85097ee5b1a")
 		)
 		(instances
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "#GND011")
+					(reference "#GND06")
 					(unit 1)
 				)
 			)
@@ -2311,7 +2603,7 @@
 	(symbol
 		(lib_name "C_1")
 		(lib_id "Device:C")
-		(at 80.01 72.39 270)
+		(at 101.6 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2322,27 +2614,29 @@
 		(fields_autoplaced yes)
 		(uuid "1ab555dc-e311-4cbd-bfba-5af644a4489f")
 		(property "Reference" "C1"
-			(at 80.01 64.77 90)
+			(at 105.41 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
-			(at 80.01 67.31 90)
+		(property "Value" "10u"
+			(at 105.41 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 73.3552 0)
+			(at 102.5652 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2353,7 +2647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 72.39 0)
+			(at 101.6 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2364,7 +2658,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 72.39 0)
+			(at 101.6 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2390,136 +2684,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VSIN")
-		(at 69.85 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ae5438a-6c50-4a88-adae-50ae2a0edd4b")
-		(property "Reference" "V7"
-			(at 73.66 153.5401 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VSIN"
-			(at 73.66 156.0801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 69.85 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Voltage source, sinusoidal"
-			(at 69.85 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 69.85 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "dc=1.5 ampl=75m f=67 ac=1"
-			(at 73.66 158.6201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Type" "SIN"
-			(at 69.85 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 69.85 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "59e29a53-c20c-430f-ac36-1320ff7ec0a6")
-		)
-		(pin "2"
-			(uuid "e8cf878c-85af-478f-93b1-188c79844b3e")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "V7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 87.63 149.86 0)
+		(at 179.07 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2528,92 +2695,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b2ef4c9-05d3-4164-a252-65bd4aeb7299")
-		(property "Reference" "R9"
-			(at 90.17 148.5899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 90.17 151.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.852 149.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9b781c4-59bc-426c-9e55-8c8d95d8e7e9")
-		)
-		(pin "2"
-			(uuid "cc497770-6893-482a-9914-f44687ac54c5")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
-		(at 165.1 124.46 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "240ecf9b-deee-4748-ba1c-b48ffde3e132")
-		(property "Reference" "R8"
-			(at 165.1 118.11 90)
+		(uuid "1f7ee87b-bfe3-4265-991f-7118d0bd5327")
+		(property "Reference" "R11"
+			(at 179.07 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2623,7 +2707,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 165.1 120.65 90)
+			(at 179.07 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2633,7 +2717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 126.238 90)
+			(at 179.07 109.728 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2644,7 +2728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 124.46 0)
+			(at 179.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2655,7 +2739,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 165.1 124.46 0)
+			(at 179.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2666,15 +2750,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "59e569e5-62f2-4ca2-89e8-e860b0866647")
+			(uuid "f9d7ce75-b54c-407c-ae79-3bd18f57f19f")
 		)
 		(pin "2"
-			(uuid "f1b56968-ab65-4ca5-925d-eeefd9e9f7d5")
+			(uuid "b743493a-da47-48f1-b0be-16701d1e4dac")
 		)
 		(instances
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2875,301 +2959,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 111.76 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "29785eba-2ffc-4ccc-9eaa-d3a783bf8f35")
-		(property "Reference" "#PWR019"
-			(at 111.76 133.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 111.76 133.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88a2fbde-4e56-4e64-83c8-14476b765503")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_1")
-		(lib_id "Device:C")
-		(at 101.6 109.22 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bc225f8-8f36-4fa1-af1f-d7389183917a")
-		(property "Reference" "C2"
-			(at 105.41 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 105.41 110.4899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.6348 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9fb8ea5b-8994-4253-96aa-6c22cacef87f")
-		)
-		(pin "2"
-			(uuid "e2cf860f-ec66-49a4-89c8-b00c89cfab4c")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "OPAMP_1")
 		(lib_id "Simulation_SPICE:OPAMP")
-		(at 163.83 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f579031-f72d-46ae-903a-30d1e0351965")
-		(property "Reference" "U6"
-			(at 171.45 139.6298 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 171.45 141.5349 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 163.83 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Operational amplifier, single"
-			(at 163.83 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 163.83 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 163.83 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 163.83 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 163.83 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "5718619e-8436-4848-a76a-6fee0945b7d2")
-		)
-		(pin "3"
-			(uuid "c5101e23-c75e-47eb-9d4d-e2517bda8a3e")
-		)
-		(pin "2"
-			(uuid "3aafde15-37ac-49b3-aa9d-f0f7d97e42c0")
-		)
-		(pin "1"
-			(uuid "2d2e20d7-21c8-4440-b5dc-be7f74ac2d58")
-		)
-		(pin "5"
-			(uuid "224c1192-c3f6-4683-92a6-ba1c1e6f83de")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "OPAMP_1")
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 162.56 72.39 0)
+		(at 177.8 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3180,7 +2972,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fd9a7c9-1521-47a2-9425-a5792dc565a3")
 		(property "Reference" "U4"
-			(at 170.18 67.2398 0)
+			(at 185.42 41.8398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3190,7 +2982,7 @@
 			)
 		)
 		(property "Value" "${SIM.PARAMS}"
-			(at 170.18 69.1449 0)
+			(at 185.42 43.7449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3200,7 +2992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 72.39 0)
+			(at 177.8 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3211,7 +3003,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 162.56 72.39 0)
+			(at 177.8 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3222,7 +3014,7 @@
 			)
 		)
 		(property "Description" "Operational amplifier, single"
-			(at 162.56 72.39 0)
+			(at 177.8 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3233,7 +3025,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 162.56 72.39 0)
+			(at 177.8 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3244,7 +3036,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 162.56 72.39 0)
+			(at 177.8 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,7 +3048,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 162.56 72.39 0)
+			(at 177.8 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3267,7 +3059,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 162.56 72.39 0)
+			(at 177.8 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3302,135 +3094,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VSIN")
-		(at 69.85 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32072a04-e41b-4fea-b48f-01f9c28a2ed1")
-		(property "Reference" "V5"
-			(at 73.66 168.7801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VSIN"
-			(at 73.66 171.3201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 69.85 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Voltage source, sinusoidal"
-			(at 69.85 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 69.85 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "dc=1.5 ampl=50m f=335 ac=1"
-			(at 73.66 173.8601 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Type" "SIN"
-			(at 69.85 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 69.85 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "c770546c-e720-4d4a-9c9a-32eb919353c4")
-		)
-		(pin "2"
-			(uuid "9c6c5ab2-aa6c-43ba-a63a-84973729c1fe")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "V5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 160.02 59.69 0)
+		(at 175.26 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3440,7 +3105,7 @@
 		(dnp no)
 		(uuid "34c5766d-930a-4497-857f-73a2e84fd444")
 		(property "Reference" "#PWR018"
-			(at 160.02 55.69 0)
+			(at 175.26 30.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3451,7 +3116,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 160.02 55.69 0)
+			(at 175.26 30.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3461,7 +3126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 59.69 0)
+			(at 175.26 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3471,7 +3136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 59.69 0)
+			(at 175.26 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3481,7 +3146,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 59.69 0)
+			(at 175.26 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3504,7 +3169,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VSIN")
-		(at 68.58 99.06 0)
+		(at 83.82 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3515,7 +3180,7 @@
 		(fields_autoplaced yes)
 		(uuid "3703e50a-c003-42cd-b1f0-74a30d34e9df")
 		(property "Reference" "V4"
-			(at 72.39 96.3901 0)
+			(at 87.63 70.9901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3526,7 +3191,7 @@
 			)
 		)
 		(property "Value" "VSIN"
-			(at 72.39 98.9301 0)
+			(at 87.63 73.5301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3537,7 +3202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 99.06 0)
+			(at 83.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3548,7 +3213,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 68.58 99.06 0)
+			(at 83.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3559,7 +3224,7 @@
 			)
 		)
 		(property "Description" "Voltage source, sinusoidal"
-			(at 68.58 99.06 0)
+			(at 83.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3570,7 +3235,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 68.58 99.06 0)
+			(at 83.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3580,8 +3245,8 @@
 				)
 			)
 		)
-		(property "Sim.Params" "dc=1.5 ampl=25m f=600 ac=1"
-			(at 72.39 101.4701 0)
+		(property "Sim.Params" "dc=0 ampl=25m f=600 ac=1"
+			(at 87.63 76.0701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3592,7 +3257,7 @@
 			)
 		)
 		(property "Sim.Type" "SIN"
-			(at 68.58 99.06 0)
+			(at 83.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3603,7 +3268,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 68.58 99.06 0)
+			(at 83.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3631,7 +3296,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 68.58 109.22 0)
+		(at 83.82 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3642,7 +3307,7 @@
 		(fields_autoplaced yes)
 		(uuid "38c3e022-4054-4b82-8c85-7e37aed5e64e")
 		(property "Reference" "#GND09"
-			(at 68.58 114.3 0)
+			(at 83.82 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3653,7 +3318,8 @@
 			)
 		)
 		(property "Value" "0"
-			(at 68.58 106.68 0)
+			(at 83.82 97.79 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3663,7 +3329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 109.22 0)
+			(at 83.82 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3674,7 +3340,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 68.58 119.38 0)
+			(at 83.82 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3685,7 +3351,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 68.58 116.84 0)
+			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3708,205 +3374,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VDC")
-		(at 135.89 53.34 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b365997-4076-4863-b0f8-4526c174c22f")
-		(property "Reference" "V9"
-			(at 139.7 52.1997 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.25"
-			(at 139.7 54.7397 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Voltage source, DC"
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "bc663a01-4816-475c-9aaf-ad9d61e2b027")
-		)
-		(pin "1"
-			(uuid "536f6561-0b80-4a70-a4a6-1affb811b1ce")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "V9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_1")
-		(lib_id "Device:C")
-		(at 80.01 144.78 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b570586-b147-4339-8beb-5aea06a133ba")
-		(property "Reference" "C3"
-			(at 80.01 137.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 80.01 139.7 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 145.7452 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 80.01 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08f5931e-b416-4483-8630-3994e4912cd4")
-		)
-		(pin "2"
-			(uuid "1b2b5398-99d9-42d9-9146-a14483948e75")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:VSIN")
-		(at 68.58 83.82 0)
+		(at 83.82 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3917,7 +3386,7 @@
 		(fields_autoplaced yes)
 		(uuid "4181deb9-d383-4780-bbae-b9239ccbe2a1")
 		(property "Reference" "V6"
-			(at 72.39 81.1501 0)
+			(at 87.63 55.7501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3928,7 +3397,7 @@
 			)
 		)
 		(property "Value" "VSIN"
-			(at 72.39 83.6901 0)
+			(at 87.63 58.2901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3939,7 +3408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 83.82 0)
+			(at 83.82 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3950,7 +3419,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 68.58 83.82 0)
+			(at 83.82 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,7 +3430,7 @@
 			)
 		)
 		(property "Description" "Voltage source, sinusoidal"
-			(at 68.58 83.82 0)
+			(at 83.82 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +3441,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 68.58 83.82 0)
+			(at 83.82 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3982,8 +3451,8 @@
 				)
 			)
 		)
-		(property "Sim.Params" "dc=1.5 ampl=35m f=120 ac=1"
-			(at 72.39 86.2301 0)
+		(property "Sim.Params" "dc=0 ampl=35m f=120 ac=1"
+			(at 87.63 60.8301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3994,7 +3463,7 @@
 			)
 		)
 		(property "Sim.Type" "SIN"
-			(at 68.58 83.82 0)
+			(at 83.82 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4005,7 +3474,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 68.58 83.82 0)
+			(at 83.82 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4033,7 +3502,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 110.49 85.09 0)
+		(at 125.73 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4044,7 +3513,7 @@
 		(fields_autoplaced yes)
 		(uuid "485757fd-2cdb-4a8f-a1ef-8a72e9b10b89")
 		(property "Reference" "#GND04"
-			(at 110.49 90.17 0)
+			(at 125.73 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4055,7 +3524,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 110.49 82.55 0)
+			(at 125.73 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4065,7 +3534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 85.09 0)
+			(at 125.73 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4076,7 +3545,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 110.49 95.25 0)
+			(at 125.73 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4087,7 +3556,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 110.49 92.71 0)
+			(at 125.73 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4111,166 +3580,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 128.27 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b09df3f-6e35-4017-b4dd-319854703e30")
-		(property "Reference" "#GND06"
-			(at 128.27 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 128.27 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 128.27 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0V reference potential for simulation"
-			(at 128.27 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a082802f-0692-4601-aa43-5a83e9881da9")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "#GND06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
-		(at 143.51 142.24 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e6de674-676a-48e9-8d57-dee3c655cb52")
-		(property "Reference" "R7"
-			(at 143.51 135.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 143.51 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 144.018 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3bdb914a-3bda-4186-b8ab-7dbdbdd17ab6")
-		)
-		(pin "2"
-			(uuid "3a984da3-c68b-43cc-8e93-4e0d02a0e8ff")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 86.36 109.22 0)
+		(at 101.6 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4281,7 +3591,7 @@
 		(fields_autoplaced yes)
 		(uuid "598fd27b-824a-43a3-a29e-3ac623e09632")
 		(property "Reference" "#GND010"
-			(at 86.36 114.3 0)
+			(at 101.6 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4292,7 +3602,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 86.36 106.68 0)
+			(at 101.6 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4302,7 +3612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 109.22 0)
+			(at 101.6 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4313,7 +3623,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 86.36 119.38 0)
+			(at 101.6 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4324,7 +3634,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 86.36 116.84 0)
+			(at 101.6 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4347,9 +3657,8 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
-		(at 102.87 170.18 180)
+		(lib_id "Simulation_SPICE:VDC")
+		(at 83.82 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4358,31 +3667,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7c9e27dc-87c4-4d21-8edb-34cec181167c")
-		(property "Reference" "R10"
-			(at 105.41 168.9099 0)
+		(uuid "5a5bd492-8bfc-495f-85f4-5b302c06f3ce")
+		(property "Reference" "V12"
+			(at 87.63 168.7801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 105.41 171.4499 0)
+		(property "Value" "0.5"
+			(at 87.63 171.3201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 104.648 170.18 90)
+			(at 83.82 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4392,8 +3701,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 102.87 170.18 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 83.82 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4403,8 +3712,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 102.87 170.18 0)
+		(property "Description" "Voltage source, DC"
+			(at 83.82 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4414,25 +3723,58 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "73c927ff-946c-43ed-b263-a2d74de5d32d")
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 83.82 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 83.82 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 83.82 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 		(pin "2"
-			(uuid "32a6b01d-e80c-415b-ae9f-842c73ecf4de")
+			(uuid "2e234b4b-c6ff-4137-b8a6-2626faaf7460")
+		)
+		(pin "1"
+			(uuid "cd842be8-dcd2-4f35-b8ad-1e204a6c7600")
 		)
 		(instances
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "R10")
+					(reference "V12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
-		(at 114.3 163.83 90)
+		(lib_id "Device:C")
+		(at 162.56 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4440,29 +3782,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "815ec513-ca08-4785-87bd-cc9731918f4d")
-		(property "Reference" "R11"
-			(at 114.3 166.878 90)
+		(fields_autoplaced yes)
+		(uuid "5ba48f77-7a1f-4347-825a-908dd05b82b1")
+		(property "Reference" "C6"
+			(at 166.37 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 114.3 169.418 90)
+		(property "Value" "680n"
+			(at 166.37 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 165.608 90)
+			(at 163.5252 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4473,7 +3818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 163.83 0)
+			(at 162.56 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4483,8 +3828,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 114.3 163.83 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4495,15 +3840,150 @@
 			)
 		)
 		(pin "1"
-			(uuid "f41cd702-b7d7-4f1f-9116-6f3261583b9b")
+			(uuid "429d52e0-28c1-422a-82c8-9350ec7aaf70")
 		)
 		(pin "2"
-			(uuid "8ceedb85-1109-4dc0-97b0-945b140da670")
+			(uuid "7f562154-2d85-496d-b3f4-147efef3942f")
 		)
 		(instances
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "R11")
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "OPAMP_1")
+		(lib_id "Simulation_SPICE:OPAMP")
+		(at 128.27 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6481fbf1-9bd7-4c35-8152-90604d2c5876")
+		(property "Reference" "U5"
+			(at 135.89 125.6598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "${SIM.PARAMS}"
+			(at 135.89 127.5649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
+			(at 128.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Operational amplifier, single"
+			(at 128.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
+			(at 128.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 128.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 128.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp"
+			(at 128.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "bee09049-e074-4f66-a8e4-d16af2d7cae2")
+		)
+		(pin "3"
+			(uuid "abeacf8e-721f-4a4e-af1e-c28b7cdd7a29")
+		)
+		(pin "2"
+			(uuid "52d8a2cf-9151-4ced-bdaf-c4b354f18077")
+		)
+		(pin "1"
+			(uuid "667f2ff7-eb62-40e1-9e4d-2d6e38d73dc2")
+		)
+		(pin "5"
+			(uuid "801b6f84-f8fd-43f0-a24d-6cdbc6c31dda")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4511,7 +3991,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 110.49 64.77 0)
+		(at 175.26 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4519,9 +3999,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "81bee67f-1514-441e-b247-8e0e7655a4a3")
-		(property "Reference" "#PWR017"
-			(at 110.49 60.77 0)
+		(uuid "676cef59-56bc-4543-b582-c178202bf9c5")
+		(property "Reference" "#PWR021"
+			(at 175.26 111.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4532,7 +4012,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 110.49 60.77 0)
+			(at 175.26 111.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4542,7 +4022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 64.77 0)
+			(at 175.26 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4552,7 +4032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 64.77 0)
+			(at 175.26 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4562,7 +4042,360 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 64.77 0)
+			(at 175.26 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcb2f6be-9515-4d19-9dda-775fe1563554")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 125.73 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d6dea4d-c6ee-43ed-ace7-bd62a07e4611")
+		(property "Reference" "#PWR019"
+			(at 125.73 116.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 125.73 116.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "022c1f03-e592-412b-a669-11ec7d1ed859")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VSIN")
+		(at 83.82 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "700546a3-6731-4712-b187-0ba1a02bd175")
+		(property "Reference" "V7"
+			(at 87.63 137.0301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSIN"
+			(at 87.63 139.5701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 83.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage source, sinusoidal"
+			(at 83.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 83.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "dc=0 ampl=35m f=120 ac=1"
+			(at 87.63 142.1101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Type" "SIN"
+			(at 83.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 83.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4f862ef1-0974-4e7e-bac9-2792c7c1c148")
+		)
+		(pin "2"
+			(uuid "342c9074-80db-45e2-952c-0f6dead5b4b7")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "V7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 175.26 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74f339ea-70d4-4e49-a2a8-3eeacc2a79dd")
+		(property "Reference" "#GND014"
+			(at 175.26 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 175.26 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 175.26 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 175.26 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e6a7a71-0717-4362-b165-88fb24229162")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "#GND014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 125.73 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81bee67f-1514-441e-b247-8e0e7655a4a3")
+		(property "Reference" "#PWR017"
+			(at 125.73 35.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 125.73 35.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4584,8 +4417,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VDC")
-		(at 86.36 99.06 0)
+		(lib_id "Simulation_SPICE:0")
+		(at 116.84 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4594,31 +4427,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "81cf84b4-645f-4631-9fb8-81ef69bc68f5")
-		(property "Reference" "V8"
-			(at 90.17 97.6601 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5"
-			(at 90.17 100.2001 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 99.06 0)
+		(uuid "900e3517-c479-402f-8ef0-45fb4aeaa325")
+		(property "Reference" "#GND013"
+			(at 116.84 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4628,102 +4439,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 86.36 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Voltage source, DC"
-			(at 86.36 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 86.36 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 86.36 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 86.36 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "fb93a9e1-6f1d-4c10-adc6-2bb3a2f66275")
-		)
-		(pin "1"
-			(uuid "f81e81b3-12fd-4976-970f-434c18a6728b")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "V8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "OPAMP_1")
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 114.3 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82c73ec1-89f6-49d6-bd0e-97ba2144da60")
-		(property "Reference" "U5"
-			(at 121.92 142.1698 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 121.92 144.0749 0)
+		(property "Value" "0"
+			(at 116.84 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4733,7 +4450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 147.32 0)
+			(at 116.84 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4743,8 +4460,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 114.3 147.32 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 116.84 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4754,8 +4471,8 @@
 				)
 			)
 		)
-		(property "Description" "Operational amplifier, single"
-			(at 114.3 147.32 0)
+		(property "Description" "0V reference potential for simulation"
+			(at 116.84 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,71 +4481,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 114.3 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 114.3 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 114.3 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 114.3 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "b76c6e00-2209-4f27-9adc-fb17ca68582e")
-		)
-		(pin "3"
-			(uuid "089f9c14-b317-4834-9dd6-7f94f594f062")
-		)
-		(pin "2"
-			(uuid "ee894878-7543-4118-a95c-d3e8dafbde19")
 		)
 		(pin "1"
-			(uuid "6a681be9-48e9-4f4f-8b4d-e4e5885a25b9")
-		)
-		(pin "5"
-			(uuid "b6ab4716-5aa2-481f-9205-ea3385bb7d7d")
+			(uuid "965d533a-fe7a-470e-8b5a-83683170432e")
 		)
 		(instances
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "U5")
+					(reference "#GND013")
 					(unit 1)
 				)
 			)
@@ -4837,7 +4497,7 @@
 	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 163.83 52.07 90)
+		(at 179.07 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4848,7 +4508,7 @@
 		(fields_autoplaced yes)
 		(uuid "90f2aac0-0062-4cd8-a6c8-00fd52799f79")
 		(property "Reference" "R6"
-			(at 163.83 45.72 90)
+			(at 179.07 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4858,7 +4518,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 163.83 48.26 90)
+			(at 179.07 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4868,7 +4528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 53.848 90)
+			(at 179.07 28.448 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4879,7 +4539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 52.07 0)
+			(at 179.07 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4890,7 +4550,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 52.07 0)
+			(at 179.07 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4916,8 +4576,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 102.87 193.04 0)
+		(lib_id "Simulation_SPICE:VPULSE")
+		(at 146.05 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4926,30 +4586,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9475f567-2f5f-42df-baef-4814c4f57500")
-		(property "Reference" "#GND013"
-			(at 102.87 198.12 0)
-			(hide yes)
+		(uuid "921321b0-044a-4f2f-a38d-f66b91ddbf05")
+		(property "Reference" "V3"
+			(at 149.86 134.4901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0"
-			(at 102.87 190.5 0)
+		(property "Value" "VPULSE"
+			(at 149.86 137.0301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 193.04 0)
+			(at 146.05 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4959,8 +4620,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 102.87 203.2 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 146.05 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4970,8 +4631,8 @@
 				)
 			)
 		)
-		(property "Description" "0V reference potential for simulation"
-			(at 102.87 200.66 0)
+		(property "Description" "Voltage source, pulse"
+			(at 146.05 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4980,14 +4641,62 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 146.05 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "PULSE"
+			(at 146.05 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 146.05 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Params" "y1=0 y2=3.3 td=0n tr=10n tf=10n tw=80u per=100u"
+			(at 149.86 139.5701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "2b32a244-f662-423b-b250-2f945b61ab96")
 		)
 		(pin "1"
-			(uuid "8406d508-8e24-4bc3-a6a7-821c61af83ca")
+			(uuid "f3ecc4c2-d4d6-4a02-9665-d8ffbc0d91ce")
 		)
 		(instances
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "#GND013")
+					(reference "V3")
 					(unit 1)
 				)
 			)
@@ -4995,7 +4704,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 129.54 123.19 0)
+		(at 146.05 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5004,9 +4713,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "97053b69-d604-4d6f-976c-aa0a0436b52e")
-		(property "Reference" "#GND015"
-			(at 129.54 128.27 0)
+		(uuid "94e7c20a-fb4e-4c7e-82ab-434956786ffe")
+		(property "Reference" "#GND018"
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5017,7 +4726,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 129.54 120.65 0)
+			(at 146.05 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5027,7 +4736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 123.19 0)
+			(at 146.05 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5038,7 +4747,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 129.54 133.35 0)
+			(at 146.05 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5049,7 +4758,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 129.54 130.81 0)
+			(at 146.05 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5060,12 +4769,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9afa82aa-ffda-44f1-a235-35b8d8d0f11f")
+			(uuid "84c5ba8f-8e17-4ef4-9863-8c85132b7fb6")
 		)
 		(instances
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "#GND015")
+					(reference "#GND018")
 					(unit 1)
 				)
 			)
@@ -5073,7 +4782,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 87.63 181.61 0)
+		(at 162.56 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5082,9 +4791,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e9ce068-2fd1-4cbe-8728-8722a4f1cabc")
-		(property "Reference" "#GND012"
-			(at 87.63 186.69 0)
+		(uuid "9bb4c34e-b1a0-4e0c-b98a-1622bac9fa83")
+		(property "Reference" "#GND020"
+			(at 162.56 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5095,7 +4804,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 87.63 179.07 0)
+			(at 162.56 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5105,7 +4814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 181.61 0)
+			(at 162.56 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5116,7 +4825,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 87.63 191.77 0)
+			(at 162.56 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5127,7 +4836,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 87.63 189.23 0)
+			(at 162.56 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5138,12 +4847,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "6693132e-ac14-4378-aaee-57aa67057086")
+			(uuid "7f0a06b8-7981-4e52-adb9-b7962d1aa5e6")
 		)
 		(instances
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "#GND012")
+					(reference "#GND020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 146.05 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adeb3f49-0478-4b1b-a279-c89aadca9846")
+		(property "Reference" "#GND019"
+			(at 146.05 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 146.05 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 146.05 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 146.05 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3dc8b149-c3a4-492c-be11-3af3357fe289")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "#GND019")
 					(unit 1)
 				)
 			)
@@ -5152,7 +4939,7 @@
 	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 101.6 97.79 180)
+		(at 116.84 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5163,7 +4950,7 @@
 		(fields_autoplaced yes)
 		(uuid "af6d77a6-725a-49a5-8a61-fff3a2031cc1")
 		(property "Reference" "R3"
-			(at 104.14 96.5199 0)
+			(at 119.38 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5174,7 +4961,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 104.14 99.0599 0)
+			(at 119.38 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5185,7 +4972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 103.378 97.79 90)
+			(at 118.618 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5196,7 +4983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 97.79 0)
+			(at 116.84 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5207,7 +4994,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 97.79 0)
+			(at 116.84 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5233,9 +5020,89 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 128.27 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b42b2097-430a-4997-a54f-a9d78b2d90c9")
+		(property "Reference" "R9"
+			(at 128.27 150.368 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50k"
+			(at 128.27 152.908 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 149.098 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "828d4d6e-4e48-43e7-bc82-29a02c1e98ef")
+		)
+		(pin "2"
+			(uuid "f9a0fef0-c9f2-4b8b-ad0b-b8db1c1420aa")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "OPAMP_1")
 		(lib_id "Simulation_SPICE:OPAMP")
-		(at 113.03 74.93 0)
+		(at 128.27 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5246,7 +5113,7 @@
 		(fields_autoplaced yes)
 		(uuid "b48a9262-e859-4a99-ac1c-c9f5b6604e14")
 		(property "Reference" "U3"
-			(at 120.65 69.7798 0)
+			(at 135.89 44.3798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5256,7 +5123,7 @@
 			)
 		)
 		(property "Value" "${SIM.PARAMS}"
-			(at 120.65 71.6849 0)
+			(at 135.89 46.2849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5266,7 +5133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 74.93 0)
+			(at 128.27 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5277,7 +5144,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 113.03 74.93 0)
+			(at 128.27 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5288,7 +5155,7 @@
 			)
 		)
 		(property "Description" "Operational amplifier, single"
-			(at 113.03 74.93 0)
+			(at 128.27 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5299,7 +5166,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 113.03 74.93 0)
+			(at 128.27 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5310,7 +5177,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 113.03 74.93 0)
+			(at 128.27 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5322,7 +5189,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 113.03 74.93 0)
+			(at 128.27 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5333,7 +5200,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 113.03 74.93 0)
+			(at 128.27 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5368,9 +5235,8 @@
 		)
 	)
 	(symbol
-		(lib_name "C_1")
-		(lib_id "Device:C")
-		(at 102.87 181.61 180)
+		(lib_id "Simulation_SPICE:0")
+		(at 101.6 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5379,31 +5245,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cee8e79e-15e7-4075-896e-d5e8de2ca251")
-		(property "Reference" "C4"
-			(at 106.68 180.3399 0)
+		(uuid "bb9a9561-7883-4a55-a734-a223fd916df6")
+		(property "Reference" "#GND012"
+			(at 101.6 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10u"
-			(at 106.68 182.8799 0)
+		(property "Value" "0"
+			(at 101.6 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 101.9048 177.8 0)
+			(at 101.6 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5413,8 +5278,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 102.87 181.61 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5424,8 +5289,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 102.87 181.61 0)
+		(property "Description" "0V reference potential for simulation"
+			(at 101.6 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5436,15 +5301,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a2aa3deb-86ed-4ec0-8686-aefa80d698fb")
-		)
-		(pin "2"
-			(uuid "521111ed-b871-4992-bc60-83039a980203")
+			(uuid "6d841452-21e3-48ac-9580-dc039c2dc5ab")
 		)
 		(instances
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "C4")
+					(reference "#GND012")
 					(unit 1)
 				)
 			)
@@ -5453,7 +5315,7 @@
 	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 113.03 91.44 90)
+		(at 93.98 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5461,9 +5323,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d6281d2f-bea0-4f24-ab2e-537dcfab0af2")
-		(property "Reference" "R4"
-			(at 113.03 94.488 90)
+		(fields_autoplaced yes)
+		(uuid "c16c5116-c2a9-49f4-9113-90ce2c54e546")
+		(property "Reference" "R7"
+			(at 93.98 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5472,8 +5335,8 @@
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 113.03 97.028 90)
+		(property "Value" "10k"
+			(at 93.98 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5483,7 +5346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 93.218 90)
+			(at 93.98 130.048 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5494,7 +5357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 91.44 0)
+			(at 93.98 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5505,7 +5368,666 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 113.03 91.44 0)
+			(at 93.98 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e1b92cb-584d-49d8-b557-1ac537347638")
+		)
+		(pin "2"
+			(uuid "cf170eae-33f0-4788-879b-01595e2ce04d")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_1")
+		(lib_id "Device:C")
+		(at 101.6 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2f1edff-d29a-4077-8bfc-da1be6733c14")
+		(property "Reference" "C3"
+			(at 105.41 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 105.41 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.5652 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b5e463f-09b7-4656-8d9a-f9d1d18ed1e5")
+		)
+		(pin "2"
+			(uuid "b3690d10-c199-4244-a2cc-46ad14131215")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VSIN")
+		(at 83.82 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c34c140f-77c1-4f1b-b5e7-04568291ab85")
+		(property "Reference" "V5"
+			(at 87.63 152.2701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSIN"
+			(at 87.63 154.8101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 83.82 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage source, sinusoidal"
+			(at 83.82 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 83.82 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "dc=0 ampl=25m f=600 ac=1"
+			(at 87.63 157.3501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Type" "SIN"
+			(at 83.82 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 83.82 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3a762622-03f0-487c-b186-17f306d7d41f")
+		)
+		(pin "2"
+			(uuid "df648a1b-5016-46e2-aa93-2d669d5990f5")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "V5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 157.48 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c92cfd50-d923-4556-ba93-ffef331ed373")
+		(property "Reference" "R10"
+			(at 157.48 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 157.48 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 127.508 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7c2e565-ebea-49ba-90bf-4c8ea21baf18")
+		)
+		(pin "2"
+			(uuid "c193b6ba-3f4b-4d70-abac-cb6490eb3a89")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 162.56 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc0f6433-e9d6-4a24-ab4d-03d92b4f75a0")
+		(property "Reference" "#GND017"
+			(at 162.56 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 162.56 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 162.56 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 162.56 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd2bcc5a-67f9-4210-862a-7854fa8878a8")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "#GND017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VPULSE")
+		(at 146.05 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d00ca1e1-8af5-4c0f-9ec2-bb9c78f168d5")
+		(property "Reference" "V1"
+			(at 149.86 53.2101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VPULSE"
+			(at 149.86 55.7501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 146.05 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage source, pulse"
+			(at 146.05 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 146.05 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "PULSE"
+			(at 146.05 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 146.05 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Params" "y1=0 y2=3.3 td=0n tr=10n tf=10n tw=80u per=100u"
+			(at 149.86 58.2901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "75474966-deeb-401f-a098-92a981548a77")
+		)
+		(pin "1"
+			(uuid "5712cf04-4141-4cf6-b6ec-2d572d95a7a1")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 116.84 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6219323-109a-4eda-8dca-019fa2665a0b")
+		(property "Reference" "R8"
+			(at 119.38 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 119.38 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.618 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a29d9cdb-a259-40cc-8b99-67be53451452")
+		)
+		(pin "2"
+			(uuid "095e2c01-7da2-41bd-a6fc-96b947439618")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 128.27 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6281d2f-bea0-4f24-ab2e-537dcfab0af2")
+		(property "Reference" "R4"
+			(at 128.27 69.088 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50k"
+			(at 128.27 71.628 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 67.818 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5531,8 +6053,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 111.76 157.48 0)
+		(lib_id "Device:C")
+		(at 162.56 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5541,30 +6063,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d8db0720-8c83-405e-b47b-fb5bb3ebca6d")
-		(property "Reference" "#GND014"
-			(at 111.76 162.56 0)
-			(hide yes)
+		(uuid "dfc3a367-1c3b-41c6-ba05-9fe6d27838f0")
+		(property "Reference" "C5"
+			(at 166.37 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0"
-			(at 111.76 154.94 0)
+		(property "Value" "680n"
+			(at 166.37 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 157.48 0)
+			(at 163.5252 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5574,8 +6097,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 111.76 167.64 0)
+		(property "Datasheet" ""
+			(at 162.56 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5585,8 +6108,8 @@
 				)
 			)
 		)
-		(property "Description" "0V reference potential for simulation"
-			(at 111.76 165.1 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,128 +6120,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e190fc6b-31c3-448a-a4b1-a514c3974f39")
-		)
-		(instances
-			(project "signal_conditioner"
-				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "#GND014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:VDC")
-		(at 87.63 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de23574c-1db4-4522-87a9-9bb64c379068")
-		(property "Reference" "V3"
-			(at 91.44 170.0501 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5"
-			(at 91.44 172.5901 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 87.63 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Voltage source, DC"
-			(at 87.63 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 87.63 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 87.63 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 87.63 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+			(uuid "8fd0bb83-dea4-47d1-8e93-1b95a5cef4e9")
 		)
 		(pin "2"
-			(uuid "abe7e117-9059-4b58-aed1-cfb58719831b")
-		)
-		(pin "1"
-			(uuid "eab81046-89b6-4272-8ffd-cc9050a04861")
+			(uuid "e6e77414-d7b5-4825-a4cd-350f0ca70b8f")
 		)
 		(instances
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "V3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5726,7 +6136,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 160.02 82.55 0)
+		(at 175.26 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5737,7 +6147,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0219be6-3370-483c-8070-df4a6155f303")
 		(property "Reference" "#GND05"
-			(at 160.02 87.63 0)
+			(at 175.26 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5748,7 +6158,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 160.02 80.01 0)
+			(at 175.26 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5758,7 +6168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 82.55 0)
+			(at 175.26 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,7 +6179,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 160.02 92.71 0)
+			(at 175.26 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5780,7 +6190,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 160.02 90.17 0)
+			(at 175.26 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5805,7 +6215,7 @@
 	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 142.24 69.85 90)
+		(at 157.48 44.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5816,7 +6226,7 @@
 		(fields_autoplaced yes)
 		(uuid "e081310d-51ff-4b70-a423-23f849a12d28")
 		(property "Reference" "R5"
-			(at 142.24 63.5 90)
+			(at 157.48 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5826,7 +6236,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 142.24 66.04 90)
+			(at 157.48 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5836,7 +6246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 71.628 90)
+			(at 157.48 46.228 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5847,7 +6257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 69.85 0)
+			(at 157.48 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5858,7 +6268,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 69.85 0)
+			(at 157.48 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,7 +6295,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
-		(at 137.16 125.73 180)
+		(at 83.82 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5894,31 +6304,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e6103326-cbb4-45f2-96f9-18b651285645")
-		(property "Reference" "V10"
-			(at 140.97 124.5897 0)
+		(uuid "eb27d521-e06d-4e02-9e18-45d65d698bd0")
+		(property "Reference" "V11"
+			(at 87.63 87.5001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "2.25"
-			(at 140.97 127.1297 0)
+		(property "Value" "0.3"
+			(at 87.63 90.0401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 125.73 0)
+			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5929,7 +6339,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 137.16 125.73 0)
+			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5940,7 +6350,7 @@
 			)
 		)
 		(property "Description" "Voltage source, DC"
-			(at 137.16 125.73 0)
+			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5951,7 +6361,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 137.16 125.73 0)
+			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5962,7 +6372,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 137.16 125.73 0)
+			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5973,7 +6383,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 137.16 125.73 0)
+			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5985,23 +6395,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "da835446-88c5-42e6-b5fa-1bf8f36c3861")
+			(uuid "6188db0e-6cee-4d6c-9422-f85824a44eb9")
 		)
 		(pin "1"
-			(uuid "1bf551fe-3fe7-4a4b-935e-f5f83ef67685")
+			(uuid "51a273b9-b060-4a5b-840a-0489430fafa4")
 		)
 		(instances
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "V10")
+					(reference "V11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 161.29 154.94 0)
+		(lib_name "OPAMP_1")
+		(lib_id "Simulation_SPICE:OPAMP")
+		(at 177.8 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6010,10 +6421,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e756b604-31d0-4851-8c4e-574b06d50fe4")
-		(property "Reference" "#GND016"
-			(at 161.29 160.02 0)
-			(hide yes)
+		(uuid "f24ac11d-5b95-4da9-8875-b00eba04da62")
+		(property "Reference" "U6"
+			(at 185.42 123.1198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6022,8 +6432,8 @@
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 161.29 152.4 0)
+		(property "Value" "${SIM.PARAMS}"
+			(at 185.42 125.0249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6033,7 +6443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 154.94 0)
+			(at 177.8 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6043,8 +6453,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 161.29 165.1 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
+			(at 177.8 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6054,8 +6464,8 @@
 				)
 			)
 		)
-		(property "Description" "0V reference potential for simulation"
-			(at 161.29 162.56 0)
+		(property "Description" "Operational amplifier, single"
+			(at 177.8 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6064,14 +6474,71 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
+			(at 177.8 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 177.8 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 177.8 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp"
+			(at 177.8 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "94a67b0d-b876-4655-9941-18363579deda")
+		)
+		(pin "3"
+			(uuid "8941e93c-db29-439d-acfc-b707113a83fb")
+		)
+		(pin "2"
+			(uuid "fe7566ac-6716-44f9-ae44-aaf530c56c8f")
 		)
 		(pin "1"
-			(uuid "523c2541-72cb-4ad9-8d04-290e3fce4496")
+			(uuid "96d84130-c6f0-4e98-a84d-2545002c0c9f")
+		)
+		(pin "5"
+			(uuid "a3aa5bb5-8865-459e-8a5f-1cc27cedd69f")
 		)
 		(instances
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
-					(reference "#GND016")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6080,7 +6547,7 @@
 	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 86.36 82.55 0)
+		(at 93.98 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6091,29 +6558,27 @@
 		(fields_autoplaced yes)
 		(uuid "f47e8650-bab2-4eb1-9b16-b6dec59072ff")
 		(property "Reference" "R2"
-			(at 88.9 81.2799 0)
+			(at 93.98 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 88.9 83.8199 0)
+		(property "Value" "10k"
+			(at 93.98 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 84.582 82.55 90)
+			(at 93.98 48.768 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6124,7 +6589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 82.55 0)
+			(at 93.98 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6135,7 +6600,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 82.55 0)
+			(at 93.98 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6155,6 +6620,85 @@
 			(project "signal_conditioner"
 				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 83.82 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f727ffc8-2f8d-405e-80b4-78fce9f00683")
+		(property "Reference" "#GND011"
+			(at 83.82 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 83.82 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 83.82 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 83.82 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b358a8f8-2bc8-426e-b987-b15ef08e0ba2")
+		)
+		(instances
+			(project "signal_conditioner"
+				(path "/0171d6da-bbe1-45a0-bab8-ed8be30b2f48"
+					(reference "#GND011")
 					(unit 1)
 				)
 			)
